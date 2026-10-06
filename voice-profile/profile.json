@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "name": "my_saved_voice",
+  "language": "en",
+  "source_audio": "original-recording.m4a",
+  "source_sha256": "a43499f052a1649d9aff1c9b14255c29c264db20ce11d1cceef481f2d1ad6576",
+  "source_original_filename": "Recording (5).m4a",
+  "reference_audio": "reference.wav",
+  "reference_sha256": "3d064bd1d7b1796f8e5840e30dc24d239c03b76d7d1060d9194cc57814215bfa",
+  "reference_sample_rate": 24000,
+  "reference_duration_seconds": 8.676875,
+  "reference_source_start_seconds": 31.03,
+  "reference_text": "Because the database tries to process every single read individually. It creates a massive bottleneck.",
+  "generation": {
+    "method": "zero-shot reference-conditioned synthesis",
+    "runtime": "sherpa-onnx==1.13.8",
+    "model_directory": "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia",
+    "num_steps": 8,
+    "model_sha256": {
+      "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/encoder.onnx": "495eca2d5f8a911f5c361bcce5bd55cdd2508ccdd26ce3e9bf1d3c29eb974861",
+      "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/decoder.onnx": "4510d4f5f049f14ef80207fca695e13c820e2cea61635f402954950bc62b1e3c",
+      "vocos_24khz.onnx": "bcb3b970e384161c4d634f0bb9e999ff1c471b34c9bc0b1049a5014065ed3cc0"
+    },
+    "status": "experimental; validate target words and voice likeness for each clip"
+  },
+  "exact_recording_supported": true,
+  "exact_voice_cloning_guaranteed": false
+}

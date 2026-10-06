@@ -1,0 +1,1 @@
+Because the database tries to process every single read individually. It creates a massive bottleneck.
