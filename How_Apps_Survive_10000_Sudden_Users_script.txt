@@ -1,0 +1,25 @@
+Load balancing keeps apps online during massive traffic spikes.
+
+But how does it actually catch all those connections?
+
+Because a single web server can only process a limited number of requests a second before its memory maxes out.
+
+Take a live auction app, where ten thousand users suddenly log in at the exact same moment to bid.
+
+All ten thousand data requests hit that single server instance at once, creating a massive bottleneck.
+
+The server turns red, connections start dropping, and the entire app crashes.
+
+To fix this, engineers don't just send users directly to the server.
+
+Instead, they introduce a load balancer, a dedicated traffic routing node placed at the very front of the system.
+
+Its job is to intercept all ten thousand of those incoming connections and instantly split the traffic stream, routing the data evenly across three identical parallel server instances.
+
+Because the workload is physically distributed, each individual server now only handles a third of the traffic.
+
+This keeps the entire infrastructure stable, even under heavy load.
+
+And that live auction app from the beginning?
+
+Every single bid is processed instantly, and the app stays online to close the sale.
