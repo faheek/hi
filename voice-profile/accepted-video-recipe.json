@@ -1,0 +1,329 @@
+{
+  "acceptance": {
+    "date": "2026-10-07",
+    "user_request": "this last created video voice is exactly matched my voice you can use this voice for future edits",
+    "video": "How_Apps_Survive_10000_Sudden_Users_Project46_voice_v2.mp4",
+    "video_sha256": "b8f5a7b0e747a5ac88a87c90f0c5cc1d519a2cfd137ad0451e2735c45dca2c5a",
+    "video_commit": "26d35e6cdb677323677f394f37e4e136ae598495",
+    "recipe": "accepted-video-recipe.json",
+    "supersedes": "previous-recording-profile.json"
+  },
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "script": "../How_Apps_Survive_10000_Sudden_Users_script.txt",
+  "default_generation": {
+    "model": "distill",
+    "num_steps": 8,
+    "guidance_scale": 1.0,
+    "pronunciations": "accepted-pronunciations-distill.txt",
+    "min_char_in_sentence": 300,
+    "max_char_in_sentence": 500,
+    "speed": 1.0,
+    "threads": 2
+  },
+  "sentence_overrides": {
+    "12": {
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "pronunciations": "accepted-pronunciations-full.txt"
+    }
+  },
+  "generation": [
+    {
+      "segment": 0,
+      "text": "Load balancing keeps apps online during massive traffic spikes.",
+      "start": 0,
+      "end": 4.3728435,
+      "duration": 3.445333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 11.644535034
+    },
+    {
+      "segment": 1,
+      "text": "But how does it actually catch all those connections?",
+      "start": 4.3728435,
+      "end": 7.201469,
+      "duration": 2.741125,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 11.069825003000005
+    },
+    {
+      "segment": 2,
+      "text": "Because a single web server can only process a limited number of requests a second before its memory maxes out.",
+      "start": 7.201469,
+      "end": 13.806219,
+      "duration": 6.058,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 14.943528836000041
+    },
+    {
+      "segment": 3,
+      "text": "Take a live auction app, where ten thousand users suddenly log in at the exact same moment to bid.",
+      "start": 13.806219,
+      "end": 20.529938,
+      "duration": 5.546666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 13.865659040000082
+    },
+    {
+      "segment": 4,
+      "text": "All ten thousand data requests hit that single server instance at once, creating a massive bottleneck.",
+      "start": 20.529938,
+      "end": 26.8701875,
+      "duration": 5.482291666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 14.136012886999652
+    },
+    {
+      "segment": 5,
+      "text": "The server turns red, connections start dropping, and the entire app crashes.",
+      "start": 26.8701875,
+      "end": 31.653656,
+      "duration": 3.8350833333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 12.194069886000307
+    },
+    {
+      "segment": 6,
+      "text": "To fix this, engineers don't just send users directly to the server.",
+      "start": 31.653656,
+      "end": 35.887125,
+      "duration": 3.8521666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 12.315460673000416
+    },
+    {
+      "segment": 7,
+      "text": "Instead, they introduce a load balancer, a dedicated traffic routing node placed at the very front of the system.",
+      "start": 35.887125,
+      "end": 42.7684685,
+      "duration": 6.101333333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 14.674349857999914
+    },
+    {
+      "segment": 8,
+      "text": "Its job is to intercept all ten thousand of those incoming connections and instantly split the traffic stream, routing the data evenly across three identical parallel server instances.",
+      "start": 42.7684685,
+      "end": 53.426125,
+      "duration": 10.101333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 19.291965902999436
+    },
+    {
+      "segment": 9,
+      "text": "Because the workload is physically distributed, each individual server now only handles a third of the traffic.",
+      "start": 53.426125,
+      "end": 59.6372185,
+      "duration": 5.5515,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 14.397394227000404
+    },
+    {
+      "segment": 10,
+      "text": "This keeps the entire infrastructure stable, even under heavy load.",
+      "start": 59.6372185,
+      "end": 63.384594,
+      "duration": 3.744,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 11.81507466399944
+    },
+    {
+      "segment": 11,
+      "text": "And that live auction app from the beginning?",
+      "start": 63.384594,
+      "end": 65.5175315,
+      "duration": 2.2506666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "seconds": 10.484398290000172
+    },
+    {
+      "segment": 12,
+      "text": "Every single bid is processed instantly, and the app stays online to close the sale.",
+      "start": 65.5175315,
+      "end": 70.55,
+      "duration": 4.597333333333333,
+      "model": "full",
+      "num_steps": 16,
+      "seconds": 49.57506466599989
+    }
+  ],
+  "timing": [
+    {
+      "segment": 0,
+      "source_narration": "cloned-00.wav",
+      "start": 0.1,
+      "end": 3.5453333333333332,
+      "original_generated_duration": 3.445333333333333,
+      "tempo_factor": 1.0,
+      "words": "Load balancing keeps apps online during massive traffic spikes."
+    },
+    {
+      "segment": 1,
+      "source_narration": "cloned-01.wav",
+      "start": 4.472833333333333,
+      "end": 7.124458333333333,
+      "original_generated_duration": 2.741125,
+      "tempo_factor": 1.0317610302664,
+      "words": "But how does it actually catch all those connections?"
+    },
+    {
+      "segment": 2,
+      "source_narration": "cloned-02.wav",
+      "start": 7.301458333333334,
+      "end": 13.359458333333333,
+      "original_generated_duration": 6.058,
+      "tempo_factor": 1.0,
+      "words": "Because a single web server can only process a limited number of requests a second before its memory maxes out."
+    },
+    {
+      "segment": 3,
+      "source_narration": "cloned-03.wav",
+      "start": 13.906208333333334,
+      "end": 19.452875,
+      "original_generated_duration": 5.546666666666667,
+      "tempo_factor": 1.0,
+      "words": "Take a live auction app, where ten thousand users suddenly log in at the exact same moment to bid."
+    },
+    {
+      "segment": 4,
+      "source_narration": "cloned-04.wav",
+      "start": 20.629958333333335,
+      "end": 26.11225,
+      "original_generated_duration": 5.482291666666667,
+      "tempo_factor": 1.0,
+      "words": "All ten thousand data requests hit that single server instance at once, creating a massive bottleneck."
+    },
+    {
+      "segment": 5,
+      "source_narration": "cloned-05.wav",
+      "start": 26.970166666666668,
+      "end": 30.80525,
+      "original_generated_duration": 3.8350833333333334,
+      "tempo_factor": 1.0,
+      "words": "The server turns red, connections start dropping, and the entire app crashes."
+    },
+    {
+      "segment": 6,
+      "source_narration": "cloned-06.wav",
+      "start": 31.753666666666668,
+      "end": 35.60583333333334,
+      "original_generated_duration": 3.8521666666666667,
+      "tempo_factor": 1.0,
+      "words": "To fix this, engineers don't just send users directly to the server."
+    },
+    {
+      "segment": 7,
+      "source_narration": "cloned-07.wav",
+      "start": 35.987125,
+      "end": 42.088458333333335,
+      "original_generated_duration": 6.101333333333334,
+      "tempo_factor": 1.0,
+      "words": "Instead, they introduce a load balancer, a dedicated traffic routing node placed at the very front of the system."
+    },
+    {
+      "segment": 8,
+      "source_narration": "cloned-08.wav",
+      "start": 42.868458333333336,
+      "end": 52.969791666666666,
+      "original_generated_duration": 10.101333333333333,
+      "tempo_factor": 1.0,
+      "words": "Its job is to intercept all ten thousand of those incoming connections and instantly split the traffic stream, routing the data evenly across three identical parallel server instances."
+    },
+    {
+      "segment": 9,
+      "source_narration": "cloned-09.wav",
+      "start": 53.526125,
+      "end": 59.077625,
+      "original_generated_duration": 5.5515,
+      "tempo_factor": 1.0,
+      "words": "Because the workload is physically distributed, each individual server now only handles a third of the traffic."
+    },
+    {
+      "segment": 10,
+      "source_narration": "cloned-10.wav",
+      "start": 59.737208333333335,
+      "end": 63.298375,
+      "original_generated_duration": 3.744,
+      "tempo_factor": 1.0503282858033889,
+      "words": "This keeps the entire infrastructure stable, even under heavy load."
+    },
+    {
+      "segment": 11,
+      "source_narration": "cloned-11.wav",
+      "start": 63.48458333333333,
+      "end": 65.4635,
+      "original_generated_duration": 2.2506666666666666,
+      "tempo_factor": 1.1428611569902363,
+      "words": "And that live auction app from the beginning?"
+    },
+    {
+      "segment": 12,
+      "source_narration": "cloned-12-teacher.wav",
+      "start": 65.61754166666667,
+      "end": 70.214875,
+      "original_generated_duration": 4.597333333333333,
+      "tempo_factor": 1.0,
+      "words": "Every single bid is processed instantly, and the app stays online to close the sale."
+    }
+  ],
+  "assembly": {
+    "sample_rate": 24000,
+    "mono": true,
+    "duration_seconds": 74.722,
+    "source_start_offset_seconds": 0.1,
+    "source_end_margin_seconds": 0.04,
+    "edge_fade_seconds": 0.002,
+    "pitch_preserving_tempo_adjustments": "Only when narration exceeds its sentence window; factors recorded in timing.",
+    "peak_limit_before_pcm": 0.98
+  },
+  "mux": {
+    "video": "stream copy",
+    "audio_codec": "aac",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": 48000,
+    "audio_filter": "loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000,atrim=duration=74.722",
+    "duration_seconds": 74.722,
+    "movflags": "+faststart"
+  },
+  "verification": {
+    "input_filename": "How_Apps_Survive_10000_Sudden_Users_saved_voice.mp4",
+    "input_sha256": "a72c319a581702396d7f03282dbc68b0ad1a6b9c098d368f684503aae566a3da",
+    "output_filename": "How_Apps_Survive_10000_Sudden_Users_Project46_voice_v2.mp4",
+    "output_sha256": "b8f5a7b0e747a5ac88a87c90f0c5cc1d519a2cfd137ad0451e2735c45dca2c5a",
+    "video_bitstream_sha256": "f7666b626ac52de9a98b303f68dd2d2fe3e23ce5e594889f85f44ac87a2d34a8",
+    "video_unchanged": true,
+    "video_stream": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "30/1",
+      "duration": "74.666667",
+      "nb_read_frames": "2240"
+    },
+    "input_duration": "74.722000",
+    "output_duration": "74.722000",
+    "audio_peak": 0.84368896484375,
+    "full_decode_passed": true,
+    "uploaded_voice_reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+    "method": "ZipVoice reference-conditioned speech synthesis using the second uploaded Project 46 recording; generated voice is an approximation",
+    "reference_source_filename": "(Audio) Video Project 46 (1).m4a",
+    "reference_source_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+    "narration_verification": "Original script retained. Whisper verified the first three groups and other final-group words. Independent CTC recognition verified bid in the final encoded audio; sale/sail are phonetically identical.",
+    "voice_match_guaranteed": false
+  }
+}

@@ -1,0 +1,1 @@
+returning four oh one unauthorized error. So you type in your password, but APIs are stateless, meaning the server immediately forgets who you are.

@@ -1,28 +1,28 @@
 # Saved narration voice
 
-The preferred voice is the user's own voice from `Recording (5).m4a`, saved here as `original-recording.m4a`. This is the recording used in `How_Caching_Prevents_Database_Crashes_your_recording.mp4`. Earlier generated videos and the JSON Web Token recording are not the preferred reference.
+The default is the Project 46 voice used in `How_Apps_Survive_10000_Sudden_Users_Project46_voice_v2.mp4`. On 2026-10-07, the user confirmed that this video's voice matched their requested voice and asked to use it for future edits. This preference supersedes the earlier `Recording (5).m4a` profile.
 
-`profile.json` defines the reusable reference. `reference.wav` contains an 8.67-second excerpt from the original recording, and `reference.txt` contains its checked spoken text. The full original recording is retained unchanged; hashes in the profile identify these files.
+`profile.json` selects `project46-reference.wav`: the exact 8.1-second, 24 kHz mono reference used for the approved video, beginning at 19.68 seconds in `(Audio) Video Project 46 (1).m4a`. Its checked transcript is in `project46-reference.txt`. The complete upload is retained unchanged as `project46-original.m4a`. Hashes identify both files. The previous profile and its recordings remain available in `previous-recording-profile.json`, `original-recording.m4a`, `reference.wav`, and `reference.txt`.
 
-This is a saved reference for zero-shot voice cloning, not a separately trained voice model. It can condition a model to speak new words, but an exact voice match is not guaranteed. Using a new recording of the user reading the complete target script preserves their actual voice.
+`accepted-video-recipe.json` records the approved output, reference, model settings, sentence timings, pronunciation overrides, and final audio processing. The first 12 sentences used ZipVoice distill with 8 steps and guidance 1.0; the final sentence used full ZipVoice with 16 steps and guidance 3.0 to improve word accuracy. Use the same reference for both models. This is a reusable reference for new narration, rather than a separately trained model.
 
-The bundled generator is experimental. Its sample generation and decoding completed, but the transcription check flagged a possible extra word. Check word accuracy and voice likeness for each generated clip before using it in a video. The saved original recording and reference excerpt were verified independently of this synthesis test.
-
-For a future edit, use the saved profile when the user requests their saved voice. Preserve the video's original words and visuals by default. Extract and verify the target script before generating speech. For a matching user recording, use the recording directly instead of synthesizing speech. Check timing before replacing audio; do not silently truncate narration, change the video, or change the pitch or speed of an actual recording. Only shorten quiet pauses when needed and verify all spoken content remains.
+For future edits, preserve the video's original words and visuals. Extract and verify its script, generate speech sentence by sentence, and check the spoken words, voice likeness, timing, and final decoding. Copy the video stream and compare its hash to the input. Keep every spoken word; do not silently truncate narration. When the user supplies a matching narration recording, use that recording directly and preserve its pitch and speech speed. Write new output filenames and retain existing media.
 
 ## Generate new narration
 
-The current cloud workspace has the required runtime under `/workspace/shared/voice-tools/python` and models under `/workspace/shared/voice-tools/models`. From `/workspace/hi`:
+The current workspace has the runtime in `/workspace/shared/voice-tools/python` and models in `/workspace/shared/voice-tools/models`. From `/workspace/hi`:
 
 ```bash
 PYTHONPATH=/workspace/shared/voice-tools/python python3 voice-profile/generate.py \
-  --text-file /workspace/outputs/new-script.txt \
+  --text-file /workspace/outputs/new-sentence.txt \
   --output /workspace/outputs/new-narration.wav
 ```
 
-Use a new output filename. The helper checks the reference and model hashes and generates a WAV; it does not overwrite the video or existing recordings. Pass `--models-dir` to use another model cache.
+The helper verifies source, reference, and model hashes, uses the accepted distill settings, and generates a WAV without overwriting existing files. Pass `--model full` for a sentence needing the word accuracy fallback, or `--models-dir` for a different model cache. The full model uses the distill model's text frontend.
 
-If the runtime or models are absent, prepare them outside the checkout:
+The default `pronunciations.txt` supplies the unstressed article “a”. For an auction script where “live” means real-time, pass `--pronunciations voice-profile/accepted-pronunciations-distill.txt`; the approved final sentence used `accepted-pronunciations-full.txt`, which also supplies “bid”. Do not apply the adjective “live” pronunciation to the verb “live”. Keep the original script text and apply pronunciation entries only where appropriate.
+
+If the runtime or models are missing, prepare them outside the checkout:
 
 ```bash
 mkdir -p /workspace/shared/voice-tools/models
@@ -34,13 +34,12 @@ curl --fail --location --output /workspace/shared/voice-tools/models/vocos_24khz
   https://github.com/k2-fsa/sherpa-onnx/releases/download/vocoder-models/vocos_24khz.onnx
 ```
 
-The helper verifies the installed model files against the profile before using them. Keep TLS and hash verification enabled. Missing access or mismatched files require diagnosis, not disabling verification.
-
-For real recorded narration in M4A/AAC format that fits the video, copy both streams into a new video:
+For the optional full model:
 
 ```bash
-ffmpeg -nostdin -i input-video.mp4 -i matching-recording.m4a \
-  -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart output-video.mp4
+curl --fail --location --output /workspace/shared/voice-tools/models/zipvoice-full.tar.bz2 \
+  https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-zipvoice-zh-en-emilia.tar.bz2
+tar -xjf /workspace/shared/voice-tools/models/zipvoice-full.tar.bz2 -C /workspace/shared/voice-tools/models
 ```
 
-Verify the final spoken content, duration, and decoding, and compare the video stream hash with the input. Label generated narration as voice-cloned rather than an unchanged recording. Keep generated exports separate from the saved voice assets.
+Keep TLS and hash verification enabled. The helper checks the installed models against the profile before using them. Label generated narration as voice-cloned and keep exports separate from saved voice assets.

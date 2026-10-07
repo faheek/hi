@@ -1,27 +1,64 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "my_saved_voice",
   "language": "en",
-  "source_audio": "original-recording.m4a",
-  "source_sha256": "a43499f052a1649d9aff1c9b14255c29c264db20ce11d1cceef481f2d1ad6576",
-  "source_original_filename": "Recording (5).m4a",
-  "reference_audio": "reference.wav",
-  "reference_sha256": "3d064bd1d7b1796f8e5840e30dc24d239c03b76d7d1060d9194cc57814215bfa",
+  "source_audio": "project46-original.m4a",
+  "source_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "source_original_filename": "(Audio) Video Project 46 (1).m4a",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
   "reference_sample_rate": 24000,
-  "reference_duration_seconds": 8.676875,
-  "reference_source_start_seconds": 31.03,
-  "reference_text": "Because the database tries to process every single read individually. It creates a massive bottleneck.",
+  "reference_duration_seconds": 8.1,
+  "reference_source_start_seconds": 19.68,
+  "reference_text": "returning four oh one unauthorized error. So you type in your password, but APIs are stateless, meaning the server immediately forgets who you are.",
+  "acceptance": {
+    "date": "2026-10-07",
+    "user_request": "this last created video voice is exactly matched my voice you can use this voice for future edits",
+    "video": "How_Apps_Survive_10000_Sudden_Users_Project46_voice_v2.mp4",
+    "video_sha256": "b8f5a7b0e747a5ac88a87c90f0c5cc1d519a2cfd137ad0451e2735c45dca2c5a",
+    "video_commit": "26d35e6cdb677323677f394f37e4e136ae598495",
+    "recipe": "accepted-video-recipe.json",
+    "supersedes": "previous-recording-profile.json"
+  },
   "generation": {
     "method": "zero-shot reference-conditioned synthesis",
     "runtime": "sherpa-onnx==1.13.8",
     "model_directory": "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia",
+    "frontend_directory": "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia",
+    "encoder": "encoder.onnx",
+    "decoder": "decoder.onnx",
+    "vocoder": "vocos_24khz.onnx",
     "num_steps": 8,
+    "guidance_scale": 1.0,
+    "pronunciations": "pronunciations.txt",
     "model_sha256": {
       "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/encoder.onnx": "495eca2d5f8a911f5c361bcce5bd55cdd2508ccdd26ce3e9bf1d3c29eb974861",
       "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/decoder.onnx": "4510d4f5f049f14ef80207fca695e13c820e2cea61635f402954950bc62b1e3c",
-      "vocos_24khz.onnx": "bcb3b970e384161c4d634f0bb9e999ff1c471b34c9bc0b1049a5014065ed3cc0"
+      "vocos_24khz.onnx": "bcb3b970e384161c4d634f0bb9e999ff1c471b34c9bc0b1049a5014065ed3cc0",
+      "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/tokens.txt": "ce98c1afc5f7a20c2484dffdd68a1fff0a4a2cc707328833750c4476c37cdbda",
+      "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/lexicon.txt": "c94b049d970e971acdc2a7e5e7b23ca594222a9d640e417c711f2ad1e7bb7d46"
     },
-    "status": "experimental; validate target words and voice likeness for each clip"
+    "min_char_in_sentence": 300,
+    "max_char_in_sentence": 500,
+    "speed": 1.0,
+    "fallback": {
+      "model_directory": "sherpa-onnx-zipvoice-zh-en-emilia",
+      "frontend_directory": "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia",
+      "encoder": "text_encoder.onnx",
+      "decoder": "fm_decoder.onnx",
+      "vocoder": "sherpa-onnx-zipvoice-zh-en-emilia/vocos_24khz.onnx",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "pronunciations": "pronunciations.txt",
+      "model_sha256": {
+        "sherpa-onnx-zipvoice-zh-en-emilia/text_encoder.onnx": "85e9b4c4a23e1464070fc72701d21a84b5df55aa182db3e5a24a33bed6cb831f",
+        "sherpa-onnx-zipvoice-zh-en-emilia/fm_decoder.onnx": "fb57eff934f18082f9e8af8bc217b2ec296d2ea763ad3f2907a7486ef51f7712",
+        "sherpa-onnx-zipvoice-zh-en-emilia/vocos_24khz.onnx": "bcb3b970e384161c4d634f0bb9e999ff1c471b34c9bc0b1049a5014065ed3cc0",
+        "sherpa-onnx-zipvoice-zh-en-emilia/tokens.txt": "ce98c1afc5f7a20c2484dffdd68a1fff0a4a2cc707328833750c4476c37cdbda",
+        "sherpa-onnx-zipvoice-distill-fp32-zh-en-emilia/lexicon.txt": "c94b049d970e971acdc2a7e5e7b23ca594222a9d640e417c711f2ad1e7bb7d46"
+      }
+    },
+    "status": "user-approved reference; validate words and voice likeness for each new clip"
   },
   "exact_recording_supported": true,
   "exact_voice_cloning_guaranteed": false
