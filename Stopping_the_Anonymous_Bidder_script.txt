@@ -1,0 +1,25 @@
+Imagine an online auction where anyone can click "Place Bid" without proving who they are.
+
+Within seconds, the system is flooded with phantom untraceable bids and the market completely collapses.
+
+When a user tries to send a new bid to the server, it travels as a simple data packet, but the server instantly blocks it.
+
+Why? Because the request carries absolutely no proof of who sent it.
+
+To fix this, the user must first send their login details.
+
+The server verifies the password and hands back a temporary digital ID badge.
+
+This badge travels with every future request to prove their identity.
+
+It's called a JWT.
+
+Now the user attempts that exact same bid request again, but this time they attach their new digital badge directly to the message.
+
+The server receives the combined request and reads the token to instantly verify the user.
+
+Identity confirmed, it authorizes the action and updates the live auction price.
+
+By forcing every single request to carry a verified token, the server never has to guess who placed a bid.
+
+It just reads the badge and confidently updates the price.

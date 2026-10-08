@@ -1,0 +1,341 @@
+{
+  "input_filename": "Stopping_the_Anonymous_Bidder.mp4",
+  "input_sha256": "c2144bfe40899ea9739312a38c0133a13e29f8ab4ad6bb43bbe0323624ee2c00",
+  "output_filename": "Stopping_the_Anonymous_Bidder_saved_voice.mp4",
+  "output_sha256": "379d95c2be9b71a96dbaeb4435e6bb03f6f89cad91f3170429a647e67d3f843d",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "040464bfd976c9f3ad86934637b98ea6cb48700f28e6b99c4905518e51ce7fe9",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "69.333333",
+    "nb_read_frames": "2080"
+  },
+  "input_duration": "69.381224",
+  "output_duration": "69.381000",
+  "audio_peak": 0.845733642578125,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the user-approved Project 46 voice reference and its saved generation settings.",
+  "exact_voice_cloning_guaranteed": false,
+  "timing": [
+    {
+      "segment": 0,
+      "source_narration": "cloned-00-teacher.wav",
+      "start": 0.1,
+      "end": 4.953333333333333,
+      "original_generated_duration": 4.8533333333333335,
+      "tempo_factor": 1.0,
+      "words": "Imagine an online auction where anyone can click \"Place Bid\" without proving who they are."
+    },
+    {
+      "segment": 1,
+      "source_narration": "cloned-01.wav",
+      "start": 6.089666666666667,
+      "end": 11.227791666666667,
+      "original_generated_duration": 5.138125,
+      "tempo_factor": 1.0,
+      "words": "Within seconds, the system is flooded with phantom untraceable bids and the market completely collapses."
+    },
+    {
+      "segment": 2,
+      "source_narration": "cloned-02.wav",
+      "start": 12.605583333333334,
+      "end": 19.410916666666665,
+      "original_generated_duration": 6.8053333333333335,
+      "tempo_factor": 1.0,
+      "words": "When a user tries to send a new bid to the server, it travels as a simple data packet, but the server instantly blocks it."
+    },
+    {
+      "segment": 3,
+      "source_narration": "cloned-03.wav",
+      "start": 20.326875,
+      "end": 24.070875,
+      "original_generated_duration": 3.744,
+      "tempo_factor": 1.0,
+      "words": "Why? Because the request carries absolutely no proof of who sent it."
+    },
+    {
+      "segment": 4,
+      "source_narration": "cloned-04.wav",
+      "start": 25.016458333333333,
+      "end": 28.058166666666665,
+      "original_generated_duration": 3.215875,
+      "tempo_factor": 1.0626536964980546,
+      "words": "To fix this, the user must first send their login details."
+    },
+    {
+      "segment": 5,
+      "source_narration": "cloned-05-r2.wav",
+      "start": 28.219041666666666,
+      "end": 32.613708333333335,
+      "original_generated_duration": 4.394666666666667,
+      "tempo_factor": 1.0,
+      "words": "The server verifies the password and hands back a temporary digital ID badge."
+    },
+    {
+      "segment": 6,
+      "source_narration": "cloned-06-joined.wav",
+      "start": 33.18395833333334,
+      "end": 38.193125,
+      "original_generated_duration": 5.009166666666666,
+      "tempo_factor": 1.0,
+      "words": "This badge travels with every future request to prove their identity. It's called a JWT."
+    },
+    {
+      "segment": 8,
+      "source_narration": "cloned-08-r2.wav",
+      "start": 39.01558333333333,
+      "end": 45.949708333333334,
+      "original_generated_duration": 6.934125,
+      "tempo_factor": 1.0,
+      "words": "Now the user attempts that exact same bid request again, but this time they attach their new digital badge directly to the message."
+    },
+    {
+      "segment": 9,
+      "source_narration": "cloned-09.wav",
+      "start": 47.02591666666667,
+      "end": 51.77675,
+      "original_generated_duration": 4.7508333333333335,
+      "tempo_factor": 1.0,
+      "words": "The server receives the combined request and reads the token to instantly verify the user."
+    },
+    {
+      "segment": 10,
+      "source_narration": "cloned-10.wav",
+      "start": 52.14633333333333,
+      "end": 56.445,
+      "original_generated_duration": 4.298666666666667,
+      "tempo_factor": 1.0,
+      "words": "Identity confirmed, it authorizes the action and updates the live auction price."
+    },
+    {
+      "segment": 11,
+      "source_narration": "cloned-11.wav",
+      "start": 57.267916666666665,
+      "end": 62.917791666666666,
+      "original_generated_duration": 5.994666666666666,
+      "tempo_factor": 1.0589210237314268,
+      "words": "By forcing every single request to carry a verified token, the server never has to guess who placed a bid."
+    },
+    {
+      "segment": 12,
+      "source_narration": "cloned-12.wav",
+      "start": 63.13695833333333,
+      "end": 66.23029166666667,
+      "original_generated_duration": 3.2,
+      "tempo_factor": 1.036937814363668,
+      "words": "It just reads the badge and confidently updates the price."
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 24.916469,
+      "expected": "Imagine an online auction where anyone can click \"Place Bid\" without proving who they are. Within seconds, the system is flooded with phantom untraceable bids and the market completely collapses. When a user tries to send a new bid to the server, it travels as a simple data packet, but the server instantly blocks it. Why? Because the request carries absolutely no proof of who sent it.",
+      "transcription": "Imagine an online auction where anyone can click place bid without proving who they are. Within seconds, the system is flooded with phantom untraceable bids and the market completely collapses. When a user tries to send a new bid to the server, it travels as a simple data packet but the server instantly blocks it. Why? Because the request carries absolutely no proof of who sent it.",
+      "differences": []
+    },
+    {
+      "start": 24.916469,
+      "end": 46.925906,
+      "expected": "To fix this, the user must first send their login details. The server verifies the password and hands back a temporary digital ID badge. This badge travels with every future request to prove their identity. It's called a JWT. Now the user attempts that exact same bid request again, but this time they attach their new digital badge directly to the message.",
+      "transcription": "To fix this, the user must first send their login details. The server verifies the password and hands back a temporary digital ID badge. This badge travels with every future request to prove their identity. It's called a JWT. Now the user attempts that exact same bid request again, but this time they attach their new digital badge directly to the message.",
+      "differences": []
+    },
+    {
+      "start": 46.925906,
+      "end": 66.3,
+      "expected": "The server receives the combined request and reads the token to instantly verify the user. Identity confirmed, it authorizes the action and updates the live auction price. By forcing every single request to carry a verified token, the server never has to guess who placed a bid. It just reads the badge and confidently updates the price.",
+      "transcription": "The server receives the combined request and reads the token to instantly verify the user. Identity confirmed, it authorizes the action and updates the live auction price. By forcing every single request to carry a verified token, the server never has to guess who placed a bid. It just reads the badge and confidently updates the price.",
+      "differences": []
+    }
+  ],
+  "full_script_check_passed": true,
+  "script_words": 186,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "generation": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-teacher.wav",
+      "text": "Imagine an online auction where anyone can click \"Place Bid\" without proving who they are.",
+      "generation_text": "Imagine an online auction where anyone can click place bid without proving who they are.",
+      "start": 0,
+      "end": 5.989656,
+      "duration": 4.8533333333333335,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 50.46886075698421
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01.wav",
+      "text": "Within seconds, the system is flooded with phantom untraceable bids and the market completely collapses.",
+      "start": 5.989656,
+      "end": 12.5055625,
+      "duration": 5.138125,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 13.845591142016929
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02.wav",
+      "text": "When a user tries to send a new bid to the server, it travels as a simple data packet, but the server instantly blocks it.",
+      "start": 12.5055625,
+      "end": 20.226875,
+      "duration": 6.8053333333333335,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 15.334785157989245
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "text": "Why? Because the request carries absolutely no proof of who sent it.",
+      "start": 20.226875,
+      "end": 24.916469,
+      "duration": 3.744,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 11.896168119972572
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "text": "To fix this, the user must first send their login details.",
+      "start": 24.916469,
+      "end": 28.1190315,
+      "duration": 3.215875,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 11.431071483006235
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-r2.wav",
+      "text": "The server verifies the password and hands back a temporary digital ID badge.",
+      "generation_text": "The server verifies the password, and hands back a temporary digital ID badge.",
+      "start": 28.1190315,
+      "end": 33.083969,
+      "duration": 4.394666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 12.38091625701054
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-joined.wav",
+      "text": "This badge travels with every future request to prove their identity. It's called a JWT.",
+      "generation_text": "This badge travels with every future request to prove their identity. It's called a J W T.",
+      "start": 33.083969,
+      "end": 38.915594,
+      "duration": 5.009166666666666,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 84.07475231602439
+    },
+    {
+      "segment": 8,
+      "filename": "cloned-08-r2.wav",
+      "text": "Now the user attempts that exact same bid request again, but this time they attach their new digital badge directly to the message.",
+      "generation_text": "Now the user attempts that exact same bid request again, but this time they attach their new digital badge directly to the message.",
+      "start": 38.915594,
+      "end": 46.925906,
+      "duration": 6.934125,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 15.683311376022175
+    },
+    {
+      "segment": 9,
+      "filename": "cloned-09.wav",
+      "text": "The server receives the combined request and reads the token to instantly verify the user.",
+      "start": 46.925906,
+      "end": 52.046313,
+      "duration": 4.7508333333333335,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 13.450931767001748
+    },
+    {
+      "segment": 10,
+      "filename": "cloned-10.wav",
+      "text": "Identity confirmed, it authorizes the action and updates the live auction price.",
+      "start": 52.046313,
+      "end": 57.167906,
+      "duration": 4.298666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 12.456003208993934
+    },
+    {
+      "segment": 11,
+      "filename": "cloned-11.wav",
+      "text": "By forcing every single request to carry a verified token, the server never has to guess who placed a bid.",
+      "start": 57.167906,
+      "end": 63.036938,
+      "duration": 5.994666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 14.61744375602575
+    },
+    {
+      "segment": 12,
+      "filename": "cloned-12.wav",
+      "text": "It just reads the badge and confidently updates the price.",
+      "start": 63.036938,
+      "end": 66.3,
+      "duration": 3.2,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 11.262985272012884
+    }
+  ],
+  "pronunciation_overrides": {
+    "default": [
+      "live l \u02c8 a \u026a v",
+      "a \u0259",
+      "bid b \u02c8 \u026a d"
+    ],
+    "segments_5_and_8": [
+      "live l \u02c8 a \u026a v",
+      "a \u0259",
+      "bid b \u02c8 \u026a d",
+      "",
+      "badge b \u02c8 \u025b d \u0292",
+      "digital d \u02c8 \u026a d \u0292 \u026a t \u0259 l"
+    ]
+  },
+  "processing_notes": "Original script retained. Adjacent badge/JWT sentences generated together. JWT letter spacing and punctuation guide pronunciation without changing the spoken words. Generated narration uses pitch-preserving tempo alignment where needed; video stream copied unchanged."
+}
