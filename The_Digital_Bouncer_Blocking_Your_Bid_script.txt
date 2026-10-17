@@ -1,0 +1,13 @@
+You're milliseconds away from winning a massive auction. You tap Place Bid. But your screen flashes a red 401 error. Why did the system just kick you out?
+
+When you try to change the price, your app sends a request to the auction's backend server. But the server has absolutely no idea who actually sent it.
+
+To fix this, you have to log in. The server verifies your password and hands your device a unique digital ID, known as a token.
+
+If your phone tries to send a bid completely alone without that token attached, the server's automated security checkpoint instantly rejects it. That is your 401 error.
+
+Here is the right way to do it. Your app packages your new bid amount and explicitly attaches that stored digital token alongside it before sending.
+
+This time, the server receives the complete package and verifies your identity. The security checkpoint opens, and the bid price successfully updates on the database with a 200 OK status.
+
+That 401 error isn't a system crash or a glitch. It's the server acting as a vital digital bouncer, intentionally blocking anonymous ghosts from manipulating the system.

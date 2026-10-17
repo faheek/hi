@@ -1,0 +1,455 @@
+{
+  "input_filename": "The_Digital_Bouncer_Blocking_Your_Bid.mp4",
+  "input_sha256": "0451a253bdd31f31400116011114e9f6c5323074c0d0d7edac878c5cbbd4adb5",
+  "output_filename": "The_Digital_Bouncer_Blocking_Your_Bid_saved_voice.mp4",
+  "output_sha256": "d8cc30a39334448aeffebb6a7102a7c5d3cedbda295e957d0b7409ca12a2bc48",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "86ecc20fe9e54c568a77686e94a442d7d2f1367592084f0b648565315a50659a",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "69.833333",
+    "nb_read_frames": "2095"
+  },
+  "input_duration": "69.892063",
+  "output_duration": "69.892000",
+  "audio_peak": 0.846405029296875,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 11.0050315,
+      "text": "You're milliseconds away from winning a massive auction. You tap Place Bid. But your screen flashes a red 401 error. Why did the system just kick you out?",
+      "generation_text": "You're milliseconds away from winning a massive auction. You tap Place Bid. But your screen flashes a red four oh one error. Why did the system just kick you out?",
+      "filename": "cloned-00.wav",
+      "duration": 7.725375,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 33.91758653999568
+    },
+    {
+      "segment": 1,
+      "start": 11.0050315,
+      "end": 19.198844,
+      "text": "When you try to change the price, your app sends a request to the auction's backend server. But the server has absolutely no idea who actually sent it.",
+      "generation_text": "When you try to change the price, your app sends a request to the auction's backend server. But the server has absolutely no idea who actually sent it.",
+      "filename": "cloned-01-teacher.wav",
+      "duration": 8.1845,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 96.55828740099969
+    },
+    {
+      "segment": 2,
+      "start": 19.198844,
+      "end": 26.8965625,
+      "text": "To fix this, you have to log in. The server verifies your password and hands your device a unique digital ID, known as a token.",
+      "generation_text": "To fix this, you have to log in. The server verifies your password and hands your device a unique digital I D, known as a token.",
+      "filename": "cloned-02-teacher.wav",
+      "duration": 6.903583333333334,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 93.13922998899943
+    },
+    {
+      "segment": 3,
+      "start": 26.8965625,
+      "end": 36.7849065,
+      "text": "If your phone tries to send a bid completely alone without that token attached, the server's automated security checkpoint instantly rejects it. That is your 401 error.",
+      "generation_text": "If your phone tries to send a bid completely alone without that token attached, the server's automated security checkpoint instantly rejects it. That is your four oh one error.",
+      "filename": "cloned-03-teacher.wav",
+      "duration": 8.985916666666666,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 104.25082843400014
+    },
+    {
+      "segment": 4,
+      "start": 36.7849065,
+      "end": 45.4953125,
+      "text": "Here is the right way to do it. Your app packages your new bid amount and explicitly attaches that stored digital token alongside it before sending.",
+      "generation_text": "Here is the right way to do it. Your app packages your new bid amount and explicitly attaches that stored digital token alongside it before sending.",
+      "filename": "cloned-04.wav",
+      "duration": 7.918875,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 24.676014344004216
+    },
+    {
+      "segment": 5,
+      "start": 45.4953125,
+      "end": 56.5650625,
+      "text": "This time, the server receives the complete package and verifies your identity. The security checkpoint opens, and the bid price successfully updates on the database with a 200 OK status.",
+      "generation_text": "This time, the server receives the complete package and verifies your identity. The security checkpoint opens, and the bid price successfully updates on the database with a two hundred O K status.",
+      "filename": "cloned-05.wav",
+      "duration": 10.752,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.269131464003294
+    },
+    {
+      "segment": 6,
+      "start": 56.5650625,
+      "end": 66.7,
+      "text": "That 401 error isn't a system crash or a glitch. It's the server acting as a vital digital bouncer, intentionally blocking anonymous ghosts from manipulating the system.",
+      "generation_text": "That four oh one error isn't a system crash or a glitch. It's the server acting as a vital digital bouncer, intentionally blocking anonymous ghosts from manipulating the system.",
+      "filename": "cloned-06.wav",
+      "duration": 9.026791666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.115856008000264
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 3.7464065,
+      "text": "You're milliseconds away from winning a massive auction.",
+      "filename": "cloned-00.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.533,
+      "placed_start": 0.1,
+      "placed_end": 2.633,
+      "original_generated_duration": 2.533,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 3.7464065,
+      "end": 5.6615625,
+      "text": "You tap Place Bid.",
+      "filename": "cloned-00.wav",
+      "generated_start": 2.533,
+      "generated_end": 3.513,
+      "placed_start": 3.846416666666667,
+      "placed_end": 4.826416666666667,
+      "original_generated_duration": 0.98,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 0,
+      "start": 5.6615625,
+      "end": 8.76625,
+      "text": "But your screen flashes a red 401 error.",
+      "filename": "error-phrase.wav",
+      "generated_start": 0,
+      "generated_end": 2.6986666666666665,
+      "placed_start": 5.761541666666667,
+      "placed_end": 8.460208333333334,
+      "original_generated_duration": 2.6986666666666665,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 0,
+      "start": 8.76625,
+      "end": 11.0050315,
+      "text": "Why did the system just kick you out?",
+      "filename": "cloned-00.wav",
+      "generated_start": 5.791,
+      "generated_end": 7.725375,
+      "placed_start": 8.86625,
+      "placed_end": 10.800625,
+      "original_generated_duration": 1.934375,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 1,
+      "start": 11.0050315,
+      "end": 16.007375,
+      "text": "When you try to change the price, your app sends a request to the auction's backend server.",
+      "filename": "cloned-01-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.689,
+      "placed_start": 11.105041666666667,
+      "placed_end": 15.794041666666667,
+      "original_generated_duration": 4.689,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 1,
+      "start": 16.007375,
+      "end": 19.198844,
+      "text": "But the server has absolutely no idea who actually sent it.",
+      "filename": "cloned-01-teacher.wav",
+      "generated_start": 4.689,
+      "generated_end": 8.1845,
+      "placed_start": 16.107375,
+      "placed_end": 19.12225,
+      "original_generated_duration": 3.4955,
+      "tempo_factor": 1.1627006212876356
+    },
+    {
+      "unit": 6,
+      "block": 2,
+      "start": 19.198844,
+      "end": 21.173844,
+      "text": "To fix this, you have to log in.",
+      "filename": "cloned-02-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.949,
+      "placed_start": 19.298833333333334,
+      "placed_end": 21.109666666666666,
+      "original_generated_duration": 1.949,
+      "tempo_factor": 1.078057220708447
+    },
+    {
+      "unit": 7,
+      "block": 2,
+      "start": 21.173844,
+      "end": 26.8965625,
+      "text": "The server verifies your password and hands your device a unique digital ID, known as a token.",
+      "filename": "cloned-02-teacher.wav",
+      "generated_start": 1.949,
+      "generated_end": 6.903583333333334,
+      "placed_start": 21.273833333333332,
+      "placed_end": 26.228416666666668,
+      "original_generated_duration": 4.954583333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 3,
+      "start": 26.8965625,
+      "end": 34.794406,
+      "text": "If your phone tries to send a bid completely alone without that token attached, the server's automated security checkpoint instantly rejects it.",
+      "filename": "cloned-03-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.473,
+      "placed_start": 26.996583333333334,
+      "placed_end": 34.46958333333333,
+      "original_generated_duration": 7.473,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 3,
+      "start": 34.794406,
+      "end": 36.7849065,
+      "text": "That is your 401 error.",
+      "filename": "cloned-03-teacher.wav",
+      "generated_start": 7.473,
+      "generated_end": 8.985916666666666,
+      "placed_start": 34.894416666666665,
+      "placed_end": 36.407333333333334,
+      "original_generated_duration": 1.5129166666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 36.7849065,
+      "end": 38.655875,
+      "text": "Here is the right way to do it.",
+      "filename": "cloned-04.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.717,
+      "placed_start": 36.88491666666667,
+      "placed_end": 38.60191666666667,
+      "original_generated_duration": 1.717,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 4,
+      "start": 38.655875,
+      "end": 45.4953125,
+      "text": "Your app packages your new bid amount and explicitly attaches that stored digital token alongside it before sending.",
+      "filename": "cloned-04.wav",
+      "generated_start": 1.717,
+      "generated_end": 7.918875,
+      "placed_start": 38.755875,
+      "placed_end": 44.95775,
+      "original_generated_duration": 6.201875,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 5,
+      "start": 45.4953125,
+      "end": 49.784188,
+      "text": "This time, the server receives the complete package and verifies your identity.",
+      "filename": "cloned-05.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.253,
+      "placed_start": 45.595333333333336,
+      "placed_end": 49.692166666666665,
+      "original_generated_duration": 4.253,
+      "tempo_factor": 1.0404736223675093
+    },
+    {
+      "unit": 13,
+      "block": 5,
+      "start": 49.784188,
+      "end": 56.5650625,
+      "text": "The security checkpoint opens, and the bid price successfully updates on the database with a 200 OK status.",
+      "filename": "cloned-05.wav",
+      "generated_start": 4.253,
+      "generated_end": 10.752,
+      "placed_start": 49.88420833333333,
+      "placed_end": 56.383208333333336,
+      "original_generated_duration": 6.499,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 14,
+      "block": 6,
+      "start": 56.5650625,
+      "end": 60.1470625,
+      "text": "That 401 error isn't a system crash or a glitch.",
+      "filename": "cloned-06.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.089,
+      "placed_start": 56.665083333333335,
+      "placed_end": 59.754083333333334,
+      "original_generated_duration": 3.089,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 15,
+      "block": 6,
+      "start": 60.1470625,
+      "end": 66.7,
+      "text": "It's the server acting as a vital digital bouncer, intentionally blocking anonymous ghosts from manipulating the system.",
+      "filename": "cloned-06.wav",
+      "generated_start": 3.089,
+      "generated_end": 9.026791666666666,
+      "placed_start": 60.247083333333336,
+      "placed_end": 66.184875,
+      "original_generated_duration": 5.937791666666667,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 21.173844,
+      "expected": "You're milliseconds away from winning a massive auction. You tap Place Bid. But your screen flashes a red 401 error. Why did the system just kick you out? When you try to change the price, your app sends a request to the auction's backend server. But the server has absolutely no idea who actually sent it. To fix this, you have to log in.",
+      "transcription": "You're milliseconds away from winning a massive auction? You tap place bid. But your screen flash is a red 401 error. Why did the system just kick you out? When you try to change the price, your app sends a request to the auction's backend server. But the server has absolutely no idea who actually sent it. To fix this, you have to log in.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "flashes"
+          ],
+          "heard": [
+            "flash",
+            "is"
+          ]
+        }
+      ],
+      "word_sequence_verified": true,
+      "recognition_note": "The recognizer splits flashes as flash is, exactly as the original source CTC transcript does. Both spellings represent the same sound sequence /flæʃɪz/. The original script and captions retain flashes; no spoken content is added or removed."
+    },
+    {
+      "start": 21.173844,
+      "end": 45.4953125,
+      "expected": "The server verifies your password and hands your device a unique digital ID, known as a token. If your phone tries to send a bid completely alone without that token attached, the server's automated security checkpoint instantly rejects it. That is your 401 error. Here is the right way to do it. Your app packages your new bid amount and explicitly attaches that stored digital token alongside it before sending.",
+      "transcription": "The server verifies your password and hands your device a unique digital ID known as a token. If your phone tries to send a bid completely alone, without that token attached, the server's automated security checkpoint instantly rejects it. That is your 401 error. Here is the right way to do it. Your app packages your new bid amount and explicitly attaches that stored digital token alongside it before sending.",
+      "differences": [],
+      "word_sequence_verified": true
+    },
+    {
+      "start": 45.4953125,
+      "end": 66.7,
+      "expected": "This time, the server receives the complete package and verifies your identity. The security checkpoint opens, and the bid price successfully updates on the database with a 200 OK status. That 401 error isn't a system crash or a glitch. It's the server acting as a vital digital bouncer, intentionally blocking anonymous ghosts from manipulating the system.",
+      "transcription": "This time, the server receives the complete package and verifies your identity. The security checkpoint opens and the bid price successfully updates on the database with a 200 OK status. That 401 error isn't a system crash or a glitch. It's the server acting as a vital digital bouncer, intentionally blocking anonymous ghosts from manipulating the system.",
+      "differences": [],
+      "word_sequence_verified": true
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 191,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "phrase_replacements": {
+    "2": {
+      "segment": 0,
+      "unit": 2,
+      "text": "But your screen flashes a red 401 error.",
+      "generation_text": "But your screen flashes a red four oh one error.",
+      "filename": "error-phrase.wav",
+      "duration": 2.6986666666666665,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "pronunciations": [
+        "live l ˈ a ɪ v",
+        "a e ɪ",
+        "bid b ˈ ɪ d",
+        "",
+        "digital d ˈ ɪ d ʒ ɪ t ə l"
+      ]
+    }
+  },
+  "pronunciations": [
+    "live l ˈ a ɪ v",
+    "a ə",
+    "bid b ˈ ɪ d",
+    "",
+    "digital d ˈ ɪ d ʒ ɪ t ə l"
+  ],
+  "speaker_comparison": {
+    "method": "Cosine similarity of WeSpeaker embeddings against the saved reference; a qualitative check, not an exact-match percentage.",
+    "blocks": [
+      {
+        "segment": 0,
+        "reference_cosine": 0.8875573386191885
+      },
+      {
+        "segment": 1,
+        "reference_cosine": 0.91412856664129
+      },
+      {
+        "segment": 2,
+        "reference_cosine": 0.9346857042341675
+      },
+      {
+        "segment": 3,
+        "reference_cosine": 0.9250825512253464
+      },
+      {
+        "segment": 4,
+        "reference_cosine": 0.9288540966136072
+      },
+      {
+        "segment": 5,
+        "reference_cosine": 0.9118919144300298
+      },
+      {
+        "segment": 6,
+        "reference_cosine": 0.9632150574288982
+      }
+    ],
+    "clarified_phrase_reference_cosine": 0.9475759607283237
+  }
+}
