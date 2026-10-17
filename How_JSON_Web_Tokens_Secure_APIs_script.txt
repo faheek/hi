@@ -1,0 +1,17 @@
+How does a server actually remember you? Without JSON Web Tokens, any anonymous stranger could rewrite a secure database.
+
+Take an online auction app where you tap a button to place a $62,500 bid on a rare phone.
+
+When your app sends that bid command, the backend server instantly rejects it with an unauthorized error. Because backend servers are forgetful, they cannot inherently trust an anonymous command.
+
+To fix this, you first have to prove your identity by sending your login credentials to the server.
+
+Once verified, the server creates a secure encrypted digital badge exclusively for you. This cryptographic ID card is called a JSON Web Token.
+
+The server sends this token back to your app, which quietly stores that text string in the background.
+
+Now, when you try to place that massive bid again, your app automatically bundles this stored token alongside the new request before firing it off.
+
+The server intercepts the incoming bid, inspects the attached token, and instantly verifies your identity. With your identity securely confirmed, the endpoint finally unlocks.
+
+And that $62,500 bid is accepted and recorded in the database, because the system now securely knows exactly who placed it.

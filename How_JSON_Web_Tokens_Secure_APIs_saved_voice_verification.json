@@ -1,0 +1,479 @@
+{
+  "input_filename": "How_JSON_Web_Tokens_Secure_APIs.mp4",
+  "input_sha256": "821e6227fff2b5cc02126f6c2dc642c05116aee37c31e944db85d7e241c84139",
+  "output_filename": "How_JSON_Web_Tokens_Secure_APIs_saved_voice.mp4",
+  "output_sha256": "47ec732f542b185cdeece24ded03b5f6db51248cc87dd126f9fff946b4c8c5ab",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "be737a38d5e53b8f91eb39aced7ef53364cde6aa385b316b632bee9b1b153bd5",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "80.966667",
+    "nb_read_frames": "2429"
+  },
+  "input_duration": "81.014422",
+  "output_duration": "81.014000",
+  "audio_peak": 0.854461669921875,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 8.6130625,
+      "text": "How does a server actually remember you? Without JSON Web Tokens, any anonymous stranger could rewrite a secure database.",
+      "generation_text": "How does a server actually remember you? Without json Web Tokens, any anonymous stranger could rewrite a secure database.",
+      "filename": "cloned-00.wav",
+      "duration": 6.5227916666666665,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 25.780345884995768
+    },
+    {
+      "segment": 1,
+      "start": 8.6130625,
+      "end": 15.825781,
+      "text": "Take an online auction app where you tap a button to place a $62,500 bid on a rare phone.",
+      "generation_text": "Take an online auction app where you tap a button to place a sixty two thousand five hundred dollar bid on a rare phone.",
+      "filename": "cloned-01.wav",
+      "duration": 6.464166666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 16.259347685998364
+    },
+    {
+      "segment": 2,
+      "start": 15.825781,
+      "end": 27.295188,
+      "text": "When your app sends that bid command, the backend server instantly rejects it with an unauthorized error. Because backend servers are forgetful, they cannot inherently trust an anonymous command.",
+      "generation_text": "When your app sends that bid command, the backend server instantly rejects it with an unauthorized error. Because backend servers are forgetful, they cannot inherently trust an anonymous command.",
+      "filename": "cloned-02.wav",
+      "duration": 9.858125,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 27.686411832000886
+    },
+    {
+      "segment": 3,
+      "start": 27.295188,
+      "end": 33.4355,
+      "text": "To fix this, you first have to prove your identity by sending your login credentials to the server.",
+      "generation_text": "To fix this, you first have to prove your identity by sending your login credentials to the server.",
+      "filename": "cloned-03.wav",
+      "duration": 5.234083333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 14.18700561500009
+    },
+    {
+      "segment": 4,
+      "start": 33.4355,
+      "end": 43.926281,
+      "text": "Once verified, the server creates a secure encrypted digital badge exclusively for you. This cryptographic ID card is called a JSON Web Token.",
+      "generation_text": "Once verified, the server creates a secure encrypted digital badge exclusively for you. This cryptographic eye dee card is called a json Web Token.",
+      "filename": "cloned-04-teacher.wav",
+      "duration": 8.501333333333333,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 97.310889598004
+    },
+    {
+      "segment": 5,
+      "start": 43.926281,
+      "end": 49.257719,
+      "text": "The server sends this token back to your app, which quietly stores that text string in the background.",
+      "generation_text": "The server sends this token back to your app, which quietly stores that text string in the background.",
+      "filename": "cloned-05-teacher.wav",
+      "duration": 5.307291666666667,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 58.97742836100224
+    },
+    {
+      "segment": 6,
+      "start": 49.257719,
+      "end": 57.930063,
+      "text": "Now, when you try to place that massive bid again, your app automatically bundles this stored token alongside the new request before firing it off.",
+      "generation_text": "Now, when you try to place that massive bid again, your app automatically bundles this stored token alongside the new request before firing it off.",
+      "filename": "cloned-06.wav",
+      "duration": 7.823541666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 16.5161398679993
+    },
+    {
+      "segment": 7,
+      "start": 57.930063,
+      "end": 69.0633125,
+      "text": "The server intercepts the incoming bid, inspects the attached token, and instantly verifies your identity. With your identity securely confirmed, the endpoint finally unlocks.",
+      "generation_text": "The server intercepts the incoming bid, inspects the attached token, and instantly verifies your identity. With your identity securely confirmed, the endpoint finally unlocks.",
+      "filename": "cloned-07-teacher.wav",
+      "duration": 9.205333333333334,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 102.78236815199489
+    },
+    {
+      "segment": 8,
+      "start": 69.0633125,
+      "end": 78.0,
+      "text": "And that $62,500 bid is accepted and recorded in the database, because the system now securely knows exactly who placed it.",
+      "generation_text": "And that sixty two thousand five hundred dollar bid is accepted and recorded in the database, because the system now securely knows exactly who placed it.",
+      "filename": "cloned-08.wav",
+      "duration": 8.258458333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 18.161637352997786
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 2.845375,
+      "text": "How does a server actually remember you?",
+      "filename": "cloned-00.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.153,
+      "placed_start": 0.1,
+      "placed_end": 2.253,
+      "original_generated_duration": 2.153,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 2.845375,
+      "end": 8.6130625,
+      "text": "Without JSON Web Tokens, any anonymous stranger could rewrite a secure database.",
+      "filename": "cloned-00.wav",
+      "generated_start": 2.153,
+      "generated_end": 6.5227916666666665,
+      "placed_start": 2.945375,
+      "placed_end": 7.315166666666666,
+      "original_generated_duration": 4.369791666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 8.6130625,
+      "end": 15.825781,
+      "text": "Take an online auction app where you tap a button to place a $62,500 bid on a rare phone.",
+      "filename": "cloned-01.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.464166666666666,
+      "placed_start": 8.713083333333334,
+      "placed_end": 15.17725,
+      "original_generated_duration": 6.464166666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 2,
+      "start": 15.825781,
+      "end": 21.8681875,
+      "text": "When your app sends that bid command, the backend server instantly rejects it with an unauthorized error.",
+      "filename": "cloned-02.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.457,
+      "placed_start": 15.925791666666667,
+      "placed_end": 21.382791666666666,
+      "original_generated_duration": 5.457,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 21.8681875,
+      "end": 27.295188,
+      "text": "Because backend servers are forgetful, they cannot inherently trust an anonymous command.",
+      "filename": "cloned-02.wav",
+      "generated_start": 5.457,
+      "generated_end": 9.858125,
+      "placed_start": 21.968208333333333,
+      "placed_end": 26.369333333333334,
+      "original_generated_duration": 4.401125,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 3,
+      "start": 27.295188,
+      "end": 33.4355,
+      "text": "To fix this, you first have to prove your identity by sending your login credentials to the server.",
+      "filename": "cloned-03.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.234083333333333,
+      "placed_start": 27.395208333333333,
+      "placed_end": 32.62929166666667,
+      "original_generated_duration": 5.234083333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 4,
+      "start": 33.4355,
+      "end": 39.737219,
+      "text": "Once verified, the server creates a secure encrypted digital badge exclusively for you.",
+      "filename": "cloned-04-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.945,
+      "placed_start": 33.5355,
+      "placed_end": 38.4805,
+      "original_generated_duration": 4.945,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 4,
+      "start": 39.737219,
+      "end": 43.926281,
+      "text": "This cryptographic ID card is called a JSON Web Token.",
+      "filename": "card-phrase.wav",
+      "generated_start": 0,
+      "generated_end": 3.38225,
+      "placed_start": 39.837208333333336,
+      "placed_end": 43.219458333333336,
+      "original_generated_duration": 3.38225,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 5,
+      "start": 43.926281,
+      "end": 49.257719,
+      "text": "The server sends this token back to your app, which quietly stores that text string in the background.",
+      "filename": "cloned-05-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.307291666666667,
+      "placed_start": 44.026291666666665,
+      "placed_end": 49.145583333333335,
+      "original_generated_duration": 5.307291666666667,
+      "tempo_factor": 1.0376553044287846
+    },
+    {
+      "unit": 9,
+      "block": 6,
+      "start": 49.257719,
+      "end": 57.930063,
+      "text": "Now, when you try to place that massive bid again, your app automatically bundles this stored token alongside the new request before firing it off.",
+      "filename": "cloned-06.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.823541666666666,
+      "placed_start": 49.357708333333335,
+      "placed_end": 57.18125,
+      "original_generated_duration": 7.823541666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 7,
+      "start": 57.930063,
+      "end": 64.3565625,
+      "text": "The server intercepts the incoming bid, inspects the attached token, and instantly verifies your identity.",
+      "filename": "cloned-07-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.727,
+      "placed_start": 58.03008333333333,
+      "placed_end": 63.757083333333334,
+      "original_generated_duration": 5.727,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 7,
+      "start": 64.3565625,
+      "end": 69.0633125,
+      "text": "With your identity securely confirmed, the endpoint finally unlocks.",
+      "filename": "cloned-07-teacher.wav",
+      "generated_start": 5.727,
+      "generated_end": 9.205333333333334,
+      "placed_start": 64.45654166666667,
+      "placed_end": 67.934875,
+      "original_generated_duration": 3.4783333333333335,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 8,
+      "start": 69.0633125,
+      "end": 74.5055,
+      "text": "And that $62,500 bid is accepted and recorded in the database,",
+      "filename": "cloned-08.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.975,
+      "placed_start": 69.16329166666667,
+      "placed_end": 74.13829166666666,
+      "original_generated_duration": 4.975,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 13,
+      "block": 8,
+      "start": 74.5055,
+      "end": 78.0,
+      "text": "because the system now securely knows exactly who placed it.",
+      "filename": "cloned-08.wav",
+      "generated_start": 4.975,
+      "generated_end": 8.258458333333333,
+      "placed_start": 74.6055,
+      "placed_end": 77.88895833333333,
+      "original_generated_duration": 3.2834583333333334,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 21.8681875,
+      "expected": "How does a server actually remember you? Without JSON Web Tokens, any anonymous stranger could rewrite a secure database. Take an online auction app where you tap a button to place a $62,500 bid on a rare phone. When your app sends that bid command, the backend server instantly rejects it with an unauthorized error.",
+      "transcription": "How does a server actually remember you? Without JSON Web Tokens, any anonymous stranger could rewrite a secure database. Take an online auction app where you tap a button to place a $62,500 bid on a rare phone. When your app sends that bid command, the backend server instantly rejects it with an unauthorized error.",
+      "differences": []
+    },
+    {
+      "start": 21.8681875,
+      "end": 43.926281,
+      "expected": "Because backend servers are forgetful, they cannot inherently trust an anonymous command. To fix this, you first have to prove your identity by sending your login credentials to the server. Once verified, the server creates a secure encrypted digital badge exclusively for you. This cryptographic ID card is called a JSON Web Token.",
+      "transcription": "Because backend servers are forgetful, they cannot inherently trust an anonymous command. To fix this, you first have to prove your identity by sending your login credentials to the server. Once verified, the server creates a secure encrypted digital badge exclusively for you. This cryptographic ID card is called a JSON web token.",
+      "differences": []
+    },
+    {
+      "start": 43.926281,
+      "end": 69.0633125,
+      "expected": "The server sends this token back to your app, which quietly stores that text string in the background. Now, when you try to place that massive bid again, your app automatically bundles this stored token alongside the new request before firing it off. The server intercepts the incoming bid, inspects the attached token, and instantly verifies your identity. With your identity securely confirmed, the endpoint finally unlocks.",
+      "transcription": "The server sends this token back to your app which quietly stores that text string in the background. Now when you try to place that massive bid again, your app automatically bundles this stored token alongside the new request before firing it off. The server intercepts the incoming bid, inspects the attached token and instantly verifies your identity. With your identity securely confirmed, the endpoint finally unlocks.",
+      "differences": []
+    },
+    {
+      "start": 69.0633125,
+      "end": 78.0,
+      "expected": "And that $62,500 bid is accepted and recorded in the database, because the system now securely knows exactly who placed it.",
+      "transcription": "And that $62,500 bid is accepted and recorded in the database because the system now securely knows exactly who placed it.",
+      "differences": []
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 196,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "phrase_replacements": {
+    "7": {
+      "segment": 4,
+      "unit": 7,
+      "text": "This cryptographic ID card is called a JSON Web Token.",
+      "generation_text": "This cryptographic eye dee card is called a json Web Token.",
+      "filename": "card-phrase.wav",
+      "duration": 3.38225,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "pronunciations": [
+        "live l ˈ a ɪ v",
+        "a e ɪ",
+        "bid b ˈ ɪ d",
+        "",
+        "digital d ˈ ɪ d ʒ ɪ t ə l",
+        "",
+        "json d ʒ ˈ e ɪ s ə n",
+        "",
+        "badge b ˈ ɛ d ʒ",
+        "that ð ˈ æ t",
+        "unlocks ʌ n l ˈ ɒ k s"
+      ]
+    }
+  },
+  "pronunciations": {
+    "default": [
+      "live l ˈ a ɪ v",
+      "a ə",
+      "bid b ˈ ɪ d",
+      "",
+      "digital d ˈ ɪ d ʒ ɪ t ə l",
+      "",
+      "json d ʒ ˈ e ɪ s ə n"
+    ],
+    "refined": [
+      "live l ˈ a ɪ v",
+      "a ə",
+      "bid b ˈ ɪ d",
+      "",
+      "digital d ˈ ɪ d ʒ ɪ t ə l",
+      "",
+      "json d ʒ ˈ e ɪ s ə n",
+      "",
+      "badge b ˈ ɛ d ʒ",
+      "that ð ˈ æ t",
+      "unlocks ʌ n l ˈ ɒ k s"
+    ]
+  },
+  "speaker_comparison": {
+    "method": "Cosine similarity of WeSpeaker embeddings against the saved reference; a qualitative check, not an exact-match percentage.",
+    "blocks": [
+      {
+        "segment": 0,
+        "reference_cosine": 0.9355704330972368
+      },
+      {
+        "segment": 1,
+        "reference_cosine": 0.907383333268422
+      },
+      {
+        "segment": 2,
+        "reference_cosine": 0.9115789019252767
+      },
+      {
+        "segment": 3,
+        "reference_cosine": 0.8749050396870081
+      },
+      {
+        "segment": 4,
+        "reference_cosine": 0.8890426488808763
+      },
+      {
+        "segment": 5,
+        "reference_cosine": 0.9276938183605727
+      },
+      {
+        "segment": 6,
+        "reference_cosine": 0.8611926614375621
+      },
+      {
+        "segment": 7,
+        "reference_cosine": 0.9010680534921678
+      },
+      {
+        "segment": 8,
+        "reference_cosine": 0.9092789176044818
+      }
+    ],
+    "clarified_card_phrase_reference_cosine": 0.8964467112384463
+  }
+}
