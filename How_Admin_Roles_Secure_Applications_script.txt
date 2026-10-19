@@ -1,0 +1,16 @@
+Systems use role-based access control, so standard users can't just delete data or change system settings.
+Imagine a normal user trying to click a close auction button.
+The bidding app first verifies their login credentials.
+Confirming exactly who they are is a process called authentication.
+But knowing their identity is only half the battle.
+It doesn't prove they have the authority to end an auction.
+So the database links their ID to a specific permission level.
+Assigning tags like user or admin is called authorization.
+Now the server acts as a strict checkpoint.
+When the request arrives, it reads the attached role.
+If it sees user, the action is instantly blocked.
+This same tag system filters the visual interface,
+completely hiding the admin dashboard from anyone without the right role.
+So that standard user trying to close the auction gets a hard error,
+while the verified admin's command goes straight through,
+keeping the entire application secure.

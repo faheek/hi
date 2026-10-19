@@ -1,0 +1,777 @@
+{
+  "input_filename": "How_Admin_Roles_Secure_Applications.mp4",
+  "input_sha256": "97605f050fece23b981ebafd2ecec8872700d36376282f98b13d14e4d2177a09",
+  "output_filename": "How_Admin_Roles_Secure_Applications_saved_voice.mp4",
+  "output_sha256": "7ebae013e605d07ef602b0abaa3c3df8c501438d7bca5b04c3bf7f9438927c3b",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "c0b151da95563098575a4d6ab1f7e477a1038cfc4587db44851c6adc66796e28",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "63.333333",
+    "nb_read_frames": "1900"
+  },
+  "input_duration": "63.390476",
+  "output_duration": "63.390000",
+  "audio_peak": 0.84429931640625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 7.44,
+      "text": "Systems use role-based access control, so standard users can't just delete data or change system settings.",
+      "generation_text": "Systems use role-based access control, so standard users can't just delete data or change system settings.",
+      "filename": "cloned-00.wav",
+      "duration": 6.346666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 15.112179906999984
+    },
+    {
+      "segment": 1,
+      "start": 7.44,
+      "end": 15.24,
+      "text": "Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "generation_text": "Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "filename": "cloned-01.wav",
+      "duration": 6.346666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 23.09690151799998
+    },
+    {
+      "segment": 2,
+      "start": 15.24,
+      "end": 25.4,
+      "text": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle. It doesn't prove they have the authority to end an auction.",
+      "generation_text": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle. It doesn't prove they have the authority to end an auction.",
+      "filename": "cloned-02.wav",
+      "duration": 9.290666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 34.45690349200004
+    },
+    {
+      "segment": 3,
+      "start": 25.4,
+      "end": 34.36,
+      "text": "So the database links their ID to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "generation_text": "So the database links their eye dee to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "filename": "cloned-03.wav",
+      "duration": 6.890666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 23.485070069000017
+    },
+    {
+      "segment": 4,
+      "start": 34.36,
+      "end": 44.16,
+      "text": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "generation_text": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "filename": "cloned-04.wav",
+      "duration": 7.469,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 32.97338915399996
+    },
+    {
+      "segment": 5,
+      "start": 44.16,
+      "end": 51.06,
+      "text": "This same tag system filters the visual interface, completely hiding the admin dashboard from anyone without the right role.",
+      "generation_text": "This same tag system filters the visual interface, completely hiding the admin dashboard from anyone without the right role.",
+      "filename": "cloned-05.wav",
+      "duration": 6.698666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 15.603466378000007
+    },
+    {
+      "segment": 6,
+      "start": 51.06,
+      "end": 60.6,
+      "text": "So that standard user trying to close the auction gets a hard error, while the verified admin's command goes straight through, keeping the entire application secure.",
+      "generation_text": "So that standard user trying to close the auction gets a hard error, while the verified admin's command goes straight through, keeping the entire application secure.",
+      "filename": "cloned-06.wav",
+      "duration": 8.087,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 17.525447007000025
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 7.44,
+      "text": "Systems use role-based access control, so standard users can't just delete data or change system settings.",
+      "filename": "cloned-00.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.346666666666667,
+      "placed_start": 0.1,
+      "placed_end": 6.446666666666666,
+      "original_generated_duration": 6.346666666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 1,
+      "start": 7.44,
+      "end": 12.06,
+      "text": "Imagine a normal user trying to click a close auction button.",
+      "filename": "cloned-01.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.493,
+      "placed_start": 7.54,
+      "placed_end": 11.033,
+      "original_generated_duration": 3.493,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 12.06,
+      "end": 15.24,
+      "text": "The bidding app first verifies their login credentials.",
+      "filename": "cloned-01.wav",
+      "generated_start": 3.493,
+      "generated_end": 6.346666666666667,
+      "placed_start": 12.16,
+      "placed_end": 15.013666666666667,
+      "original_generated_duration": 2.853666666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 2,
+      "start": 15.24,
+      "end": 19.5,
+      "text": "Confirming exactly who they are is a process called authentication.",
+      "filename": "cloned-02.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.675,
+      "placed_start": 15.34,
+      "placed_end": 19.015,
+      "original_generated_duration": 3.675,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 19.5,
+      "end": 22.42,
+      "text": "But knowing their identity is only half the battle.",
+      "filename": "cloned-02.wav",
+      "generated_start": 3.675,
+      "generated_end": 6.333,
+      "placed_start": 19.6,
+      "placed_end": 22.258,
+      "original_generated_duration": 2.658,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 2,
+      "start": 22.42,
+      "end": 25.4,
+      "text": "It doesn't prove they have the authority to end an auction.",
+      "filename": "cloned-02.wav",
+      "generated_start": 6.333,
+      "generated_end": 9.290666666666667,
+      "placed_start": 22.52,
+      "placed_end": 25.32125,
+      "original_generated_duration": 2.957666666666667,
+      "tempo_factor": 1.0570534037558685
+    },
+    {
+      "unit": 6,
+      "block": 3,
+      "start": 25.4,
+      "end": 29.42,
+      "text": "So the database links their ID to a specific permission level.",
+      "filename": "cloned-03.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.613,
+      "placed_start": 25.5,
+      "placed_end": 29.113,
+      "original_generated_duration": 3.613,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 29.42,
+      "end": 34.36,
+      "text": "Assigning tags like user or admin is called authorization.",
+      "filename": "cloned-03.wav",
+      "generated_start": 3.613,
+      "generated_end": 6.890666666666666,
+      "placed_start": 29.52,
+      "placed_end": 32.797666666666665,
+      "original_generated_duration": 3.2776666666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 4,
+      "start": 34.36,
+      "end": 37.38,
+      "text": "Now the server acts as a strict checkpoint.",
+      "filename": "cloned-04.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.383,
+      "placed_start": 34.46,
+      "placed_end": 36.843,
+      "original_generated_duration": 2.383,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 4,
+      "start": 37.38,
+      "end": 40.66,
+      "text": "When the request arrives, it reads the attached role.",
+      "filename": "cloned-04.wav",
+      "generated_start": 2.383,
+      "generated_end": 4.987,
+      "placed_start": 37.48,
+      "placed_end": 40.084,
+      "original_generated_duration": 2.604,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 40.66,
+      "end": 44.16,
+      "text": "If it sees user, the action is instantly blocked.",
+      "filename": "cloned-04.wav",
+      "generated_start": 4.987,
+      "generated_end": 7.469,
+      "placed_start": 40.76,
+      "placed_end": 43.242,
+      "original_generated_duration": 2.482,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 5,
+      "start": 44.16,
+      "end": 47.2,
+      "text": "This same tag system filters the visual interface,",
+      "filename": "cloned-05.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.883,
+      "placed_start": 44.26,
+      "placed_end": 47.143,
+      "original_generated_duration": 2.883,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 5,
+      "start": 47.2,
+      "end": 51.06,
+      "text": "completely hiding the admin dashboard from anyone without the right role.",
+      "filename": "cloned-05.wav",
+      "generated_start": 2.883,
+      "generated_end": 6.698666666666667,
+      "placed_start": 47.3,
+      "placed_end": 50.967333333333336,
+      "original_generated_duration": 3.8156666666666665,
+      "tempo_factor": 1.041102598566308
+    },
+    {
+      "unit": 13,
+      "block": 6,
+      "start": 51.06,
+      "end": 55.02,
+      "text": "So that standard user trying to close the auction gets a hard error,",
+      "filename": "cloned-06.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.193,
+      "placed_start": 51.16,
+      "placed_end": 54.353,
+      "original_generated_duration": 3.193,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 14,
+      "block": 6,
+      "start": 55.02,
+      "end": 57.94,
+      "text": "while the verified admin's command goes straight through,",
+      "filename": "cloned-06.wav",
+      "generated_start": 3.193,
+      "generated_end": 6.213,
+      "placed_start": 55.12,
+      "placed_end": 57.8625,
+      "original_generated_duration": 3.02,
+      "tempo_factor": 1.1026258992805755
+    },
+    {
+      "unit": 15,
+      "block": 6,
+      "start": 57.94,
+      "end": 60.6,
+      "text": "keeping the entire application secure.",
+      "filename": "cloned-06.wav",
+      "generated_start": 6.213,
+      "generated_end": 8.087,
+      "placed_start": 58.04,
+      "placed_end": 59.914,
+      "original_generated_duration": 1.874,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 15.24,
+      "expected": "Systems use role-based access control, so standard users can't just delete data or change system settings. Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "transcription": "Systems use role-based access control so standard users can't just delete data or change system settings. Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "differences": []
+    },
+    {
+      "start": 15.24,
+      "end": 25.4,
+      "expected": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle. It doesn't prove they have the authority to end an auction.",
+      "transcription": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle, it doesn't prove they have the authority to end an auction.",
+      "differences": []
+    },
+    {
+      "start": 25.4,
+      "end": 34.36,
+      "expected": "So the database links their ID to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "transcription": "So the database links their ID to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "differences": []
+    },
+    {
+      "start": 34.36,
+      "end": 44.16,
+      "expected": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "transcription": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "differences": []
+    },
+    {
+      "start": 44.16,
+      "end": 51.06,
+      "expected": "This same tag system filters the visual interface, completely hiding the admin dashboard from anyone without the right role.",
+      "transcription": "This same tag system filters the visual interface completely hiding the admin dashboard from anyone without the right role.",
+      "differences": []
+    },
+    {
+      "start": 51.06,
+      "end": 60.6,
+      "expected": "So that standard user trying to close the auction gets a hard error, while the verified admin's command goes straight through, keeping the entire application secure.",
+      "transcription": "So that standard user trying to close the auction gets a hard error while the verified admin command goes straight through keeping the entire application secure.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "admins"
+          ],
+          "heard": [
+            "admin"
+          ]
+        }
+      ]
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Every original word must be recognized in its aligned position by at least one model; shared disagreements fail the check. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0,
+        "end": 15.24,
+        "word_count": 36,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 34,
+            "end": 35,
+            "expected": [
+              "login"
+            ],
+            "heard": [
+              "loging"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 15.24,
+        "end": 25.4,
+        "word_count": 30,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 25.4,
+        "end": 34.36,
+        "word_count": 20,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "tags"
+            ],
+            "heard": [
+              "tax"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 34.36,
+        "end": 44.16,
+        "word_count": 26,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 44.16,
+        "end": 51.06,
+        "word_count": 19,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 2,
+            "end": 3,
+            "expected": [
+              "tag"
+            ],
+            "heard": [
+              "tax"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 11,
+            "end": 12,
+            "expected": [
+              "admin"
+            ],
+            "heard": [
+              "admind"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 5,
+        "start": 51.06,
+        "end": 60.6,
+        "word_count": 26,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [
+          {
+            "op": "replace",
+            "start": 16,
+            "end": 17,
+            "expected": [
+              "admins"
+            ],
+            "heard": [
+              "admin"
+            ]
+          }
+        ],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "error"
+            ],
+            "heard": [
+              "at",
+              "a",
+              "war"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0,
+      "end": 15.24,
+      "expected": "Systems use role-based access control, so standard users can't just delete data or change system settings. Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "transcription": "systems use role based access control so standard users can't just delete data or change system settings imagine a normal user trying to click a close auction button the bidding app first verifies their loging credentials",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "login"
+          ],
+          "heard": [
+            "loging"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 15.24,
+      "end": 25.4,
+      "expected": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle. It doesn't prove they have the authority to end an auction.",
+      "transcription": "confirming exactly who they are is a process called authentication but knowing their identity is only half the battle it doesn't prove they have the authority to end an auction",
+      "differences": []
+    },
+    {
+      "start": 25.4,
+      "end": 34.36,
+      "expected": "So the database links their ID to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "transcription": "so the database links their i d to a specific permission level assigning tax like user or admin is called authorization",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "tags"
+          ],
+          "heard": [
+            "tax"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 34.36,
+      "end": 44.16,
+      "expected": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "transcription": "now the server acts as a strict checkpoint when the request arrives it reads the attached role if it sees user the action is instantly blocked",
+      "differences": []
+    },
+    {
+      "start": 44.16,
+      "end": 51.06,
+      "expected": "This same tag system filters the visual interface, completely hiding the admin dashboard from anyone without the right role.",
+      "transcription": "this same tax system filters the visual interface completely hiding the admind dashboard from anyone without the right role",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "tag"
+          ],
+          "heard": [
+            "tax"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "admin"
+          ],
+          "heard": [
+            "admind"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 51.06,
+      "end": 60.6,
+      "expected": "So that standard user trying to close the auction gets a hard error, while the verified admin's command goes straight through, keeping the entire application secure.",
+      "transcription": "so that standard user trying to close the auction gets a hard at a war while the verified admin's command goes straight through keeping the entire application secure",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "error"
+          ],
+          "heard": [
+            "at",
+            "a",
+            "war"
+          ]
+        }
+      ]
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 156,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "source_transcriptions": [
+      "source-transcript.json",
+      "source-ctc.json"
+    ],
+    "original_words_checked": true,
+    "written_word_count": 156,
+    "notes": [
+      "Whisper and independent CTC compared against the original narration.",
+      "Close auction button confirmed by the on-screen label and Whisper; close is a verb.",
+      "ID is spoken as the letters eye dee.",
+      "Role/roll and authorization/authorisation are equivalent transcription spellings in this context."
+    ]
+  },
+  "pronunciation_overrides": [
+    "a \u0259",
+    "close k l \u02c8 o \u028a z"
+  ],
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved voice reference. A qualitative consistency check, not an exact match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00.wav",
+        "reference_cosine": 0.8882217300746913
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01.wav",
+        "reference_cosine": 0.9584390775812703
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02.wav",
+        "reference_cosine": 0.9415663205077163
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03.wav",
+        "reference_cosine": 0.913782134398764
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04.wav",
+        "reference_cosine": 0.9039762156398979
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05.wav",
+        "reference_cosine": 0.913448272346024
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06.wav",
+        "reference_cosine": 0.8732396103745068
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00.wav",
+      "expected": "Systems use role-based access control, so standard users can't just delete data or change system settings.",
+      "transcription": "Systems use role-based access control so standard users can't just delete data or change system settings.",
+      "differences": [],
+      "reference_cosine": 0.8882217300746913
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01.wav",
+      "expected": "Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "transcription": "Imagine a normal user trying to click a close auction button. The bidding app first verifies their login credentials.",
+      "differences": [],
+      "reference_cosine": 0.9584390775812703
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02.wav",
+      "expected": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle. It doesn't prove they have the authority to end an auction.",
+      "transcription": "Confirming exactly who they are is a process called authentication. But knowing their identity is only half the battle. It doesn't prove they have the authority to end an auction.",
+      "differences": [],
+      "reference_cosine": 0.9415663205077163
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "expected": "So the database links their ID to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "transcription": "So, the database links their ID to a specific permission level. Assigning tags like user or admin is called authorization.",
+      "differences": [],
+      "reference_cosine": 0.913782134398764
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "expected": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "transcription": "Now the server acts as a strict checkpoint. When the request arrives, it reads the attached role. If it sees user, the action is instantly blocked.",
+      "differences": [],
+      "reference_cosine": 0.9039762156398979
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05.wav",
+      "expected": "This same tag system filters the visual interface, completely hiding the admin dashboard from anyone without the right role.",
+      "transcription": "This same tag system filters the visual interface completely hiding the admin dashboard from anyone without the right role.",
+      "differences": [],
+      "reference_cosine": 0.913448272346024
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06.wav",
+      "expected": "So that standard user trying to close the auction gets a hard error, while the verified admin's command goes straight through, keeping the entire application secure.",
+      "transcription": "So that standard user trying to close the auction gets a hard error while the verified admins command goes straight through keeping the entire application secure.",
+      "differences": [],
+      "reference_cosine": 0.8732396103745068
+    }
+  ],
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 63.390476
+  }
+}
