@@ -1,0 +1,2568 @@
+{
+  "input_filename": "Why_Your_App_Breaks_After_Deployment.mp4",
+  "input_sha256": "0e45c46fb00f222627f401c4fbaf29e66ae5e63bcb0031432e7bbb07c2013beb",
+  "output_filename": "Why_Your_App_Breaks_After_Deployment_saved_voice.mp4",
+  "output_sha256": "fa8e233d7f83211414f07d0dc3285a000db692b2c8e9173b9b81280fe814001e",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "3257b5e229d06d92ede075711ef18c1e990822e59f6c312f02a0d310fb83bce5",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "81.533333",
+    "nb_read_frames": "2446"
+  },
+  "input_duration": "81.594921",
+  "output_duration": "81.595000",
+  "audio_peak": 0.843170166015625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 11.86,
+      "text": "Your full-stack app works perfectly on your laptop. Your React frontend talks to the ASP.NET backend seamlessly, but the second you push it live, everything completely breaks.",
+      "generation_text": "Your full stack app works perfectly on your laptop. Your React front end talks to the ay ess pee dot net back end seamlessly, but the second you push it live, everything completely breaks.",
+      "filename": "cloned-00-your.wav",
+      "duration": 9.360791666666668,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 31.38119146900044,
+      "method": "Same-reference generated word splice",
+      "correction": {
+        "replaced_word": "Your",
+        "primary_file": "cloned-00.wav",
+        "primary_range": [
+          2.485,
+          2.62
+        ],
+        "donor_file": "cloned-00.wav",
+        "donor_range": [
+          0.18,
+          0.37
+        ]
+      }
+    },
+    {
+      "segment": 1,
+      "start": 11.86,
+      "end": 18.66,
+      "text": "Here are the three configuration traps that cause this exact failure. First up, the localhost trap.",
+      "generation_text": "Here are the three configuration traps that cause this exact failure. First up, the local host trap.",
+      "filename": "cloned-01.wav",
+      "duration": 5.589333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 23.34637266899972
+    },
+    {
+      "segment": 2,
+      "start": 18.66,
+      "end": 27.84,
+      "text": "If you leave localhost URLs in your code, the live frontend won't query your server. It will query the user's own empty personal computer.",
+      "generation_text": "If you leave local host you are ells in your code, the live front end won't query your server. It will query the user's own empty personal computer.",
+      "filename": "cloned-02.wav",
+      "duration": 8.055083333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 28.184556013000474
+    },
+    {
+      "segment": 3,
+      "start": 27.84,
+      "end": 33.3,
+      "text": "You must swap those connection strings for live cloud URLs during the deployment.",
+      "generation_text": "You must swap those connection strings for live cloud you are ells during the deployment.",
+      "filename": "cloned-03.wav",
+      "duration": 4.6273333333333335,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 16.812196486000175
+    },
+    {
+      "segment": 4,
+      "start": 33.3,
+      "end": 39.08,
+      "text": "Next, the CORS block. On your local machine, your front and backends communicate freely,",
+      "generation_text": "Next, the cors block. On your local machine, your front and back ends communicate freely,",
+      "filename": "cloned-04.wav",
+      "duration": 4.876,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 16.76192108199939
+    },
+    {
+      "segment": 5,
+      "start": 39.08,
+      "end": 47.2,
+      "text": "but live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "generation_text": "but live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "filename": "cloned-05.wav",
+      "duration": 7.552,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 31.825449085999935
+    },
+    {
+      "segment": 6,
+      "start": 47.2,
+      "end": 53.3,
+      "text": "Unless you explicitly whitelist your new live URL, the backend will actively block your data.",
+      "generation_text": "Unless you explicitly whitelist your new live you are ell, the back end will actively block your data.",
+      "filename": "cloned-06-corrected.wav",
+      "duration": 5.397333333333333,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 63.3317888040001
+    },
+    {
+      "segment": 7,
+      "start": 53.3,
+      "end": 59.34,
+      "text": "Finally, the authentication collapse. User logins rely on secret JWT keys.",
+      "generation_text": "Finally, the authentication collapse. User logins rely on secret jay double you tee keys.",
+      "filename": "cloned-07.wav",
+      "duration": 5.141333333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 24.841316148999795
+    },
+    {
+      "segment": 8,
+      "start": 59.34,
+      "end": 69.7,
+      "text": "If you forget to manually define those keys in your live server's production environment variables, the API cannot validate any user sessions, effectively locking everyone out of the app.",
+      "generation_text": "If you forget to manually define those keys in your live server's production environment variables, the ay pee eye cannot validate any user sessions, effectively locking everyone out of the app.",
+      "filename": "cloned-08-words.wav",
+      "duration": 9.982791666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 23.66661686399948,
+      "method": "Word corrections using checked clips generated with the same approved voice reference",
+      "corrections": [
+        {
+          "word": "live",
+          "primary_range": [
+            2.935,
+            3.255
+          ],
+          "donor_file": "cloned-03.wav",
+          "donor_range": [
+            2.175,
+            2.52
+          ]
+        },
+        {
+          "word": "server's",
+          "primary_range": [
+            3.255,
+            3.675
+          ],
+          "donor_file": "cloned-05.wav",
+          "donor_range": [
+            0.985,
+            1.435
+          ]
+        },
+        {
+          "word": "cannot",
+          "primary_range": [
+            6.285,
+            6.625
+          ],
+          "donor_file": "donor-jwt-cannot.wav",
+          "donor_range": [
+            7.475,
+            7.8
+          ]
+        }
+      ],
+      "external_donor_metadata": {
+        "source": "/workspace/shared/voice-work-jwt-apis/cloned-02.wav",
+        "sha256": "a881d2e93f7992463eb1b93754b8b6533122ebed016f032e11038022fbd94140",
+        "generation": {
+          "segment": 2,
+          "start": 15.825781,
+          "end": 27.295188,
+          "text": "When your app sends that bid command, the backend server instantly rejects it with an unauthorized error. Because backend servers are forgetful, they cannot inherently trust an anonymous command.",
+          "generation_text": "When your app sends that bid command, the backend server instantly rejects it with an unauthorized error. Because backend servers are forgetful, they cannot inherently trust an anonymous command.",
+          "filename": "cloned-02.wav",
+          "duration": 9.858125,
+          "model": "distill",
+          "num_steps": 8,
+          "guidance_scale": 1.0,
+          "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+          "seconds": 27.686411832000886
+        }
+      }
+    },
+    {
+      "segment": 9,
+      "start": 69.7,
+      "end": 78.7,
+      "text": "Deployment is never just about uploading code. It's about completely rewiring your application's security and routing for the hostile public internet.",
+      "generation_text": "Deployment is never just about uploading code. It's about completely rewiring your applications security and routing for the hostile public internet.",
+      "filename": "cloned-09-corrected.wav",
+      "duration": 8.192,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 101.35440436099998
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 3.44,
+      "text": "Your full-stack app works perfectly on your laptop.",
+      "filename": "cloned-00-your.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.493,
+      "placed_start": 0.1,
+      "placed_end": 2.593,
+      "original_generated_duration": 2.493,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 3.44,
+      "end": 7.66,
+      "text": "Your React frontend talks to the ASP.NET backend seamlessly,",
+      "filename": "cloned-00-your.wav",
+      "generated_start": 2.493,
+      "generated_end": 6.693,
+      "placed_start": 3.54,
+      "placed_end": 7.558708333333334,
+      "original_generated_duration": 4.2,
+      "tempo_factor": 1.0448529411764707
+    },
+    {
+      "unit": 2,
+      "block": 0,
+      "start": 7.66,
+      "end": 11.86,
+      "text": "but the second you push it live, everything completely breaks.",
+      "filename": "cloned-00-your.wav",
+      "generated_start": 6.693,
+      "generated_end": 9.360791666666668,
+      "placed_start": 7.76,
+      "placed_end": 10.427791666666666,
+      "original_generated_duration": 2.6677916666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 11.86,
+      "end": 16.3,
+      "text": "Here are the three configuration traps that cause this exact failure.",
+      "filename": "cloned-01.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.793,
+      "placed_start": 11.96,
+      "placed_end": 15.753,
+      "original_generated_duration": 3.793,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 1,
+      "start": 16.3,
+      "end": 18.66,
+      "text": "First up, the localhost trap.",
+      "filename": "cloned-01.wav",
+      "generated_start": 3.793,
+      "generated_end": 5.589333333333333,
+      "placed_start": 16.4,
+      "placed_end": 18.19633333333333,
+      "original_generated_duration": 1.7963333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 2,
+      "start": 18.66,
+      "end": 21.92,
+      "text": "If you leave localhost URLs in your code,",
+      "filename": "cloned-02-urls.wav",
+      "generated_start": 0,
+      "generated_end": 2.848,
+      "placed_start": 18.76,
+      "placed_end": 21.608,
+      "original_generated_duration": 2.848,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 2,
+      "start": 21.92,
+      "end": 24.46,
+      "text": "the live frontend won't query your server.",
+      "filename": "cloned-02.wav",
+      "generated_start": 2.545,
+      "generated_end": 5.059,
+      "placed_start": 22.02,
+      "placed_end": 24.38975,
+      "original_generated_duration": 2.514,
+      "tempo_factor": 1.0632124999999997
+    },
+    {
+      "unit": 7,
+      "block": 2,
+      "start": 24.46,
+      "end": 27.84,
+      "text": "It will query the user's own empty personal computer.",
+      "filename": "cloned-02.wav",
+      "generated_start": 5.059,
+      "generated_end": 8.055083333333334,
+      "placed_start": 24.56,
+      "placed_end": 27.556083333333333,
+      "original_generated_duration": 2.9960833333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 3,
+      "start": 27.84,
+      "end": 33.3,
+      "text": "You must swap those connection strings for live cloud URLs during the deployment.",
+      "filename": "cloned-03.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.6273333333333335,
+      "placed_start": 27.94,
+      "placed_end": 32.56733333333333,
+      "original_generated_duration": 4.6273333333333335,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 4,
+      "start": 33.3,
+      "end": 35.34,
+      "text": "Next, the CORS block.",
+      "filename": "cloned-04.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.403,
+      "placed_start": 33.4,
+      "placed_end": 34.803,
+      "original_generated_duration": 1.403,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 35.34,
+      "end": 39.08,
+      "text": "On your local machine, your front and backends communicate freely,",
+      "filename": "cloned-04.wav",
+      "generated_start": 1.403,
+      "generated_end": 4.876,
+      "placed_start": 35.44,
+      "placed_end": 38.913,
+      "original_generated_duration": 3.473,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 5,
+      "start": 39.08,
+      "end": 43.42,
+      "text": "but live cloud servers automatically reject requests from different domains.",
+      "filename": "cloned-05.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.311,
+      "placed_start": 39.18,
+      "placed_end": 43.337375,
+      "original_generated_duration": 4.311,
+      "tempo_factor": 1.041825
+    },
+    {
+      "unit": 12,
+      "block": 5,
+      "start": 43.42,
+      "end": 47.2,
+      "text": "This security wall is called cross-origin resource sharing.",
+      "filename": "cloned-05.wav",
+      "generated_start": 4.311,
+      "generated_end": 7.552,
+      "placed_start": 43.52,
+      "placed_end": 46.761,
+      "original_generated_duration": 3.241,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 13,
+      "block": 6,
+      "start": 47.2,
+      "end": 53.3,
+      "text": "Unless you explicitly whitelist your new live URL, the backend will actively block your data.",
+      "filename": "cloned-06-corrected.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.397333333333333,
+      "placed_start": 47.3,
+      "placed_end": 52.69733333333333,
+      "original_generated_duration": 5.397333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 14,
+      "block": 7,
+      "start": 53.3,
+      "end": 56.08,
+      "text": "Finally, the authentication collapse.",
+      "filename": "cloned-07.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.097,
+      "placed_start": 53.4,
+      "placed_end": 55.497,
+      "original_generated_duration": 2.097,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 15,
+      "block": 7,
+      "start": 56.08,
+      "end": 59.34,
+      "text": "User logins rely on secret JWT keys.",
+      "filename": "cloned-07.wav",
+      "generated_start": 2.097,
+      "generated_end": 5.141333333333334,
+      "placed_start": 56.18,
+      "placed_end": 59.224333333333334,
+      "original_generated_duration": 3.0443333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 16,
+      "block": 8,
+      "start": 59.34,
+      "end": 64.58,
+      "text": "If you forget to manually define those keys in your live server's production environment variables,",
+      "filename": "cloned-08-words.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.293,
+      "placed_start": 59.44,
+      "placed_end": 64.47416666666666,
+      "original_generated_duration": 5.293,
+      "tempo_factor": 1.0534107843137255
+    },
+    {
+      "unit": 17,
+      "block": 8,
+      "start": 64.58,
+      "end": 67.42,
+      "text": "the API cannot validate any user sessions,",
+      "filename": "cloned-08-words.wav",
+      "generated_start": 5.293,
+      "generated_end": 8.105,
+      "placed_start": 64.68,
+      "placed_end": 67.331875,
+      "original_generated_duration": 2.812,
+      "tempo_factor": 1.0571037037037037
+    },
+    {
+      "unit": 18,
+      "block": 8,
+      "start": 67.42,
+      "end": 69.7,
+      "text": "effectively locking everyone out of the app.",
+      "filename": "cloned-08-words.wav",
+      "generated_start": 8.105,
+      "generated_end": 9.982791666666667,
+      "placed_start": 67.52,
+      "placed_end": 69.39779166666666,
+      "original_generated_duration": 1.8777916666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 19,
+      "block": 9,
+      "start": 69.7,
+      "end": 72.7,
+      "text": "Deployment is never just about uploading code.",
+      "filename": "cloned-09-corrected.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.629,
+      "placed_start": 69.8,
+      "placed_end": 72.429,
+      "original_generated_duration": 2.629,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 20,
+      "block": 9,
+      "start": 72.7,
+      "end": 78.7,
+      "text": "It's about completely rewiring your application's security and routing for the hostile public internet.",
+      "filename": "cloned-09-corrected.wav",
+      "generated_start": 2.629,
+      "generated_end": 8.192,
+      "placed_start": 72.8,
+      "placed_end": 78.363,
+      "original_generated_duration": 5.563,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 11.86,
+      "expected": "Your full-stack app works perfectly on your laptop. Your React frontend talks to the ASP.NET backend seamlessly, but the second you push it live, everything completely breaks.",
+      "transcription": "Your full stack app works perfectly on your laptop. Your React front end talks to the ASP.NET backend seamlessly but the second you push it live everything completely breaks.",
+      "differences": []
+    },
+    {
+      "start": 11.86,
+      "end": 18.66,
+      "expected": "Here are the three configuration traps that cause this exact failure. First up, the localhost trap.",
+      "transcription": "Here are the three configuration traps that cause this exact failure. First up the local host trap.",
+      "differences": []
+    },
+    {
+      "start": 18.66,
+      "end": 33.3,
+      "expected": "If you leave localhost URLs in your code, the live frontend won't query your server. It will query the user's own empty personal computer. You must swap those connection strings for live cloud URLs during the deployment.",
+      "transcription": "If you leave localhost URLs in your code, the live frontend won't query your server. It will query the user's own empty personal computer. You must swap those connection strings for live cloud URLs during the deployment.",
+      "differences": []
+    },
+    {
+      "start": 33.3,
+      "end": 47.2,
+      "expected": "Next, the CORS block. On your local machine, your front and backends communicate freely, but live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "transcription": "Next, the course block. On your local machine, your front and back ends communicate freely, but live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "differences": []
+    },
+    {
+      "start": 47.2,
+      "end": 59.34,
+      "expected": "Unless you explicitly whitelist your new live URL, the backend will actively block your data. Finally, the authentication collapse. User logins rely on secret JWT keys.",
+      "transcription": "Unless you explicitly whitelist your new live URL, the backend will actively block your data. Finally, the authentication collapse user logins rely on secret JWT keys.",
+      "differences": []
+    },
+    {
+      "start": 59.34,
+      "end": 69.7,
+      "expected": "If you forget to manually define those keys in your live server's production environment variables, the API cannot validate any user sessions, effectively locking everyone out of the app.",
+      "transcription": "If you forget to manually define those keys in your live server's production environment variables, the API cannot validate any user sessions, effectively locking everyone out of the app.",
+      "differences": []
+    },
+    {
+      "start": 69.7,
+      "end": 78.7,
+      "expected": "Deployment is never just about uploading code. It's about completely rewiring your application's security and routing for the hostile public internet.",
+      "transcription": "Deployment is never just about uploading code. It's about completely rewiring your application's security and rooting for the hostile public internet.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Every original word must be recognized in its aligned position by at least one model; shared disagreements fail the check. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0,
+        "end": 11.86,
+        "word_count": 27,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 2,
+            "end": 3,
+            "expected": [
+              "app"
+            ],
+            "heard": [
+              "at"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 8,
+            "end": 9,
+            "expected": [
+              "your"
+            ],
+            "heard": [
+              "you"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 10,
+            "end": 11,
+            "expected": [
+              "frontend"
+            ],
+            "heard": [
+              "front",
+              "n"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 14,
+            "end": 16,
+            "expected": [
+              "aspnet",
+              "backend"
+            ],
+            "heard": [
+              "s",
+              "p",
+              "road",
+              "netback",
+              "and"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 21,
+            "end": 22,
+            "expected": [
+              "push"
+            ],
+            "heard": [
+              "bush"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 11.86,
+        "end": 18.66,
+        "word_count": 16,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 18.66,
+        "end": 33.3,
+        "word_count": 37,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 9,
+            "end": 10,
+            "expected": [
+              "live"
+            ],
+            "heard": [
+              "life"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "query"
+            ],
+            "heard": [
+              "querry"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 17,
+            "end": 18,
+            "expected": [
+              "query"
+            ],
+            "heard": [
+              "querry"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 31,
+            "end": 34,
+            "expected": [
+              "live",
+              "cloud",
+              "urls"
+            ],
+            "heard": [
+              "livecloud",
+              "you",
+              "are",
+              "s"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 33.3,
+        "end": 47.2,
+        "word_count": 33,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 2,
+            "end": 3,
+            "expected": [
+              "cors"
+            ],
+            "heard": [
+              "co"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 11,
+            "end": 12,
+            "expected": [
+              "backends"
+            ],
+            "heard": [
+              "backins"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 15,
+            "end": 17,
+            "expected": [
+              "live",
+              "cloud"
+            ],
+            "heard": [
+              "livecloud"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 47.2,
+        "end": 59.34,
+        "word_count": 26,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 3,
+            "end": 4,
+            "expected": [
+              "whitelist"
+            ],
+            "heard": [
+              "whiteless"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 6,
+            "end": 8,
+            "expected": [
+              "live",
+              "url"
+            ],
+            "heard": [
+              "leave",
+              "you",
+              "are",
+              "l"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 18,
+            "end": 19,
+            "expected": [
+              "collapse"
+            ],
+            "heard": [
+              "collapsed"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 20,
+            "end": 21,
+            "expected": [
+              "logins"
+            ],
+            "heard": [
+              "loggins"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 24,
+            "end": 26,
+            "expected": [
+              "jwt",
+              "keys"
+            ],
+            "heard": [
+              "j",
+              "w",
+              "u",
+              "teks"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 5,
+        "start": 59.34,
+        "end": 69.7,
+        "word_count": 29,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 10,
+            "end": 12,
+            "expected": [
+              "live",
+              "servers"
+            ],
+            "heard": [
+              "lifess"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 16,
+            "end": 17,
+            "expected": [
+              "api"
+            ],
+            "heard": [
+              "ap",
+              "i"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 20,
+            "end": 21,
+            "expected": [
+              "user"
+            ],
+            "heard": [
+              "use",
+              "of"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 6,
+        "start": 69.7,
+        "end": 78.7,
+        "word_count": 21,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 10,
+            "end": 11,
+            "expected": [
+              "rewiring"
+            ],
+            "heard": [
+              "reviring"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0,
+      "end": 11.86,
+      "expected": "Your full-stack app works perfectly on your laptop. Your React frontend talks to the ASP.NET backend seamlessly, but the second you push it live, everything completely breaks.",
+      "transcription": "your full stack at works perfectly on your laptop you react front n talks to the s p road netback and seamlessly but the second you bush it live everything completely breaks",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "app"
+          ],
+          "heard": [
+            "at"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "your"
+          ],
+          "heard": [
+            "you"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "frontend"
+          ],
+          "heard": [
+            "front",
+            "n"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "aspnet",
+            "backend"
+          ],
+          "heard": [
+            "s",
+            "p",
+            "road",
+            "netback",
+            "and"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "push"
+          ],
+          "heard": [
+            "bush"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 11.86,
+      "end": 18.66,
+      "expected": "Here are the three configuration traps that cause this exact failure. First up, the localhost trap.",
+      "transcription": "here are the three configuration traps that cause this exact failure first up the local host trap",
+      "differences": []
+    },
+    {
+      "start": 18.66,
+      "end": 33.3,
+      "expected": "If you leave localhost URLs in your code, the live frontend won't query your server. It will query the user's own empty personal computer. You must swap those connection strings for live cloud URLs during the deployment.",
+      "transcription": "if you leave local host you are els in your code the life front end won't querry your server it will querry the user's own empty personal computer you must swap those connection strings for livecloud you are s during the deployment",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "live"
+          ],
+          "heard": [
+            "life"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "query"
+          ],
+          "heard": [
+            "querry"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "query"
+          ],
+          "heard": [
+            "querry"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "live",
+            "cloud",
+            "urls"
+          ],
+          "heard": [
+            "livecloud",
+            "you",
+            "are",
+            "s"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 33.3,
+      "end": 47.2,
+      "expected": "Next, the CORS block. On your local machine, your front and backends communicate freely, but live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "transcription": "next the co block on your local machine your front and backins communicate freely but livecloud servers automatically reject requests from different domains this security wall is called cross origin resource sharing",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "cors"
+          ],
+          "heard": [
+            "co"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "backends"
+          ],
+          "heard": [
+            "backins"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "live",
+            "cloud"
+          ],
+          "heard": [
+            "livecloud"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 47.2,
+      "end": 59.34,
+      "expected": "Unless you explicitly whitelist your new live URL, the backend will actively block your data. Finally, the authentication collapse. User logins rely on secret JWT keys.",
+      "transcription": "unless you explicitly whiteless your new leave you are l the back end will actively block your data finally the authentication collapsed user loggins rely on secret j w u teks",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "whitelist"
+          ],
+          "heard": [
+            "whiteless"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "live",
+            "url"
+          ],
+          "heard": [
+            "leave",
+            "you",
+            "are",
+            "l"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "collapse"
+          ],
+          "heard": [
+            "collapsed"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "logins"
+          ],
+          "heard": [
+            "loggins"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "jwt",
+            "keys"
+          ],
+          "heard": [
+            "j",
+            "w",
+            "u",
+            "teks"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 59.34,
+      "end": 69.7,
+      "expected": "If you forget to manually define those keys in your live server's production environment variables, the API cannot validate any user sessions, effectively locking everyone out of the app.",
+      "transcription": "if you forget to manually define those keys in your lifess production environment variables the ap i cannot validate any use of sessions effectively locking everyone out of the app",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "live",
+            "servers"
+          ],
+          "heard": [
+            "lifess"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "api"
+          ],
+          "heard": [
+            "ap",
+            "i"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "user"
+          ],
+          "heard": [
+            "use",
+            "of"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 69.7,
+      "end": 78.7,
+      "expected": "Deployment is never just about uploading code. It's about completely rewiring your application's security and routing for the hostile public internet.",
+      "transcription": "deployment is never just about uploading code it's about completely reviring your applications security and rooting for the hostile public internet",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "rewiring"
+          ],
+          "heard": [
+            "reviring"
+          ]
+        }
+      ]
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 188,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "source_transcriptions": [
+      "source-transcript.json",
+      "source-ctc.json"
+    ],
+    "original_words_checked": true,
+    "written_word_count": 188,
+    "notes": [
+      "Whisper and independent CTC transcripts compared against the original video.",
+      "The caption at 34.5 seconds confirms CORS block, resolving the ASR homophone cause.",
+      "The caption at 37.9 seconds and Whisper confirm communicate freely; CTC merged this word into cancate.",
+      "ASP.NET, URLs, URL, JWT, and API retain their original letter-by-letter pronunciations.",
+      "Live is an adjective in every occurrence.",
+      "CORS is spoken as a word; the recognition spelling course block is the same pronunciation and is normalized to CORS block."
+    ]
+  },
+  "pronunciation_overrides": [
+    "a \u0259",
+    "live l \u02c8 a \u026a v",
+    "ay \u02c8 e \u026a",
+    "ess \u02c8 \u025b s",
+    "pee p \u02c8 i \u02d0",
+    "ell \u02c8 \u025b l",
+    "ells \u02c8 \u025b l z",
+    "jay d \u0292 \u02c8 e \u026a",
+    "tee t \u02c8 i \u02d0",
+    "cors k \u02c8 \u0254 \u02d0 \u0279 z",
+    "routing \u0279 \u02c8 u \u02d0 t \u026a \u014b"
+  ],
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved voice reference. A qualitative consistency check, not an exact match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-your.wav",
+        "reference_cosine": 0.9582858624398576
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01.wav",
+        "reference_cosine": 0.9216361085648314
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02.wav",
+        "reference_cosine": 0.9566812250374974
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03.wav",
+        "reference_cosine": 0.895995801984096
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04.wav",
+        "reference_cosine": 0.9509439030797242
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05.wav",
+        "reference_cosine": 0.9231616143384921
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-corrected.wav",
+        "reference_cosine": 0.827661362153058
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07.wav",
+        "reference_cosine": 0.8939023552110261
+      },
+      {
+        "segment": 8,
+        "filename": "cloned-08-words.wav",
+        "reference_cosine": 0.9472360685228124
+      },
+      {
+        "segment": 9,
+        "filename": "cloned-09-corrected.wav",
+        "reference_cosine": 0.9168747626275728
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-your.wav",
+      "expected": "Your full-stack app works perfectly on your laptop. Your React frontend talks to the ASP.NET backend seamlessly, but the second you push it live, everything completely breaks.",
+      "transcription": "Your full stack app works perfectly on your laptop. Your React front end talks to the ASP.NET back end seamlessly. But the second you push it live, everything completely breaks.",
+      "differences": [],
+      "reference_cosine": 0.9582858624398576
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01.wav",
+      "expected": "Here are the three configuration traps that cause this exact failure. First up, the localhost trap.",
+      "transcription": "Here are the three configuration traps that caused this exact failure. First up the local host trap.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "cause"
+          ],
+          "heard": [
+            "caused"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9216361085648314
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02.wav",
+      "expected": "If you leave localhost URLs in your code, the live frontend won't query your server. It will query the user's own empty personal computer.",
+      "transcription": "If you leave localhost URL in your code, the live frontend won't query your server. It will query the user's own empty personal computer.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "urls"
+          ],
+          "heard": [
+            "url"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9566812250374974
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "expected": "You must swap those connection strings for live cloud URLs during the deployment.",
+      "transcription": "You must swap those connection strings for live cloud URLs during the deployment.",
+      "differences": [],
+      "reference_cosine": 0.895995801984096
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "expected": "Next, the CORS block. On your local machine, your front and backends communicate freely,",
+      "transcription": "Next, the course block. On your local machine, your front and back ends communicate freely.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "cors"
+          ],
+          "heard": [
+            "course"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9509439030797242
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05.wav",
+      "expected": "but live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "transcription": "But live cloud servers automatically reject requests from different domains. This security wall is called cross-origin resource sharing.",
+      "differences": [],
+      "reference_cosine": 0.9231616143384921
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-corrected.wav",
+      "expected": "Unless you explicitly whitelist your new live URL, the backend will actively block your data.",
+      "transcription": "unless you explicitly whitelist your new live URL, the backend will actively block your data.",
+      "differences": [],
+      "reference_cosine": 0.827661362153058
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07.wav",
+      "expected": "Finally, the authentication collapse. User logins rely on secret JWT keys.",
+      "transcription": "Finally, the authentication collapse. User logins rely on secret JWT keys.",
+      "differences": [],
+      "reference_cosine": 0.8939023552110261
+    },
+    {
+      "segment": 8,
+      "filename": "cloned-08-words.wav",
+      "expected": "If you forget to manually define those keys in your live server's production environment variables, the API cannot validate any user sessions, effectively locking everyone out of the app.",
+      "transcription": "If you forget to manually define those keys in your live servers, production environment variables, the API cannot validate any user sessions effectively locking everyone out of the app.",
+      "differences": [],
+      "reference_cosine": 0.9472360685228124
+    },
+    {
+      "segment": 9,
+      "filename": "cloned-09-corrected.wav",
+      "expected": "Deployment is never just about uploading code. It's about completely rewiring your application's security and routing for the hostile public internet.",
+      "transcription": "Deployment is never just about uploading code. It's about completely rewiring your application's security and rooting for the hostile public internet.",
+      "differences": [],
+      "reference_cosine": 0.9168747626275728
+    }
+  ],
+  "phrase_replacements": {
+    "5": {
+      "segment": 2,
+      "source_unit": 5,
+      "start": 18.66,
+      "end": 21.92,
+      "text": "If you leave localhost URLs in your code.",
+      "generation_text": "If you leave local host you are ells, in your code.",
+      "filename": "cloned-02-urls.wav",
+      "duration": 2.848,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 49.79096508600014
+    }
+  },
+  "phrase_replacement_checks": [
+    {
+      "segment": 2,
+      "filename": "cloned-02-urls.wav",
+      "expected": "If you leave localhost URLs in your code.",
+      "transcription": "If you leave localhost urls in your code,",
+      "differences": [],
+      "reference_cosine": 0.8638834981345174
+    }
+  ],
+  "base_clip_check_note": "Base checks precede phrase replacement. The final encoded audio is checked in narration_checks, independent_ctc_checks, and narration_consensus.",
+  "additional_pronunciation_overrides": {
+    "pronunciations-your.txt": [
+      "a \u0259",
+      "live l \u02c8 a \u026a v",
+      "ay \u02c8 e \u026a",
+      "ess \u02c8 \u025b s",
+      "pee p \u02c8 i \u02d0",
+      "ell \u02c8 \u025b l",
+      "ells \u02c8 \u025b l z",
+      "jay d \u0292 \u02c8 e \u026a",
+      "tee t \u02c8 i \u02d0",
+      "cors k \u02c8 \u0254 \u02d0 \u0279 z",
+      "routing \u0279 \u02c8 u \u02d0 t \u026a \u014b",
+      "your j \u02c8 \u0254 \u02d0 \u0279"
+    ],
+    "pronunciations-corrections.txt": [
+      "a \u0259",
+      "live l \u02c8 a \u026a v",
+      "ay \u02c8 e \u026a",
+      "ess \u02c8 \u025b s",
+      "pee p \u02c8 i \u02d0",
+      "ell \u02c8 \u025b l",
+      "ells \u02c8 \u025b l z",
+      "jay d \u0292 \u02c8 e \u026a",
+      "tee t \u02c8 i \u02d0",
+      "cors k \u02c8 \u0254 \u02d0 \u0279 z",
+      "routing \u0279 \u02c8 u \u02d0 t \u026a \u014b",
+      "",
+      "servers s \u02c8 \u025c \u02d0 v \u0259 \u0279 z",
+      "applications \u02cc \u00e6 p l \u026a k \u02c8 e \u026a \u0283 \u0259 n z",
+      "not n \u02c8 \u0252 t"
+    ]
+  },
+  "selected_base_independent_ctc_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-your.wav",
+      "text": "your full stack app works perfectly on your laptop you react front end tocks to the s p road netback and seamlessly but the second you push it live everything completely breaks",
+      "words": [
+        {
+          "text": "your",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "full",
+          "start": 0.3999999761581421,
+          "end": 0.43999997615814207
+        },
+        {
+          "text": "stack",
+          "start": 0.6399999856948853,
+          "end": 0.7999999904632569
+        },
+        {
+          "text": "app",
+          "start": 0.8799999952316284,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "works",
+          "start": 1.0799999237060547,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "perfectly",
+          "start": 1.399999976158142,
+          "end": 1.7999999904632569
+        },
+        {
+          "text": "on",
+          "start": 1.8399999141693115,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "your",
+          "start": 1.959999918937683,
+          "end": 1.9999999189376831
+        },
+        {
+          "text": "laptop",
+          "start": 2.0799999237060547,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "you",
+          "start": 2.5199999809265137,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "react",
+          "start": 2.679999828338623,
+          "end": 2.9599998378753662
+        },
+        {
+          "text": "front",
+          "start": 3.0399999618530273,
+          "end": 3.0799999618530274
+        },
+        {
+          "text": "end",
+          "start": 3.240000009536743,
+          "end": 3.280000009536743
+        },
+        {
+          "text": "tocks",
+          "start": 3.4800000190734863,
+          "end": 3.799999990463257
+        },
+        {
+          "text": "to",
+          "start": 4.039999961853027,
+          "end": 4.079999961853027
+        },
+        {
+          "text": "the",
+          "start": 4.319999694824219,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "s",
+          "start": 4.599999904632568,
+          "end": 4.639999904632568
+        },
+        {
+          "text": "p",
+          "start": 4.839999675750732,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "road",
+          "start": 5.159999847412109,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "netback",
+          "start": 5.440000057220459,
+          "end": 5.799999752044678
+        },
+        {
+          "text": "and",
+          "start": 5.87999963760376,
+          "end": 5.91999963760376
+        },
+        {
+          "text": "seamlessly",
+          "start": 6.119999885559082,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "but",
+          "start": 6.71999979019165,
+          "end": 6.75999979019165
+        },
+        {
+          "text": "the",
+          "start": 6.87999963760376,
+          "end": 6.91999963760376
+        },
+        {
+          "text": "second",
+          "start": 7.039999961853027,
+          "end": 7.079999961853027
+        },
+        {
+          "text": "you",
+          "start": 7.359999656677246,
+          "end": 7.399999656677246
+        },
+        {
+          "text": "push",
+          "start": 7.519999980926514,
+          "end": 7.679999866485596
+        },
+        {
+          "text": "it",
+          "start": 7.759999752044678,
+          "end": 7.799999752044678
+        },
+        {
+          "text": "live",
+          "start": 7.919999599456787,
+          "end": 7.959999599456787
+        },
+        {
+          "text": "everything",
+          "start": 8.239999771118164,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "completely",
+          "start": 8.59999942779541,
+          "end": 9.000000038146972
+        },
+        {
+          "text": "breaks",
+          "start": 9.079999923706055,
+          "end": 9.31999973297119
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01.wav",
+      "text": "here are the three configuration traps that cause this exact failure first up the local host trap",
+      "words": [
+        {
+          "text": "here",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "are",
+          "start": 0.4399999976158142,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "the",
+          "start": 0.5999999642372131,
+          "end": 0.6399999642372132
+        },
+        {
+          "text": "three",
+          "start": 0.7199999690055847,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "configuration",
+          "start": 1.0,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "traps",
+          "start": 1.71999990940094,
+          "end": 1.9999999189376831
+        },
+        {
+          "text": "that",
+          "start": 2.0399999618530273,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "cause",
+          "start": 2.2799999713897705,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "this",
+          "start": 2.5999999046325684,
+          "end": 2.6399999046325684
+        },
+        {
+          "text": "exact",
+          "start": 2.879999876022339,
+          "end": 3.1999998474121094
+        },
+        {
+          "text": "failure",
+          "start": 3.319999933242798,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "first",
+          "start": 3.879999876022339,
+          "end": 3.919999876022339
+        },
+        {
+          "text": "up",
+          "start": 4.119999885559082,
+          "end": 4.159999885559082
+        },
+        {
+          "text": "the",
+          "start": 4.279999732971191,
+          "end": 4.319999732971191
+        },
+        {
+          "text": "local",
+          "start": 4.400000095367432,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "host",
+          "start": 4.960000038146973,
+          "end": 5.199999847412109
+        },
+        {
+          "text": "trap",
+          "start": 5.279999732971191,
+          "end": 5.480000057220459
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02.wav",
+      "text": "if you leave local host you are ill in your code the life front end won't querry your server it will querry the user's own empty personal computer",
+      "words": [
+        {
+          "text": "if",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "you",
+          "start": 0.3199999928474426,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "leave",
+          "start": 0.4399999976158142,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "local",
+          "start": 0.6800000071525574,
+          "end": 0.7200000071525574
+        },
+        {
+          "text": "host",
+          "start": 1.0,
+          "end": 1.2399999284744263
+        },
+        {
+          "text": "you",
+          "start": 1.3600000143051147,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "are",
+          "start": 1.4800000190734863,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "ill",
+          "start": 1.6799999475479126,
+          "end": 1.8399999523162842
+        },
+        {
+          "text": "in",
+          "start": 1.959999918937683,
+          "end": 1.9999999189376831
+        },
+        {
+          "text": "your",
+          "start": 2.119999885559082,
+          "end": 2.159999885559082
+        },
+        {
+          "text": "code",
+          "start": 2.2799999713897705,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "the",
+          "start": 2.5999999046325684,
+          "end": 2.6399999046325684
+        },
+        {
+          "text": "life",
+          "start": 2.759999990463257,
+          "end": 2.799999990463257
+        },
+        {
+          "text": "front",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "end",
+          "start": 3.2799999713897705,
+          "end": 3.3199999713897705
+        },
+        {
+          "text": "won't",
+          "start": 3.679999828338623,
+          "end": 3.9599998378753662
+        },
+        {
+          "text": "querry",
+          "start": 4.119999885559082,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "your",
+          "start": 4.480000019073486,
+          "end": 4.520000019073486
+        },
+        {
+          "text": "server",
+          "start": 4.639999866485596,
+          "end": 4.920000114440918
+        },
+        {
+          "text": "it",
+          "start": 5.199999809265137,
+          "end": 5.239999809265137
+        },
+        {
+          "text": "will",
+          "start": 5.359999656677246,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "querry",
+          "start": 5.599999904632568,
+          "end": 5.8799996757507325
+        },
+        {
+          "text": "the",
+          "start": 5.920000076293945,
+          "end": 5.960000076293945
+        },
+        {
+          "text": "user's",
+          "start": 6.0,
+          "end": 6.359999694824219
+        },
+        {
+          "text": "own",
+          "start": 6.519999980926514,
+          "end": 6.559999980926514
+        },
+        {
+          "text": "empty",
+          "start": 6.839999675750732,
+          "end": 7.119999923706055
+        },
+        {
+          "text": "personal",
+          "start": 7.239999771118164,
+          "end": 7.559999980926514
+        },
+        {
+          "text": "computer",
+          "start": 7.639999866485596,
+          "end": 7.679999866485596
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "text": "you must swap those connection strings for live cloud you are lds during the deployment",
+      "words": [
+        {
+          "text": "you",
+          "start": 0.07999999821186066,
+          "end": 0.11999999821186066
+        },
+        {
+          "text": "must",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "swap",
+          "start": 0.47999998927116394,
+          "end": 0.6799999856948853
+        },
+        {
+          "text": "those",
+          "start": 0.8399999737739563,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "connection",
+          "start": 1.1200000047683716,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "strings",
+          "start": 1.6799999475479126,
+          "end": 1.9599999570846558
+        },
+        {
+          "text": "for",
+          "start": 2.0399999618530273,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "live",
+          "start": 2.240000009536743,
+          "end": 2.280000009536743
+        },
+        {
+          "text": "cloud",
+          "start": 2.559999942779541,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "you",
+          "start": 2.919999837875366,
+          "end": 2.9599998378753662
+        },
+        {
+          "text": "are",
+          "start": 3.0799999237060547,
+          "end": 3.1199999237060547
+        },
+        {
+          "text": "lds",
+          "start": 3.359999895095825,
+          "end": 3.5200000190734864
+        },
+        {
+          "text": "during",
+          "start": 3.7200000286102295,
+          "end": 3.7600000286102295
+        },
+        {
+          "text": "the",
+          "start": 4.0,
+          "end": 4.04
+        },
+        {
+          "text": "deployment",
+          "start": 4.119999885559082,
+          "end": 4.520000019073486
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "text": "next the co block on your local machine your front and backins communicate freely",
+      "words": [
+        {
+          "text": "next",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "the",
+          "start": 0.6399999856948853,
+          "end": 0.6799999856948853
+        },
+        {
+          "text": "co",
+          "start": 0.7999999523162842,
+          "end": 0.8399999523162842
+        },
+        {
+          "text": "block",
+          "start": 1.1200000047683716,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "on",
+          "start": 1.4800000190734863,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "your",
+          "start": 1.5999999046325684,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "local",
+          "start": 1.7599999904632568,
+          "end": 1.7999999904632569
+        },
+        {
+          "text": "machine",
+          "start": 2.0799999237060547,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "your",
+          "start": 2.4800000190734863,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "front",
+          "start": 2.679999828338623,
+          "end": 2.719999828338623
+        },
+        {
+          "text": "and",
+          "start": 3.0399999618530273,
+          "end": 3.0799999618530274
+        },
+        {
+          "text": "backins",
+          "start": 3.240000009536743,
+          "end": 3.719999828338623
+        },
+        {
+          "text": "communicate",
+          "start": 3.8399999141693115,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "freely",
+          "start": 4.480000019073486,
+          "end": 4.75999979019165
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05.wav",
+      "text": "but livecloud servers automatically reject requests from different domains this security wall is called cross origin resource sharing",
+      "words": [
+        {
+          "text": "but",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "livecloud",
+          "start": 0.4399999976158142,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "servers",
+          "start": 1.0399999618530273,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "automatically",
+          "start": 1.4800000190734863,
+          "end": 2.159999885559082
+        },
+        {
+          "text": "reject",
+          "start": 2.240000009536743,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "requests",
+          "start": 2.679999828338623,
+          "end": 3.1199999237060547
+        },
+        {
+          "text": "from",
+          "start": 3.1999998092651367,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "different",
+          "start": 3.3999998569488525,
+          "end": 3.4399998569488526
+        },
+        {
+          "text": "domains",
+          "start": 3.759999990463257,
+          "end": 4.159999885559082
+        },
+        {
+          "text": "this",
+          "start": 4.400000095367432,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "security",
+          "start": 4.639999866485596,
+          "end": 4.679999866485596
+        },
+        {
+          "text": "wall",
+          "start": 5.119999885559082,
+          "end": 5.279999771118164
+        },
+        {
+          "text": "is",
+          "start": 5.400000095367432,
+          "end": 5.440000095367432
+        },
+        {
+          "text": "called",
+          "start": 5.559999942779541,
+          "end": 5.599999942779541
+        },
+        {
+          "text": "cross",
+          "start": 5.839999675750732,
+          "end": 5.8799996757507325
+        },
+        {
+          "text": "origin",
+          "start": 6.159999847412109,
+          "end": 6.559999980926514
+        },
+        {
+          "text": "resource",
+          "start": 6.759999752044678,
+          "end": 7.159999885559082
+        },
+        {
+          "text": "sharing",
+          "start": 7.199999809265137,
+          "end": 7.4399996185302735
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-corrected.wav",
+      "text": "unless you explicitly whiteless your new leave you are l the back end will actively block your data",
+      "words": [
+        {
+          "text": "unless",
+          "start": 0.1599999964237213,
+          "end": 0.3200000011920929
+        },
+        {
+          "text": "you",
+          "start": 0.5199999809265137,
+          "end": 0.5599999809265137
+        },
+        {
+          "text": "explicitly",
+          "start": 0.6800000071525574,
+          "end": 1.2399999284744263
+        },
+        {
+          "text": "whiteless",
+          "start": 1.3199999332427979,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "your",
+          "start": 1.7999999523162842,
+          "end": 1.8399999523162842
+        },
+        {
+          "text": "new",
+          "start": 2.0,
+          "end": 2.04
+        },
+        {
+          "text": "leave",
+          "start": 2.2799999713897705,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "you",
+          "start": 2.559999942779541,
+          "end": 2.599999942779541
+        },
+        {
+          "text": "are",
+          "start": 2.679999828338623,
+          "end": 2.719999828338623
+        },
+        {
+          "text": "l",
+          "start": 2.879999876022339,
+          "end": 2.919999876022339
+        },
+        {
+          "text": "the",
+          "start": 3.119999885559082,
+          "end": 3.159999885559082
+        },
+        {
+          "text": "back",
+          "start": 3.240000009536743,
+          "end": 3.280000009536743
+        },
+        {
+          "text": "end",
+          "start": 3.5199999809265137,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "will",
+          "start": 3.759999990463257,
+          "end": 3.799999990463257
+        },
+        {
+          "text": "actively",
+          "start": 4.0,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "block",
+          "start": 4.519999980926514,
+          "end": 4.75999979019165
+        },
+        {
+          "text": "your",
+          "start": 4.920000076293945,
+          "end": 4.960000076293945
+        },
+        {
+          "text": "data",
+          "start": 5.079999923706055,
+          "end": 5.319999732971191
+        }
+      ]
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07.wav",
+      "text": "finally the authentication collapsed user loggins rely on secret j w u tks",
+      "words": [
+        {
+          "text": "finally",
+          "start": 0.1599999964237213,
+          "end": 0.519999989271164
+        },
+        {
+          "text": "the",
+          "start": 0.7599999904632568,
+          "end": 0.7999999904632569
+        },
+        {
+          "text": "authentication",
+          "start": 0.8799999952316284,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "collapsed",
+          "start": 1.5999999046325684,
+          "end": 1.9999999189376831
+        },
+        {
+          "text": "user",
+          "start": 2.1599998474121094,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "loggins",
+          "start": 2.4800000190734863,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "rely",
+          "start": 2.919999837875366,
+          "end": 3.0799999618530274
+        },
+        {
+          "text": "on",
+          "start": 3.2799999713897705,
+          "end": 3.3199999713897705
+        },
+        {
+          "text": "secret",
+          "start": 3.4800000190734863,
+          "end": 3.799999990463257
+        },
+        {
+          "text": "j",
+          "start": 3.879999876022339,
+          "end": 3.919999876022339
+        },
+        {
+          "text": "w",
+          "start": 4.239999771118164,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "u",
+          "start": 4.400000095367432,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "tks",
+          "start": 4.639999866485596,
+          "end": 5.04
+        }
+      ]
+    },
+    {
+      "segment": 8,
+      "filename": "cloned-08-words.wav",
+      "text": "if you forget to manually define those keys in your life serves production environment variables the ap i cannot validate any user sessions effectively locking everyone out of the",
+      "words": [
+        {
+          "text": "if",
+          "start": 0.07999999821186066,
+          "end": 0.11999999821186066
+        },
+        {
+          "text": "you",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "forget",
+          "start": 0.35999998450279236,
+          "end": 0.6799999856948853
+        },
+        {
+          "text": "to",
+          "start": 0.7599999904632568,
+          "end": 0.7999999904632569
+        },
+        {
+          "text": "manually",
+          "start": 0.9599999785423279,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "define",
+          "start": 1.4399999380111694,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "those",
+          "start": 1.8399999141693115,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "keys",
+          "start": 2.119999885559082,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "in",
+          "start": 2.440000057220459,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "your",
+          "start": 2.5999999046325684,
+          "end": 2.6399999046325684
+        },
+        {
+          "text": "life",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "serves",
+          "start": 3.319999933242798,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "production",
+          "start": 3.759999990463257,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "environment",
+          "start": 4.159999847412109,
+          "end": 4.599999942779541
+        },
+        {
+          "text": "variables",
+          "start": 4.679999828338623,
+          "end": 5.119999923706055
+        },
+        {
+          "text": "the",
+          "start": 5.400000095367432,
+          "end": 5.440000095367432
+        },
+        {
+          "text": "ap",
+          "start": 5.559999942779541,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "i",
+          "start": 6.159999847412109,
+          "end": 6.199999847412109
+        },
+        {
+          "text": "cannot",
+          "start": 6.319999694824219,
+          "end": 6.359999694824219
+        },
+        {
+          "text": "validate",
+          "start": 6.71999979019165,
+          "end": 7.119999923706055
+        },
+        {
+          "text": "any",
+          "start": 7.199999809265137,
+          "end": 7.239999809265137
+        },
+        {
+          "text": "user",
+          "start": 7.359999656677246,
+          "end": 7.639999904632568
+        },
+        {
+          "text": "sessions",
+          "start": 7.759999752044678,
+          "end": 8.079999961853026
+        },
+        {
+          "text": "effectively",
+          "start": 8.199999809265137,
+          "end": 8.519999542236327
+        },
+        {
+          "text": "locking",
+          "start": 8.59999942779541,
+          "end": 8.920000114440917
+        },
+        {
+          "text": "everyone",
+          "start": 8.960000038146973,
+          "end": 9.239999809265136
+        },
+        {
+          "text": "out",
+          "start": 9.399999618530273,
+          "end": 9.439999618530273
+        },
+        {
+          "text": "of",
+          "start": 9.59999942779541,
+          "end": 9.63999942779541
+        },
+        {
+          "text": "the",
+          "start": 9.679999351501465,
+          "end": 9.719999351501464
+        }
+      ]
+    },
+    {
+      "segment": 9,
+      "filename": "cloned-09-corrected.wav",
+      "text": "deployment is never just about uploading code it's about completely reviring your applications security and rooting for the hostile public internet",
+      "words": [
+        {
+          "text": "deployment",
+          "start": 0.2800000011920929,
+          "end": 0.7200000071525574
+        },
+        {
+          "text": "is",
+          "start": 0.8399999737739563,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "never",
+          "start": 1.0,
+          "end": 1.04
+        },
+        {
+          "text": "just",
+          "start": 1.3199999332427979,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "about",
+          "start": 1.5999999046325684,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "uploading",
+          "start": 1.7999999523162842,
+          "end": 2.240000047683716
+        },
+        {
+          "text": "code",
+          "start": 2.319999933242798,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "it's",
+          "start": 2.759999990463257,
+          "end": 2.919999876022339
+        },
+        {
+          "text": "about",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "completely",
+          "start": 3.2799999713897705,
+          "end": 3.719999828338623
+        },
+        {
+          "text": "reviring",
+          "start": 3.8399999141693115,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "your",
+          "start": 4.480000019073486,
+          "end": 4.520000019073486
+        },
+        {
+          "text": "applications",
+          "start": 4.679999828338623,
+          "end": 5.239999809265137
+        },
+        {
+          "text": "security",
+          "start": 5.440000057220459,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "and",
+          "start": 6.119999885559082,
+          "end": 6.159999885559082
+        },
+        {
+          "text": "rooting",
+          "start": 6.319999694824219,
+          "end": 6.639999904632568
+        },
+        {
+          "text": "for",
+          "start": 6.71999979019165,
+          "end": 6.75999979019165
+        },
+        {
+          "text": "the",
+          "start": 6.799999713897705,
+          "end": 6.839999713897705
+        },
+        {
+          "text": "hostile",
+          "start": 6.920000076293945,
+          "end": 7.239999809265137
+        },
+        {
+          "text": "public",
+          "start": 7.319999694824219,
+          "end": 7.359999694824219
+        },
+        {
+          "text": "internet",
+          "start": 7.71999979019165,
+          "end": 8.079999961853026
+        }
+      ]
+    }
+  ],
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 81.594921
+  }
+}

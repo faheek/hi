@@ -1,0 +1,21 @@
+Your full-stack app works perfectly on your laptop.
+Your React frontend talks to the ASP.NET backend seamlessly,
+but the second you push it live, everything completely breaks.
+Here are the three configuration traps that cause this exact failure.
+First up, the localhost trap.
+If you leave localhost URLs in your code,
+the live frontend won't query your server.
+It will query the user's own empty personal computer.
+You must swap those connection strings for live cloud URLs during the deployment.
+Next, the CORS block.
+On your local machine, your front and backends communicate freely,
+but live cloud servers automatically reject requests from different domains.
+This security wall is called cross-origin resource sharing.
+Unless you explicitly whitelist your new live URL, the backend will actively block your data.
+Finally, the authentication collapse.
+User logins rely on secret JWT keys.
+If you forget to manually define those keys in your live server's production environment variables,
+the API cannot validate any user sessions,
+effectively locking everyone out of the app.
+Deployment is never just about uploading code.
+It's about completely rewiring your application's security and routing for the hostile public internet.
