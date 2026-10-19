@@ -1,0 +1,18 @@
+Deploying a full-stack application puts it on the live internet.
+But what actually changes behind the scenes?
+Because a finished app is practically useless if it only runs on your own machine.
+Take a standard local project:
+a React interface, an ASP.NET backend, and a database.
+They communicate flawlessly because they all sit inside your computer on a single local address.
+But making this public isn't just one big upload.
+You have to split the components apart and send them to specialized cloud servers.
+Now they are successfully hosted, but the application is completely broken.
+The interface is still trying to send data to a local computer address that no longer exists,
+leaving your requests stranded in the void.
+To fix this, you must swap out the old local addresses for the new public cloud URLs,
+giving the components the exact coordinates to find each other across the internet.
+This rewiring process is managed by updating your environment variables.
+With the new links set, the connection lines turn green.
+Data flows seamlessly from the cloud database through the backend into the interface.
+And that local React project?
+It's now a live web address that anyone in the world can access.
