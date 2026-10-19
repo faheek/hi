@@ -1,0 +1,17 @@
+You've just built the perfect app.
+The frontend is flawless, and the database is saving every single click.
+But the second you send that link to a friend,
+the site instantly crashes on their phone.
+That's because addresses like port 5173 aren't real locations on the internet.
+They are internal loopbacks that point exclusively to your physical hardware,
+a concept called localhost.
+To share your project with the world, you can't just publish the laptop.
+You must physically tear the frontend, backend, and database apart.
+First, the frontend code flies to a global hosting service,
+trading its internal port number for a real public domain name.
+Next, the backend and database migrate to their own independent cloud service.
+Because they no longer share the same physical computer,
+you must rewrite their internal connection instructions so they can hunt each other down across the public internet.
+Now anyone in the world can ping that public link,
+safely routing their data through your newly connected cloud architecture.
+Your invisible local app is finally a live global product.

@@ -1,0 +1,973 @@
+{
+  "input_filename": "Breaking_Out_of_Localhost.mp4",
+  "input_sha256": "9cb05227f3e1c934fae194d1b37976a05c63374ea3daf05f5d3d7e7f998b8aae",
+  "output_filename": "Breaking_Out_of_Localhost_saved_voice.mp4",
+  "output_sha256": "dfa67a9b2f09089362be3a3cff9aac546026ab68eed14974db759c8dc5ea499d",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "2b244c025be597261635cb70ff8b23f7d569905fa1beb0f1f3d58de6b8c8e67d",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "70.866667",
+    "nb_read_frames": "2126"
+  },
+  "input_duration": "70.913741",
+  "output_duration": "70.914000",
+  "audio_peak": 0.84478759765625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 7.18,
+      "text": "You've just built the perfect app. The frontend is flawless, and the database is saving every single click.",
+      "generation_text": "You've just built the perfect app. The front end is flawless, and the database is saving every single click.",
+      "filename": "cloned-00.wav",
+      "duration": 5.263458333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 27.719453543999975
+    },
+    {
+      "segment": 1,
+      "start": 7.18,
+      "end": 12.18,
+      "text": "But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "generation_text": "But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "filename": "cloned-01.wav",
+      "duration": 4.693333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 15.381126735999942
+    },
+    {
+      "segment": 2,
+      "start": 12.18,
+      "end": 25.3,
+      "text": "That's because addresses like port 5173 aren't real locations on the internet. They are internal loopbacks that point exclusively to your physical hardware, a concept called localhost.",
+      "generation_text": "That's because addresses like port five one seven three aren't real locations on the internet. They are internal loopbacks that point exclusively to your physical hardware, a concept called local host.",
+      "filename": "cloned-02.wav",
+      "duration": 10.538,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 31.534297513999945
+    },
+    {
+      "segment": 3,
+      "start": 25.3,
+      "end": 34.16,
+      "text": "To share your project with the world, you can't just publish the laptop. You must physically tear the frontend, backend, and database apart.",
+      "generation_text": "To share your project with the world, you can't just publish the laptop. You must physically tear the front end, back end, and database apart.",
+      "filename": "cloned-03.wav",
+      "duration": 7.307416666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 23.71566707199986
+    },
+    {
+      "segment": 4,
+      "start": 34.16,
+      "end": 42.68,
+      "text": "First, the frontend code flies to a global hosting service, trading its internal port number for a real public domain name.",
+      "generation_text": "First, the front end code flies to a global hosting service, trading its internal port number for a real public domain name.",
+      "filename": "cloned-04.wav",
+      "duration": 6.5015,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 19.15194147000011
+    },
+    {
+      "segment": 5,
+      "start": 42.68,
+      "end": 47.58,
+      "text": "Next, the backend and database migrate to their own independent cloud service.",
+      "generation_text": "Next, the back end and database migrate to their own independent cloud service.",
+      "filename": "cloned-05.wav",
+      "duration": 4.501333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 14.537039084000071
+    },
+    {
+      "segment": 6,
+      "start": 47.58,
+      "end": 56.04,
+      "text": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "generation_text": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "filename": "cloned-06.wav",
+      "duration": 9.002666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 18.33609108099995
+    },
+    {
+      "segment": 7,
+      "start": 56.04,
+      "end": 67.7,
+      "text": "Now anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "generation_text": "Now anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "filename": "cloned-07.wav",
+      "duration": 10.048,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 33.488797548999855
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 2.04,
+      "text": "You've just built the perfect app.",
+      "filename": "cloned-00.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.521,
+      "placed_start": 0.1,
+      "placed_end": 1.621,
+      "original_generated_duration": 1.521,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 2.04,
+      "end": 7.18,
+      "text": "The frontend is flawless, and the database is saving every single click.",
+      "filename": "cloned-00.wav",
+      "generated_start": 1.521,
+      "generated_end": 5.263458333333333,
+      "placed_start": 2.14,
+      "placed_end": 5.882458333333333,
+      "original_generated_duration": 3.7424583333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 7.18,
+      "end": 9.72,
+      "text": "But the second you send that link to a friend,",
+      "filename": "cloned-01.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.353,
+      "placed_start": 7.28,
+      "placed_end": 9.633,
+      "original_generated_duration": 2.353,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 9.72,
+      "end": 12.18,
+      "text": "the site instantly crashes on their phone.",
+      "filename": "cloned-01.wav",
+      "generated_start": 2.353,
+      "generated_end": 4.693333333333333,
+      "placed_start": 9.82,
+      "placed_end": 12.10925,
+      "original_generated_duration": 2.340333333333333,
+      "tempo_factor": 1.0238958333333332
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 12.18,
+      "end": 17.92,
+      "text": "That's because addresses like port 5173 aren't real locations on the internet.",
+      "filename": "cloned-02.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.189,
+      "placed_start": 12.28,
+      "placed_end": 17.469,
+      "original_generated_duration": 5.189,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 2,
+      "start": 17.92,
+      "end": 22.8,
+      "text": "They are internal loopbacks that point exclusively to your physical hardware,",
+      "filename": "cloned-02-loopbacks.wav",
+      "generated_start": 0,
+      "generated_end": 3.958083333333333,
+      "placed_start": 18.02,
+      "placed_end": 21.978083333333334,
+      "original_generated_duration": 3.958083333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 2,
+      "start": 22.8,
+      "end": 25.3,
+      "text": "a concept called localhost.",
+      "filename": "cloned-02.wav",
+      "generated_start": 8.873,
+      "generated_end": 10.538,
+      "placed_start": 22.9,
+      "placed_end": 24.565,
+      "original_generated_duration": 1.665,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 25.3,
+      "end": 29.54,
+      "text": "To share your project with the world, you can't just publish the laptop.",
+      "filename": "cloned-03.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.697,
+      "placed_start": 25.4,
+      "placed_end": 29.097,
+      "original_generated_duration": 3.697,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 3,
+      "start": 29.54,
+      "end": 34.16,
+      "text": "You must physically tear the frontend, backend, and database apart.",
+      "filename": "cloned-03.wav",
+      "generated_start": 3.697,
+      "generated_end": 7.307416666666667,
+      "placed_start": 29.64,
+      "placed_end": 33.250416666666666,
+      "original_generated_duration": 3.6104166666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 4,
+      "start": 34.16,
+      "end": 38.2,
+      "text": "First, the frontend code flies to a global hosting service,",
+      "filename": "cloned-04-teacher-phrase.wav",
+      "generated_start": 0,
+      "generated_end": 3.445333333333333,
+      "placed_start": 34.26,
+      "placed_end": 37.705333333333336,
+      "original_generated_duration": 3.445333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 38.2,
+      "end": 42.68,
+      "text": "trading its internal port number for a real public domain name.",
+      "filename": "trading-clean.wav",
+      "generated_start": 0,
+      "generated_end": 3.4915,
+      "placed_start": 38.3,
+      "placed_end": 41.7915,
+      "original_generated_duration": 3.4915,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 5,
+      "start": 42.68,
+      "end": 47.58,
+      "text": "Next, the backend and database migrate to their own independent cloud service.",
+      "filename": "cloned-05.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.501333333333333,
+      "placed_start": 42.78,
+      "placed_end": 47.281333333333336,
+      "original_generated_duration": 4.501333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 6,
+      "start": 47.58,
+      "end": 50.14,
+      "text": "Because they no longer share the same physical computer,",
+      "filename": "cloned-06.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.893,
+      "placed_start": 47.68,
+      "placed_end": 50.069583333333334,
+      "original_generated_duration": 2.893,
+      "tempo_factor": 1.2133863636363633
+    },
+    {
+      "unit": 13,
+      "block": 6,
+      "start": 50.14,
+      "end": 56.04,
+      "text": "you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "filename": "cloned-06.wav",
+      "generated_start": 2.893,
+      "generated_end": 9.002666666666666,
+      "placed_start": 50.24,
+      "placed_end": 55.921375,
+      "original_generated_duration": 6.109666666666667,
+      "tempo_factor": 1.0766166087962963
+    },
+    {
+      "unit": 14,
+      "block": 7,
+      "start": 56.04,
+      "end": 59.24,
+      "text": "Now anyone in the world can ping that public link,",
+      "filename": "cloned-07.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.933,
+      "placed_start": 56.14,
+      "placed_end": 59.073,
+      "original_generated_duration": 2.933,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 15,
+      "block": 7,
+      "start": 59.24,
+      "end": 63.36,
+      "text": "safely routing their data through your newly connected cloud architecture.",
+      "filename": "cloned-07.wav",
+      "generated_start": 2.933,
+      "generated_end": 6.873,
+      "placed_start": 59.34,
+      "placed_end": 63.28,
+      "original_generated_duration": 3.94,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 16,
+      "block": 7,
+      "start": 63.36,
+      "end": 67.7,
+      "text": "Your invisible local app is finally a live global product.",
+      "filename": "cloned-07.wav",
+      "generated_start": 6.873,
+      "generated_end": 10.048,
+      "placed_start": 63.46,
+      "placed_end": 66.635,
+      "original_generated_duration": 3.175,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 12.18,
+      "expected": "You've just built the perfect app. The frontend is flawless, and the database is saving every single click. But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "transcription": "You've just built the perfect app. The front end is flawless and the database is saving every single click. But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "differences": []
+    },
+    {
+      "start": 12.18,
+      "end": 25.3,
+      "expected": "That's because addresses like port 5173 aren't real locations on the internet. They are internal loopbacks that point exclusively to your physical hardware, a concept called localhost.",
+      "transcription": "That's because addresses like port 5173 aren't real locations on the internet. They are internal loopbacks that point exclusively to your physical hardware. A concept called local host.",
+      "differences": []
+    },
+    {
+      "start": 25.3,
+      "end": 34.16,
+      "expected": "To share your project with the world, you can't just publish the laptop. You must physically tear the frontend, backend, and database apart.",
+      "transcription": "To share your project with the world, you can't just publish the laptop. You must physically tear the front-end, back-end and database apart.",
+      "differences": []
+    },
+    {
+      "start": 34.16,
+      "end": 47.58,
+      "expected": "First, the frontend code flies to a global hosting service, trading its internal port number for a real public domain name. Next, the backend and database migrate to their own independent cloud service.",
+      "transcription": "First, the front-end code flies to a global hosting service, trading its internal port number for a real public domain name. Next, the backend and database migrate to their own independent cloud service.",
+      "differences": []
+    },
+    {
+      "start": 47.58,
+      "end": 56.04,
+      "expected": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "transcription": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "differences": []
+    },
+    {
+      "start": 56.04,
+      "end": 67.7,
+      "expected": "Now anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "transcription": "Now, anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Every original word must be recognized in its aligned position by at least one model; shared disagreements fail the check. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0,
+        "end": 12.18,
+        "word_count": 35,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 5,
+            "end": 6,
+            "expected": [
+              "app"
+            ],
+            "heard": [
+              "up"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 17,
+            "end": 18,
+            "expected": [
+              "click"
+            ],
+            "heard": [
+              "cliqu"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 12.18,
+        "end": 25.3,
+        "word_count": 30,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 2,
+            "end": 3,
+            "expected": [
+              "addresses"
+            ],
+            "heard": [
+              "address",
+              "is"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 18,
+            "end": 19,
+            "expected": [
+              "loopbacks"
+            ],
+            "heard": [
+              "lobags"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 25.3,
+        "end": 34.16,
+        "word_count": 23,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 34.16,
+        "end": 47.58,
+        "word_count": 33,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 23,
+            "end": 24,
+            "expected": [
+              "backend"
+            ],
+            "heard": [
+              "ban"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 25,
+            "end": 26,
+            "expected": [
+              "database"
+            ],
+            "heard": [
+              "datetaways"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 47.58,
+        "end": 56.04,
+        "word_count": 27,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 8,
+            "end": 9,
+            "expected": [
+              "computer"
+            ],
+            "heard": [
+              "computers"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 15,
+            "end": 16,
+            "expected": [
+              "instructions"
+            ],
+            "heard": [
+              "instruction"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 5,
+        "start": 56.04,
+        "end": 67.7,
+        "word_count": 30,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0,
+      "end": 12.18,
+      "expected": "You've just built the perfect app. The frontend is flawless, and the database is saving every single click. But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "transcription": "you've just built the perfect up the front end is flawless and the database is saving every single cliqu but the second you send that link to a friend the site instantly crashes on their phone",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "app"
+          ],
+          "heard": [
+            "up"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "click"
+          ],
+          "heard": [
+            "cliqu"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 12.18,
+      "end": 25.3,
+      "expected": "That's because addresses like port 5173 aren't real locations on the internet. They are internal loopbacks that point exclusively to your physical hardware, a concept called localhost.",
+      "transcription": "that's because address is like port five one seven three aren't real locations on the internet they are internal lobags that point exclusively to your physical hardware a concept called local host",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "addresses"
+          ],
+          "heard": [
+            "address",
+            "is"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "loopbacks"
+          ],
+          "heard": [
+            "lobags"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 25.3,
+      "end": 34.16,
+      "expected": "To share your project with the world, you can't just publish the laptop. You must physically tear the frontend, backend, and database apart.",
+      "transcription": "to share your project with the world you can't just publish the laptop you must physically tear the front end back end and database apart",
+      "differences": []
+    },
+    {
+      "start": 34.16,
+      "end": 47.58,
+      "expected": "First, the frontend code flies to a global hosting service, trading its internal port number for a real public domain name. Next, the backend and database migrate to their own independent cloud service.",
+      "transcription": "first the front end code flies to a global hosting service trading its internal port number for a real public domain name next the ban and datetaways migrate to their own independent cloud service",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "backend"
+          ],
+          "heard": [
+            "ban"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "database"
+          ],
+          "heard": [
+            "datetaways"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 47.58,
+      "end": 56.04,
+      "expected": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "transcription": "because they no longer share the same physical computers you must rewrite their internal connection instruction so they can hunt each other down across the public internet",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "computer"
+          ],
+          "heard": [
+            "computers"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "instructions"
+          ],
+          "heard": [
+            "instruction"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 56.04,
+      "end": 67.7,
+      "expected": "Now anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "transcription": "now any one in the world can ping that public link safely rooting their data through your newly connected cloud architecture your invisible local app is finally a live global product",
+      "differences": []
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 175,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "source_transcriptions": [
+      "source-transcript.json",
+      "source-ctc.json"
+    ],
+    "original_words_checked": true,
+    "written_word_count": 175,
+    "notes": [
+      "Original narration independently transcribed by Whisper and CTC.",
+      "The caption at 13.1 seconds confirms That's because addresses, without the additional article heard by CTC.",
+      "Port 5173 is spoken digit by digit: five one seven three; the browser address confirms the number.",
+      "Tear means separate; live is an adjective.",
+      "Frontend/front end, backend/back end, localhost/local host, and routing/rooting are spelling variants of the spoken terms in this context."
+    ]
+  },
+  "pronunciation_overrides": [
+    "a \u0259",
+    "live l \u02c8 a \u026a v",
+    "tear t \u02c8 \u025b \u0279",
+    "routing \u0279 \u02c8 u \u02d0 t \u026a \u014b"
+  ],
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved voice reference. A qualitative consistency check, not an exact match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00.wav",
+        "reference_cosine": 0.9487663405315101
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01.wav",
+        "reference_cosine": 0.882485179536453
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02.wav",
+        "reference_cosine": 0.8867511872942511
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03.wav",
+        "reference_cosine": 0.9299931625701532
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04.wav",
+        "reference_cosine": 0.9479139088468064
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05.wav",
+        "reference_cosine": 0.9163542872446376
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06.wav",
+        "reference_cosine": 0.8955566641926367
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07.wav",
+        "reference_cosine": 0.9560692430052978
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00.wav",
+      "expected": "You've just built the perfect app. The frontend is flawless, and the database is saving every single click.",
+      "transcription": "You've just built the perfect app. The front end is flawless and the database is saving every single click.",
+      "differences": [],
+      "reference_cosine": 0.9487663405315101
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01.wav",
+      "expected": "But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "transcription": "But the second you send that link to a friend, the site instantly crashes on their phone.",
+      "differences": [],
+      "reference_cosine": 0.882485179536453
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02.wav",
+      "expected": "That's because addresses like port 5173 aren't real locations on the internet. They are internal loopbacks that point exclusively to your physical hardware, a concept called localhost.",
+      "transcription": "That's because addresses like port 5173 aren't real locations on the internet. They are internal loop packs that point exclusively to your physical hardware, a concept called local host.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "loopbacks"
+          ],
+          "heard": [
+            "loop",
+            "packs"
+          ]
+        }
+      ],
+      "reference_cosine": 0.8867511872942511
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "expected": "To share your project with the world, you can't just publish the laptop. You must physically tear the frontend, backend, and database apart.",
+      "transcription": "To share your project with the world, you can't just publish the laptop. You must physically tear the front-end, back-end and database apart.",
+      "differences": [],
+      "reference_cosine": 0.9299931625701532
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "expected": "First, the frontend code flies to a global hosting service, trading its internal port number for a real public domain name.",
+      "transcription": "First, the front end dungut flies to a global hosting service trading its internal port number for a real public domain name.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "code"
+          ],
+          "heard": [
+            "dungut"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9479139088468064
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05.wav",
+      "expected": "Next, the backend and database migrate to their own independent cloud service.",
+      "transcription": "Next, the backend and database migrate to their own independent cloud service.",
+      "differences": [],
+      "reference_cosine": 0.9163542872446376
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06.wav",
+      "expected": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "transcription": "Because they no longer share the same physical computer, you must rewrite their internal connection instructions so they can hunt each other down across the public internet.",
+      "differences": [],
+      "reference_cosine": 0.8955566641926367
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07.wav",
+      "expected": "Now anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "transcription": "Now, anyone in the world can ping that public link, safely routing their data through your newly connected cloud architecture. Your invisible local app is finally a live global product.",
+      "differences": [],
+      "reference_cosine": 0.9560692430052978
+    }
+  ],
+  "phrase_replacements": {
+    "9": {
+      "segment": 4,
+      "source_unit": 9,
+      "start": 34.16,
+      "end": 38.2,
+      "text": "First, the frontend code flies to a global hosting service.",
+      "generation_text": "First, the front end code flies to a global hosting service.",
+      "filename": "cloned-04-teacher-phrase.wav",
+      "duration": 3.445333333333333,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 54.22761715699994
+    },
+    "10": {
+      "segment": 4,
+      "start": 38.2,
+      "end": 42.68,
+      "text": "trading its internal port number for a real public domain name.",
+      "generation_text": "trading its internal port number for a real public domain name.",
+      "filename": "trading-clean.wav",
+      "duration": 3.4915,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "source_unit": 10,
+      "audio_cleanup": {
+        "source_filename": "cloned-04.wav",
+        "source_start_seconds": 3.01,
+        "reason": "Crop inside the measured silence from 2.968917 to 3.050167 seconds, before trading, to remove the tail of service."
+      }
+    },
+    "5": {
+      "segment": 2,
+      "source_unit": 5,
+      "start": 17.92,
+      "end": 22.8,
+      "text": "They are internal loopbacks that point exclusively to your physical hardware.",
+      "generation_text": "They are internal loop backs that point exclusively to your physical hardware.",
+      "filename": "cloned-02-loopbacks.wav",
+      "duration": 3.958083333333333,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 66.78298900900018
+    }
+  },
+  "phrase_replacement_checks": [
+    {
+      "segment": 4,
+      "filename": "cloned-04-teacher-phrase.wav",
+      "expected": "First, the frontend code flies to a global hosting service.",
+      "transcription": "First, the front-end code flies to a global hosting service.",
+      "differences": [],
+      "reference_cosine": 0.9377472914331542
+    },
+    {
+      "segment": 4,
+      "filename": "trading-clean.wav",
+      "expected": "trading its internal port number for a real public domain name.",
+      "transcription": "trading its internal port number for a real public domain name.",
+      "differences": [],
+      "reference_cosine": 0.9107359419258501
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-loopbacks.wav",
+      "expected": "They are internal loopbacks that point exclusively to your physical hardware.",
+      "transcription": "they are internal loop backs that point exclusively to your physical hardware.",
+      "differences": [],
+      "reference_cosine": 0.9333360294636669
+    }
+  ],
+  "phrase_pronunciation_overrides": {
+    "frontend_code": [
+      "a \u0259",
+      "live l \u02c8 a \u026a v",
+      "tear t \u02c8 \u025b \u0279",
+      "routing \u0279 \u02c8 u \u02d0 t \u026a \u014b",
+      "code k \u02c8 o \u028a d"
+    ],
+    "loopbacks": [
+      "a \u0259",
+      "live l \u02c8 a \u026a v",
+      "tear t \u02c8 \u025b \u0279",
+      "routing \u0279 \u02c8 u \u02d0 t \u026a \u014b",
+      "loop l \u02c8 u \u02d0 p",
+      "backs b \u02c8 \u00e6 k s"
+    ]
+  },
+  "base_clip_check_note": "Base-clip checks precede the technical-phrase replacement. Final encoded audio is checked in narration_checks, independent_ctc_checks, and narration_consensus.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 70.913741
+  }
+}
