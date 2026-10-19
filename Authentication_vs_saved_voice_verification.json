@@ -1,0 +1,854 @@
+{
+  "input_filename": "Authentication_vs.mp4",
+  "input_sha256": "993f6dbafd96211a7fafbd076f6224acbca6f5d8dd32ffafcacdabe78acd33d2",
+  "output_filename": "Authentication_vs_saved_voice.mp4",
+  "output_sha256": "62492b5cb3fa54c57a89a72ce6d41798b74a58e55f59a7b4e877629fb2505ada",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "dbe120bf9578144fb35297db5d954b972fd9520652100ba201b4a2bb6c1b1dd2",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "74.333333",
+    "nb_read_frames": "2230"
+  },
+  "input_duration": "74.396735",
+  "output_duration": "74.397000",
+  "audio_peak": 0.849273681640625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 11.54,
+      "text": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings.",
+      "generation_text": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings.",
+      "filename": "cloned-00-teacher.wav",
+      "duration": 9.54375,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 149.66788347399995
+    },
+    {
+      "segment": 1,
+      "start": 11.54,
+      "end": 22.46,
+      "text": "Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate, which scans their login token to ask, \"Who are you?\"",
+      "generation_text": "Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate, which scans their login token to ask, \"Who are you?\"",
+      "filename": "cloned-01.wav",
+      "duration": 9.920083333333332,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.30562647200003
+    },
+    {
+      "segment": 2,
+      "start": 22.46,
+      "end": 30.04,
+      "text": "This first layer is authentication, and it verifies the shopper is indeed John. But identity alone is dangerous.",
+      "generation_text": "This first layer is authentication, and it verifies the shopper is indeed John. But identity alone is dangerous.",
+      "filename": "cloned-02-clean.wav",
+      "duration": 6.076333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "audio_cleanup": {
+        "word": "shopper",
+        "donor_filename": "cloned-03.wav",
+        "donor_start": 1.98,
+        "donor_end": 2.42,
+        "replaced_start": 3.3,
+        "replaced_end": 3.64,
+        "donor_gain": 1.019149661064148
+      },
+      "composited_generated_clips": true
+    },
+    {
+      "segment": 3,
+      "start": 30.04,
+      "end": 37.56,
+      "text": "If the system stopped here, any verified shopper could completely wipe the auction database. So the request hits a second gate.",
+      "generation_text": "If the system stopped here, any verified shopper could completely wipe the auction database. So the request hits a second gate.",
+      "filename": "cloned-03.wav",
+      "duration": 6.55475,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 33.17908178199997
+    },
+    {
+      "segment": 4,
+      "start": 37.56,
+      "end": 48.36,
+      "text": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is authorization.",
+      "generation_text": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is authorization.",
+      "filename": "cloned-04.wav",
+      "duration": 8.9155,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 49.09800698000004
+    },
+    {
+      "segment": 5,
+      "start": 48.36,
+      "end": 56.74,
+      "text": "Because John is assigned a standard user role rather than an admin, the delete action is instantly rejected using role-based access control.",
+      "generation_text": "Because John is assigned a standard user role rather than an admin, the delete action is instantly rejected using role-based access control.",
+      "filename": "cloned-05-refined.wav",
+      "duration": 7.429,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 86.097549964
+    },
+    {
+      "segment": 6,
+      "start": 56.74,
+      "end": 71.5,
+      "text": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "generation_text": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "filename": "cloned-06-clean.wav",
+      "duration": 14.038666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "composited_generated_clips": true,
+      "audio_cleanup": {
+        "word": "the",
+        "donor_filename": "cloned-05-refined.wav",
+        "donor_start": 3.16,
+        "donor_end": 3.36,
+        "donor_model": "full",
+        "donor_num_steps": 16,
+        "donor_guidance_scale": 3.0,
+        "replaced_start": 2.82,
+        "replaced_end": 3.04
+      }
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 5.84,
+      "text": "Authentication and authorization keep our apps secure, but how do they actually differ?",
+      "filename": "cloned-00-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.535,
+      "placed_start": 0.1,
+      "placed_end": 4.635,
+      "original_generated_duration": 4.535,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 5.84,
+      "end": 11.54,
+      "text": "Every safe platform needs both to stop standard users from breaking critical system settings.",
+      "filename": "cloned-00-teacher.wav",
+      "generated_start": 4.535,
+      "generated_end": 9.54375,
+      "placed_start": 5.94,
+      "placed_end": 10.94875,
+      "original_generated_duration": 5.00875,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 11.54,
+      "end": 15.94,
+      "text": "Take a normal shopper trying to click delete on an active online auction.",
+      "filename": "cloned-01.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.973,
+      "placed_start": 11.64,
+      "placed_end": 15.613,
+      "original_generated_duration": 3.973,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 15.94,
+      "end": 22.46,
+      "text": "When that request arrives, it hits the first security gate, which scans their login token to ask, \"Who are you?\"",
+      "filename": "cloned-01.wav",
+      "generated_start": 3.973,
+      "generated_end": 9.920083333333332,
+      "placed_start": 16.04,
+      "placed_end": 21.987083333333334,
+      "original_generated_duration": 5.9470833333333335,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 22.46,
+      "end": 27.46,
+      "text": "This first layer is authentication, and it verifies the shopper is indeed John.",
+      "filename": "cloned-02-clean.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.367,
+      "placed_start": 22.56,
+      "placed_end": 26.927,
+      "original_generated_duration": 4.367,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 2,
+      "start": 27.46,
+      "end": 30.04,
+      "text": "But identity alone is dangerous.",
+      "filename": "cloned-02-clean.wav",
+      "generated_start": 4.367,
+      "generated_end": 6.076333333333333,
+      "placed_start": 27.56,
+      "placed_end": 29.269333333333332,
+      "original_generated_duration": 1.7093333333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 3,
+      "start": 30.04,
+      "end": 35.34,
+      "text": "If the system stopped here, any verified shopper could completely wipe the auction database.",
+      "filename": "cloned-03.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.733,
+      "placed_start": 30.14,
+      "placed_end": 34.873,
+      "original_generated_duration": 4.733,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 35.34,
+      "end": 37.56,
+      "text": "So the request hits a second gate.",
+      "filename": "gate-clean.wav",
+      "generated_start": 0,
+      "generated_end": 2.0813333333333333,
+      "placed_start": 35.44,
+      "placed_end": 37.48970833333333,
+      "original_generated_duration": 2.0813333333333333,
+      "tempo_factor": 1.015650641025641
+    },
+    {
+      "unit": 8,
+      "block": 4,
+      "start": 37.56,
+      "end": 42.32,
+      "text": "This one compares John's verified identity against a strict permissions list.",
+      "filename": "cloned-04.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.233,
+      "placed_start": 37.66,
+      "placed_end": 41.893,
+      "original_generated_duration": 4.233,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 4,
+      "start": 42.32,
+      "end": 44.34,
+      "text": "It answers a completely different question.",
+      "filename": "cloned-04.wav",
+      "generated_start": 4.233,
+      "generated_end": 6.129,
+      "placed_start": 42.42,
+      "placed_end": 44.282,
+      "original_generated_duration": 1.896,
+      "tempo_factor": 1.0236382978723404
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 44.34,
+      "end": 46.2,
+      "text": "What are you allowed to do?",
+      "filename": "cloned-04.wav",
+      "generated_start": 6.129,
+      "generated_end": 7.511,
+      "placed_start": 44.44,
+      "placed_end": 45.822,
+      "original_generated_duration": 1.382,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 4,
+      "start": 46.2,
+      "end": 48.36,
+      "text": "That is authorization.",
+      "filename": "cloned-04.wav",
+      "generated_start": 7.511,
+      "generated_end": 8.9155,
+      "placed_start": 46.3,
+      "placed_end": 47.7045,
+      "original_generated_duration": 1.4045,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 5,
+      "start": 48.36,
+      "end": 52.2,
+      "text": "Because John is assigned a standard user role rather than an admin,",
+      "filename": "cloned-05-refined.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.193,
+      "placed_start": 48.46,
+      "placed_end": 51.653,
+      "original_generated_duration": 3.193,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 13,
+      "block": 5,
+      "start": 52.2,
+      "end": 56.74,
+      "text": "the delete action is instantly rejected using role-based access control.",
+      "filename": "cloned-05-refined.wav",
+      "generated_start": 3.193,
+      "generated_end": 7.429,
+      "placed_start": 52.3,
+      "placed_end": 56.536,
+      "original_generated_duration": 4.236,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 14,
+      "block": 6,
+      "start": 56.74,
+      "end": 63.32,
+      "text": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu,",
+      "filename": "cloned-06-clean.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.713,
+      "placed_start": 56.84,
+      "placed_end": 63.18575,
+      "original_generated_duration": 6.713,
+      "tempo_factor": 1.0580271739130434
+    },
+    {
+      "unit": 15,
+      "block": 6,
+      "start": 63.32,
+      "end": 67.66,
+      "text": "you are experiencing authorization doing exactly what it was designed to do,",
+      "filename": "cloned-06-clean.wav",
+      "generated_start": 6.713,
+      "generated_end": 11.007,
+      "placed_start": 63.42,
+      "placed_end": 67.564875,
+      "original_generated_duration": 4.294,
+      "tempo_factor": 1.0377166666666664
+    },
+    {
+      "unit": 16,
+      "block": 6,
+      "start": 67.66,
+      "end": 71.5,
+      "text": "silently protecting the system from unauthorized actions.",
+      "filename": "cloned-06-clean.wav",
+      "generated_start": 11.007,
+      "generated_end": 14.038666666666666,
+      "placed_start": 67.76,
+      "placed_end": 70.79166666666667,
+      "original_generated_duration": 3.0316666666666667,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 22.46,
+      "expected": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings. Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate, which scans their login token to ask, \"Who are you?\"",
+      "transcription": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings. Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate which scans their login token to ask, \"Who are you?\"",
+      "differences": []
+    },
+    {
+      "start": 22.46,
+      "end": 37.56,
+      "expected": "This first layer is authentication, and it verifies the shopper is indeed John. But identity alone is dangerous. If the system stopped here, any verified shopper could completely wipe the auction database. So the request hits a second gate.",
+      "transcription": "This first layer is authentication and it verifies the sharper is indeed jon. But identity alone is dangerous. If the system stopped here, any verified sharper could completely wipe the auction database. So the request hits a second gate.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "shopper"
+          ],
+          "heard": [
+            "sharper"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "john"
+          ],
+          "heard": [
+            "jon"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "shopper"
+          ],
+          "heard": [
+            "sharper"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 37.56,
+      "end": 48.36,
+      "expected": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is authorization.",
+      "transcription": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is, authorization.",
+      "differences": []
+    },
+    {
+      "start": 48.36,
+      "end": 56.74,
+      "expected": "Because John is assigned a standard user role rather than an admin, the delete action is instantly rejected using role-based access control.",
+      "transcription": "because John is assigned a standard user role rather than an admin. The delete action is instantly rejected using role-based access control.",
+      "differences": []
+    },
+    {
+      "start": 56.74,
+      "end": 71.5,
+      "expected": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "transcription": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Every original word must be recognized in its aligned position by at least one model; shared disagreements fail the check. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0,
+        "end": 22.46,
+        "word_count": 60,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 22.46,
+        "end": 37.56,
+        "word_count": 39,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [
+          {
+            "op": "replace",
+            "start": 9,
+            "end": 10,
+            "expected": [
+              "shopper"
+            ],
+            "heard": [
+              "sharper"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 25,
+            "end": 26,
+            "expected": [
+              "shopper"
+            ],
+            "heard": [
+              "sharper"
+            ]
+          }
+        ],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "john"
+            ],
+            "heard": [
+              "on"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 37.56,
+        "end": 48.36,
+        "word_count": 26,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "insert",
+            "start": 17,
+            "end": 17,
+            "expected": [],
+            "heard": [
+              "than"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 48.36,
+        "end": 56.74,
+        "word_count": 23,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 56.74,
+        "end": 71.5,
+        "word_count": 40,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 13,
+            "end": 15,
+            "expected": [
+              "admin",
+              "dashboard"
+            ],
+            "heard": [
+              "admindshboard"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 38,
+            "end": 39,
+            "expected": [
+              "unauthorized"
+            ],
+            "heard": [
+              "unauthoorsed"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0,
+      "end": 22.46,
+      "expected": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings. Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate, which scans their login token to ask, \"Who are you?\"",
+      "transcription": "authentication and authorization keep our apps secure but how do they actually differ every safe platform needs both to stop standard users from breaking critical system settings take a normal shopper trying to click delete on an active online auction when that request arrives it hits the first security gate which scans their log in token to ask who are you",
+      "differences": []
+    },
+    {
+      "start": 22.46,
+      "end": 37.56,
+      "expected": "This first layer is authentication, and it verifies the shopper is indeed John. But identity alone is dangerous. If the system stopped here, any verified shopper could completely wipe the auction database. So the request hits a second gate.",
+      "transcription": "this first layer is authentication and it verifies the shopper is indeed on but identity alone is dangerous if the system stopped here any verified shopper could completely wipe the auction database so the request hits a second gate",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "john"
+          ],
+          "heard": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 37.56,
+      "end": 48.36,
+      "expected": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is authorization.",
+      "transcription": "this one compares john's verified identity against a strict permission's list it answers a completely different question than what are you allowed to do that is authorization",
+      "differences": [
+        {
+          "op": "insert",
+          "expected": [],
+          "heard": [
+            "than"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 48.36,
+      "end": 56.74,
+      "expected": "Because John is assigned a standard user role rather than an admin, the delete action is instantly rejected using role-based access control.",
+      "transcription": "because john is assigned a standard user role rather than an admin the delete action is instantly rejected using role based access control",
+      "differences": []
+    },
+    {
+      "start": 56.74,
+      "end": 71.5,
+      "expected": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "transcription": "so the next time you log into a platform and realize the developer's admindshboard is completely hidden from your menu you are experiencing authorization doing exactly what it was designed to do silently protecting the system from unauthoorsed actions",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "admin",
+            "dashboard"
+          ],
+          "heard": [
+            "admindshboard"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "unauthorized"
+          ],
+          "heard": [
+            "unauthoorsed"
+          ]
+        }
+      ]
+    }
+  ],
+  "orthographic_equivalences": {
+    "Jon": "John: the same spoken name; original spelling retained in the script"
+  },
+  "original_script_verified": true,
+  "written_script_word_count": 187,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "source_transcriptions": [
+      "source-transcript.json",
+      "source-ctc.json"
+    ],
+    "written_word_count": 187,
+    "notes": [
+      "Whisper and independent CTC were compared to retain the original words.",
+      "CTC resolves \"John is assigned\" where Whisper heard \"John has assigned\".",
+      "Original name John confirmed by on-screen identity label."
+    ],
+    "voice_reference_matches_script": false,
+    "voice_reference_transcript": "returning four oh one unauthorized error. So you type in your password, but APIs are stateless, meaning the server immediately forgets who you are."
+  },
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the user-approved reference. Qualitative consistency check, not a voice-match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-teacher.wav",
+        "reference_cosine": 0.9220731256931209
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01.wav",
+        "reference_cosine": 0.9148782060978873
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02-clean.wav",
+        "reference_cosine": 0.942386102647744
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03.wav",
+        "reference_cosine": 0.9102552402597375
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04.wav",
+        "reference_cosine": 0.9471446083146131
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05-refined.wav",
+        "reference_cosine": 0.9485408402426381
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-clean.wav",
+        "reference_cosine": 0.8821015589998138
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-teacher.wav",
+      "expected": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings.",
+      "transcription": "Authentication and authorization keep our apps secure, but how do they actually differ? Every safe platform needs both to stop standard users from breaking critical system settings.",
+      "differences": [],
+      "reference_cosine": 0.9220731256931209
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01.wav",
+      "expected": "Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate, which scans their login token to ask, \"Who are you?\"",
+      "transcription": "Take a normal shopper trying to click delete on an active online auction. When that request arrives, it hits the first security gate which scans their login token to ask, \"Who are you?\"",
+      "differences": [],
+      "reference_cosine": 0.9148782060978873
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-clean.wav",
+      "expected": "This first layer is authentication, and it verifies the shopper is indeed John. But identity alone is dangerous.",
+      "transcription": "This first layer is authentication and it verifies the sharper is indeed John, but identity alone is dangerous.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "shopper"
+          ],
+          "heard": [
+            "sharper"
+          ]
+        }
+      ],
+      "reference_cosine": 0.942386102647744
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "expected": "If the system stopped here, any verified shopper could completely wipe the auction database. So the request hits a second gate.",
+      "transcription": "If the system stopped here, any verified shopper could completely wipe the auction database. So the request hits our second gate",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "a"
+          ],
+          "heard": [
+            "our"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9102552402597375
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "expected": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is authorization.",
+      "transcription": "This one compares John's verified identity against a strict permissions list. It answers a completely different question. What are you allowed to do? That is, authorization.",
+      "differences": [],
+      "reference_cosine": 0.9471446083146131
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-refined.wav",
+      "expected": "Because John is assigned a standard user role rather than an admin, the delete action is instantly rejected using role-based access control.",
+      "transcription": "Because John is assigned a standard user role rather than an admin, the delete action is instantly rejected using role-based access control.",
+      "differences": [],
+      "reference_cosine": 0.9485408402426381
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-clean.wav",
+      "expected": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "transcription": "So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu, you are experiencing authorization doing exactly what it was designed to do, silently protecting the system from unauthorized actions.",
+      "differences": [],
+      "reference_cosine": 0.8821015589998138
+    }
+  ],
+  "base_clip_check_note": "These checks describe base clips before phrase replacement. Final encoded audio is validated in narration_checks, independent_ctc_checks, and narration_consensus.",
+  "phrase_replacements": {
+    "7": {
+      "segment": 3,
+      "start": 35.34,
+      "end": 37.56,
+      "text": "So the request hits a second gate.",
+      "generation_text": "So the request hits a second gate.",
+      "filename": "gate-clean.wav",
+      "duration": 2.0813333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "source_unit": 7,
+      "audio_cleanup": {
+        "prefix_filename": "cloned-03.wav",
+        "prefix_start": 4.7,
+        "prefix_end": 5.88,
+        "suffix_filename": "cloned-03-precise.wav",
+        "suffix_start": 1.2
+      },
+      "composited_generated_clips": true
+    }
+  },
+  "phrase_replacement_checks": [
+    {
+      "segment": 3,
+      "filename": "gate-clean.wav",
+      "expected": "So the request hits a second gate.",
+      "transcription": "So the request hits a second gate",
+      "differences": [],
+      "reference_cosine": 0.8007820664245731
+    }
+  ],
+  "pronunciation_overrides": [
+    "a e \u026a",
+    "hits h \u02c8 \u026a t s",
+    "John d \u0292 \u02c8 \u0252 n",
+    "john d \u0292 \u02c8 \u0252 n",
+    "shopper \u0283 \u02c8 \u0252 p \u0259"
+  ],
+  "final_duration_correction": {
+    "operation": "Trim AAC trailing padding after loudness processing to the original duration. All spoken content is unchanged.",
+    "verified_speech_window_seconds": 71.5,
+    "decoded_16k_pcm_sha256": "28057f65e5422a3900d17406ba8f4e5b89f20c8c2517cf03567706faab371504",
+    "speech_audio_unchanged": true,
+    "output_duration": "74.397000"
+  },
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 74.396735
+  }
+}

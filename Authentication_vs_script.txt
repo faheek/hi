@@ -1,0 +1,17 @@
+Authentication and authorization keep our apps secure, but how do they actually differ?
+Every safe platform needs both to stop standard users from breaking critical system settings.
+Take a normal shopper trying to click delete on an active online auction.
+When that request arrives, it hits the first security gate, which scans their login token to ask, "Who are you?"
+This first layer is authentication, and it verifies the shopper is indeed John.
+But identity alone is dangerous.
+If the system stopped here, any verified shopper could completely wipe the auction database.
+So the request hits a second gate.
+This one compares John's verified identity against a strict permissions list.
+It answers a completely different question.
+What are you allowed to do?
+That is authorization.
+Because John is assigned a standard user role rather than an admin,
+the delete action is instantly rejected using role-based access control.
+So the next time you log into a platform and realize the developer's admin dashboard is completely hidden from your menu,
+you are experiencing authorization doing exactly what it was designed to do,
+silently protecting the system from unauthorized actions.
