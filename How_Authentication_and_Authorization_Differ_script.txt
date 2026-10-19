@@ -1,0 +1,19 @@
+If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse.
+That is why systems use two distinct layers,
+one to check your ID and one to check your permissions,
+authentication and authorization.
+Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend.
+The digital request first hits the authentication checkpoint, which scans their verified login badge.
+Passing this gate proves exactly who the user is,
+granting them basic access to the platform.
+But here is the danger.
+The system now fully trusts their identity.
+If security stopped here, that recognized shopper would easily trigger the restricted delete command.
+That is why authorization acts as the mandatory second layer.
+It takes that confirmed identity and checks its role-based access control tag against the destination's rules.
+It reads the shopper's user tag,
+sees the command requires an admin role,
+and explicitly blocks the path.
+And that highly restricted delete command?
+The server perfectly recognizes the shopper,
+but strictly shuts down the action.

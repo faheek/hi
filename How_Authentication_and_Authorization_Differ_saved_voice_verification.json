@@ -1,0 +1,984 @@
+{
+  "input_filename": "How_Authentication_and_Authorization_Differ.mp4",
+  "input_sha256": "732ada3de37251a4da63f00937dafd6336becec661bf39cdb64a1cf0d2bdcd14",
+  "output_filename": "How_Authentication_and_Authorization_Differ_saved_voice.mp4",
+  "output_sha256": "630b85c49c901adabd8b2709204f41f0a52cd9d5466d1956353bf7a73335fcca",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "f50a3daca4b4c83594ca21f0205d1ac1e8bdeccb9b6a88711ae4f2faae9897d9",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "75.733333",
+    "nb_read_frames": "2272"
+  },
+  "input_duration": "75.789932",
+  "output_duration": "75.790000",
+  "audio_peak": 0.846343994140625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0,
+      "end": 7.2,
+      "text": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse.",
+      "generation_text": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse.",
+      "filename": "cloned-00.wav",
+      "duration": 5.994666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 13.718033288000015
+    },
+    {
+      "segment": 1,
+      "start": 7.2,
+      "end": 16.98,
+      "text": "That is why systems use two distinct layers, one to check your ID and one to check your permissions, authentication and authorization.",
+      "generation_text": "That is why systems use two distinct layers, one to check your eye dee and one to check your permissions, authentication and authorization.",
+      "filename": "cloned-01-teacher.wav",
+      "duration": 7.084041666666667,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 64.72653720100004
+    },
+    {
+      "segment": 2,
+      "start": 16.98,
+      "end": 23.42,
+      "text": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend.",
+      "generation_text": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend.",
+      "filename": "cloned-02.wav",
+      "duration": 4.991958333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 12.917594259999987
+    },
+    {
+      "segment": 3,
+      "start": 23.42,
+      "end": 35.8,
+      "text": "The digital request first hits the authentication checkpoint, which scans their verified login badge. Passing this gate proves exactly who the user is, granting them basic access to the platform.",
+      "generation_text": "The digital request first hits the authentication checkpoint, which scans their verified login badge. Passing this gate proves exactly who the user is, granting them basic access to the platform.",
+      "filename": "cloned-03.wav",
+      "duration": 10.602666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 24.864785036000058
+    },
+    {
+      "segment": 4,
+      "start": 35.8,
+      "end": 46.56,
+      "text": "But here is the danger. The system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "generation_text": "But here is the danger. The system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "filename": "cloned-04.wav",
+      "duration": 8.896,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.52300621300003
+    },
+    {
+      "segment": 5,
+      "start": 46.56,
+      "end": 57.82,
+      "text": "That is why authorization acts as the mandatory second layer. It takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "generation_text": "That is why authorization acts as the mandatory second layer. It takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "filename": "cloned-05.wav",
+      "duration": 9.250958333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 28.37158899999997
+    },
+    {
+      "segment": 6,
+      "start": 57.82,
+      "end": 65.16,
+      "text": "It reads the shopper's user tag, sees the command requires an admin role, and explicitly blocks the path.",
+      "generation_text": "It reads the shopper's user tag, sees the command requires an admin role, and explicitly blocks the path.",
+      "filename": "cloned-06.wav",
+      "duration": 5.6,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 14.441953068999965
+    },
+    {
+      "segment": 7,
+      "start": 65.16,
+      "end": 72.8,
+      "text": "And that highly restricted delete command? The server perfectly recognizes the shopper, but strictly shuts down the action.",
+      "generation_text": "And that highly restricted delete command? The server perfectly recognizes the shopper, but strictly shuts down the action.",
+      "filename": "cloned-07.wav",
+      "duration": 5.978833333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 23.01378376499997
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0,
+      "end": 7.2,
+      "text": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse.",
+      "filename": "cloned-00.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.994666666666666,
+      "placed_start": 0.1,
+      "placed_end": 6.094666666666667,
+      "original_generated_duration": 5.994666666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 1,
+      "start": 7.2,
+      "end": 10.26,
+      "text": "That is why systems use two distinct layers,",
+      "filename": "cloned-01-teacher.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.573,
+      "placed_start": 7.3,
+      "placed_end": 9.873,
+      "original_generated_duration": 2.573,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 10.26,
+      "end": 14.04,
+      "text": "one to check your ID and one to check your permissions,",
+      "filename": "cloned-01-teacher.wav",
+      "generated_start": 2.573,
+      "generated_end": 5.561,
+      "placed_start": 10.36,
+      "placed_end": 13.348,
+      "original_generated_duration": 2.988,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 14.04,
+      "end": 16.98,
+      "text": "authentication and authorization.",
+      "filename": "cloned-01-teacher.wav",
+      "generated_start": 5.561,
+      "generated_end": 7.084041666666667,
+      "placed_start": 14.14,
+      "placed_end": 15.663041666666667,
+      "original_generated_duration": 1.5230416666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 16.98,
+      "end": 23.42,
+      "text": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend.",
+      "filename": "cloned-02.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.991958333333334,
+      "placed_start": 17.08,
+      "placed_end": 22.071958333333335,
+      "original_generated_duration": 4.991958333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 3,
+      "start": 23.42,
+      "end": 29.72,
+      "text": "The digital request first hits the authentication checkpoint, which scans their verified login badge.",
+      "filename": "cloned-03.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.573,
+      "placed_start": 23.52,
+      "placed_end": 29.093,
+      "original_generated_duration": 5.573,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 3,
+      "start": 29.72,
+      "end": 33.04,
+      "text": "Passing this gate proves exactly who the user is,",
+      "filename": "cloned-03-phrase.wav",
+      "generated_start": 0,
+      "generated_end": 2.5860833333333333,
+      "placed_start": 29.82,
+      "placed_end": 32.406083333333335,
+      "original_generated_duration": 2.5860833333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 33.04,
+      "end": 35.8,
+      "text": "granting them basic access to the platform.",
+      "filename": "cloned-03.wav",
+      "generated_start": 8.353,
+      "generated_end": 10.602666666666666,
+      "placed_start": 33.14,
+      "placed_end": 35.38966666666666,
+      "original_generated_duration": 2.2496666666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 4,
+      "start": 35.8,
+      "end": 37.38,
+      "text": "But here is the danger.",
+      "filename": "cloned-04.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.431,
+      "placed_start": 35.9,
+      "placed_end": 37.331,
+      "original_generated_duration": 1.431,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 4,
+      "start": 37.38,
+      "end": 40.44,
+      "text": "The system now fully trusts their identity.",
+      "filename": "cloned-04.wav",
+      "generated_start": 1.431,
+      "generated_end": 3.707,
+      "placed_start": 37.48,
+      "placed_end": 39.756,
+      "original_generated_duration": 2.276,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 40.44,
+      "end": 46.56,
+      "text": "If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "filename": "cloned-04.wav",
+      "generated_start": 3.707,
+      "generated_end": 8.896,
+      "placed_start": 40.54,
+      "placed_end": 45.729,
+      "original_generated_duration": 5.189,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 5,
+      "start": 46.56,
+      "end": 50.78,
+      "text": "That is why authorization acts as the mandatory second layer.",
+      "filename": "cloned-05.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.413,
+      "placed_start": 46.66,
+      "placed_end": 50.073,
+      "original_generated_duration": 3.413,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 5,
+      "start": 50.78,
+      "end": 57.82,
+      "text": "It takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "filename": "cloned-05.wav",
+      "generated_start": 3.413,
+      "generated_end": 9.250958333333333,
+      "placed_start": 50.88,
+      "placed_end": 56.717958333333335,
+      "original_generated_duration": 5.837958333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 13,
+      "block": 6,
+      "start": 57.82,
+      "end": 60.12,
+      "text": "It reads the shopper's user tag,",
+      "filename": "cloned-06.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.769,
+      "placed_start": 57.92,
+      "placed_end": 59.689,
+      "original_generated_duration": 1.769,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 14,
+      "block": 6,
+      "start": 60.12,
+      "end": 62.78,
+      "text": "sees the command requires an admin role,",
+      "filename": "cloned-06.wav",
+      "generated_start": 1.769,
+      "generated_end": 3.993,
+      "placed_start": 60.22,
+      "placed_end": 62.444,
+      "original_generated_duration": 2.224,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 15,
+      "block": 6,
+      "start": 62.78,
+      "end": 65.16,
+      "text": "and explicitly blocks the path.",
+      "filename": "cloned-06.wav",
+      "generated_start": 3.993,
+      "generated_end": 5.6,
+      "placed_start": 62.88,
+      "placed_end": 64.487,
+      "original_generated_duration": 1.607,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 16,
+      "block": 7,
+      "start": 65.16,
+      "end": 67.64,
+      "text": "And that highly restricted delete command?",
+      "filename": "cloned-07.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.273,
+      "placed_start": 65.26,
+      "placed_end": 67.533,
+      "original_generated_duration": 2.273,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 17,
+      "block": 7,
+      "start": 67.64,
+      "end": 70.44,
+      "text": "The server perfectly recognizes the shopper,",
+      "filename": "cloned-07.wav",
+      "generated_start": 2.273,
+      "generated_end": 4.403,
+      "placed_start": 67.74,
+      "placed_end": 69.87,
+      "original_generated_duration": 2.13,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 18,
+      "block": 7,
+      "start": 70.44,
+      "end": 72.8,
+      "text": "but strictly shuts down the action.",
+      "filename": "cloned-07.wav",
+      "generated_start": 4.403,
+      "generated_end": 5.978833333333333,
+      "placed_start": 70.54,
+      "placed_end": 72.11583333333333,
+      "original_generated_duration": 1.5758333333333334,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0,
+      "end": 16.98,
+      "expected": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse. That is why systems use two distinct layers, one to check your ID and one to check your permissions, authentication and authorization.",
+      "transcription": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse. That is why systems use two distinct layers, one to check your ID and one to check your permissions, authentication and authorization.",
+      "differences": []
+    },
+    {
+      "start": 16.98,
+      "end": 35.8,
+      "expected": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend. The digital request first hits the authentication checkpoint, which scans their verified login badge. Passing this gate proves exactly who the user is, granting them basic access to the platform.",
+      "transcription": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend. The digital request first hits the authentication checkpoint which scans their verified login badge. Passing this gate proves exactly who the user is, granting them basic access to the platform.",
+      "differences": []
+    },
+    {
+      "start": 35.8,
+      "end": 46.56,
+      "expected": "But here is the danger. The system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "transcription": "But here is the danger, the system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "differences": []
+    },
+    {
+      "start": 46.56,
+      "end": 57.82,
+      "expected": "That is why authorization acts as the mandatory second layer. It takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "transcription": "That is, while authorization acts as the mandatory second layer, it takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "why"
+          ],
+          "heard": [
+            "while"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 57.82,
+      "end": 65.16,
+      "expected": "It reads the shopper's user tag, sees the command requires an admin role, and explicitly blocks the path.",
+      "transcription": "It reads the shoppers user tag, sees the command requires an admin role and explicitly blocks the path",
+      "differences": []
+    },
+    {
+      "start": 65.16,
+      "end": 72.8,
+      "expected": "And that highly restricted delete command? The server perfectly recognizes the shopper, but strictly shuts down the action.",
+      "transcription": "and that highly restricted delete command, the server perfectly recognizes the shopper but strictly shuts down the action.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Every original word must be recognized in its aligned position by at least one model; shared disagreements fail the check. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0,
+        "end": 16.98,
+        "word_count": 42,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 16.98,
+        "end": 35.8,
+        "word_count": 46,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 15,
+            "end": 16,
+            "expected": [
+              "backend"
+            ],
+            "heard": [
+              "backon"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 28,
+            "end": 30,
+            "expected": [
+              "login",
+              "badge"
+            ],
+            "heard": [
+              "loginbedge"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 40,
+            "end": 41,
+            "expected": [
+              "them"
+            ],
+            "heard": [
+              "the"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 35.8,
+        "end": 46.56,
+        "word_count": 26,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 9,
+            "end": 10,
+            "expected": [
+              "trusts"
+            ],
+            "heard": [
+              "trust"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 17,
+            "end": 18,
+            "expected": [
+              "recognized"
+            ],
+            "heard": [
+              "recognsd"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 46.56,
+        "end": 57.82,
+        "word_count": 27,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [
+          {
+            "op": "replace",
+            "start": 2,
+            "end": 3,
+            "expected": [
+              "why"
+            ],
+            "heard": [
+              "while"
+            ]
+          }
+        ],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 21,
+            "end": 23,
+            "expected": [
+              "control",
+              "tag"
+            ],
+            "heard": [
+              "controltag"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 57.82,
+        "end": 65.16,
+        "word_count": 18,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 1,
+            "end": 2,
+            "expected": [
+              "reads"
+            ],
+            "heard": [
+              "reachs"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 4,
+            "end": 5,
+            "expected": [
+              "user"
+            ],
+            "heard": [
+              "useer"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 5,
+        "start": 65.16,
+        "end": 72.8,
+        "word_count": 18,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 4,
+            "end": 5,
+            "expected": [
+              "delete"
+            ],
+            "heard": [
+              "relite"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0,
+      "end": 16.98,
+      "expected": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse. That is why systems use two distinct layers, one to check your ID and one to check your permissions, authentication and authorization.",
+      "transcription": "if simply proving you have an account gave you the power to wipe a systems database the internet would collapse that is why systems use two distinct layers one to check your i d and one to check your permissions authentication and authorization",
+      "differences": []
+    },
+    {
+      "start": 16.98,
+      "end": 35.8,
+      "expected": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend. The digital request first hits the authentication checkpoint, which scans their verified login badge. Passing this gate proves exactly who the user is, granting them basic access to the platform.",
+      "transcription": "take a standard shopper trying to trigger a hidden delete auction command on an ecommerce backon the digital request first hits the authentication checkpoint which scans their verified loginbedge passing this gate proves exactly who the user is granting the basic access to the platform",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "backend"
+          ],
+          "heard": [
+            "backon"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "login",
+            "badge"
+          ],
+          "heard": [
+            "loginbedge"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "them"
+          ],
+          "heard": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 35.8,
+      "end": 46.56,
+      "expected": "But here is the danger. The system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "transcription": "but here is the danger the system now fully trust their identity if security stopped here that recognsd shopper would easily trigger the restricted delete command",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "trusts"
+          ],
+          "heard": [
+            "trust"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "recognized"
+          ],
+          "heard": [
+            "recognsd"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 46.56,
+      "end": 57.82,
+      "expected": "That is why authorization acts as the mandatory second layer. It takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "transcription": "that is why authorization acts as the mandatory second layer it takes that confirmed identity and checks its role based access controltag against the destination's rules",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "control",
+            "tag"
+          ],
+          "heard": [
+            "controltag"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 57.82,
+      "end": 65.16,
+      "expected": "It reads the shopper's user tag, sees the command requires an admin role, and explicitly blocks the path.",
+      "transcription": "it reachs the shopper's useer tag sees the command requires an admin role and explicitly blocks the path",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "reads"
+          ],
+          "heard": [
+            "reachs"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "user"
+          ],
+          "heard": [
+            "useer"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 65.16,
+      "end": 72.8,
+      "expected": "And that highly restricted delete command? The server perfectly recognizes the shopper, but strictly shuts down the action.",
+      "transcription": "and that highly restricted relite command the server perfectly recognizes the shopper but strictly shuts down the action",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "delete"
+          ],
+          "heard": [
+            "relite"
+          ]
+        }
+      ]
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 176,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "source_transcriptions": [
+      "source-transcript.json",
+      "source-ctc.json"
+    ],
+    "original_words_checked": true,
+    "written_word_count": 176,
+    "notes": [
+      "Original narration independently transcribed by Whisper and CTC.",
+      "The on-screen caption at 28.9 seconds explicitly reads verified login badge; this resolves the ASR spelling batch.",
+      "ID is spoken as the individual letters eye dee.",
+      "Role/roll, back end/backend, e-commerce/ecommerce, and recognized/recognised are transcription spelling variants."
+    ]
+  },
+  "pronunciation_overrides": [
+    "a \u0259",
+    "badge b \u02c8 \u025b d \u0292"
+  ],
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved voice reference. A qualitative consistency check, not an exact match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00.wav",
+        "reference_cosine": 0.9472698551921774
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01-teacher.wav",
+        "reference_cosine": 0.8695591128004524
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02.wav",
+        "reference_cosine": 0.8405631690049717
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03.wav",
+        "reference_cosine": 0.8635307656241861
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04.wav",
+        "reference_cosine": 0.9317369930174526
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05.wav",
+        "reference_cosine": 0.9247809116851512
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06.wav",
+        "reference_cosine": 0.8839874104925616
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07.wav",
+        "reference_cosine": 0.9492963546971475
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00.wav",
+      "expected": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse.",
+      "transcription": "If simply proving you have an account gave you the power to wipe a system's database, the internet would collapse.",
+      "differences": [],
+      "reference_cosine": 0.9472698551921774
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-teacher.wav",
+      "expected": "That is why systems use two distinct layers, one to check your ID and one to check your permissions, authentication and authorization.",
+      "transcription": "that is why systems use two distinct layers, one to check your ID and one to check your permissions, authentication and authorization.",
+      "differences": [],
+      "reference_cosine": 0.8695591128004524
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02.wav",
+      "expected": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend.",
+      "transcription": "Take a standard shopper trying to trigger a hidden delete auction command on an e-commerce backend.",
+      "differences": [],
+      "reference_cosine": 0.8405631690049717
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03.wav",
+      "expected": "The digital request first hits the authentication checkpoint, which scans their verified login badge. Passing this gate proves exactly who the user is, granting them basic access to the platform.",
+      "transcription": "The digital request first hits the authentication checkpoint which scans their verified login badge, passing this gate to prove exactly who the user is, granting them basic access to the platform.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "proves"
+          ],
+          "heard": [
+            "to",
+            "prove"
+          ]
+        }
+      ],
+      "reference_cosine": 0.8635307656241861
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04.wav",
+      "expected": "But here is the danger. The system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "transcription": "But here is the danger, the system now fully trusts their identity. If security stopped here, that recognized shopper would easily trigger the restricted delete command.",
+      "differences": [],
+      "reference_cosine": 0.9317369930174526
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05.wav",
+      "expected": "That is why authorization acts as the mandatory second layer. It takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "transcription": "i.e. why authorization acts as the mandatory second layer, it takes that confirmed identity and checks its role-based access control tag against the destination's rules.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "that",
+            "is"
+          ],
+          "heard": [
+            "i",
+            "e"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9247809116851512
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06.wav",
+      "expected": "It reads the shopper's user tag, sees the command requires an admin role, and explicitly blocks the path.",
+      "transcription": "It reads the shopper's user tag, sees the command requires an admin role and explicitly blocks the path",
+      "differences": [],
+      "reference_cosine": 0.8839874104925616
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07.wav",
+      "expected": "And that highly restricted delete command? The server perfectly recognizes the shopper, but strictly shuts down the action.",
+      "transcription": "and that highly restricted delete command, the server perfectly recognizes the shopper but strictly shuts down the action.",
+      "differences": [],
+      "reference_cosine": 0.9492963546971475
+    }
+  ],
+  "phrase_replacements": {
+    "6": {
+      "segment": 3,
+      "source_unit": 6,
+      "start": 29.72,
+      "end": 33.04,
+      "text": "Passing this gate proves exactly who the user is.",
+      "generation_text": "Passing this gate proves exactly who the user is,.",
+      "filename": "cloned-03-phrase.wav",
+      "duration": 2.5860833333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 11.034877477000009
+    }
+  },
+  "phrase_replacement_checks": [
+    {
+      "segment": 3,
+      "filename": "cloned-03-phrase.wav",
+      "expected": "Passing this gate proves exactly who the user is,.",
+      "transcription": "Passing this gate proves exactly who the user is.",
+      "differences": [],
+      "reference_cosine": 0.9065668554436042
+    }
+  ],
+  "phrase_pronunciation_overrides": [
+    "a \u0259",
+    "badge b \u02c8 \u025b d \u0292",
+    "proves p \u0279 \u02c8 u \u02d0 v z"
+  ],
+  "base_clip_check_note": "Base-clip checks precede the phrase replacement. Final encoded narration is checked separately in narration_checks, independent_ctc_checks, and narration_consensus.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 75.789932
+  }
+}
