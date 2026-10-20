@@ -1,0 +1,117 @@
+Welcome to this explainer.
+So, you know the feeling, right?
+You build this absolutely fantastic full-stack project, and then boom, your free cloud credits are about to vanish into thin air.
+Today, we're zeroing in on exactly that scenario.
+We're looking at why an application called Auction Pilot had to totally rethink its hosting services, and exactly what it takes to decouple a full-stack monolith and migrate it.
+It's a really fascinating journey into modern web architecture, so let's just jump right in.
+Okay, here's our roadmap for the explainer.
+First, we'll look at the why, the actual catalyst for changing hosting services, then unpacking the new decoupled architecture, followed by the necessary database and code changes, after that managing simultaneous bidding conflicts, navigating Docker images and timeouts, And finally, connecting and verifying the whole shebang.
+Right, onto section one.
+Why change hosting services?
+The catalyst for migration.
+You see, every great engineering pivot usually starts with a real world constraint.
+And our constraint here is something literally every developer can relate to.
+What happens when your Azure subscription ends?
+The core problem was simply that the Azure free ride ran out.
+Suddenly, the clock's ticking.
+You obviously want to keep this project live for your portfolio, but you definitely don't want to foot a massive enterprise cloud bill just to keep a demo running, right?
+I mean, taking out a small mortgage on Azure just isn't a sustainable hosting strategy.
+This one highly practical event, the money running out, was the entire focus, the absolute catalyst that forced a complete rethink of the infrastructure to keep the project breathing.
+So, the initial lightbulb moment was all about separating concerns.
+The React frontend?
+Well, it's completely stateless.
+It's highly optimized for edge delivery, meaning it could stay safely, and most importantly, cheaply, right there on Vercel.
+But the .NET backend and the database?
+Well, that's where the heavy computational lifting actually happens.
+And those components desperately needed a completely new home.
+We couldn't just drag and drop files around.
+We had to rethink the underlying infrastructure from the ground up.
+Unpacking the new architecture.
+Decoupling the monolith.
+Let's see how we actually replace a single massive cloud provider with a decentralized web of services.
+Before, we had your classic all eggs in one basket situation.
+The React frontend spoke to a .NET backend and an Azure SQL database, with the backend and database securely sharing the same overarching Azure cloud provider roof.
+But this new architecture, it completely abandons that monolithic design.
+Instead, we're adopting a modern, modular approach, picking the absolute best tool for each specific job, separating responsibilities across four completely distinct specialized services.
+Opening a single auction page now triggers this beautifully orchestrated dance between these platforms.
+Vercel acts as our public storefront, delivering the React pages to you.
+But Render?
+Render is the brains of the operation, running the .NET API.
+Neon steps in to host the PostgreSQL database, and Cloudinary handles all the image processing.
+The absolutely crucial security takeaway here is that Render holds the keys to the vault.
+the database password, the image API keys, they stay safely locked away inside the backend.
+The browser only ever gets permission to use the public API, meaning our sensitive credentials never ever leak to the public web.
+Next up, section three, database and code changes, transitioning from SQL Server to PostgreSQL.
+Because moving to the cloud fundamentally requires code modifications.
+Speaking to PostgreSQL is, well, very different from speaking to SQL Server.
+You can't just swap out a connection string and call it a day.
+The codebase needed some significant shifts, specifically bringing in Npgsql.
+Think of Npgsql as the brand new translator your code absolutely needs so it can speak fluently to the new Postgres database, especially when you're dealing with complex data types and dates.
+And because the database engine itself fundamentally changed, we also had to generate entirely new Postgres migrations.
+These act as carefully versioned blueprints, telling the new environment exactly how to rebuild our tables, columns and relationships entirely from scratch.
+Now for this release, we're actually deploying a totally fresh demo database.
+No copying of existing users, no porting over past bids.
+And there's a really great reason for this.
+Migrating old stale test data from Azure is a massive headache, with literally zero payoff for a portfolio piece.
+It's a strategic developer choice to save time.
+By deploying a completely clean slate, we can focus one hundred percent on testing the new architecture, rather than untangling legacy records.
+All right, section four, managing simultaneous bidding conflicts, the concurrency problem.
+Let's look at a really practical micro-narrative here.
+What happens when two users try to place a bid at the exact same millisecond?
+Imagine the current price of an item is a thousand pounds.
+Buyer A and Buyer B are staring at the exact same screen, both reading version 1 of the auction at precisely the same time.
+Buyer A quickly hits submit, saves a bid and pushes the auction safely up to version 2.
+Now, if Buyer B clicks Submit just a fraction of a second later, trying to save a bid based on that old one thousand pound price, they're blocked.
+Our concurrency protections kick in.
+They are forced to refresh the page, see the new price, and validate it before trying again.
+This race condition is honestly one of the trickiest parts of e-commerce to get right.
+So how do we solve this?
+The application utilizes a clever system column in PostgreSQL called the xmin value.
+If you want a really easy way to picture xmin, compare it to pulling a ticket at a deli counter.
+When you look at the auction, you're handed a ticket number.
+When you finally go to make your bid, the database checks if the current ticket number actually matches the one you were holding when you made your decision.
+If those numbers don't match, it means the auction changed while you were deciding.
+You have to get back in line, look at the new price and get a new ticket.
+This safely handles conflicts and just rolls back transactions rather than silently blindly accepting a stale update.
+Docker images and timeouts, packaging and background tasks.
+Next, we have to tackle how the application is packaged in Docker and why that creates a really unique headache for storing images.
+There's a golden rule for containerized apps.
+Files stored inside the backend container should never, ever be treated as permanent storage.
+Why?
+Because of a concept we can call container amnesia.
+Docker containers are inherently ephemeral.
+They can be destroyed, scaled up, or restarted dynamically at any second by the hosting provider.
+If you save a user's auction avatar directly onto the local disk of a Render container, poof!
+It's going to completely vanish the next time the app goes to sleep and restarts.
+We absolutely needed a dedicated external storage solution.
+So we solve this container amnesia with a very precise three-step flow to push files out to Cloudinary.
+First, the user sends the file to the backend, which does all the security validation.
+Then the backend securely uploads the file to Cloudinary.
+Finally, the application stores the reference and returns the public image URL.
+Now, we use this three-step dance for one absolutely critical reason, security.
+If the front end uploaded directly, we'd have to expose our top secret Cloudinary API keys to the public web in the React code.
+By routing it through Render instead, those secrets stay tightly locked in the backend vault.
+Now, moving to free-tier cloud hosting introduces some fascinating edge cases.
+Like, what actually happens when your server just falls asleep due to inactivity?
+If the Render server spins down, an auction scheduled to end at eight o'clock might miraculously receive a bid at five past eight, just as the server finally wakes back up.
+To combat this, our strict logic ensures we validate bids against the actual server time, aggressively rejecting late arrivals.
+We also run recovery processing to safely close out those expired auctions.
+Finally, we use SignalR.
+Think of SignalR as the system physically tapping the user's browser on the shoulder to say, "Hey, your connection dropped and you're out of date.
+Fetch the new price right now." Right, onto our final section, section six, connecting and verifying everything, the final deployment hurdles.
+We now reach the critical phase, bringing this Frankenstein monster to life by hooking all four of these separate services together securely.
+You really must follow an exact deployment checklist to ensure everything boots up correctly.
+Step one, Prepare the database on Neon.
+Step two, Set up image storage on Cloudinary.
+Step three, Deploy and initialize the back end on Render.
+Step four, Connect the front end preview on Vercel.
+and step five, perform strict end-to-end user checks.
+This order is totally vital.
+You literally cannot start the engine, our Render backend, until you've put fuel in the tank by providing it with the Neon database credentials and the Cloudinary keys.
+Furthermore, leaving a walled garden like Azure means these end-to-end checks are essential.
+A successful local code build doesn't prove for a second that these separate public clouds can actually talk to each other.
+So, the local preparation is complete, but it leaves us with a final, rather provocative question.
+We've learned today that moving an application, because your host ran out of credits, isn't just a simple copy-paste job.
+It involves a complete architectural rewrite, touching everything from the database provider, to concurrency rules, docker constraints, and deployment sequences.
+The code is well prepared locally, yes, but will it actually survive live public testing when the real world hits it?
+Join us next time for the next explainer where we push the buttons, deploy this architecture and find out for sure.
