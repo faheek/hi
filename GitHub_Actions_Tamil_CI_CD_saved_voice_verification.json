@@ -1,0 +1,664 @@
+{
+  "input_filename": "GitHub_Actions-ல்_CI_CD.mp4",
+  "input_sha256": "c820862543102ffc6c79fea18e28532f9640be01c9c2c47166d3f9c6165c3a5d",
+  "output_filename": "GitHub_Actions_Tamil_CI_CD_saved_voice.mp4",
+  "output_sha256": "7b633503d2a7dc88bfb95d1775bf443ff97406b38707df29308d7db90d8a93d1",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "ad25596cccc93c04fa5f026a3f4364295f76d8a83c60c41772a5036865756b54",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "duration": "377.583333",
+    "nb_read_frames": "9062"
+  },
+  "input_duration": "377.649342",
+  "output_duration": "377.649000",
+  "full_decode_passed": true,
+  "audio_peak": 0.84576416015625,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Direct tone-color conversion of the original Tamil narration using the saved Project 46 reference. No text-to-speech, translation or speech-speed adjustment. Input/output audio sample counts match; video bitstream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "language": "ta",
+  "conversion": {
+    "source": "https://github.com/azrinsani/accent-models/releases/tag/v1",
+    "model": "OpenVoice V2, ONNX export",
+    "sha256": {
+      "tone_color.onnx": "896195b84b0cb87a828bb8cab06577e9c024356bc9727b1a8f4174154bc0affa",
+      "tone_extract.onnx": "e91c2cb696e199d2519ed8b62ca6e3c8e42cb99ca13955dd6e188051486e681c"
+    },
+    "hash_validation": "Compared with GitHub release asset sha256 digests",
+    "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7"
+  },
+  "conversion_parameters": {
+    "sample_rate": 22050,
+    "fft_size": 1024,
+    "hop_length": 256,
+    "window": "periodic Hann",
+    "tau": 0.3,
+    "context_seconds": 3,
+    "source_embedding_windows_seconds": [
+      [
+        2,
+        12
+      ],
+      [
+        70,
+        80
+      ],
+      [
+        155,
+        165
+      ],
+      [
+        235,
+        245
+      ],
+      [
+        310,
+        320
+      ]
+    ],
+    "target_reference": "exact saved 8.1-second Project 46 excerpt, resampled to 22050 Hz",
+    "speaker_embeddings": "Raw OpenVoice embeddings; source is the arithmetic mean of five windows, target is the exact saved reference. No voice-profile assets were changed."
+  },
+  "timing": {
+    "sample_rate": 22050,
+    "input_samples": 8327168,
+    "output_samples": 8327168,
+    "duration": 377.6493424036281,
+    "gain": 1.0,
+    "peak_before_gain": 0.8534557223320007,
+    "chunks": [
+      {
+        "segment": 0,
+        "start": 0.0,
+        "end": 15.796235827664399,
+        "sample_count": 348307,
+        "seconds": 9.130045162999977,
+        "peak": 0.5515381097793579,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 1,
+        "start": 15.796235827664399,
+        "end": 31.39628117913832,
+        "sample_count": 343981,
+        "seconds": 10.679093862999935,
+        "peak": 0.4647357761859894,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 2,
+        "start": 31.39628117913832,
+        "end": 47.61297052154195,
+        "sample_count": 357578,
+        "seconds": 11.4979212799999,
+        "peak": 0.629237174987793,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 3,
+        "start": 47.61297052154195,
+        "end": 63.60458049886621,
+        "sample_count": 352615,
+        "seconds": 10.91578261299992,
+        "peak": 0.6682480573654175,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 4,
+        "start": 63.60458049886621,
+        "end": 78.89596371882087,
+        "sample_count": 337175,
+        "seconds": 11.25485023400006,
+        "peak": 0.8047444820404053,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 5,
+        "start": 78.89596371882087,
+        "end": 94.5035827664399,
+        "sample_count": 344148,
+        "seconds": 12.563889195999991,
+        "peak": 0.5940801501274109,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 6,
+        "start": 94.5035827664399,
+        "end": 111.14925170068027,
+        "sample_count": 367037,
+        "seconds": 12.766396282000187,
+        "peak": 0.7998749017715454,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 7,
+        "start": 111.14925170068027,
+        "end": 127.46290249433106,
+        "sample_count": 359716,
+        "seconds": 12.89681430099995,
+        "peak": 0.6265292167663574,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 8,
+        "start": 127.46290249433106,
+        "end": 141.21061224489796,
+        "sample_count": 303137,
+        "seconds": 11.135544492000008,
+        "peak": 0.5924105048179626,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 9,
+        "start": 141.21061224489796,
+        "end": 156.89446712018142,
+        "sample_count": 345829,
+        "seconds": 11.76293026999997,
+        "peak": 0.745783805847168,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 10,
+        "start": 156.89446712018142,
+        "end": 172.4130612244898,
+        "sample_count": 342185,
+        "seconds": 11.412237658000095,
+        "peak": 0.6489408612251282,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 11,
+        "start": 172.4130612244898,
+        "end": 189.177641723356,
+        "sample_count": 369659,
+        "seconds": 14.069621933999997,
+        "peak": 0.8534557223320007,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 12,
+        "start": 189.177641723356,
+        "end": 203.62426303854875,
+        "sample_count": 318548,
+        "seconds": 12.710495137999942,
+        "peak": 0.5802058577537537,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 13,
+        "start": 203.62426303854875,
+        "end": 220.67986394557823,
+        "sample_count": 376076,
+        "seconds": 9.341135289000022,
+        "peak": 0.6417360901832581,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 14,
+        "start": 220.67986394557823,
+        "end": 236.84108843537416,
+        "sample_count": 356355,
+        "seconds": 9.024770866999916,
+        "peak": 0.6127597093582153,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 15,
+        "start": 236.84108843537416,
+        "end": 251.42662131519273,
+        "sample_count": 321611,
+        "seconds": 10.076575883999794,
+        "peak": 0.57361900806427,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 16,
+        "start": 251.42662131519273,
+        "end": 266.04303854875286,
+        "sample_count": 322292,
+        "seconds": 10.741342686000053,
+        "peak": 0.668485701084137,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 17,
+        "start": 266.04303854875286,
+        "end": 282.38961451247167,
+        "sample_count": 360442,
+        "seconds": 9.90484609400005,
+        "peak": 0.5518681406974792,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 18,
+        "start": 282.38961451247167,
+        "end": 298.66308390022675,
+        "sample_count": 358830,
+        "seconds": 11.157577318999984,
+        "peak": 0.7273252606391907,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 19,
+        "start": 298.66308390022675,
+        "end": 314.5,
+        "sample_count": 349204,
+        "seconds": 9.969505231000085,
+        "peak": 0.7835789918899536,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 20,
+        "start": 314.5,
+        "end": 331.69827664399094,
+        "sample_count": 379222,
+        "seconds": 10.107625460000008,
+        "peak": 0.5896793007850647,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 21,
+        "start": 331.69827664399094,
+        "end": 347.92086167800454,
+        "sample_count": 357708,
+        "seconds": 11.335882052999978,
+        "peak": 0.4924737513065338,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 22,
+        "start": 347.92086167800454,
+        "end": 362.43696145124716,
+        "sample_count": 320080,
+        "seconds": 11.170891311999867,
+        "peak": 0.6224786639213562,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      },
+      {
+        "segment": 23,
+        "start": 362.43696145124716,
+        "end": 377.6493424036281,
+        "sample_count": 335433,
+        "seconds": 9.916342181000118,
+        "peak": 0.66341233253479,
+        "context_seconds": 3,
+        "method": "Source speech converted directly; no text generation, translation, time stretching or pitch shifting."
+      }
+    ]
+  },
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 377.649342
+  },
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "speaker_comparison": {
+    "method": "Independent WeSpeaker embeddings compared with the approved reference, used as a qualitative voice-consistency check. These scores are not a match percentage or identity guarantee.",
+    "source_median": 0.5457441085435565,
+    "converted_median": 0.9216374188017422,
+    "segments": [
+      {
+        "start": 2,
+        "end": 12,
+        "source_vs_saved_reference_cosine": 0.5185625719463635,
+        "converted_vs_saved_reference_cosine": 0.9216374188017422,
+        "converted_vs_source_cosine": 0.43979029519978075
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "source_vs_saved_reference_cosine": 0.5374154719735842,
+        "converted_vs_saved_reference_cosine": 0.8959119302126703,
+        "converted_vs_source_cosine": 0.5521848184503529
+      },
+      {
+        "start": 62,
+        "end": 72,
+        "source_vs_saved_reference_cosine": 0.5533378540804246,
+        "converted_vs_saved_reference_cosine": 0.8758633113081059,
+        "converted_vs_source_cosine": 0.5662180095474438
+      },
+      {
+        "start": 92,
+        "end": 102,
+        "source_vs_saved_reference_cosine": 0.4829564253108641,
+        "converted_vs_saved_reference_cosine": 0.9265931295345846,
+        "converted_vs_source_cosine": 0.47354728261450213
+      },
+      {
+        "start": 122,
+        "end": 132,
+        "source_vs_saved_reference_cosine": 0.48899912612352014,
+        "converted_vs_saved_reference_cosine": 0.9223919604898545,
+        "converted_vs_source_cosine": 0.4688653191663813
+      },
+      {
+        "start": 152,
+        "end": 162,
+        "source_vs_saved_reference_cosine": 0.47087406476805654,
+        "converted_vs_saved_reference_cosine": 0.9022766853458903,
+        "converted_vs_source_cosine": 0.46830107548475286
+      },
+      {
+        "start": 182,
+        "end": 192,
+        "source_vs_saved_reference_cosine": 0.5849617558171812,
+        "converted_vs_saved_reference_cosine": 0.888024149040203,
+        "converted_vs_source_cosine": 0.5423569193783069
+      },
+      {
+        "start": 212,
+        "end": 222,
+        "source_vs_saved_reference_cosine": 0.5457441085435565,
+        "converted_vs_saved_reference_cosine": 0.9209714663430881,
+        "converted_vs_source_cosine": 0.5153004303609007
+      },
+      {
+        "start": 242,
+        "end": 252,
+        "source_vs_saved_reference_cosine": 0.5932655247153935,
+        "converted_vs_saved_reference_cosine": 0.9218947714633932,
+        "converted_vs_source_cosine": 0.6063943187359386
+      },
+      {
+        "start": 272,
+        "end": 282,
+        "source_vs_saved_reference_cosine": 0.5852524987622809,
+        "converted_vs_saved_reference_cosine": 0.9242469991347051,
+        "converted_vs_source_cosine": 0.5575371291731046
+      },
+      {
+        "start": 302,
+        "end": 312,
+        "source_vs_saved_reference_cosine": 0.49078900658053004,
+        "converted_vs_saved_reference_cosine": 0.9250371421996821,
+        "converted_vs_source_cosine": 0.49186405948066486
+      },
+      {
+        "start": 332,
+        "end": 342,
+        "source_vs_saved_reference_cosine": 0.6727147995730707,
+        "converted_vs_saved_reference_cosine": 0.9338129490420511,
+        "converted_vs_source_cosine": 0.652023484531227
+      },
+      {
+        "start": 362,
+        "end": 372,
+        "source_vs_saved_reference_cosine": 0.5696964834163935,
+        "converted_vs_saved_reference_cosine": 0.9157498629300473,
+        "converted_vs_source_cosine": 0.5323440027129058
+      }
+    ]
+  },
+  "speech_content_preservation": {
+    "method": "The original Tamil waveform, including all utterances, is supplied directly to the voice converter. Every input sample interval is represented in the output at its original position. Only the voice timbre is converted; there is no transcription-driven resynthesis, translation, reordering, manual pitch effect or speed change.",
+    "input_sample_intervals_fully_covered": true,
+    "matching_source_and_converted_sample_counts": true,
+    "text_synthesis_performed": false,
+    "translation_performed": false,
+    "time_stretching_performed": false,
+    "exhaustive_tamil_word_for_word_asr_verification": false,
+    "recognition_limitations": "Native Tamil Whisper transcriptions were unreliable on this colloquial recording, with truncation and repetition, and are not used as proof of exact words. Full-length independent NeMo CTC phonetic comparisons were reviewed across all 24 converted chunks. The recognizer is trained for English: its approximate Latin transcriptions are a relative clarity check, not an authoritative Tamil transcript. Character alignment ratios are diagnostic, not word accuracy or voice match percentages.",
+    "phonetic_comparison_median_character_alignment": 0.733026113671275,
+    "full_length_phonetic_comparisons": [
+      {
+        "chunk": 0,
+        "start": 0.0,
+        "end": 15.796235827664399,
+        "source_phonetic_approximation": "hello navina applicationla deploy under the ya flu per talavaliina maknalavithero ellia ratri n clava on the tension the de nagar sver crash is kla or mutrupolivach nmaia pre deployed under thegra patina in da la sakglava we cra",
+        "converted_phonetic_approximation": "hello navina application let deployed under the yfro verytav limaan al lavi theo ilia ra e clover on the tension the re naga sver crash if you can now re move to pulivach nia pre deployed under the gra patina in dala sacoglav",
+        "character_alignment_ratio": 0.7882037533512064,
+        "processing_seconds": 0.6962636670000393
+      },
+      {
+        "chunk": 1,
+        "start": 15.796235827664399,
+        "end": 31.39628117913832,
+        "source_phonetic_approximation": "banger neravish kpola steve bang sosonna in the vagla konjoschparraga rather paardanormical deployment failanna are the yvlo preiousress anna are they taper onga pipeline in the sver kpo commondier pier st la kabchitta",
+        "converted_phonetic_approximation": "banger may i shi copola steve banks on in the valaco ostpa there rapanal mo deployment fail on our are the eflopetress on our are they the pe over pipeline in the sver compole communa de pier std a conbchitta",
+        "character_alignment_ratio": 0.7267605633802817,
+        "processing_seconds": 0.7082753520001006
+      },
+      {
+        "chunk": 2,
+        "start": 31.39628117913832,
+        "end": 47.61297052154195,
+        "source_phonetic_approximation": "a superan a green check box cararga wait pandramari either no tricour ownma character ipo paniia moco automated morico yena with yasamni pakalla server kula namapo files a copyps pay kayala dotne publisher on pandraa and the kal",
+        "converted_phonetic_approximation": "other super on a green check boox car of w pandramadi even nutrico character hipo pao morico automated morico yena with yasmbni pacalour server kan namipoi files a copypsed buni kayala dortnet publisher and pandrather and the carlo",
+        "character_alignment_ratio": 0.7896103896103897,
+        "processing_seconds": 0.7424536749999788
+      },
+      {
+        "chunk": 3,
+        "start": 47.61297052154195,
+        "end": 63.60458049886621,
+        "source_phonetic_approximation": "an apo automated pipeline the solaparrapdumury or factory assembly line motherri pakawa valasio taon naakar kana cha sailla nma the guarantee sorry inigma pak of a blueprint either owner manual deployment to a goodbye render",
+        "converted_phonetic_approximation": "an apo automated pipeline in the solab thepdumy own factory assemiline mother pak asu the punaka kanna chance nimmry guarantee s inde number part of a blueprint eo only manual deployment to a goodbye render",
+        "character_alignment_ratio": 0.7624309392265194,
+        "processing_seconds": 0.6994133050000073
+      },
+      {
+        "chunk": 4,
+        "start": 63.60458049886621,
+        "end": 78.89596371882087,
+        "source_phonetic_approximation": "get her actions of pourj mona automatic builion test naalla docker optimization anje pag the kpana deploy aro arl sen on the pipeline moraga avlaa pagdi warer manuel moga good by solala",
+        "converted_phonetic_approximation": "did her actions of punjk w monna automatic building test nala docker optimization unje pa the kpana deploylo arl c and the pipeline weated avlaa pakdi woodll manual moated a good good by solala",
+        "character_alignment_ratio": 0.802547770700637,
+        "processing_seconds": 0.6981183820000751
+      },
+      {
+        "chunk": 5,
+        "start": 78.89596371882087,
+        "end": 94.5035827664399,
+        "source_phonetic_approximation": "in our muka manaviishta namaaklea poportgno continuous integration aa the sea iic continuous deployment the si rico yavidaom see i inther ning over a quarta pushpan boo are the built pany tespan rather see inerther",
+        "converted_phonetic_approximation": "in our rumka manaviceta nama clearer pogonal continuous integration add our the c i continuous deployment of the c y videoone c i iner the ning over the a cor of pushman on boo are the built byy testpora see in",
+        "character_alignment_ratio": 0.7485714285714286,
+        "processing_seconds": 0.7482650590000048
+      },
+      {
+        "chunk": 6,
+        "start": 94.5035827664399,
+        "end": 111.14925170068027,
+        "source_phonetic_approximation": "yellow saria ynda are the main branch e merged pana lives of k either rendo tanitania pi karadala araka panakoa top of avrikda production coora namaalla takmlium adie pagdi renda namaala automation factoriana get her backctions sa pather jagon",
+        "converted_phonetic_approximation": "yellow saa are the main branch emerged but needed lifes overver count it did end the you tay thania pi alle ico underk top of theco of production of po that nama at a codium i did the but with the rend nom of the automation factoryiana did herbactions about the ten jaic",
+        "character_alignment_ratio": 0.624113475177305,
+        "processing_seconds": 0.7542551399999411
+      },
+      {
+        "chunk": 7,
+        "start": 111.14925170068027,
+        "end": 127.46290249433106,
+        "source_phonetic_approximation": "get her actions or kachamana assembly line mother sail pano firstster namakoa push paanro aa namamolapar adiha are the c a st jacopoy build andta together aer container a pak ag cardisa servever could deploy ag a pretty a step by step paanco",
+        "converted_phonetic_approximation": "guit her actions who catch the miner assembly la mother saleb first the nama coa pushmentntro either nam wlaple and the other the c a st gcopo built into the startark of it aro contained a pa carsia s work employer with it a police temp placeaced upon aco",
+        "character_alignment_ratio": 0.6009852216748769,
+        "processing_seconds": 0.6870961450001687
+      },
+      {
+        "chunk": 8,
+        "start": 127.46290249433106,
+        "end": 141.21061224489796,
+        "source_phonetic_approximation": "e the lerica beauty and a thma yen the u third party sna mak thevila unnglodia wtmoha wayel workflow fiil soson unngarrepolier dot kid her slash workfloce up puting her folder kla pag pak adumato lama",
+        "converted_phonetic_approximation": "in the leate beauty and the gma y the world third party serve number the avi who lo w of the wa el workflow fi also on the repool dot kid huslash workfloce up print her folder gula pa the a paco ad mato lame",
+        "character_alignment_ratio": 0.7317073170731707,
+        "processing_seconds": 0.4939326579999488
+      },
+      {
+        "chunk": 9,
+        "start": 141.21061224489796,
+        "end": 156.89446712018142,
+        "source_phonetic_approximation": "i ylllami cloud leka dot net s t k y kave install sa yaap to obuno ragla rua near thearranago pagdi mona automatica built matun tesponder the adinna paklaa nama yamaal fail and akapura mudal muki manavaalla in the siirra",
+        "converted_phonetic_approximation": "illa a cloudlyc dotn esti y canve installi but the uulo raganda rumorneath the aranago pagudi moon automaticca built madame tspondthy of di bagla the mayael fail under cappoa mudl muk manavala in the seaa",
+        "character_alignment_ratio": 0.6837606837606838,
+        "processing_seconds": 0.7601435139999921
+      },
+      {
+        "chunk": 10,
+        "start": 156.89446712018142,
+        "end": 172.4130612244898,
+        "source_phonetic_approximation": "either or orderan naco mola check outut code a pro dot s t kve set up under the package gr restore pand application of biilt pandra cardisa unitestsaran pandra ina needs opering a kver rumo moko other the word dependency chino uvak other",
+        "converted_phonetic_approximation": "either or or an aco modilla check out cold app pro laudinate s d kve set up under the package ley stored under the application of buil under the carsia unit tests around undererth in the needs op bring the aquiiv rumo mukv aspentency chino uwaco",
+        "character_alignment_ratio": 0.7139240506329114,
+        "processing_seconds": 0.613155081000059
+      },
+      {
+        "chunk": 11,
+        "start": 172.4130612244898,
+        "end": 189.177641723356,
+        "source_phonetic_approximation": "test fail lachna mo the pipepno and the earthly stop argum next to step of a pogavipog simple as old nona in the c a pipe planlane or kalumiana clabun s mari gold let chiinna appear in thekda are the production up appearing a clabcuulla or away more the other either fail fast policy",
+        "converted_phonetic_approximation": "s fail lachinna mo the pipelano and the at least top a next the step of a pogpg sla old nona in the c a pipeplane who kuianna clabone said mari cold la china oppo in thekuda are the production oping the clabgla or rav muaated either the fa fastter policy",
+        "character_alignment_ratio": 0.7327188940092166,
+        "processing_seconds": 0.8253632399998878
+      },
+      {
+        "chunk": 12,
+        "start": 189.177641723356,
+        "end": 203.62426303854875,
+        "source_phonetic_approximation": "adanla testing pandra orsma and ankinga adanalak pare or a superhero shilder and an itch congaing a parker in the nineteen number another rumour hoga dot sees proch files a hash panny newgate package gular nga cash pan a modio",
+        "converted_phonetic_approximation": "aan ale testing under there or sume and anicalingia at the number ka or the superhe or she didn't and it co there he puting a parker in the nineteen at number another ruour only the dot sees approach fs a hashpnee newgate package gar near the cashba modu",
+        "character_alignment_ratio": 0.7142857142857143,
+        "processing_seconds": 0.5877108600000156
+      },
+      {
+        "chunk": 13,
+        "start": 203.62426303854875,
+        "end": 220.67986394557823,
+        "source_phonetic_approximation": "a pretty panana dot net restore agritha normal itica and ninety seconds wero five seconds are according in yourro ylo time michamag pathingla okay add the pagadin na docker container s you pretty optimize man ra than papa nama a pack panmb the saar a single stage moilla",
+        "converted_phonetic_approximation": "a pretty pan dot net restore other normalally i in ninety seconds we five seconds accordingro yvo time mister marg the patula okay i did the pain na doer contain her se he pre optimize underer than the pappo nama pa panmo the saar a single stage moiler",
+        "character_alignment_ratio": 0.7570093457943925,
+        "processing_seconds": 0.8806140259998756
+      },
+      {
+        "chunk": 14,
+        "start": 220.67986394557823,
+        "end": 236.84108843537416,
+        "source_phonetic_approximation": "image size pathing in a kitta thutter eight hundred m b vicu anna alpine linux usepnny build arium run time larium pi multi stage mopine patia size v one twenty m b give through either size sum two curricular hacking at awarama pa the uppa mo michico",
+        "converted_phonetic_approximation": "he made size pathing an archta thatta eight hundred m b viic anna and find an excuse for me buil a longti area particularar multi stage mo by betina size there one twenty m b one through either size some or two viicular hacking at akrama pas up of vic",
+        "character_alignment_ratio": 0.7044334975369458,
+        "processing_seconds": 0.7133417219999956
+      },
+      {
+        "chunk": 15,
+        "start": 236.84108843537416,
+        "end": 251.42662131519273,
+        "source_phonetic_approximation": "inraga someman a trick sort on killingar docker bill panmoer cash from colon type equals g cha aingervari c guitar podo either guitar action sort a cashier a pretty usepanic nimsha kanaklaga biltin vero still a second slumb in dr",
+        "converted_phonetic_approximation": "in no letter are someone triic sort and came the docker billpmo the cash from colen type equals g t oping their various e dapoo either deta actions or a cashier a pretty usepanico nmia kaka the billt they use a secondsla mo",
+        "character_alignment_ratio": 0.7115902964959568,
+        "processing_seconds": 0.5448429410000699
+      },
+      {
+        "chunk": 16,
+        "start": 251.42662131519273,
+        "end": 266.04303854875286,
+        "source_phonetic_approximation": "builk ki it layer cashinker of low power ric pag theannga padga paa automated deployments onngla pathu rik we k lareca on may soga nigger no a cloud password secrets at laton ong reposrilyva your kingr",
+        "converted_phonetic_approximation": "biil it layer cashinker of low power licket pag the anngel padapanda automated deployments onngla padu kvi k land ricket may sog nearly know the cloud password secrets a latio on the reposri electture cameingla",
+        "character_alignment_ratio": 0.7602339181286549,
+        "processing_seconds": 0.6421055710000019
+      },
+      {
+        "chunk": 17,
+        "start": 266.04303854875286,
+        "end": 282.38961451247167,
+        "source_phonetic_approximation": "yamel fi lib the hardcoat pay or tain bo mari yperva anbtica ya the chinna the likana called of motmo galiido s e kan na theway a katan open iy connect a the o i d crak either the namaw or superper na soul no",
+        "converted_phonetic_approximation": "yamel fa libly hardcoat pavaated the old tam of mari yp ofanbicla ya the chiiner likana or of motglio say eki and na anti a guitar open and de connnect of the o d criic either the nachmari will superper another solo",
+        "character_alignment_ratio": 0.6863905325443787,
+        "processing_seconds": 0.7984107259999291
+      },
+      {
+        "chunk": 18,
+        "start": 282.38961451247167,
+        "end": 298.66308390022675,
+        "source_phonetic_approximation": "password la authentication conjianerrame valas ara short lived tokens either azu a w s rendly mes potago in the method of usepna secrets are aticary math indate tension air gather develop pasg and namala yon e room was safe a patk kad see kataak on the to pagu the ae",
+        "converted_phonetic_approximation": "password i la the authentication conjme valais e short live the tokens either assued aid abusus renglili me potago in the method of usepna secrets are adequly math inate tension a regarded dether pasag and number y the the rums see fa patco calaisi kateco on thet pagdi a",
+        "character_alignment_ratio": 0.7301587301587301,
+        "processing_seconds": 0.756064742000035
+      },
+      {
+        "chunk": 19,
+        "start": 298.66308390022675,
+        "end": 314.5,
+        "source_phonetic_approximation": "pie plan a car of best practices pipe plan a maintain uponable the slevishing cut time say you know sa say y away could other with anotherk action slash check out other eight main abdiinno main branch up prea usepndrod e a slash latest taxa use spnderd rumath uper",
+        "converted_phonetic_approximation": "pieping the car of best practices pipep in a maintain frontable the sllviition cut times you know sll c they could other with meical action slash check out are great main a been a main brancher of pre use puntrodu is a slash latest taxa use spntrodu room with up",
+        "character_alignment_ratio": 0.7692307692307693,
+        "processing_seconds": 0.7399546819999614
+      },
+      {
+        "chunk": 20,
+        "start": 314.5,
+        "end": 331.69827664399094,
+        "source_phonetic_approximation": "at the kbaadla kurpea yessch was annglepin pundruther hyphen hyphen no restore hyphen hyphen nobilt flaggulla use pundruther a pro commite esch of which she image g at tag bundther either lumb best practices either noma pipela silent to break a garian thalk supply in a tackr no na makapto",
+        "converted_phonetic_approximation": "at the kla kpita esiche was annglepine pundrother hyphen hyphen nody store hyphen hyphen nobil flaggly used pundother a pro com esitve of which she image you like ta bundother either lump best practices either number pipe planlain silent to break out theco subpple and a attackr noalkapato",
+        "character_alignment_ratio": 0.8091286307053942,
+        "processing_seconds": 0.8080442099999345
+      },
+      {
+        "chunk": 21,
+        "start": 331.69827664399094,
+        "end": 347.92086167800454,
+        "source_phonetic_approximation": "in no rumok mana viso guita environments are used forne hoger deploymenter or git winger yara propno yevolo narow weight panana either a sepanic cla either wry or ra a sepnittapoo vili karmaang ya and natla three arthanma production and deploy a grand the viberta it taanto",
+        "converted_phonetic_approximation": "in knew the mukman of vi theta environments are used for me who a deployment ocur or d riinger yaarda pro pao y will narow weat paon either sec either w would have a sepnittapolo will c maan y and nath three ar anal production and deploy a grand the we better either the thirty",
+        "character_alignment_ratio": 0.7333333333333333,
+        "processing_seconds": 0.8555940809999356
+      },
+      {
+        "chunk": 22,
+        "start": 347.92086167800454,
+        "end": 362.43696145124716,
+        "source_phonetic_approximation": "namowra kapro was safety at either in the alis a loda mod vigama on the dog fine alla ungo kilvi ungloda main branch yppo made deploy under the radia of the deployable state la irika up pretty ylaanna",
+        "converted_phonetic_approximation": "namowra kaproo is safety at the in the alissa order movag number on the dop fine a la on doorcaly uncle loa main branch ypopo made deployed under the radia of the deployable state la irika up pretty yleana",
+        "character_alignment_ratio": 0.8363636363636363,
+        "processing_seconds": 0.6478737439999804
+      },
+      {
+        "chunk": 23,
+        "start": 362.43696145124716,
+        "end": 377.6493424036281,
+        "source_phonetic_approximation": "in nicama paha in the automated c i c d techniquesa would the name a projectly implement paanga manual vegar touki poter nmaiauanga either tripan paaka nkatara",
+        "converted_phonetic_approximation": "you need to amapa in the automated c i c d techniques s would the name on the projectly implement paanga manual vehiclear toky vo nim maaanga either triban paka neither diera",
+        "character_alignment_ratio": 0.7971014492753623,
+        "processing_seconds": 0.741407167000034
+      }
+    ]
+  },
+  "reference_embedding_sha256": "2b21b8532156357b6f0f4322fb18abef020e883963a8dc625dc9927e9bb24e4d",
+  "source_embedding_sha256": "28b201fcb039fe370f20c3cb90ea61832caa30dde2eccace1f77d089f88368cf",
+  "validation_summary": {
+    "video_bitstream_and_all_frames_unchanged": true,
+    "duration_difference_seconds": 0.0003419999999891843,
+    "full_media_decode_passed": true,
+    "every_original_audio_sample_interval_preserved": true,
+    "reference_hash_unchanged": true,
+    "voice_closer_to_saved_reference_in_all_checked_windows": true,
+    "voice_match_percentages_reported": false
+  }
+}
