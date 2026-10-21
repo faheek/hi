@@ -1,0 +1,14 @@
+How does a CI/CD pipeline guarantee broken code never reaches your users?
+Because manual deployment is slow and risks uploading hidden bugs straight to a live server.
+Let's say you just pushed a new ASP.NET Core API endpoint to GitHub.
+Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.
+Inside, it restores your project dependencies and builds the application from scratch to prove it compiles.
+Next, it runs your automated tests.
+But one test fails.
+Because the remaining steps strictly depend on this passing, the entire workflow halts.
+So you push a fix.
+The pipeline restarts.
+The tests pass green, and it packages that exact code into a secure, deployable bundle.
+Now the deployment phase unlocks.
+The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.
+So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.

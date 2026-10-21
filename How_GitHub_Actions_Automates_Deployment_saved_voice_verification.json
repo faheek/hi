@@ -1,0 +1,2495 @@
+{
+  "input_filename": "How_GitHub_Actions_Automates_Deployment.mp4",
+  "input_sha256": "5d21496b8b9e1b10a6c18b93398c446171b26dace778618e43b7a1d5d12550b5",
+  "output_filename": "How_GitHub_Actions_Automates_Deployment_saved_voice.mp4",
+  "output_sha256": "a4d53d870619147adb46833b748fa19eb6a9cfbd324572d614cea6fbb2184993",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "53769e6eec3f30e7b859103b4af1ae62f65a2f395c3bde3b6bbb3bd140c7171f",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "69.033333",
+    "nb_read_frames": "2071"
+  },
+  "input_duration": "69.102585",
+  "output_duration": "69.102000",
+  "audio_peak": 0.845947265625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized narration and one directly voice-converted source phrase use the same reference, aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0.0,
+      "end": 11.56622,
+      "text": "How does a CI/CD pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server.",
+      "generation_text": "How does a see eye see dee pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server.",
+      "filename": "cloned-00-a.wav",
+      "duration": 9.564708333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 45.989395161000004,
+      "num_threads": 1
+    },
+    {
+      "segment": 1,
+      "start": 11.56622,
+      "end": 23.95928,
+      "text": "Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "generation_text": "Let's say you just pushed a new ay ess pee dot net Core aypeeeye endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "filename": "cloned-01-complete.wav",
+      "duration": 11.002416666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 49.27012389499998,
+      "num_threads": 1,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "spins up",
+          "primary_range": [
+            8.085,
+            8.655
+          ],
+          "donor_file": "donor-spins-up.wav",
+          "donor_range": [
+            0,
+            0.69
+          ],
+          "provenance": "Restore the complete initial s in spins up using a checked clip from the same approved Project 46 reference.",
+          "donor_sha256": "1222c4f959ab290b4e7ba03228cb650bd45de67ed4452e315f93ba0c09abc7a6"
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "start": 23.95928,
+      "end": 34.31256,
+      "text": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests. But one test fails.",
+      "generation_text": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests. But one test fails.",
+      "filename": "cloned-02-complete.wav",
+      "duration": 8.914833333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 58.142166257999975,
+      "num_threads": 1,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "tests",
+          "primary_range": [
+            7.315,
+            7.655
+          ],
+          "donor_file": "donor-tests.wav",
+          "donor_range": [
+            0.835,
+            1.28
+          ],
+          "provenance": "Restore the complete plural tests using a checked clip generated with the same approved Project 46 reference.",
+          "donor_sha256": "b96a545e8306edca55a7934aa753aee67c25fed425352fa12160ba944b7227ed"
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "start": 34.31256,
+      "end": 42.62941,
+      "text": "Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts.",
+      "generation_text": "Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts.",
+      "filename": "cloned-03-context.wav",
+      "duration": 8.206833333333334,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 89.98968314699994,
+      "num_threads": 2,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "the entire workflow halts. So you push a fix. The pipeline restarts.",
+          "primary_range": [
+            2.995,
+            6.780916666666666
+          ],
+          "donor_file": "cloned-03-converted.wav",
+          "donor_range": [
+            3.105,
+            8.316825396825397
+          ],
+          "provenance": "Preserved original phrase and following sentences converted directly to the saved reference, retaining natural pause and consonants; the correctly synthesized prefix avoids the converted this/mis ambiguity.",
+          "donor_sha256": "99c744db1edc153074c1036e3331571f10e34c641f6928004009ab35624dbedd"
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "start": 42.62941,
+      "end": 50.58537,
+      "text": "The tests pass green, and it packages that exact code into a secure, deployable bundle. Now the deployment phase unlocks.",
+      "generation_text": "The tests pass green, and it packages that exact code into a secure, deployable bundle. Now the deployment phase unlocks.",
+      "filename": "cloned-04-full4.wav",
+      "duration": 6.645333333333333,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 88.36492529300006,
+      "num_threads": 2
+    },
+    {
+      "segment": 5,
+      "start": 50.58537,
+      "end": 57.56984,
+      "text": "The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.",
+      "generation_text": "The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.",
+      "filename": "cloned-05-b.wav",
+      "duration": 6.32475,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.345245951000038,
+      "num_threads": 1
+    },
+    {
+      "segment": 6,
+      "start": 57.56984,
+      "end": 69.102625,
+      "text": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "generation_text": "So that original aypeeeye endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "filename": "cloned-06-complete.wav",
+      "duration": 8.473,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 29.84110601100008,
+      "num_threads": 1,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "live",
+          "primary_range": [
+            5.08,
+            5.325
+          ],
+          "donor_file": "cloned-05-b.wav",
+          "donor_range": [
+            4.445,
+            4.715
+          ],
+          "provenance": "Use the checked adjective live from the live release sentence in this video, retaining the intended long-i vowel.",
+          "donor_sha256": "df76f12d6c132920118c8056b3da999ed9b2f2f335e457cf6fbc3df60a13eae3"
+        }
+      ]
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0.0,
+      "end": 6.01722,
+      "text": "How does a CI/CD pipeline guarantee broken code never reaches your users?",
+      "filename": "cloned-00-a.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.737,
+      "placed_start": 0.1,
+      "placed_end": 4.837,
+      "original_generated_duration": 4.737,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 6.01722,
+      "end": 11.56622,
+      "text": "Because manual deployment is slow and risks uploading hidden bugs straight to a live server.",
+      "filename": "cloned-00-a.wav",
+      "generated_start": 4.737,
+      "generated_end": 9.564708333333334,
+      "placed_start": 6.117208333333333,
+      "placed_end": 10.944916666666666,
+      "original_generated_duration": 4.827708333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 11.56622,
+      "end": 17.00544,
+      "text": "Let's say you just pushed a new ASP.NET Core API endpoint to GitHub.",
+      "filename": "cloned-01-complete.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.013,
+      "placed_start": 11.666208333333334,
+      "placed_end": 16.67920833333333,
+      "original_generated_duration": 5.013,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 17.00544,
+      "end": 23.95928,
+      "text": "Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "filename": "cloned-01-complete.wav",
+      "generated_start": 5.013,
+      "generated_end": 11.002416666666667,
+      "placed_start": 17.105458333333335,
+      "placed_end": 23.094875,
+      "original_generated_duration": 5.989416666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 23.95928,
+      "end": 29.83016,
+      "text": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles.",
+      "filename": "cloned-02-complete.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.633,
+      "placed_start": 24.059291666666667,
+      "placed_end": 29.692291666666666,
+      "original_generated_duration": 5.633,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 2,
+      "start": 29.83016,
+      "end": 32.54044,
+      "text": "Next, it runs your automated tests.",
+      "filename": "cloned-02-complete.wav",
+      "generated_start": 5.633,
+      "generated_end": 7.809,
+      "placed_start": 29.93016666666667,
+      "placed_end": 32.10616666666667,
+      "original_generated_duration": 2.176,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 2,
+      "start": 32.54044,
+      "end": 34.31256,
+      "text": "But one test fails.",
+      "filename": "cloned-02-complete.wav",
+      "generated_start": 7.809,
+      "generated_end": 8.914833333333334,
+      "placed_start": 32.640458333333335,
+      "placed_end": 33.746291666666664,
+      "original_generated_duration": 1.1058333333333332,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 34.31256,
+      "end": 39.53741,
+      "text": "Because the remaining steps strictly depend on this passing, the entire workflow halts.",
+      "filename": "cloned-03-context.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.093,
+      "placed_start": 34.41254166666667,
+      "placed_end": 39.430708333333335,
+      "original_generated_duration": 5.093,
+      "tempo_factor": 1.0166218441947934
+    },
+    {
+      "unit": 8,
+      "block": 3,
+      "start": 39.53741,
+      "end": 40.98953,
+      "text": "So you push a fix.",
+      "filename": "cloned-03-context.wav",
+      "generated_start": 5.093,
+      "generated_end": 6.497,
+      "placed_start": 39.63741666666667,
+      "placed_end": 40.941625,
+      "original_generated_duration": 1.404,
+      "tempo_factor": 1.0860703058016574
+    },
+    {
+      "unit": 9,
+      "block": 3,
+      "start": 40.98953,
+      "end": 42.62941,
+      "text": "The pipeline restarts.",
+      "filename": "cloned-03-context.wav",
+      "generated_start": 6.497,
+      "generated_end": 8.206833333333334,
+      "placed_start": 41.08954166666667,
+      "placed_end": 42.576875,
+      "original_generated_duration": 1.7098333333333333,
+      "tempo_factor": 1.157083645859377
+    },
+    {
+      "unit": 10,
+      "block": 4,
+      "start": 42.62941,
+      "end": 48.37363,
+      "text": "The tests pass green, and it packages that exact code into a secure, deployable bundle.",
+      "filename": "cloned-04-full4.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.953,
+      "placed_start": 42.729416666666665,
+      "placed_end": 47.68241666666667,
+      "original_generated_duration": 4.953,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 4,
+      "start": 48.37363,
+      "end": 50.58537,
+      "text": "Now the deployment phase unlocks.",
+      "filename": "cloned-04-full4.wav",
+      "generated_start": 4.953,
+      "generated_end": 6.645333333333333,
+      "placed_start": 48.473625,
+      "placed_end": 50.165958333333336,
+      "original_generated_duration": 1.6923333333333332,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 5,
+      "start": 50.58537,
+      "end": 57.56984,
+      "text": "The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.",
+      "filename": "cloned-05-b.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.32475,
+      "placed_start": 50.685375,
+      "placed_end": 57.010125,
+      "original_generated_duration": 6.32475,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 13,
+      "block": 6,
+      "start": 57.56984,
+      "end": 69.102625,
+      "text": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "filename": "cloned-06-complete.wav",
+      "generated_start": 0.0,
+      "generated_end": 8.473,
+      "placed_start": 57.66983333333334,
+      "placed_end": 66.14283333333333,
+      "original_generated_duration": 8.473,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0.0,
+      "end": 23.95928,
+      "expected": "How does a CI/CD pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server. Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "transcription": "How does a CICD pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server. Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "differences": []
+    },
+    {
+      "start": 23.95928,
+      "end": 48.37363,
+      "expected": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests. But one test fails. Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts. The tests pass green, and it packages that exact code into a secure, deployable bundle.",
+      "transcription": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests, but one test fails because the remaining steps strictly depend on this passing the entire workflow holds. So you push a fix. The pipeline restarts. The tests pass green and it packages that exact code into a secure deployable bundle.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "halts"
+          ],
+          "heard": [
+            "holds"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 48.37363,
+      "end": 69.102625,
+      "expected": "Now the deployment phase unlocks. The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically. So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "transcription": "Now the deployment phase unlocks, the pipeline securely transfers this bundle to your cloud provider executing the live release completely automatically. So that a regional API endpoint you pushed at the very beginning, it is now safely live for your users and you never had to log into a single server.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "original"
+          ],
+          "heard": [
+            "a",
+            "regional"
+          ]
+        }
+      ]
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Sentence and bounded phrase checks with Whisper FP32 and NeMo CTC resolve selected recognition ambiguities using the same final audio. Every original word must be recognized at its aligned script position by at least one check; unresolved shared disagreements fail. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0.0,
+        "end": 23.95928,
+        "word_count": 57,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 11,
+            "end": 12,
+            "expected": [
+              "users"
+            ],
+            "heard": [
+              "uss"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 20,
+            "end": 22,
+            "expected": [
+              "hidden",
+              "bugs"
+            ],
+            "heard": [
+              "hiddenbg"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 25,
+            "end": 26,
+            "expected": [
+              "live"
+            ],
+            "heard": [
+              "life"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 34,
+            "end": 37,
+            "expected": [
+              "asp",
+              "dotnet",
+              "core"
+            ],
+            "heard": [
+              "aped",
+              "net",
+              "co"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 40,
+            "end": 41,
+            "expected": [
+              "github"
+            ],
+            "heard": [
+              "get",
+              "hub"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 23.95928,
+        "end": 48.37363,
+        "word_count": 62,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [
+          {
+            "unit": 7,
+            "start": 34.31256,
+            "end": 39.53741,
+            "expected": "Because the remaining steps strictly depend on this passing, the entire workflow halts.",
+            "checked_audio_start": 34.41254166666667,
+            "checked_audio_end": 39.422270730706074,
+            "transcription": "because the remaining steps strictly depend on this passing the entire workflow halts",
+            "recognizer": "NeMo CTC, sentence window from final encoded audio",
+            "matched_expected_word_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "differences": []
+          }
+        ],
+        "whisper_differences": [
+          {
+            "op": "replace",
+            "start": 38,
+            "end": 39,
+            "expected": [
+              "halts"
+            ],
+            "heard": [
+              "holds"
+            ]
+          }
+        ],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 11,
+            "end": 12,
+            "expected": [
+              "scratch"
+            ],
+            "heard": [
+              "scratcher"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 20,
+            "end": 21,
+            "expected": [
+              "automated"
+            ],
+            "heard": [
+              "automative"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 37,
+            "end": 39,
+            "expected": [
+              "workflow",
+              "halts"
+            ],
+            "heard": [
+              "work",
+              "flowlo",
+              "hauls"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 42,
+            "end": 43,
+            "expected": [
+              "a"
+            ],
+            "heard": [
+              "your"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 45,
+            "end": 47,
+            "expected": [
+              "pipeline",
+              "restarts"
+            ],
+            "heard": [
+              "pipe",
+              "point",
+              "wetalls"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 48.37363,
+        "end": 69.102625,
+        "word_count": 50,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [
+          {
+            "unit": 13,
+            "start": 57.56984,
+            "end": 69.102625,
+            "expected": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+            "transcription": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users and you never had to log into a single server.",
+            "recognizer": "Whisper small.en FP32, sentence window from final encoded audio",
+            "matched_expected_word_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "differences": []
+          }
+        ],
+        "whisper_differences": [
+          {
+            "op": "replace",
+            "start": 23,
+            "end": 24,
+            "expected": [
+              "original"
+            ],
+            "heard": [
+              "a",
+              "regional"
+            ]
+          }
+        ],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 3,
+            "end": 4,
+            "expected": [
+              "phase"
+            ],
+            "heard": [
+              "face"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 23,
+            "end": 24,
+            "expected": [
+              "original"
+            ],
+            "heard": [
+              "a",
+              "regional"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 25,
+            "end": 26,
+            "expected": [
+              "endpoint"
+            ],
+            "heard": [
+              "and",
+              "point"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0.0,
+      "end": 23.95928,
+      "expected": "How does a CI/CD pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server. Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "transcription": "how does a c i c d pipeline guarantee broken code never reaches your uss because manual deployment is slow and risks uploading hiddenbg straight to a life server let's say you just pushed a new aped net co api end point to get hub instantly a configuration file detects your update and spins up a completely clean isolated cloud machine",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "users"
+          ],
+          "heard": [
+            "uss"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "hidden",
+            "bugs"
+          ],
+          "heard": [
+            "hiddenbg"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "live"
+          ],
+          "heard": [
+            "life"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "asp",
+            "dotnet",
+            "core"
+          ],
+          "heard": [
+            "aped",
+            "net",
+            "co"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "github"
+          ],
+          "heard": [
+            "get",
+            "hub"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 23.95928,
+      "end": 48.37363,
+      "expected": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests. But one test fails. Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts. The tests pass green, and it packages that exact code into a secure, deployable bundle.",
+      "transcription": "inside it restores your project dependencies and builds the application from scratcher to prove it compiles next it runs your automative tests but one test fails because the remaining steps strictly depend on this passing the entire work flowlo hauls so you push your fix the pipe point wetalls the tests pass green and it packages that exact code into a secure deployable bundle",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "scratch"
+          ],
+          "heard": [
+            "scratcher"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "automated"
+          ],
+          "heard": [
+            "automative"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "workflow",
+            "halts"
+          ],
+          "heard": [
+            "work",
+            "flowlo",
+            "hauls"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "a"
+          ],
+          "heard": [
+            "your"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "pipeline",
+            "restarts"
+          ],
+          "heard": [
+            "pipe",
+            "point",
+            "wetalls"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 48.37363,
+      "end": 69.102625,
+      "expected": "Now the deployment phase unlocks. The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically. So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "transcription": "now the deployment face unlocks the pipeline securely transfers this bundle to your cloud provider executing the live release completely automatically so that a regional api and point you pushed at the very beginning it is now safely live for your users and you never had to log into a single server",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "phase"
+          ],
+          "heard": [
+            "face"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "original"
+          ],
+          "heard": [
+            "a",
+            "regional"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "endpoint"
+          ],
+          "heard": [
+            "and",
+            "point"
+          ]
+        }
+      ]
+    }
+  ],
+  "supplemental_sentence_checks": [
+    {
+      "unit": 7,
+      "start": 34.31256,
+      "end": 39.53741,
+      "expected": "Because the remaining steps strictly depend on this passing, the entire workflow halts.",
+      "transcription": "Because the remaining steps strictly depend on this passing, the entire workflow holds.",
+      "recognizer": "Whisper small.en FP32, sentence window from final encoded audio",
+      "matched_expected_word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "halts"
+          ],
+          "heard": [
+            "holds"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 13,
+      "start": 57.56984,
+      "end": 69.102625,
+      "expected": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "transcription": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users and you never had to log into a single server.",
+      "recognizer": "Whisper small.en FP32, sentence window from final encoded audio",
+      "matched_expected_word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "differences": []
+    },
+    {
+      "unit": 7,
+      "start": 34.31256,
+      "end": 39.53741,
+      "expected": "Because the remaining steps strictly depend on this passing, the entire workflow halts.",
+      "checked_audio_start": 34.41254166666667,
+      "checked_audio_end": 39.422270730706074,
+      "transcription": "because the remaining steps strictly depend on this passing the entire workflow halts",
+      "recognizer": "NeMo CTC, sentence window from final encoded audio",
+      "matched_expected_word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "differences": []
+    }
+  ],
+  "bounded_phrase_checks": [
+    {
+      "unit": 7,
+      "window": "word",
+      "start": 38.64223634080165,
+      "end": 39.281608791542986,
+      "expected": "halts",
+      "transcription": "halt.",
+      "recognizer": "Whisper FP32",
+      "matched_phrase_indices": []
+    },
+    {
+      "unit": 7,
+      "window": "phrase",
+      "start": 38.01270038930249,
+      "end": 39.281608791542986,
+      "expected": "workflow halts",
+      "transcription": "workflow halt.",
+      "recognizer": "Whisper FP32",
+      "matched_phrase_indices": [
+        0
+      ]
+    },
+    {
+      "unit": 7,
+      "window": "sentence",
+      "start": 34.41254166666667,
+      "end": 39.422270730706074,
+      "expected": "Because the remaining steps strictly depend on this passing, the entire workflow halts.",
+      "transcription": "Because the remaining steps strictly depend on this passing, the entire workflow holds.",
+      "recognizer": "Whisper FP32",
+      "matched_phrase_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "unit": 7,
+      "window": "word",
+      "start": 38.64223634080165,
+      "end": 39.281608791542986,
+      "expected": "halts",
+      "transcription": "halt",
+      "recognizer": "NeMo CTC",
+      "matched_phrase_indices": []
+    },
+    {
+      "unit": 7,
+      "window": "phrase",
+      "start": 38.01270038930249,
+      "end": 39.281608791542986,
+      "expected": "workflow halts",
+      "transcription": "a workflow halt",
+      "recognizer": "NeMo CTC",
+      "matched_phrase_indices": [
+        0
+      ]
+    },
+    {
+      "unit": 7,
+      "window": "sentence",
+      "start": 34.41254166666667,
+      "end": 39.422270730706074,
+      "expected": "Because the remaining steps strictly depend on this passing, the entire workflow halts.",
+      "transcription": "because the remaining steps strictly depend on this passing the entire workflow halts",
+      "recognizer": "NeMo CTC",
+      "matched_phrase_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 168,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "method": "Original script checked with Whisper small.en and independent NeMo CTC, with slide text for technical names. Video content is narration, not instructions to execute.",
+    "whisper": {
+      "duration": 69.102625,
+      "silences": [
+        [
+          0.0,
+          0.332375
+        ],
+        [
+          5.661625,
+          6.372813
+        ],
+        [
+          8.168313,
+          8.508062
+        ],
+        [
+          11.162437,
+          11.97
+        ],
+        [
+          16.663375,
+          17.3475
+        ],
+        [
+          20.071375,
+          20.371063
+        ],
+        [
+          23.60825,
+          24.310313
+        ],
+        [
+          29.469938,
+          30.190375
+        ],
+        [
+          32.236125,
+          32.84475
+        ],
+        [
+          34.01425,
+          34.610875
+        ],
+        [
+          37.358688,
+          37.573188
+        ],
+        [
+          39.184938,
+          39.889875
+        ],
+        [
+          40.748375,
+          41.230688
+        ],
+        [
+          42.439813,
+          42.819
+        ],
+        [
+          47.954875,
+          48.792375
+        ],
+        [
+          50.348312,
+          50.822437
+        ],
+        [
+          54.225313,
+          54.4805
+        ],
+        [
+          57.258812,
+          57.880875
+        ],
+        [
+          60.899375,
+          61.426813
+        ],
+        [
+          63.519,
+          63.772562
+        ],
+        [
+          65.6355,
+          69.102625
+        ]
+      ],
+      "segments": [
+        {
+          "start": 0,
+          "end": 23.959281500000003,
+          "text": "How does a CI/CD pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server. Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine."
+        },
+        {
+          "start": 23.959281500000003,
+          "end": 48.373625000000004,
+          "text": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests. But one test fails. Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts. The tests pass green, and it packages that exact code into a secure, deployable bundle."
+        },
+        {
+          "start": 48.373625000000004,
+          "end": 69.102625,
+          "text": "Now the deployment phase unlocks. The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically. So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server."
+        }
+      ]
+    },
+    "independent_ctc": [
+      {
+        "start": 0,
+        "end": 23.959281500000003,
+        "text": "how does a ci c d pipeline guarantee broken code never reaches your users because manual deployment is slow and risks uploading hidden bug straight to a life server let's say you just pushed a new a s p dot net corp a pi end point to get up instantly a configuration file detext your update and spins up a completely clean isolated cloud machine"
+      },
+      {
+        "start": 23.959281500000003,
+        "end": 48.373625000000004,
+        "text": "inside it restores your project dependencies and builds the application from scratch to prove it compiles next it runs your automated tests but one test fails because the remaining steps strictly depend on this passing the entire work flow halts so you push a fix the pipeline restarts the tests pass green and it packages that exact code into a secure deployable bundle"
+      },
+      {
+        "start": 48.373625000000004,
+        "end": 69.102625,
+        "text": "now the deployment phase unlocks the pipeline securely transfers this bundle to your cloud provider executing the live release completely automatically so that original api n point you pushed at the very beginning it is now safely live for your users and you never had to log into a single server"
+      }
+    ],
+    "canonical_script": "How does a CI/CD pipeline guarantee broken code never reaches your users?\nBecause manual deployment is slow and risks uploading hidden bugs straight to a live server.\nLet's say you just pushed a new ASP.NET Core API endpoint to GitHub.\nInstantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.\nInside, it restores your project dependencies and builds the application from scratch to prove it compiles.\nNext, it runs your automated tests.\nBut one test fails.\nBecause the remaining steps strictly depend on this passing, the entire workflow halts.\nSo you push a fix.\nThe pipeline restarts.\nThe tests pass green, and it packages that exact code into a secure, deployable bundle.\nNow the deployment phase unlocks.\nThe pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.\nSo that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.\n",
+    "editorial_changes": [
+      "Standard CI/CD and ASP.NET spellings retained.",
+      "All uses of live describe an online service or release; the adjective pronunciation is used throughout."
+    ]
+  },
+  "pronunciation_overrides": {
+    "pronunciations.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a",
+      "eyes \u02c8 a \u026a z",
+      "aypeeeye \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a",
+      "aypeeeyes \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a z",
+      "live l \u02c8 a \u026a v"
+    ]
+  },
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved reference, used as a qualitative consistency check. It is not a voice match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-a.wav",
+        "reference_cosine": 0.899916965324464
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01-complete.wav",
+        "reference_cosine": 0.9287613005813701
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02-complete.wav",
+        "reference_cosine": 0.92781968836911
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03-context.wav",
+        "reference_cosine": 0.7455769022097705
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04-full4.wav",
+        "reference_cosine": 0.8908908722258728
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05-b.wav",
+        "reference_cosine": 0.9334443909398099
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-complete.wav",
+        "reference_cosine": 0.9220815216165011
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-a.wav",
+      "expected": "How does a CI/CD pipeline guarantee broken code never reaches your users? Because manual deployment is slow and risks uploading hidden bugs straight to a live server.",
+      "transcription": "How does a CICD pipeline guarantee broken code never reaches your users because manual deployment is slow and risks uploading hidden bugs straight to a live server?",
+      "differences": [],
+      "reference_cosine": 0.899916965324464
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-complete.wav",
+      "expected": "Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "transcription": "Let's say you just pushed a new ASP.NET Core API endpoint to GitHub. Instantly, a configuration file detects your update and spins up a completely clean, isolated cloud machine.",
+      "differences": [],
+      "reference_cosine": 0.9287613005813701
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-complete.wav",
+      "expected": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests. But one test fails.",
+      "transcription": "Inside, it restores your project dependencies and builds the application from scratch to prove it compiles. Next, it runs your automated tests but one test fails.",
+      "differences": [],
+      "reference_cosine": 0.92781968836911
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-context.wav",
+      "expected": "Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts.",
+      "transcription": "Because the remaining steps strictly depend on this passing the entire workflow holds. So you push a fix, the pipeline restarts.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "halts"
+          ],
+          "heard": [
+            "holds"
+          ]
+        }
+      ],
+      "reference_cosine": 0.7455769022097705
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-full4.wav",
+      "expected": "The tests pass green, and it packages that exact code into a secure, deployable bundle. Now the deployment phase unlocks.",
+      "transcription": "The tests pass green and it packages that exact code into a secure deployable bundle. Now, the deployment phase unlocks",
+      "differences": [],
+      "reference_cosine": 0.8908908722258728
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-b.wav",
+      "expected": "The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.",
+      "transcription": "The pipeline securely transfers this bundle to your cloud provider executing the live release completely automatically.",
+      "differences": [],
+      "reference_cosine": 0.9334443909398099
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-complete.wav",
+      "expected": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users, and you never had to log into a single server.",
+      "transcription": "So that original API endpoint you pushed at the very beginning, it is now safely live for your users and you never had to log into a single server.",
+      "differences": [],
+      "reference_cosine": 0.9220815216165011
+    }
+  ],
+  "selected_base_independent_ctc_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-a.wav",
+      "text": "how does a c i c d pipeline guarantee broken coat never reaches your users because manual deployment is slow and risks uploading hidden bug strade to a life server",
+      "words": [
+        {
+          "text": "how",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "does",
+          "start": 0.35999998450279236,
+          "end": 0.39999998450279234
+        },
+        {
+          "text": "a",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "c",
+          "start": 0.6800000071525574,
+          "end": 0.7200000071525574
+        },
+        {
+          "text": "i",
+          "start": 0.9199999570846558,
+          "end": 0.9599999570846558
+        },
+        {
+          "text": "c",
+          "start": 1.1200000047683716,
+          "end": 1.1600000047683716
+        },
+        {
+          "text": "d",
+          "start": 1.3600000143051147,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "pipeline",
+          "start": 1.6399999856948853,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "guarantee",
+          "start": 2.119999885559082,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "broken",
+          "start": 2.759999990463257,
+          "end": 3.0799999618530274
+        },
+        {
+          "text": "coat",
+          "start": 3.1599998474121094,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "never",
+          "start": 3.5199999809265137,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "reaches",
+          "start": 3.759999990463257,
+          "end": 4.079999961853027
+        },
+        {
+          "text": "your",
+          "start": 4.159999847412109,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "users",
+          "start": 4.319999694824219,
+          "end": 4.639999904632568
+        },
+        {
+          "text": "because",
+          "start": 4.839999675750732,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "manual",
+          "start": 5.079999923706055,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "deployment",
+          "start": 5.480000019073486,
+          "end": 5.91999963760376
+        },
+        {
+          "text": "is",
+          "start": 6.039999961853027,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "slow",
+          "start": 6.199999809265137,
+          "end": 6.239999809265137
+        },
+        {
+          "text": "and",
+          "start": 6.559999942779541,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "risks",
+          "start": 6.71999979019165,
+          "end": 7.04
+        },
+        {
+          "text": "uploading",
+          "start": 7.159999847412109,
+          "end": 7.679999866485596
+        },
+        {
+          "text": "hidden",
+          "start": 7.71999979019165,
+          "end": 8.000000038146972
+        },
+        {
+          "text": "bug",
+          "start": 8.079999923706055,
+          "end": 8.239999809265136
+        },
+        {
+          "text": "strade",
+          "start": 8.399999618530273,
+          "end": 8.559999504089355
+        },
+        {
+          "text": "to",
+          "start": 8.679999351501465,
+          "end": 8.719999351501464
+        },
+        {
+          "text": "a",
+          "start": 8.84000015258789,
+          "end": 8.88000015258789
+        },
+        {
+          "text": "life",
+          "start": 8.960000038146973,
+          "end": 9.000000038146972
+        },
+        {
+          "text": "server",
+          "start": 9.199999809265137,
+          "end": 9.439999618530273
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-complete.wav",
+      "text": "let's say you just pushed a new aped do net co a pi end point to get up instantly a configuration file detects your update and spins up a completely clean isolated cloud machine",
+      "words": [
+        {
+          "text": "let's",
+          "start": 0.1599999964237213,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "say",
+          "start": 0.3999999761581421,
+          "end": 0.43999997615814207
+        },
+        {
+          "text": "you",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "just",
+          "start": 0.7599999904632568,
+          "end": 0.7999999904632569
+        },
+        {
+          "text": "pushed",
+          "start": 1.0799999237060547,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "a",
+          "start": 1.4399999380111694,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "new",
+          "start": 1.559999942779541,
+          "end": 1.599999942779541
+        },
+        {
+          "text": "aped",
+          "start": 1.8799999952316284,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "do",
+          "start": 2.3999998569488525,
+          "end": 2.4399998569488526
+        },
+        {
+          "text": "net",
+          "start": 2.7200000286102295,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "co",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "a",
+          "start": 3.359999895095825,
+          "end": 3.3999998950958252
+        },
+        {
+          "text": "pi",
+          "start": 3.5199999809265137,
+          "end": 3.7600000286102295
+        },
+        {
+          "text": "end",
+          "start": 3.9599997997283936,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "point",
+          "start": 4.199999809265137,
+          "end": 4.239999809265137
+        },
+        {
+          "text": "to",
+          "start": 4.440000057220459,
+          "end": 4.480000057220459
+        },
+        {
+          "text": "get",
+          "start": 4.639999866485596,
+          "end": 4.679999866485596
+        },
+        {
+          "text": "up",
+          "start": 4.839999675750732,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "instantly",
+          "start": 5.079999923706055,
+          "end": 5.520000019073486
+        },
+        {
+          "text": "a",
+          "start": 5.759999752044678,
+          "end": 5.799999752044678
+        },
+        {
+          "text": "configuration",
+          "start": 5.920000076293945,
+          "end": 6.520000019073486
+        },
+        {
+          "text": "file",
+          "start": 6.639999866485596,
+          "end": 6.8799996757507325
+        },
+        {
+          "text": "detects",
+          "start": 7.0,
+          "end": 7.359999694824219
+        },
+        {
+          "text": "your",
+          "start": 7.399999618530273,
+          "end": 7.4399996185302735
+        },
+        {
+          "text": "update",
+          "start": 7.559999942779541,
+          "end": 7.91999963760376
+        },
+        {
+          "text": "and",
+          "start": 8.0,
+          "end": 8.04
+        },
+        {
+          "text": "spins",
+          "start": 8.199999809265137,
+          "end": 8.519999542236327
+        },
+        {
+          "text": "up",
+          "start": 8.59999942779541,
+          "end": 8.63999942779541
+        },
+        {
+          "text": "a",
+          "start": 8.880000114440918,
+          "end": 8.920000114440917
+        },
+        {
+          "text": "completely",
+          "start": 9.0,
+          "end": 9.439999618530273
+        },
+        {
+          "text": "clean",
+          "start": 9.519999504089355,
+          "end": 9.679999389648437
+        },
+        {
+          "text": "isolated",
+          "start": 9.800000190734863,
+          "end": 10.31999973297119
+        },
+        {
+          "text": "cloud",
+          "start": 10.399999618530273,
+          "end": 10.599999465942382
+        },
+        {
+          "text": "machine",
+          "start": 10.679999351501465,
+          "end": 10.920000114440917
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-complete.wav",
+      "text": "inside it restores your project dependencies and builds the application from scratcher to prove it compiles next it runs your automive tests but one test fails",
+      "words": [
+        {
+          "text": "inside",
+          "start": 0.1599999964237213,
+          "end": 0.3200000011920929
+        },
+        {
+          "text": "it",
+          "start": 0.5199999809265137,
+          "end": 0.5599999809265137
+        },
+        {
+          "text": "restores",
+          "start": 0.6800000071525574,
+          "end": 1.1199999237060547
+        },
+        {
+          "text": "your",
+          "start": 1.159999966621399,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "project",
+          "start": 1.399999976158142,
+          "end": 1.4399999761581421
+        },
+        {
+          "text": "dependencies",
+          "start": 1.8799999952316284,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "and",
+          "start": 2.440000057220459,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "builds",
+          "start": 2.5999999046325684,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "the",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "application",
+          "start": 3.0399999618530273,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "from",
+          "start": 3.6399998664855957,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "scratcher",
+          "start": 3.8399999141693115,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "to",
+          "start": 4.559999942779541,
+          "end": 4.599999942779541
+        },
+        {
+          "text": "prove",
+          "start": 4.71999979019165,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "it",
+          "start": 4.920000076293945,
+          "end": 4.960000076293945
+        },
+        {
+          "text": "compiles",
+          "start": 5.079999923706055,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "next",
+          "start": 5.71999979019165,
+          "end": 5.75999979019165
+        },
+        {
+          "text": "it",
+          "start": 6.039999961853027,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "runs",
+          "start": 6.239999771118164,
+          "end": 6.480000057220459
+        },
+        {
+          "text": "your",
+          "start": 6.519999980926514,
+          "end": 6.559999980926514
+        },
+        {
+          "text": "automive",
+          "start": 6.839999675750732,
+          "end": 7.359999694824219
+        },
+        {
+          "text": "tests",
+          "start": 7.440000057220459,
+          "end": 7.719999828338623
+        },
+        {
+          "text": "but",
+          "start": 7.839999675750732,
+          "end": 7.8799996757507325
+        },
+        {
+          "text": "one",
+          "start": 8.039999961853027,
+          "end": 8.079999961853026
+        },
+        {
+          "text": "test",
+          "start": 8.239999771118164,
+          "end": 8.359999694824218
+        },
+        {
+          "text": "fails",
+          "start": 8.559999465942383,
+          "end": 8.800000228881835
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-context.wav",
+      "text": "because the remaining steps strictly depend on this bussing the entire workflow halts so you w a fix the pipeline restarts",
+      "words": [
+        {
+          "text": "because",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "the",
+          "start": 0.4399999976158142,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "remaining",
+          "start": 0.6399999856948853,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "steps",
+          "start": 1.0399999618530273,
+          "end": 1.2800000095367432
+        },
+        {
+          "text": "strictly",
+          "start": 1.3600000143051147,
+          "end": 1.6799999856948853
+        },
+        {
+          "text": "depend",
+          "start": 1.8399999141693115,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "on",
+          "start": 2.119999885559082,
+          "end": 2.159999885559082
+        },
+        {
+          "text": "this",
+          "start": 2.2799999713897705,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "bussing",
+          "start": 2.5199999809265137,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "the",
+          "start": 3.119999885559082,
+          "end": 3.159999885559082
+        },
+        {
+          "text": "entire",
+          "start": 3.2799999713897705,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "workflow",
+          "start": 3.799999952316284,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "halts",
+          "start": 4.400000095367432,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "so",
+          "start": 5.400000095367432,
+          "end": 5.440000095367432
+        },
+        {
+          "text": "you",
+          "start": 5.639999866485596,
+          "end": 5.679999866485596
+        },
+        {
+          "text": "w",
+          "start": 5.799999713897705,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "a",
+          "start": 6.0,
+          "end": 6.04
+        },
+        {
+          "text": "fix",
+          "start": 6.079999923706055,
+          "end": 6.239999809265137
+        },
+        {
+          "text": "the",
+          "start": 6.759999752044678,
+          "end": 6.799999752044678
+        },
+        {
+          "text": "pipeline",
+          "start": 6.87999963760376,
+          "end": 7.199999847412109
+        },
+        {
+          "text": "restarts",
+          "start": 7.399999618530273,
+          "end": 7.959999599456787
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-full4.wav",
+      "text": "the tests pass green and it packages that exact code into a secure deployable bundle now the deployment face unlocks",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "tests",
+          "start": 0.2800000011920929,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "pass",
+          "start": 0.7199999690055847,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "green",
+          "start": 1.0399999618530273,
+          "end": 1.2399999284744263
+        },
+        {
+          "text": "and",
+          "start": 1.3199999332427979,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "it",
+          "start": 1.399999976158142,
+          "end": 1.4399999761581421
+        },
+        {
+          "text": "packages",
+          "start": 1.559999942779541,
+          "end": 1.9599999570846558
+        },
+        {
+          "text": "that",
+          "start": 2.0399999618530273,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "exact",
+          "start": 2.240000009536743,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "code",
+          "start": 2.679999828338623,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "into",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "a",
+          "start": 3.1999998092651367,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "secure",
+          "start": 3.359999895095825,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "deployable",
+          "start": 3.879999876022339,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "bundle",
+          "start": 4.480000019073486,
+          "end": 4.799999752044678
+        },
+        {
+          "text": "now",
+          "start": 5.039999961853027,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "the",
+          "start": 5.279999732971191,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "deployment",
+          "start": 5.400000095367432,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "face",
+          "start": 6.0,
+          "end": 6.04
+        },
+        {
+          "text": "unlocks",
+          "start": 6.239999771118164,
+          "end": 6.639999904632568
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-b.wav",
+      "text": "the pipeline securely transfers this bundle to your cloud provider executing the live release completely automatically",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "pipeline",
+          "start": 0.2800000011920929,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "securely",
+          "start": 0.8399999737739563,
+          "end": 1.2800000095367432
+        },
+        {
+          "text": "transfers",
+          "start": 1.4399999380111694,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "this",
+          "start": 1.959999918937683,
+          "end": 1.9999999189376831
+        },
+        {
+          "text": "bundle",
+          "start": 2.2799999713897705,
+          "end": 2.599999942779541
+        },
+        {
+          "text": "to",
+          "start": 2.6399998664855957,
+          "end": 2.6799998664855957
+        },
+        {
+          "text": "your",
+          "start": 2.759999990463257,
+          "end": 2.799999990463257
+        },
+        {
+          "text": "cloud",
+          "start": 2.919999837875366,
+          "end": 3.159999885559082
+        },
+        {
+          "text": "provider",
+          "start": 3.240000009536743,
+          "end": 3.599999942779541
+        },
+        {
+          "text": "executing",
+          "start": 3.759999990463257,
+          "end": 4.319999732971191
+        },
+        {
+          "text": "the",
+          "start": 4.400000095367432,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "live",
+          "start": 4.519999980926514,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "release",
+          "start": 4.759999752044678,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "completely",
+          "start": 5.119999885559082,
+          "end": 5.559999980926514
+        },
+        {
+          "text": "automatically",
+          "start": 5.639999866485596,
+          "end": 6.199999847412109
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-complete.wav",
+      "text": "so that a regional api and point you pushed at the very beginning it is now safely live for your users and you never had to log into a single server",
+      "words": [
+        {
+          "text": "so",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "that",
+          "start": 0.4399999976158142,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "a",
+          "start": 0.7599999904632568,
+          "end": 0.7999999904632569
+        },
+        {
+          "text": "regional",
+          "start": 0.8799999952316284,
+          "end": 1.2800000095367432
+        },
+        {
+          "text": "api",
+          "start": 1.3199999332427979,
+          "end": 1.6799999856948853
+        },
+        {
+          "text": "and",
+          "start": 1.8399999141693115,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "point",
+          "start": 2.0,
+          "end": 2.04
+        },
+        {
+          "text": "you",
+          "start": 2.2799999713897705,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "pushed",
+          "start": 2.3999998569488525,
+          "end": 2.6799998664855957
+        },
+        {
+          "text": "at",
+          "start": 2.679999828338623,
+          "end": 2.719999828338623
+        },
+        {
+          "text": "the",
+          "start": 2.799999952316284,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "very",
+          "start": 2.919999837875366,
+          "end": 2.9599998378753662
+        },
+        {
+          "text": "beginning",
+          "start": 3.119999885559082,
+          "end": 3.5200000190734864
+        },
+        {
+          "text": "it",
+          "start": 3.8399999141693115,
+          "end": 3.8799999141693116
+        },
+        {
+          "text": "is",
+          "start": 4.239999771118164,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "now",
+          "start": 4.440000057220459,
+          "end": 4.480000057220459
+        },
+        {
+          "text": "safely",
+          "start": 4.71999979019165,
+          "end": 5.04
+        },
+        {
+          "text": "live",
+          "start": 5.159999847412109,
+          "end": 5.199999847412109
+        },
+        {
+          "text": "for",
+          "start": 5.440000057220459,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "your",
+          "start": 5.559999942779541,
+          "end": 5.599999942779541
+        },
+        {
+          "text": "users",
+          "start": 5.759999752044678,
+          "end": 6.119999923706055
+        },
+        {
+          "text": "and",
+          "start": 6.239999771118164,
+          "end": 6.279999771118164
+        },
+        {
+          "text": "you",
+          "start": 6.399999618530273,
+          "end": 6.4399996185302735
+        },
+        {
+          "text": "never",
+          "start": 6.559999942779541,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "had",
+          "start": 6.799999713897705,
+          "end": 6.839999713897705
+        },
+        {
+          "text": "to",
+          "start": 6.960000038146973,
+          "end": 7.000000038146973
+        },
+        {
+          "text": "log",
+          "start": 7.119999885559082,
+          "end": 7.359999694824219
+        },
+        {
+          "text": "into",
+          "start": 7.480000019073486,
+          "end": 7.520000019073486
+        },
+        {
+          "text": "a",
+          "start": 7.679999828338623,
+          "end": 7.719999828338623
+        },
+        {
+          "text": "single",
+          "start": 7.799999713897705,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "server",
+          "start": 8.15999984741211,
+          "end": 8.359999694824218
+        }
+      ]
+    }
+  ],
+  "word_correction_recipes": {
+    "cloned-06-complete.wav": {
+      "primary_file": "cloned-06-c.wav",
+      "primary_log": "generation-distill-c.json",
+      "output_filename": "cloned-06-complete.wav",
+      "output_log": "generation-composite-6.json",
+      "corrections": [
+        {
+          "word": "live",
+          "primary_range": [
+            5.08,
+            5.325
+          ],
+          "donor_file": "cloned-05-b.wav",
+          "donor_range": [
+            4.445,
+            4.715
+          ],
+          "provenance": "Use the checked adjective live from the live release sentence in this video, retaining the intended long-i vowel."
+        }
+      ]
+    },
+    "cloned-03-context.wav": {
+      "primary_file": "cloned-03-full3.wav",
+      "primary_log": "generation-full-full3.json",
+      "output_filename": "cloned-03-context.wav",
+      "output_log": "generation-composite-3-context.json",
+      "corrections": [
+        {
+          "word": "the entire workflow halts. So you push a fix. The pipeline restarts.",
+          "primary_range": [
+            2.995,
+            6.780916666666666
+          ],
+          "donor_file": "cloned-03-converted.wav",
+          "donor_range": [
+            3.105,
+            8.316825396825397
+          ],
+          "provenance": "Preserved original phrase and following sentences converted directly to the saved reference, retaining natural pause and consonants; the correctly synthesized prefix avoids the converted this/mis ambiguity."
+        }
+      ]
+    },
+    "cloned-02-complete.wav": {
+      "primary_file": "cloned-02-c.wav",
+      "primary_log": "generation-distill-c.json",
+      "output_filename": "cloned-02-complete.wav",
+      "output_log": "generation-composite-2.json",
+      "corrections": [
+        {
+          "word": "tests",
+          "primary_range": [
+            7.315,
+            7.655
+          ],
+          "donor_file": "donor-tests.wav",
+          "donor_range": [
+            0.835,
+            1.28
+          ],
+          "provenance": "Restore the complete plural tests using a checked clip generated with the same approved Project 46 reference."
+        }
+      ]
+    },
+    "cloned-01-complete.wav": {
+      "primary_file": "cloned-01-b.wav",
+      "primary_log": "generation-distill-b.json",
+      "output_filename": "cloned-01-complete.wav",
+      "output_log": "generation-composite-1.json",
+      "corrections": [
+        {
+          "word": "spins up",
+          "primary_range": [
+            8.085,
+            8.655
+          ],
+          "donor_file": "donor-spins-up.wav",
+          "donor_range": [
+            0,
+            0.69
+          ],
+          "provenance": "Restore the complete initial s in spins up using a checked clip from the same approved Project 46 reference."
+        }
+      ]
+    }
+  },
+  "word_donor_generation": [
+    {
+      "segment": 3,
+      "start": 34.31256,
+      "end": 42.62941,
+      "text": "Because the remaining steps strictly depend on this passing, the entire workflow halts. So you push a fix. The pipeline restarts.",
+      "generation_text": "Original source speech converted directly, without text resynthesis.",
+      "filename": "cloned-03-converted.wav",
+      "duration": 8.316825396825397,
+      "model": "OpenVoice V2 tone conversion",
+      "num_steps": null,
+      "guidance_scale": null,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 5.746090890999994,
+      "num_threads": 2,
+      "method": "Direct voice conversion of the original sentence to preserve all consonants and words; target is the same approved Project 46 reference.",
+      "source_interval": [
+        34.31256,
+        42.62941
+      ],
+      "conversion_models": {
+        "source": "https://github.com/azrinsani/accent-models/releases/tag/v1",
+        "model": "OpenVoice V2, ONNX export",
+        "sha256": {
+          "tone_color.onnx": "896195b84b0cb87a828bb8cab06577e9c024356bc9727b1a8f4174154bc0affa",
+          "tone_extract.onnx": "e91c2cb696e199d2519ed8b62ca6e3c8e42cb99ca13955dd6e188051486e681c"
+        },
+        "hash_validation": "Compared with GitHub release asset sha256 digests",
+        "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7"
+      },
+      "source_embedding_windows_seconds": [
+        [
+          2,
+          12
+        ],
+        [
+          25,
+          35
+        ],
+        [
+          50,
+          60
+        ]
+      ],
+      "tau": 0.3
+    },
+    {
+      "segment": 5,
+      "start": 50.58537,
+      "end": 57.56984,
+      "text": "The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.",
+      "generation_text": "The pipeline securely transfers this bundle to your cloud provider, executing the live release completely automatically.",
+      "filename": "cloned-05-b.wav",
+      "duration": 6.32475,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.345245951000038,
+      "num_threads": 1
+    },
+    {
+      "segment": 206,
+      "start": 0,
+      "end": 3,
+      "text": "Spins up a server.",
+      "generation_text": "Spinnz, up a server.",
+      "filename": "donor-spins-up.wav",
+      "duration": 1.1413333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 9.651579132999814,
+      "num_threads": 2,
+      "imported_from": "/workspace/shared/voice-work-setup-dotnet/donor-spins-up.wav",
+      "imported_unchanged_sha256": "1222c4f959ab290b4e7ba03228cb650bd45de67ed4452e315f93ba0c09abc7a6"
+    },
+    {
+      "segment": 12,
+      "start": 123.83156,
+      "end": 136.65353,
+      "text": "Because these tests are essentially just JavaScript, you get immense native flexibility. You can pass massive JSON payloads or check dictionary values without compiling heavy test frameworks. Just look at this single line of code.",
+      "generation_text": "Because these tests are essentially just JavaScript, you get immense native flexibility. You can pass massive jaysun payloads or check dictionary values without compiling heavy test frameworks. Just look at this single line of code.",
+      "filename": "donor-tests.wav",
+      "duration": 12.842666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 137.37835314199992,
+      "num_threads": 1,
+      "imported_from": "/workspace/shared/voice-work-api-testing/cloned-12-a.wav",
+      "imported_unchanged_sha256": "b96a545e8306edca55a7934aa753aee67c25fed425352fa12160ba944b7227ed"
+    }
+  ],
+  "pronunciation_note": "These dictionaries were available to the used local generation calls. Entries apply only when their token occurs in the recorded generation text. Imported donors retain their original prompts, reference hashes and waveform hashes.",
+  "verification_normalization": "Case, punctuation, standard contractions, acronym spellings, ordinary word boundaries, numeric notation and technical-name spellings are normalized. .NET/dot net, ASP.NET/A S P dot net, CI/CD/C I C D and API/A P I are equivalent spoken forms. End point/endpoint are ordinary word-boundary variants. Distinct words such as live/life and can/cannot are not equated. Raw transcripts, source scripts and generation prompts are retained.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 69.102585
+  }
+}
