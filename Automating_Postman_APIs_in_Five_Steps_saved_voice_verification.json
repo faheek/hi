@@ -1,0 +1,2304 @@
+{
+  "input_filename": "Automating_Postman_APIs_in_Five_Steps.mp4",
+  "input_sha256": "d083d7d2ddcec7220c213cb54049e24bef35bdec26826fbdbf54faa1d48e9250",
+  "output_filename": "Automating_Postman_APIs_in_Five_Steps_saved_voice.mp4",
+  "output_sha256": "ddd2568e2e0339da34b3feafaa96e929e8a0d37fb0ef0151ab76c5770354095a",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "5b5ede87b495fce8505fe00bd4750fc15320662898481451b567c74565ac0b10",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "84.100000",
+    "nb_read_frames": "2523"
+  },
+  "input_duration": "84.149116",
+  "output_duration": "84.149000",
+  "audio_peak": 0.847412109375,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0.0,
+      "end": 12.83497,
+      "text": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five-step automated pipeline.",
+      "generation_text": "Clicking Run in Postman is great for building aypeeeyes locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five step automated pipeline.",
+      "filename": "cloned-00-claritya.wav",
+      "duration": 11.218333333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 51.70067033300006,
+      "num_threads": 1
+    },
+    {
+      "segment": 1,
+      "start": 12.83497,
+      "end": 23.78794,
+      "text": "First, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "generation_text": "First, package your local collection and environment into exported files, but before you commit them, strip out any hard coded aypeeeye keys and replace them with empty variables.",
+      "filename": "cloned-01-clarityb.wav",
+      "duration": 10.101333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 36.32871327499993,
+      "num_threads": 1
+    },
+    {
+      "segment": 2,
+      "start": 23.78794,
+      "end": 34.74653,
+      "text": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command-line runner that executes requests automatically.",
+      "generation_text": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command line runner that executes requests automatically.",
+      "filename": "cloned-02-c.wav",
+      "duration": 9.372583333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 54.617795286000046,
+      "num_threads": 1
+    },
+    {
+      "segment": 3,
+      "start": 34.74653,
+      "end": 40.41763,
+      "text": "If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "generation_text": "If Newman tests against a shared staging server, mid run deploys will cause false failures.",
+      "filename": "cloned-03-d.wav",
+      "duration": 4.896,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.60790302700002,
+      "num_threads": 1
+    },
+    {
+      "segment": 4,
+      "start": 40.41763,
+      "end": 51.81312,
+      "text": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer.",
+      "generation_text": "Instead, inject a dynamic base yoo arr ell at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer.",
+      "filename": "cloned-04-final.wav",
+      "duration": 10.085083333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 49.338043578,
+      "num_threads": 1,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "tests",
+          "primary_range": [
+            3.91,
+            4.24
+          ],
+          "donor_file": "donor-tests-12.wav",
+          "donor_range": [
+            0.835,
+            1.28
+          ],
+          "provenance": "Complete plural tests from a previously checked clip generated with the same approved Project 46 reference; restore its final s before at.",
+          "donor_sha256": "b96a545e8306edca55a7934aa753aee67c25fed425352fa12160ba944b7227ed"
+        },
+        {
+          "word": "pull",
+          "primary_range": [
+            7.43,
+            7.725
+          ],
+          "donor_file": "word-pull-complete.wav",
+          "donor_range": [
+            0,
+            0.305
+          ],
+          "provenance": "Complete initial p burst and short-u pull from a checked full-model clip generated using the same approved Project 46 reference; retains the following request.",
+          "donor_sha256": "f3ffa3f46421d5e94f97bbb62f2dba49c6f0f6bf022156aa8a0cf799d0bcf498"
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "start": 51.81312,
+      "end": 58.53997,
+      "text": "Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "generation_text": "Using a fail fast command, Newman will instantly reject the deployment if a single ay pee eye assertion breaks.",
+      "filename": "cloned-05-b.wav",
+      "duration": 6.1546666666666665,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 29.962825663000103,
+      "num_threads": 1
+    },
+    {
+      "segment": 6,
+      "start": 58.53997,
+      "end": 69.80891,
+      "text": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard.",
+      "generation_text": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard.",
+      "filename": "cloned-06-full.wav",
+      "duration": 9.898666666666667,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 80.38965284400001,
+      "num_threads": 2
+    },
+    {
+      "segment": 7,
+      "start": 69.80891,
+      "end": 74.28987,
+      "text": "Connect these five steps and you never have to run manual checks again.",
+      "generation_text": "Connect these five steps and you never have to run manual checks again.",
+      "filename": "cloned-07-d.wav",
+      "duration": 3.688875,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.3882106330002,
+      "num_threads": 1
+    },
+    {
+      "segment": 8,
+      "start": 74.28987,
+      "end": 84.149125,
+      "text": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "generation_text": "Every single code push automatically proves your ay pee eyes integrity before it ever has the chance to merge into production.",
+      "filename": "cloned-08-a.wav",
+      "duration": 6.64525,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.305084986999873,
+      "num_threads": 1
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0.0,
+      "end": 8.9375,
+      "text": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production.",
+      "filename": "cloned-00-claritya.wav",
+      "generated_start": 0.0,
+      "generated_end": 8.023,
+      "placed_start": 0.1,
+      "placed_end": 8.123,
+      "original_generated_duration": 8.023,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 8.9375,
+      "end": 12.83497,
+      "text": "To stop that, you need this five-step automated pipeline.",
+      "filename": "cloned-00-claritya.wav",
+      "generated_start": 8.023,
+      "generated_end": 11.218333333333334,
+      "placed_start": 9.0375,
+      "placed_end": 12.232833333333334,
+      "original_generated_duration": 3.195333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 12.83497,
+      "end": 23.78794,
+      "text": "First, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "filename": "cloned-01-clarityb.wav",
+      "generated_start": 0.0,
+      "generated_end": 10.101333333333333,
+      "placed_start": 12.934958333333332,
+      "placed_end": 23.036291666666667,
+      "original_generated_duration": 10.101333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 2,
+      "start": 23.78794,
+      "end": 29.14094,
+      "text": "Next, your deployment server needs a way to read those files without a graphical interface.",
+      "filename": "cloned-02-c.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.987,
+      "placed_start": 23.887958333333334,
+      "placed_end": 28.874958333333332,
+      "original_generated_duration": 4.987,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 29.14094,
+      "end": 34.74653,
+      "text": "This is Newman, Postman's command-line runner that executes requests automatically.",
+      "filename": "cloned-02-c.wav",
+      "generated_start": 4.987,
+      "generated_end": 9.372583333333333,
+      "placed_start": 29.24095833333333,
+      "placed_end": 33.62654166666667,
+      "original_generated_duration": 4.385583333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 3,
+      "start": 34.74653,
+      "end": 40.41763,
+      "text": "If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "filename": "cloned-03-d.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.896,
+      "placed_start": 34.84654166666667,
+      "placed_end": 39.74254166666667,
+      "original_generated_duration": 4.896,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 4,
+      "start": 40.41763,
+      "end": 49.42881,
+      "text": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request.",
+      "filename": "cloned-04-final.wav",
+      "generated_start": 0.0,
+      "generated_end": 8.265,
+      "placed_start": 40.517625,
+      "placed_end": 48.782625,
+      "original_generated_duration": 8.265,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 4,
+      "start": 49.42881,
+      "end": 51.81312,
+      "text": "Now the pipeline acts as a bouncer.",
+      "filename": "cloned-04-final.wav",
+      "generated_start": 8.265,
+      "generated_end": 10.085083333333333,
+      "placed_start": 49.52879166666666,
+      "placed_end": 51.348875,
+      "original_generated_duration": 1.8200833333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 5,
+      "start": 51.81312,
+      "end": 58.53997,
+      "text": "Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "filename": "cloned-05-b.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.1546666666666665,
+      "placed_start": 51.913125,
+      "placed_end": 58.067791666666665,
+      "original_generated_duration": 6.1546666666666665,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 6,
+      "start": 58.53997,
+      "end": 69.80891,
+      "text": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard.",
+      "filename": "cloned-06-full.wav",
+      "generated_start": 0.0,
+      "generated_end": 9.898666666666667,
+      "placed_start": 58.63995833333333,
+      "placed_end": 68.538625,
+      "original_generated_duration": 9.898666666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 7,
+      "start": 69.80891,
+      "end": 74.28987,
+      "text": "Connect these five steps and you never have to run manual checks again.",
+      "filename": "cloned-07-d.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.688875,
+      "placed_start": 69.90891666666667,
+      "placed_end": 73.59779166666667,
+      "original_generated_duration": 3.688875,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 8,
+      "start": 74.28987,
+      "end": 84.149125,
+      "text": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "filename": "cloned-08-a.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.64525,
+      "placed_start": 74.389875,
+      "placed_end": 81.035125,
+      "original_generated_duration": 6.64525,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0.0,
+      "end": 23.78794,
+      "expected": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five-step automated pipeline. First, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "transcription": "Clicking Run-in Postman is great for building APIs locally but relying on humans to test every code push is how bugs reach production. To stop that, you need this five-step automated pipeline. First, package your local collection and environment into exported files but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "differences": []
+    },
+    {
+      "start": 23.78794,
+      "end": 40.41763,
+      "expected": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command-line runner that executes requests automatically. If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "transcription": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command-line runner that executes requests automatically. If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "differences": []
+    },
+    {
+      "start": 40.41763,
+      "end": 58.53997,
+      "expected": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer. Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "transcription": "Instead, inject a dynamic base URL at runtime pointing the tests at a fresh isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer. Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "differences": []
+    },
+    {
+      "start": 58.53997,
+      "end": 74.28987,
+      "expected": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard. Connect these five steps and you never have to run manual checks again.",
+      "transcription": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard. Connect these 5 steps and you never have to run manual checks again.",
+      "differences": []
+    },
+    {
+      "start": 74.28987,
+      "end": 84.149125,
+      "expected": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "transcription": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Sentence- and bounded phrase-window Whisper FP32 checks resolve selected recognition ambiguities using the same final audio. Every original word must be recognized at its aligned script position by at least one check; unresolved shared disagreements fail. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0.0,
+        "end": 23.78794,
+        "word_count": 62,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 1,
+            "end": 3,
+            "expected": [
+              "run",
+              "in"
+            ],
+            "heard": [
+              "running"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 8,
+            "end": 9,
+            "expected": [
+              "apis"
+            ],
+            "heard": [
+              "a",
+              "ps"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 21,
+            "end": 22,
+            "expected": [
+              "bugs"
+            ],
+            "heard": [
+              "buucks"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 30,
+            "end": 32,
+            "expected": [
+              "5",
+              "step"
+            ],
+            "heard": [
+              "fivetep"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 54,
+            "end": 56,
+            "expected": [
+              "api",
+              "keys"
+            ],
+            "heard": [
+              "a",
+              "pi",
+              "ks"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 23.78794,
+        "end": 40.41763,
+        "word_count": 41,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 40.41763,
+        "end": 58.53997,
+        "word_count": 46,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [
+          {
+            "unit": 6,
+            "start": 40.41763,
+            "end": 49.42881,
+            "expected": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request.",
+            "transcription": "Instead, inject a dynamic base URL at runtime pointing the tests at a fresh, isolated preview environment for that specific pull request.",
+            "recognizer": "Whisper small.en FP32, sentence window from final encoded audio",
+            "matched_expected_word_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "differences": []
+          }
+        ],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 20,
+            "end": 21,
+            "expected": [
+              "pull"
+            ],
+            "heard": [
+              "pooler"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 31,
+            "end": 33,
+            "expected": [
+              "fail",
+              "fast"
+            ],
+            "heard": [
+              "failfast"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 58.53997,
+        "end": 74.28987,
+        "word_count": 43,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "blocked"
+            ],
+            "heard": [
+              "block"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 74.28987,
+        "end": 84.149125,
+        "word_count": 19,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0.0,
+      "end": 23.78794,
+      "expected": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five-step automated pipeline. First, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "transcription": "clicking running postman is great for building a ps locally but relying on humans to test every code push is how buucks reach production to stop that you need this fivetep automated pipeline first package your local collection and environment into exported files but before you commit them strip out any hardcoded a pi ks and replace them with empty variables",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "run",
+            "in"
+          ],
+          "heard": [
+            "running"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "apis"
+          ],
+          "heard": [
+            "a",
+            "ps"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "bugs"
+          ],
+          "heard": [
+            "buucks"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "5",
+            "step"
+          ],
+          "heard": [
+            "fivetep"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "api",
+            "keys"
+          ],
+          "heard": [
+            "a",
+            "pi",
+            "ks"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 23.78794,
+      "end": 40.41763,
+      "expected": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command-line runner that executes requests automatically. If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "transcription": "next your deployment server needs a way to read those files without a graphical interface this is newman postman's command line runner that executes requests automatically if newman tests against a shared staging server mid run deploys will cause false failures",
+      "differences": []
+    },
+    {
+      "start": 40.41763,
+      "end": 58.53997,
+      "expected": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer. Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "transcription": "instead inject a dynamic base url at runtime pointing the tests at a fresh isolated preview environment for that specific pooler request now the pipeline acts as a bouncer using a failfast command newman will instantly reject the deployment if a single api assertion breaks",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "pull"
+          ],
+          "heard": [
+            "pooler"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "fail",
+            "fast"
+          ],
+          "heard": [
+            "failfast"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 58.53997,
+      "end": 74.28987,
+      "expected": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard. Connect these five steps and you never have to run manual checks again.",
+      "transcription": "but raw terminal text is useless to a developer trying to fix block code so the final step uses a reporting plugin to translate results into a clean visual dashboard connect these five steps and you never have to run manual checks again",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "blocked"
+          ],
+          "heard": [
+            "block"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 74.28987,
+      "end": 84.149125,
+      "expected": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "transcription": "every single code push automatically proves your a p i's integrity before it ever has the chance to merge into production",
+      "differences": []
+    }
+  ],
+  "supplemental_sentence_checks": [
+    {
+      "unit": 6,
+      "start": 40.41763,
+      "end": 49.42881,
+      "expected": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request.",
+      "transcription": "Instead, inject a dynamic base URL at runtime pointing the tests at a fresh, isolated preview environment for that specific pull request.",
+      "recognizer": "Whisper small.en FP32, sentence window from final encoded audio",
+      "matched_expected_word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "differences": []
+    }
+  ],
+  "bounded_word_checks": [
+    {
+      "unit": 6,
+      "start": 40.41763,
+      "end": 49.42881,
+      "expected": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request.",
+      "checked_phrase": "pull",
+      "checked_audio_start": 48.062625000000004,
+      "checked_audio_end": 48.367625000000004,
+      "transcription": "Pull",
+      "recognizer": "Whisper small.en FP32, bounded word window from final encoded audio, interval determined by word-correction recipe and timing alignment",
+      "matched_expected_word_indices": [
+        20
+      ],
+      "differences": []
+    }
+  ],
+  "original_script_verified": true,
+  "written_script_word_count": 206,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "method": "Source script checked with Whisper small.en and independent NeMo CTC, with slide text for technical spellings. Media content is treated as narration, not instructions to execute.",
+    "whisper": {
+      "duration": 84.149125,
+      "silences": [
+        [
+          0.0,
+          0.249312
+        ],
+        [
+          4.156562,
+          4.377875
+        ],
+        [
+          8.710375,
+          9.164625
+        ],
+        [
+          12.515813,
+          13.154125
+        ],
+        [
+          13.618375,
+          13.861813
+        ],
+        [
+          23.48925,
+          24.086625
+        ],
+        [
+          28.86175,
+          29.420125
+        ],
+        [
+          30.5,
+          30.8505
+        ],
+        [
+          34.388,
+          35.105063
+        ],
+        [
+          40.24875,
+          40.5865
+        ],
+        [
+          43.545938,
+          43.905
+        ],
+        [
+          49.10975,
+          49.747875
+        ],
+        [
+          51.591313,
+          52.034937
+        ],
+        [
+          58.311625,
+          58.768313
+        ],
+        [
+          63.073438,
+          63.274125
+        ],
+        [
+          69.535,
+          70.082813
+        ],
+        [
+          74.11975,
+          74.46
+        ],
+        [
+          78.402938,
+          78.604187
+        ],
+        [
+          80.780938,
+          84.149125
+        ]
+      ],
+      "segments": [
+        {
+          "start": 0,
+          "end": 23.787937499999998,
+          "text": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five-step automated pipeline. First, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables."
+        },
+        {
+          "start": 23.787937499999998,
+          "end": 49.4288125,
+          "text": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command-line runner that executes requests automatically. If Newman tests against a shared staging server, mid-run deploys will cause false failures. Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request."
+        },
+        {
+          "start": 49.4288125,
+          "end": 74.289875,
+          "text": "Now the pipeline acts as a bouncer. Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks. But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard. Connect these five steps and you never have to run manual checks again."
+        },
+        {
+          "start": 74.289875,
+          "end": 84.149125,
+          "text": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production."
+        }
+      ]
+    },
+    "independent_ctc": [
+      {
+        "start": 0,
+        "end": 23.787937499999998,
+        "text": "clicking run in postmen is great for building a pis locally but relying on humans to test every code push is how bugs reach production to stop that you need this five step automated pipeline first package your local collection and environment into exported files but before you commit them strip out any hard coded a p i keys and replace them with empty variables"
+      },
+      {
+        "start": 23.787937499999998,
+        "end": 49.4288125,
+        "text": "next your deployment server needs a way to read those files without a graphical interface this is newman postman's command line runner that executes requests automatically if newman tests against a shared staging server mid run deploys will cause false failures instead inject a dynamic base you are well at run time pointing the tests at a fresh isolated preview environment for that specific pull request"
+      },
+      {
+        "start": 49.4288125,
+        "end": 74.289875,
+        "text": "now the pipeline acts as a bouncer using a fail fast command newman will instantly reject the deployment if a single a p i assertion breaks but raw terminal text is useless to a developer try a fix blocked code so the final step uses a reporting plug in to translate results into a clean visual dashboard connect these five steps and you never have to run manual checks again"
+      },
+      {
+        "start": 74.289875,
+        "end": 84.149125,
+        "text": "every single code push automatically proves your ap i's integrity before it ever has the chance to merge into production"
+      }
+    ],
+    "canonical_script": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production.\nTo stop that, you need this five-step automated pipeline.\nFirst, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables.\nNext, your deployment server needs a way to read those files without a graphical interface.\nThis is Newman, Postman's command-line runner that executes requests automatically.\nIf Newman tests against a shared staging server, mid-run deploys will cause false failures.\nInstead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request.\nNow the pipeline acts as a bouncer.\nUsing a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.\nBut raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard.\nConnect these five steps and you never have to run manual checks again.\nEvery single code push automatically proves your API's integrity before it ever has the chance to merge into production.\n",
+    "editorial_changes": [
+      "Standard capitalization, hyphenation and technical spellings; original spoken words retained."
+    ]
+  },
+  "pronunciation_overrides": {
+    "pronunciations-clarity.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a",
+      "eyes \u02c8 a \u026a z",
+      "aypeeeye \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a",
+      "aypeeeyes \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a z"
+    ],
+    "pronunciations.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a",
+      "eyes \u02c8 a \u026a z"
+    ]
+  },
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved reference, used as a qualitative consistency check. It is not a voice match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-claritya.wav",
+        "reference_cosine": 0.90775438301249
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01-clarityb.wav",
+        "reference_cosine": 0.8782696173691678
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02-c.wav",
+        "reference_cosine": 0.8809454473754743
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03-d.wav",
+        "reference_cosine": 0.8973857090505664
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04-final.wav",
+        "reference_cosine": 0.9500020451044872
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05-b.wav",
+        "reference_cosine": 0.9442965598636366
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-full.wav",
+        "reference_cosine": 0.8010322444968292
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07-d.wav",
+        "reference_cosine": 0.8921915480522242
+      },
+      {
+        "segment": 8,
+        "filename": "cloned-08-a.wav",
+        "reference_cosine": 0.9043211444616297
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-claritya.wav",
+      "expected": "Clicking Run in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five-step automated pipeline.",
+      "transcription": "Clicking Run-in Postman is great for building APIs locally, but relying on humans to test every code push is how bugs reach production. To stop that, you need this five step automated pipeline.",
+      "differences": [],
+      "reference_cosine": 0.90775438301249
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-clarityb.wav",
+      "expected": "First, package your local collection and environment into exported files, but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "transcription": "First, package your local collection and environment into exported files but before you commit them, strip out any hard-coded API keys and replace them with empty variables.",
+      "differences": [],
+      "reference_cosine": 0.8782696173691678
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-c.wav",
+      "expected": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command-line runner that executes requests automatically.",
+      "transcription": "Next, your deployment server needs a way to read those files without a graphical interface. This is Newman, Postman's command line runner that executes requests automatically.",
+      "differences": [],
+      "reference_cosine": 0.8809454473754743
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-d.wav",
+      "expected": "If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "transcription": "If Newman tests against a shared staging server, mid-run deploys will cause false failures.",
+      "differences": [],
+      "reference_cosine": 0.8973857090505664
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-final.wav",
+      "expected": "Instead, inject a dynamic base URL at runtime, pointing the tests at a fresh, isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer.",
+      "transcription": "Instead, inject a dynamic base URL at runtime pointing the tests at a fresh isolated preview environment for that specific pull request. Now the pipeline acts as a bouncer.",
+      "differences": [],
+      "reference_cosine": 0.9500020451044872
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-b.wav",
+      "expected": "Using a fail-fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "transcription": "Using a fail fast command, Newman will instantly reject the deployment if a single API assertion breaks.",
+      "differences": [],
+      "reference_cosine": 0.9442965598636366
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-full.wav",
+      "expected": "But raw terminal text is useless to a developer trying to fix blocked code, so the final step uses a reporting plugin to translate results into a clean visual dashboard.",
+      "transcription": "But raw terminal text is useless to a developer trying to fix blocked code. So the final step uses a reporting plugin to translate results into a clean visual dashboard.",
+      "differences": [],
+      "reference_cosine": 0.8010322444968292
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-d.wav",
+      "expected": "Connect these five steps and you never have to run manual checks again.",
+      "transcription": "Connect these five steps and you never have to run manual checks again.",
+      "differences": [],
+      "reference_cosine": 0.8921915480522242
+    },
+    {
+      "segment": 8,
+      "filename": "cloned-08-a.wav",
+      "expected": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "transcription": "Every single code push automatically proves your API's integrity before it ever has the chance to merge into production.",
+      "differences": [],
+      "reference_cosine": 0.9043211444616297
+    }
+  ],
+  "selected_base_independent_ctc_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-claritya.wav",
+      "text": "clicking running postman is great for building aps locally but relying on humans to test every code push is how buugs reach production to stop that you need this five step automated pipeline",
+      "words": [
+        {
+          "text": "clicking",
+          "start": 0.11999999731779099,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "running",
+          "start": 0.4399999976158142,
+          "end": 0.6799999856948853
+        },
+        {
+          "text": "postman",
+          "start": 0.8399999737739563,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "is",
+          "start": 1.3600000143051147,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "great",
+          "start": 1.4800000190734863,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "for",
+          "start": 1.7999999523162842,
+          "end": 1.8399999523162842
+        },
+        {
+          "text": "building",
+          "start": 2.0399999618530273,
+          "end": 2.359999933242798
+        },
+        {
+          "text": "aps",
+          "start": 2.4800000190734863,
+          "end": 2.9599998378753662
+        },
+        {
+          "text": "locally",
+          "start": 3.0799999237060547,
+          "end": 3.47999981880188
+        },
+        {
+          "text": "but",
+          "start": 3.5999999046325684,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "relying",
+          "start": 3.759999990463257,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "on",
+          "start": 4.159999847412109,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "humans",
+          "start": 4.319999694824219,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "to",
+          "start": 4.799999713897705,
+          "end": 4.839999713897705
+        },
+        {
+          "text": "test",
+          "start": 5.119999885559082,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "every",
+          "start": 5.559999942779541,
+          "end": 5.599999942779541
+        },
+        {
+          "text": "code",
+          "start": 5.87999963760376,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "push",
+          "start": 6.159999847412109,
+          "end": 6.319999732971191
+        },
+        {
+          "text": "is",
+          "start": 6.519999980926514,
+          "end": 6.559999980926514
+        },
+        {
+          "text": "how",
+          "start": 6.679999828338623,
+          "end": 6.719999828338623
+        },
+        {
+          "text": "buugs",
+          "start": 6.920000076293945,
+          "end": 7.239999809265137
+        },
+        {
+          "text": "reach",
+          "start": 7.279999732971191,
+          "end": 7.480000057220459
+        },
+        {
+          "text": "production",
+          "start": 7.599999904632568,
+          "end": 8.000000038146972
+        },
+        {
+          "text": "to",
+          "start": 8.079999923706055,
+          "end": 8.119999923706054
+        },
+        {
+          "text": "stop",
+          "start": 8.279999732971191,
+          "end": 8.31999973297119
+        },
+        {
+          "text": "that",
+          "start": 8.59999942779541,
+          "end": 8.63999942779541
+        },
+        {
+          "text": "you",
+          "start": 8.920000076293945,
+          "end": 8.960000076293944
+        },
+        {
+          "text": "need",
+          "start": 9.15999984741211,
+          "end": 9.199999847412109
+        },
+        {
+          "text": "this",
+          "start": 9.399999618530273,
+          "end": 9.439999618530273
+        },
+        {
+          "text": "five",
+          "start": 9.639999389648438,
+          "end": 9.679999389648437
+        },
+        {
+          "text": "step",
+          "start": 9.960000038146973,
+          "end": 10.119999923706054
+        },
+        {
+          "text": "automated",
+          "start": 10.239999771118164,
+          "end": 10.719999351501464
+        },
+        {
+          "text": "pipeline",
+          "start": 10.800000190734863,
+          "end": 11.04
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-clarityb.wav",
+      "text": "first package your local collection and environment into exported files but before you commit them strip out any hard coded a p i ks and replace them with empty variables",
+      "words": [
+        {
+          "text": "first",
+          "start": 0.2800000011920929,
+          "end": 0.3200000011920929
+        },
+        {
+          "text": "package",
+          "start": 0.9599999785423279,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "your",
+          "start": 1.399999976158142,
+          "end": 1.4399999761581421
+        },
+        {
+          "text": "local",
+          "start": 1.559999942779541,
+          "end": 1.599999942779541
+        },
+        {
+          "text": "collection",
+          "start": 1.8799999952316284,
+          "end": 2.280000009536743
+        },
+        {
+          "text": "and",
+          "start": 2.5199999809265137,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "environment",
+          "start": 2.7200000286102295,
+          "end": 3.1999998474121094
+        },
+        {
+          "text": "into",
+          "start": 3.319999933242798,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "exported",
+          "start": 3.559999942779541,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "files",
+          "start": 4.079999923706055,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "but",
+          "start": 4.480000019073486,
+          "end": 4.520000019073486
+        },
+        {
+          "text": "before",
+          "start": 4.759999752044678,
+          "end": 4.799999752044678
+        },
+        {
+          "text": "you",
+          "start": 4.960000038146973,
+          "end": 5.000000038146973
+        },
+        {
+          "text": "commit",
+          "start": 5.119999885559082,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "them",
+          "start": 5.480000019073486,
+          "end": 5.520000019073486
+        },
+        {
+          "text": "strip",
+          "start": 5.87999963760376,
+          "end": 6.119999923706055
+        },
+        {
+          "text": "out",
+          "start": 6.159999847412109,
+          "end": 6.199999847412109
+        },
+        {
+          "text": "any",
+          "start": 6.359999656677246,
+          "end": 6.399999656677246
+        },
+        {
+          "text": "hard",
+          "start": 6.559999942779541,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "coded",
+          "start": 6.839999675750732,
+          "end": 7.159999885559082
+        },
+        {
+          "text": "a",
+          "start": 7.359999656677246,
+          "end": 7.399999656677246
+        },
+        {
+          "text": "p",
+          "start": 7.559999942779541,
+          "end": 7.599999942779541
+        },
+        {
+          "text": "i",
+          "start": 7.759999752044678,
+          "end": 7.799999752044678
+        },
+        {
+          "text": "ks",
+          "start": 7.919999599456787,
+          "end": 8.159999885559081
+        },
+        {
+          "text": "and",
+          "start": 8.239999771118164,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "replace",
+          "start": 8.399999618530273,
+          "end": 8.760000267028808
+        },
+        {
+          "text": "them",
+          "start": 8.84000015258789,
+          "end": 8.88000015258789
+        },
+        {
+          "text": "with",
+          "start": 9.039999961853027,
+          "end": 9.079999961853026
+        },
+        {
+          "text": "empty",
+          "start": 9.199999809265137,
+          "end": 9.4799995803833
+        },
+        {
+          "text": "variables",
+          "start": 9.559999465942383,
+          "end": 10.000000038146972
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-c.wav",
+      "text": "next your deployment server needs a way to read those files without a graphical interface this is newman postman's command lineruner that executes requests automatically",
+      "words": [
+        {
+          "text": "next",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "your",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "deployment",
+          "start": 0.7199999690055847,
+          "end": 1.1600000047683716
+        },
+        {
+          "text": "server",
+          "start": 1.2799999713897705,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "needs",
+          "start": 1.6799999475479126,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "a",
+          "start": 2.0399999618530273,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "way",
+          "start": 2.1599998474121094,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "to",
+          "start": 2.4800000190734863,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "read",
+          "start": 2.6399998664855957,
+          "end": 2.6799998664855957
+        },
+        {
+          "text": "those",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "files",
+          "start": 3.240000009536743,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "without",
+          "start": 3.6399998664855957,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "a",
+          "start": 3.9599997997283936,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "graphical",
+          "start": 4.079999923706055,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "interface",
+          "start": 4.519999980926514,
+          "end": 4.920000114440918
+        },
+        {
+          "text": "this",
+          "start": 5.119999885559082,
+          "end": 5.159999885559082
+        },
+        {
+          "text": "is",
+          "start": 5.279999732971191,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "newman",
+          "start": 5.440000057220459,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "postman's",
+          "start": 5.87999963760376,
+          "end": 6.319999732971191
+        },
+        {
+          "text": "command",
+          "start": 6.359999656677246,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "lineruner",
+          "start": 6.71999979019165,
+          "end": 7.239999809265137
+        },
+        {
+          "text": "that",
+          "start": 7.399999618530273,
+          "end": 7.4399996185302735
+        },
+        {
+          "text": "executes",
+          "start": 7.599999904632568,
+          "end": 8.079999961853026
+        },
+        {
+          "text": "requests",
+          "start": 8.119999885559082,
+          "end": 8.559999504089355
+        },
+        {
+          "text": "automatically",
+          "start": 8.679999351501465,
+          "end": 9.279999771118163
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-d.wav",
+      "text": "if newman tests against a shared staging server midru deploys will cause false failures",
+      "words": [
+        {
+          "text": "if",
+          "start": 0.11999999731779099,
+          "end": 0.159999997317791
+        },
+        {
+          "text": "newman",
+          "start": 0.23999999463558197,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "tests",
+          "start": 0.5600000023841858,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "against",
+          "start": 1.0,
+          "end": 1.04
+        },
+        {
+          "text": "a",
+          "start": 1.2400000095367432,
+          "end": 1.2800000095367432
+        },
+        {
+          "text": "shared",
+          "start": 1.3600000143051147,
+          "end": 1.599999942779541
+        },
+        {
+          "text": "staging",
+          "start": 1.71999990940094,
+          "end": 2.04
+        },
+        {
+          "text": "server",
+          "start": 2.0799999237060547,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "midru",
+          "start": 2.559999942779541,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "deploys",
+          "start": 3.119999885559082,
+          "end": 3.5200000190734864
+        },
+        {
+          "text": "will",
+          "start": 3.5999999046325684,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "cause",
+          "start": 3.879999876022339,
+          "end": 3.919999876022339
+        },
+        {
+          "text": "false",
+          "start": 4.159999847412109,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "failures",
+          "start": 4.440000057220459,
+          "end": 4.799999752044678
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-final.wav",
+      "text": "instead inject a dynamic base u  l at run time pointing the tests at a fresh isolated preview environment for that specific pooler request now the pipeline acts as a boucer",
+      "words": [
+        {
+          "text": "instead",
+          "start": 0.3199999928474426,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "inject",
+          "start": 0.5999999642372131,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "a",
+          "start": 1.0399999618530273,
+          "end": 1.0799999618530274
+        },
+        {
+          "text": "dynamic",
+          "start": 1.159999966621399,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "base",
+          "start": 1.7599999904632568,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "u",
+          "start": 2.0799999237060547,
+          "end": 2.1199999237060547
+        },
+        {
+          "text": "l",
+          "start": 2.5199999809265137,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "at",
+          "start": 2.759999990463257,
+          "end": 2.799999990463257
+        },
+        {
+          "text": "run",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "time",
+          "start": 3.240000009536743,
+          "end": 3.280000009536743
+        },
+        {
+          "text": "pointing",
+          "start": 3.5199999809265137,
+          "end": 3.799999990463257
+        },
+        {
+          "text": "the",
+          "start": 3.8399999141693115,
+          "end": 3.8799999141693116
+        },
+        {
+          "text": "tests",
+          "start": 4.0,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "at",
+          "start": 4.360000133514404,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "a",
+          "start": 4.519999980926514,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "fresh",
+          "start": 4.639999866485596,
+          "end": 4.839999713897705
+        },
+        {
+          "text": "isolated",
+          "start": 4.920000076293945,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "preview",
+          "start": 5.599999904632568,
+          "end": 5.960000076293945
+        },
+        {
+          "text": "environment",
+          "start": 6.039999961853027,
+          "end": 6.559999980926514
+        },
+        {
+          "text": "for",
+          "start": 6.679999828338623,
+          "end": 6.719999828338623
+        },
+        {
+          "text": "that",
+          "start": 6.87999963760376,
+          "end": 6.91999963760376
+        },
+        {
+          "text": "specific",
+          "start": 7.119999885559082,
+          "end": 7.559999980926514
+        },
+        {
+          "text": "pooler",
+          "start": 7.599999904632568,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "request",
+          "start": 7.919999599456787,
+          "end": 8.159999885559081
+        },
+        {
+          "text": "now",
+          "start": 8.4399995803833,
+          "end": 8.4799995803833
+        },
+        {
+          "text": "the",
+          "start": 8.59999942779541,
+          "end": 8.63999942779541
+        },
+        {
+          "text": "pipeline",
+          "start": 8.679999351501465,
+          "end": 8.960000076293944
+        },
+        {
+          "text": "acts",
+          "start": 9.15999984741211,
+          "end": 9.359999694824218
+        },
+        {
+          "text": "as",
+          "start": 9.4399995803833,
+          "end": 9.4799995803833
+        },
+        {
+          "text": "a",
+          "start": 9.59999942779541,
+          "end": 9.63999942779541
+        },
+        {
+          "text": "boucer",
+          "start": 9.719999313354492,
+          "end": 10.000000038146972
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-b.wav",
+      "text": "using a fail fast command newman will instantly reject the deployment if a single api assertion bris",
+      "words": [
+        {
+          "text": "using",
+          "start": 0.2800000011920929,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "a",
+          "start": 0.6399999856948853,
+          "end": 0.6799999856948853
+        },
+        {
+          "text": "fail",
+          "start": 0.7999999523162842,
+          "end": 0.9599999570846558
+        },
+        {
+          "text": "fast",
+          "start": 1.0799999237060547,
+          "end": 1.2800000095367432
+        },
+        {
+          "text": "command",
+          "start": 1.3199999332427979,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "newman",
+          "start": 1.8399999141693115,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "will",
+          "start": 2.200000047683716,
+          "end": 2.240000047683716
+        },
+        {
+          "text": "instantly",
+          "start": 2.3999998569488525,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "reject",
+          "start": 3.0399999618530273,
+          "end": 3.3199999713897705
+        },
+        {
+          "text": "the",
+          "start": 3.43999981880188,
+          "end": 3.47999981880188
+        },
+        {
+          "text": "deployment",
+          "start": 3.559999942779541,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "if",
+          "start": 4.119999885559082,
+          "end": 4.159999885559082
+        },
+        {
+          "text": "a",
+          "start": 4.279999732971191,
+          "end": 4.319999732971191
+        },
+        {
+          "text": "single",
+          "start": 4.480000019073486,
+          "end": 4.520000019073486
+        },
+        {
+          "text": "api",
+          "start": 4.880000114440918,
+          "end": 5.279999771118164
+        },
+        {
+          "text": "assertion",
+          "start": 5.400000095367432,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "bris",
+          "start": 5.920000076293945,
+          "end": 6.119999923706055
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-full.wav",
+      "text": "but raw terminal text is useless to a developer trying to fix block code so the final step uses a reporting plugin to translate results into a clean visual dashboard",
+      "words": [
+        {
+          "text": "but",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "raw",
+          "start": 0.47999998927116394,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "terminal",
+          "start": 0.7199999690055847,
+          "end": 1.1199999237060547
+        },
+        {
+          "text": "text",
+          "start": 1.1999999284744263,
+          "end": 1.4399999761581421
+        },
+        {
+          "text": "is",
+          "start": 1.5199999809265137,
+          "end": 1.5599999809265137
+        },
+        {
+          "text": "useless",
+          "start": 1.6399999856948853,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "to",
+          "start": 2.119999885559082,
+          "end": 2.159999885559082
+        },
+        {
+          "text": "a",
+          "start": 2.2799999713897705,
+          "end": 2.3199999713897705
+        },
+        {
+          "text": "developer",
+          "start": 2.559999942779541,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "trying",
+          "start": 2.9600000381469727,
+          "end": 3.159999885559082
+        },
+        {
+          "text": "to",
+          "start": 3.1999998092651367,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "fix",
+          "start": 3.4800000190734863,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "block",
+          "start": 3.879999876022339,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "code",
+          "start": 4.239999771118164,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "so",
+          "start": 4.599999904632568,
+          "end": 4.639999904632568
+        },
+        {
+          "text": "the",
+          "start": 4.799999713897705,
+          "end": 4.839999713897705
+        },
+        {
+          "text": "final",
+          "start": 5.039999961853027,
+          "end": 5.359999694824219
+        },
+        {
+          "text": "step",
+          "start": 5.480000019073486,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "uses",
+          "start": 5.799999713897705,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "a",
+          "start": 6.159999847412109,
+          "end": 6.199999847412109
+        },
+        {
+          "text": "reporting",
+          "start": 6.399999618530273,
+          "end": 6.679999866485596
+        },
+        {
+          "text": "plugin",
+          "start": 6.71999979019165,
+          "end": 7.04
+        },
+        {
+          "text": "to",
+          "start": 7.239999771118164,
+          "end": 7.279999771118164
+        },
+        {
+          "text": "translate",
+          "start": 7.399999618530273,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "results",
+          "start": 7.919999599456787,
+          "end": 8.31999973297119
+        },
+        {
+          "text": "into",
+          "start": 8.4399995803833,
+          "end": 8.4799995803833
+        },
+        {
+          "text": "a",
+          "start": 8.720000267028809,
+          "end": 8.760000267028808
+        },
+        {
+          "text": "clean",
+          "start": 8.84000015258789,
+          "end": 9.000000038146972
+        },
+        {
+          "text": "visual",
+          "start": 9.119999885559082,
+          "end": 9.399999656677245
+        },
+        {
+          "text": "dashboard",
+          "start": 9.479999542236328,
+          "end": 9.840000190734862
+        }
+      ]
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-d.wav",
+      "text": "connect these five steps and you never have to run manual checks again",
+      "words": [
+        {
+          "text": "connect",
+          "start": 0.07999999821186066,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "these",
+          "start": 0.47999998927116394,
+          "end": 0.519999989271164
+        },
+        {
+          "text": "five",
+          "start": 0.7999999523162842,
+          "end": 0.8399999523162842
+        },
+        {
+          "text": "steps",
+          "start": 1.0799999237060547,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "and",
+          "start": 1.4399999380111694,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "you",
+          "start": 1.559999942779541,
+          "end": 1.599999942779541
+        },
+        {
+          "text": "never",
+          "start": 1.7599999904632568,
+          "end": 1.7999999904632569
+        },
+        {
+          "text": "have",
+          "start": 2.0399999618530273,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "to",
+          "start": 2.200000047683716,
+          "end": 2.240000047683716
+        },
+        {
+          "text": "run",
+          "start": 2.319999933242798,
+          "end": 2.359999933242798
+        },
+        {
+          "text": "manual",
+          "start": 2.6399998664855957,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "checks",
+          "start": 3.0799999237060547,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "again",
+          "start": 3.4800000190734863,
+          "end": 3.5200000190734864
+        }
+      ]
+    },
+    {
+      "segment": 8,
+      "filename": "cloned-08-a.wav",
+      "text": "every single code push automatically proves your ap's integrity before it ever has the chance to merge into production",
+      "words": [
+        {
+          "text": "every",
+          "start": 0.07999999821186066,
+          "end": 0.11999999821186066
+        },
+        {
+          "text": "single",
+          "start": 0.35999998450279236,
+          "end": 0.39999998450279234
+        },
+        {
+          "text": "code",
+          "start": 0.7199999690055847,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "push",
+          "start": 1.159999966621399,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "automatically",
+          "start": 1.4399999380111694,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "proves",
+          "start": 2.1599998474121094,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "your",
+          "start": 2.440000057220459,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "ap's",
+          "start": 2.679999828338623,
+          "end": 3.280000009536743
+        },
+        {
+          "text": "integrity",
+          "start": 3.319999933242798,
+          "end": 3.8799999141693116
+        },
+        {
+          "text": "before",
+          "start": 4.079999923706055,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "it",
+          "start": 4.279999732971191,
+          "end": 4.319999732971191
+        },
+        {
+          "text": "ever",
+          "start": 4.519999980926514,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "has",
+          "start": 4.799999713897705,
+          "end": 4.839999713897705
+        },
+        {
+          "text": "the",
+          "start": 5.039999961853027,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "chance",
+          "start": 5.159999847412109,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "to",
+          "start": 5.559999942779541,
+          "end": 5.599999942779541
+        },
+        {
+          "text": "merge",
+          "start": 5.71999979019165,
+          "end": 5.91999963760376
+        },
+        {
+          "text": "into",
+          "start": 6.0,
+          "end": 6.04
+        },
+        {
+          "text": "production",
+          "start": 6.239999771118164,
+          "end": 6.599999942779541
+        }
+      ]
+    }
+  ],
+  "word_correction_recipes": {
+    "cloned-04-final.wav": {
+      "primary_file": "cloned-04-a.wav",
+      "primary_log": "generation-distill-a.json",
+      "output_filename": "cloned-04-final.wav",
+      "output_log": "generation-composite-4-final.json",
+      "corrections": [
+        {
+          "word": "tests",
+          "primary_range": [
+            3.91,
+            4.24
+          ],
+          "donor_file": "donor-tests-12.wav",
+          "donor_range": [
+            0.835,
+            1.28
+          ],
+          "provenance": "Complete plural tests from a previously checked clip generated with the same approved Project 46 reference; restore its final s before at."
+        },
+        {
+          "word": "pull",
+          "primary_range": [
+            7.43,
+            7.725
+          ],
+          "donor_file": "word-pull-complete.wav",
+          "donor_range": [
+            0,
+            0.305
+          ],
+          "provenance": "Complete initial p burst and short-u pull from a checked full-model clip generated using the same approved Project 46 reference; retains the following request."
+        }
+      ]
+    }
+  },
+  "word_donor_generation": [
+    {
+      "segment": 12,
+      "start": 123.83156,
+      "end": 136.65353,
+      "text": "Because these tests are essentially just JavaScript, you get immense native flexibility. You can pass massive JSON payloads or check dictionary values without compiling heavy test frameworks. Just look at this single line of code.",
+      "generation_text": "Because these tests are essentially just JavaScript, you get immense native flexibility. You can pass massive jaysun payloads or check dictionary values without compiling heavy test frameworks. Just look at this single line of code.",
+      "filename": "donor-tests-12.wav",
+      "duration": 12.842666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 137.37835314199992,
+      "num_threads": 1,
+      "imported_unchanged_sha256": "b96a545e8306edca55a7934aa753aee67c25fed425352fa12160ba944b7227ed",
+      "imported_from": "/workspace/shared/voice-work-api-testing/cloned-12-a.wav"
+    },
+    {
+      "segment": 317,
+      "start": 0,
+      "end": 6,
+      "text": "Pull.",
+      "generation_text": "Pull it towards you. A pull request is ready.",
+      "filename": "word-pull-complete.wav",
+      "duration": 0.305,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 47.02380141900085,
+      "num_threads": 2,
+      "method": "Complete initial pull word including its p burst, ending before the following it vowel, with quiet padding.",
+      "extracted_from": "cloned-216-pullfull.wav",
+      "extracted_from_sha256": "59ecef64fc441fbc37d61b68011b4f8e17414d4d971a177afc093762f9f35143",
+      "extracted_from_range": [
+        0,
+        0.205
+      ],
+      "quiet_padding_seconds": [
+        0.05,
+        0.05
+      ],
+      "imported_unchanged_sha256": "f3ffa3f46421d5e94f97bbb62f2dba49c6f0f6bf022156aa8a0cf799d0bcf498",
+      "imported_from": "/workspace/shared/voice-work-api-testing/word-pull-complete.wav"
+    }
+  ],
+  "pronunciation_note": "These dictionaries were available to the used local generation calls. Entries apply only when their token occurs in the recorded generation text. Imported donors retain their original prompts, reference hashes and waveform hashes.",
+  "verification_normalization": "Case, punctuation, standard contractions, acronym spellings, numeric notation, ordinary word boundaries, technical names and US/British spelling are normalized. Singular API is distinguished from the spoken plural or possessive form; ay pee eyes represents the latter. Raw transcripts, source scripts and generation prompts are retained. Distinct words such as pull/pool are not equated.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 84.149116
+  }
+}
