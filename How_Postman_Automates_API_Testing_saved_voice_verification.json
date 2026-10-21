@@ -1,0 +1,1999 @@
+{
+  "input_filename": "How_Postman_Automates_API_Testing.mp4",
+  "input_sha256": "2959403f25c8062816be305df1dadf8cf7b8c11ec1668bf82da97eea0492325e",
+  "output_filename": "How_Postman_Automates_API_Testing_saved_voice.mp4",
+  "output_sha256": "ec16a19f837688b8dd2467771587b4df894c42c450d3348826b25727541074f9",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "bb9d09f671e7f8e2ac6e24a4efaa6756e6fce721afc225ff8de6a55fe98f7c04",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "81.500000",
+    "nb_read_frames": "2445"
+  },
+  "input_duration": "81.548481",
+  "output_duration": "81.548000",
+  "audio_peak": 0.844879150390625,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0.0,
+      "end": 10.89725,
+      "text": "How do you actually build API test automation? Because manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments.",
+      "generation_text": "How do you actually build ay pee eye test automation? Because manually clicking send and eyeballing jaysun responses is way too slow for continuous code deployments.",
+      "filename": "cloned-00-full.wav",
+      "duration": 9.136458333333334,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 192.59977924699996,
+      "num_threads": 1
+    },
+    {
+      "segment": 1,
+      "start": 10.89725,
+      "end": 20.31669,
+      "text": "Take a standard user login request. You send credentials, and the server returns a 200 OK status with an authentication token.",
+      "generation_text": "Take a standard user login request. You send credentials, and the server returns a two hundred oh kay status with an authentication token.",
+      "filename": "cloned-01-b.wav",
+      "duration": 7.112333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 47.275581891,
+      "num_threads": 1
+    },
+    {
+      "segment": 2,
+      "start": 20.31669,
+      "end": 32.05703,
+      "text": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion. But validating one isolated request is easy.",
+      "generation_text": "You can attach a script that automatically checks if the status is two hundred and the token exists. That is a JavaScript assertion. But validating one isolated request is easy.",
+      "filename": "cloned-02-c.wav",
+      "duration": 9.662833333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 71.600653959,
+      "num_threads": 1
+    },
+    {
+      "segment": 3,
+      "start": 32.05703,
+      "end": 38.37291,
+      "text": "What if your next fetch user profile request requires the exact token that was just generated?",
+      "generation_text": "What if your next fetch user profile request requires the exact token that was just generated?",
+      "filename": "cloned-03-d.wav",
+      "duration": 5.546666666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 27.025435797,
+      "num_threads": 1
+    },
+    {
+      "segment": 4,
+      "start": 38.37291,
+      "end": 47.65659,
+      "text": "The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request.",
+      "generation_text": "The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request.",
+      "filename": "cloned-04-a.wav",
+      "duration": 7.697583333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 36.82659317400004,
+      "num_threads": 1
+    },
+    {
+      "segment": 5,
+      "start": 47.65659,
+      "end": 56.00366,
+      "text": "Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "generation_text": "Once chained together with these shared variables and assertions. The entire sequence is saved as a single unit called a collection.",
+      "filename": "cloned-05-retry.wav",
+      "duration": 6.587833333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 46.92194966800008,
+      "num_threads": 1
+    },
+    {
+      "segment": 6,
+      "start": 56.00366,
+      "end": 65.89741,
+      "text": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "generation_text": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "filename": "cloned-06-c.wav",
+      "duration": 8.554666666666666,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 36.62521950600001,
+      "num_threads": 1
+    },
+    {
+      "segment": 7,
+      "start": 65.89741,
+      "end": 81.5485,
+      "text": "So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "generation_text": "So instead of manually testing your ay pee eye endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of roots in the background on every code commit.",
+      "filename": "cloned-07-routes.wav",
+      "duration": 11.701333333333332,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 55.26760803800005,
+      "num_threads": 1
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0.0,
+      "end": 3.44338,
+      "text": "How do you actually build API test automation?",
+      "filename": "cloned-00-full.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.069,
+      "placed_start": 0.1,
+      "placed_end": 3.169,
+      "original_generated_duration": 3.069,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 3.44338,
+      "end": 10.89725,
+      "text": "Because manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments.",
+      "filename": "cloned-00-full.wav",
+      "generated_start": 3.069,
+      "generated_end": 9.136458333333334,
+      "placed_start": 3.543375,
+      "placed_end": 9.610833333333334,
+      "original_generated_duration": 6.067458333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 10.89725,
+      "end": 13.85734,
+      "text": "Take a standard user login request.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 0.0,
+      "generated_end": 1.927,
+      "placed_start": 10.99725,
+      "placed_end": 12.92425,
+      "original_generated_duration": 1.927,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 13.85734,
+      "end": 20.31669,
+      "text": "You send credentials, and the server returns a 200 OK status with an authentication token.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 1.927,
+      "generated_end": 7.112333333333333,
+      "placed_start": 13.957333333333333,
+      "placed_end": 19.142666666666667,
+      "original_generated_duration": 5.185333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 20.31669,
+      "end": 26.22503,
+      "text": "You can attach a script that automatically checks if the status is 200 and the token exists.",
+      "filename": "cloned-02-c.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.387,
+      "placed_start": 20.416708333333332,
+      "placed_end": 25.803708333333333,
+      "original_generated_duration": 5.387,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 2,
+      "start": 26.22503,
+      "end": 28.42922,
+      "text": "That is a JavaScript assertion.",
+      "filename": "cloned-02-c.wav",
+      "generated_start": 5.387,
+      "generated_end": 7.025,
+      "placed_start": 26.325041666666667,
+      "placed_end": 27.963041666666665,
+      "original_generated_duration": 1.638,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 2,
+      "start": 28.42922,
+      "end": 32.05703,
+      "text": "But validating one isolated request is easy.",
+      "filename": "cloned-02-c.wav",
+      "generated_start": 7.025,
+      "generated_end": 9.662833333333333,
+      "placed_start": 28.529208333333333,
+      "placed_end": 31.167041666666666,
+      "original_generated_duration": 2.6378333333333335,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 32.05703,
+      "end": 38.37291,
+      "text": "What if your next fetch user profile request requires the exact token that was just generated?",
+      "filename": "cloned-03-d.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.546666666666667,
+      "placed_start": 32.157041666666665,
+      "placed_end": 37.70370833333333,
+      "original_generated_duration": 5.546666666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 4,
+      "start": 38.37291,
+      "end": 47.65659,
+      "text": "The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request.",
+      "filename": "cloned-04-a.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.697583333333333,
+      "placed_start": 38.47291666666667,
+      "placed_end": 46.1705,
+      "original_generated_duration": 7.697583333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 5,
+      "start": 47.65659,
+      "end": 56.00366,
+      "text": "Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "filename": "cloned-05-retry.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.587833333333333,
+      "placed_start": 47.75658333333333,
+      "placed_end": 54.34441666666667,
+      "original_generated_duration": 6.587833333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 6,
+      "start": 56.00366,
+      "end": 65.89741,
+      "text": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "filename": "cloned-06-c.wav",
+      "generated_start": 0.0,
+      "generated_end": 8.554666666666666,
+      "placed_start": 56.10366666666667,
+      "placed_end": 64.65833333333333,
+      "original_generated_duration": 8.554666666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 7,
+      "start": 65.89741,
+      "end": 81.5485,
+      "text": "So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "filename": "cloned-07-routes.wav",
+      "generated_start": 0.0,
+      "generated_end": 11.701333333333332,
+      "placed_start": 65.99741666666667,
+      "placed_end": 77.69875,
+      "original_generated_duration": 11.701333333333332,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0.0,
+      "end": 20.31669,
+      "expected": "How do you actually build API test automation? Because manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments. Take a standard user login request. You send credentials, and the server returns a 200 OK status with an authentication token.",
+      "transcription": "How do you actually build API test automation? Because manually clicking send and eyeballing JSON responses is way too slow for continuous code deployments. Take a standard user login request, you send credentials and the server returns a 200 OK status with an authentication token.",
+      "differences": []
+    },
+    {
+      "start": 20.31669,
+      "end": 38.37291,
+      "expected": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion. But validating one isolated request is easy. What if your next fetch user profile request requires the exact token that was just generated?",
+      "transcription": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion. But validating one isolated request is easy. What if your next fetch user profile request requires the exact token that was just generated?",
+      "differences": []
+    },
+    {
+      "start": 38.37291,
+      "end": 56.00366,
+      "expected": "The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request. Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "transcription": "The assertion solves this by extracting the token and saving it to a shared memory space which automatically passes it into the header of the next request. Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "differences": []
+    },
+    {
+      "start": 56.00366,
+      "end": 65.89741,
+      "expected": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "transcription": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "differences": []
+    },
+    {
+      "start": 65.89741,
+      "end": 81.5485,
+      "expected": "So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "transcription": "So, instead of manually testing your API endpoints one by one waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Sentence- and bounded phrase-window Whisper FP32 checks resolve selected recognition ambiguities using the same final audio. Every original word must be recognized at its aligned script position by at least one check; unresolved shared disagreements fail. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0.0,
+        "end": 20.31669,
+        "word_count": 45,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 13,
+            "end": 14,
+            "expected": [
+              "eyeballing"
+            ],
+            "heard": [
+              "eyebowling"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 28,
+            "end": 29,
+            "expected": [
+              "login"
+            ],
+            "heard": [
+              "log",
+              "in"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 37,
+            "end": 38,
+            "expected": [
+              "a"
+            ],
+            "heard": [
+              "are"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 20.31669,
+        "end": 38.37291,
+        "word_count": 45,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 38.37291,
+        "end": 56.00366,
+        "word_count": 48,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 22,
+            "end": 23,
+            "expected": [
+              "header"
+            ],
+            "heard": [
+              "headather"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 56.00366,
+        "end": 65.89741,
+        "word_count": 25,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 9,
+            "end": 11,
+            "expected": [
+              "command",
+              "line"
+            ],
+            "heard": [
+              "commandline"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 4,
+        "start": 65.89741,
+        "end": 81.5485,
+        "word_count": 34,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 6,
+            "end": 8,
+            "expected": [
+              "api",
+              "endpoints"
+            ],
+            "heard": [
+              "a",
+              "pi",
+              "end",
+              "points"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0.0,
+      "end": 20.31669,
+      "expected": "How do you actually build API test automation? Because manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments. Take a standard user login request. You send credentials, and the server returns a 200 OK status with an authentication token.",
+      "transcription": "how do you actually build a p i test automation because manually clicking send and eyebowling jason responses is way too slow for continuous code deployments take a standard user log in request you send credentials and the server returns are two hundred o k status with an authentication token",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "eyeballing"
+          ],
+          "heard": [
+            "eyebowling"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "login"
+          ],
+          "heard": [
+            "log",
+            "in"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "a"
+          ],
+          "heard": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 20.31669,
+      "end": 38.37291,
+      "expected": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion. But validating one isolated request is easy. What if your next fetch user profile request requires the exact token that was just generated?",
+      "transcription": "you can attach a script that automatically checks if the status is two hundred and the token exists that is a javascript assertion but validating one isolated request is easy what if your next fetch user profile request requires the exact token that was just generated",
+      "differences": []
+    },
+    {
+      "start": 38.37291,
+      "end": 56.00366,
+      "expected": "The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request. Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "transcription": "the assertion solves this by extracting the token and saving it to a shared memory space which automatically passes it into the headather of the next request once chained together with these shared variables and assertions the entire sequence is saved as a single unit called a collection",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "header"
+          ],
+          "heard": [
+            "headather"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 56.00366,
+      "end": 65.89741,
+      "expected": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "transcription": "instead of clicking through this in an app a commandline utility executes the sequence headlessly immediately failing the deployment if a single assertion fails",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "command",
+            "line"
+          ],
+          "heard": [
+            "commandline"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 65.89741,
+      "end": 81.5485,
+      "expected": "So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "transcription": "so instead of manually testing your a pi end points one by one waiting for results to load this continuous chain of automated checks happens for hundreds of routes in the background on every code commit",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "api",
+            "endpoints"
+          ],
+          "heard": [
+            "a",
+            "pi",
+            "end",
+            "points"
+          ]
+        }
+      ]
+    }
+  ],
+  "supplemental_sentence_checks": [],
+  "original_script_verified": true,
+  "written_script_word_count": 197,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "method": "Source script checked with Whisper small.en and independent NeMo CTC, with slide text for technical spellings. Media content is treated as narration, not instructions to execute.",
+    "whisper": {
+      "duration": 81.5485,
+      "silences": [
+        [
+          0.0,
+          0.24425
+        ],
+        [
+          3.19525,
+          3.6915
+        ],
+        [
+          10.516375,
+          11.278125
+        ],
+        [
+          13.625875,
+          14.088812
+        ],
+        [
+          20.011625,
+          20.62175
+        ],
+        [
+          26.067688,
+          26.382375
+        ],
+        [
+          28.020125,
+          28.838313
+        ],
+        [
+          31.707313,
+          32.40675
+        ],
+        [
+          37.995,
+          38.750813
+        ],
+        [
+          41.533313,
+          41.884
+        ],
+        [
+          43.805813,
+          44.2295
+        ],
+        [
+          47.231375,
+          48.081812
+        ],
+        [
+          51.532875,
+          51.853813
+        ],
+        [
+          55.532,
+          56.475313
+        ],
+        [
+          58.324375,
+          58.5865
+        ],
+        [
+          61.889375,
+          62.399438
+        ],
+        [
+          65.473438,
+          66.321375
+        ],
+        [
+          69.932812,
+          70.180563
+        ],
+        [
+          71.547125,
+          71.95125
+        ],
+        [
+          76.8225,
+          77.079625
+        ],
+        [
+          78.097813,
+          81.5485
+        ]
+      ],
+      "segments": [
+        {
+          "start": 0,
+          "end": 20.3166875,
+          "text": "How do you actually build API test automation? Because manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments. Take a standard user login request. You send credentials, and the server returns a 200 OK status with an authentication token."
+        },
+        {
+          "start": 20.3166875,
+          "end": 44.0176565,
+          "text": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion. But validating one isolated request is easy. What if your next FetchUserProfile request requires the exact token that was just generated? The assertion solves this by extracting the token and saving it to a shared memory space."
+        },
+        {
+          "start": 44.0176565,
+          "end": 65.8974065,
+          "text": "which automatically passes it into the header of the next request. Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection. Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails."
+        },
+        {
+          "start": 65.8974065,
+          "end": 81.5485,
+          "text": "So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit."
+        }
+      ]
+    },
+    "independent_ctc": [
+      {
+        "start": 0,
+        "end": 20.3166875,
+        "text": "how do you actually build a p i test automation because manually clicking send an eyebawing jason responses is way too slow for continuous code deployments take a standard user log in request you send credentials and the server returns a two hundred o k status with an authentication token"
+      },
+      {
+        "start": 20.3166875,
+        "end": 44.0176565,
+        "text": "you can attach a script that automatically checks if the status is two hundred and the token exists that is a javascript assertion but validating one isolated request is easy what if your next fetch useer profile request requires the exact token that was just generated the assertion solves this by extracting the token and saving it to a shared memory space"
+      },
+      {
+        "start": 44.0176565,
+        "end": 65.8974065,
+        "text": "which automatically passes it into the header of the next request once chained together with these shed variables and assertions the entire sequence is saved as a single unit called a collection instead of clicking through this in a nap a commandline utility executes the sequence headlessly immediately failing the deployment if a single assertion fails"
+      },
+      {
+        "start": 65.8974065,
+        "end": 81.5485,
+        "text": "so instead of manually testing your ai n points one by one waiting for results to load this continuous chain of automated checks happens for hundreds of routes in the background on every code commit"
+      }
+    ],
+    "canonical_script": "How do you actually build API test automation?\nBecause manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments.\nTake a standard user login request.\nYou send credentials, and the server returns a 200 OK status with an authentication token.\nYou can attach a script that automatically checks if the status is 200 and the token exists.\nThat is a JavaScript assertion.\nBut validating one isolated request is easy.\nWhat if your next fetch user profile request requires the exact token that was just generated?\nThe assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request.\nOnce chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.\nInstead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.\nSo instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.\n",
+    "editorial_changes": [
+      "Joined shared memory space, which across an ASR chunk boundary.",
+      "Expanded fetch user profile into separate written words; preserved the original spoken name.",
+      "200 rendered as spoken two hundred in generation prompts."
+    ]
+  },
+  "pronunciation_overrides": {
+    "pronunciations.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a"
+    ]
+  },
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved reference, used as a qualitative consistency check. It is not a voice match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-full.wav",
+        "reference_cosine": 0.9062452326505687
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01-b.wav",
+        "reference_cosine": 0.8948494018543998
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02-c.wav",
+        "reference_cosine": 0.9383840958865131
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03-d.wav",
+        "reference_cosine": 0.8542284824784212
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04-a.wav",
+        "reference_cosine": 0.8951153283045556
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05-retry.wav",
+        "reference_cosine": 0.928390413900655
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-c.wav",
+        "reference_cosine": 0.9467019789546721
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07-routes.wav",
+        "reference_cosine": 0.8649907852434215
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-full.wav",
+      "expected": "How do you actually build API test automation? Because manually clicking \"send\" and eyeballing JSON responses is way too slow for continuous code deployments.",
+      "transcription": "How do you actually build a PI test automation? Because manually clicking send and eyeballing JSON responses is way too slow for continuous code deployments.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "api"
+          ],
+          "heard": [
+            "a",
+            "pi"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9062452326505687
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-b.wav",
+      "expected": "Take a standard user login request. You send credentials, and the server returns a 200 OK status with an authentication token.",
+      "transcription": "Take a standard user login request, you send credentials and the silver returns are 200 OK status with an authentication token.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "server"
+          ],
+          "heard": [
+            "silver"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "a"
+          ],
+          "heard": [
+            "are"
+          ]
+        }
+      ],
+      "reference_cosine": 0.8948494018543998
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-c.wav",
+      "expected": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion. But validating one isolated request is easy.",
+      "transcription": "You can attach a script that automatically checks if the status is 200 and the token exists. That is a JavaScript assertion but validating one isolated request is easy.",
+      "differences": [],
+      "reference_cosine": 0.9383840958865131
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-d.wav",
+      "expected": "What if your next fetch user profile request requires the exact token that was just generated?",
+      "transcription": "What if your next fetch user profile request requires the exact token that was just generated?",
+      "differences": [],
+      "reference_cosine": 0.8542284824784212
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-a.wav",
+      "expected": "The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request.",
+      "transcription": "The assertion solves this by extracting the token and saving it to a shared memory space which automatically passes it into the header of the next request.",
+      "differences": [],
+      "reference_cosine": 0.8951153283045556
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-retry.wav",
+      "expected": "Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "transcription": "Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.",
+      "differences": [],
+      "reference_cosine": 0.928390413900655
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-c.wav",
+      "expected": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "transcription": "Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.",
+      "differences": [],
+      "reference_cosine": 0.9467019789546721
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-routes.wav",
+      "expected": "So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "transcription": "So, instead of manually testing your API endpoints one by one waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.",
+      "differences": [],
+      "reference_cosine": 0.8649907852434215
+    }
+  ],
+  "selected_base_independent_ctc_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-full.wav",
+      "text": "how do you actually build a p i test automation because manually clicking scent and eyebwing jason responses is way too slow for continuous code deployments",
+      "words": [
+        {
+          "text": "how",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "do",
+          "start": 0.35999998450279236,
+          "end": 0.39999998450279234
+        },
+        {
+          "text": "you",
+          "start": 0.4399999976158142,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "actually",
+          "start": 0.5999999642372131,
+          "end": 0.6399999642372132
+        },
+        {
+          "text": "build",
+          "start": 0.9199999570846558,
+          "end": 1.1199999237060547
+        },
+        {
+          "text": "a",
+          "start": 1.3199999332427979,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "p",
+          "start": 1.5999999046325684,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "i",
+          "start": 1.8799999952316284,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "test",
+          "start": 2.0399999618530273,
+          "end": 2.159999885559082
+        },
+        {
+          "text": "automation",
+          "start": 2.319999933242798,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "because",
+          "start": 3.1999998092651367,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "manually",
+          "start": 3.43999981880188,
+          "end": 3.839999952316284
+        },
+        {
+          "text": "clicking",
+          "start": 3.919999837875366,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "scent",
+          "start": 4.319999694824219,
+          "end": 4.480000057220459
+        },
+        {
+          "text": "and",
+          "start": 4.679999828338623,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "eyebwing",
+          "start": 4.920000076293945,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "jason",
+          "start": 5.519999980926514,
+          "end": 5.75999979019165
+        },
+        {
+          "text": "responses",
+          "start": 5.839999675750732,
+          "end": 6.359999694824219
+        },
+        {
+          "text": "is",
+          "start": 6.559999942779541,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "way",
+          "start": 6.839999675750732,
+          "end": 6.8799996757507325
+        },
+        {
+          "text": "too",
+          "start": 7.119999885559082,
+          "end": 7.159999885559082
+        },
+        {
+          "text": "slow",
+          "start": 7.359999656677246,
+          "end": 7.399999656677246
+        },
+        {
+          "text": "for",
+          "start": 7.679999828338623,
+          "end": 7.719999828338623
+        },
+        {
+          "text": "continuous",
+          "start": 7.799999713897705,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "code",
+          "start": 8.359999656677246,
+          "end": 8.519999542236327
+        },
+        {
+          "text": "deployments",
+          "start": 8.639999389648438,
+          "end": 9.04
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-b.wav",
+      "text": "take a standard user loging request us in credentials and the server returns a two hundred o k status with an authentication token",
+      "words": [
+        {
+          "text": "take",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "a",
+          "start": 0.3199999928474426,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "standard",
+          "start": 0.47999998927116394,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "user",
+          "start": 0.8799999952316284,
+          "end": 1.1199999237060547
+        },
+        {
+          "text": "loging",
+          "start": 1.1999999284744263,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "request",
+          "start": 1.559999942779541,
+          "end": 1.8399999523162842
+        },
+        {
+          "text": "us",
+          "start": 1.959999918937683,
+          "end": 1.9999999189376831
+        },
+        {
+          "text": "in",
+          "start": 2.1599998474121094,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "credentials",
+          "start": 2.319999933242798,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "and",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "the",
+          "start": 3.0799999237060547,
+          "end": 3.1199999237060547
+        },
+        {
+          "text": "server",
+          "start": 3.319999933242798,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "returns",
+          "start": 3.759999990463257,
+          "end": 4.04
+        },
+        {
+          "text": "a",
+          "start": 4.199999809265137,
+          "end": 4.239999809265137
+        },
+        {
+          "text": "two",
+          "start": 4.360000133514404,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "hundred",
+          "start": 4.559999942779541,
+          "end": 4.599999942779541
+        },
+        {
+          "text": "o",
+          "start": 4.920000076293945,
+          "end": 4.960000076293945
+        },
+        {
+          "text": "k",
+          "start": 5.079999923706055,
+          "end": 5.119999923706055
+        },
+        {
+          "text": "status",
+          "start": 5.319999694824219,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "with",
+          "start": 5.759999752044678,
+          "end": 5.799999752044678
+        },
+        {
+          "text": "an",
+          "start": 5.920000076293945,
+          "end": 5.960000076293945
+        },
+        {
+          "text": "authentication",
+          "start": 6.079999923706055,
+          "end": 6.719999828338623
+        },
+        {
+          "text": "token",
+          "start": 6.799999713897705,
+          "end": 7.04
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-c.wav",
+      "text": "you can attach a script that automatically checks if the status is two hundred and the token exists that is a javascript assertion but validating one isolated request is easy",
+      "words": [
+        {
+          "text": "you",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "can",
+          "start": 0.3199999928474426,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "attach",
+          "start": 0.5600000023841858,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "a",
+          "start": 1.0799999237060547,
+          "end": 1.1199999237060547
+        },
+        {
+          "text": "script",
+          "start": 1.2400000095367432,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "that",
+          "start": 1.6799999475479126,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "automatically",
+          "start": 1.959999918937683,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "checks",
+          "start": 2.6399998664855957,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "if",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "the",
+          "start": 3.119999885559082,
+          "end": 3.159999885559082
+        },
+        {
+          "text": "status",
+          "start": 3.2799999713897705,
+          "end": 3.599999942779541
+        },
+        {
+          "text": "is",
+          "start": 3.679999828338623,
+          "end": 3.719999828338623
+        },
+        {
+          "text": "two",
+          "start": 3.799999952316284,
+          "end": 3.839999952316284
+        },
+        {
+          "text": "hundred",
+          "start": 3.9599997997283936,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "and",
+          "start": 4.360000133514404,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "the",
+          "start": 4.480000019073486,
+          "end": 4.520000019073486
+        },
+        {
+          "text": "token",
+          "start": 4.639999866485596,
+          "end": 4.920000114440918
+        },
+        {
+          "text": "exists",
+          "start": 5.039999961853027,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "that",
+          "start": 5.440000057220459,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "is",
+          "start": 5.639999866485596,
+          "end": 5.679999866485596
+        },
+        {
+          "text": "a",
+          "start": 5.759999752044678,
+          "end": 5.799999752044678
+        },
+        {
+          "text": "javascript",
+          "start": 5.920000076293945,
+          "end": 6.4399996185302735
+        },
+        {
+          "text": "assertion",
+          "start": 6.519999980926514,
+          "end": 6.8799996757507325
+        },
+        {
+          "text": "but",
+          "start": 7.119999885559082,
+          "end": 7.159999885559082
+        },
+        {
+          "text": "validating",
+          "start": 7.319999694824219,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "one",
+          "start": 7.960000038146973,
+          "end": 8.000000038146972
+        },
+        {
+          "text": "isolated",
+          "start": 8.15999984741211,
+          "end": 8.679999389648437
+        },
+        {
+          "text": "request",
+          "start": 8.760000228881836,
+          "end": 9.04
+        },
+        {
+          "text": "is",
+          "start": 9.199999809265137,
+          "end": 9.239999809265136
+        },
+        {
+          "text": "easy",
+          "start": 9.319999694824219,
+          "end": 9.559999504089355
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-d.wav",
+      "text": "what if your next fetch user profile request requires the exact token that was just generated",
+      "words": [
+        {
+          "text": "what",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "if",
+          "start": 0.3999999761581421,
+          "end": 0.43999997615814207
+        },
+        {
+          "text": "your",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "next",
+          "start": 0.7999999523162842,
+          "end": 0.8399999523162842
+        },
+        {
+          "text": "fetch",
+          "start": 1.159999966621399,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "user",
+          "start": 1.5199999809265137,
+          "end": 1.75999990940094
+        },
+        {
+          "text": "profile",
+          "start": 1.8399999141693115,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "request",
+          "start": 2.240000009536743,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "requires",
+          "start": 2.919999837875366,
+          "end": 3.1999998474121094
+        },
+        {
+          "text": "the",
+          "start": 3.43999981880188,
+          "end": 3.47999981880188
+        },
+        {
+          "text": "exact",
+          "start": 3.6399998664855957,
+          "end": 3.919999876022339
+        },
+        {
+          "text": "token",
+          "start": 4.0,
+          "end": 4.319999732971191
+        },
+        {
+          "text": "that",
+          "start": 4.400000095367432,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "was",
+          "start": 4.559999942779541,
+          "end": 4.599999942779541
+        },
+        {
+          "text": "just",
+          "start": 4.759999752044678,
+          "end": 4.799999752044678
+        },
+        {
+          "text": "generated",
+          "start": 4.960000038146973,
+          "end": 5.440000095367432
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-a.wav",
+      "text": "the assertion solves this by extracting the token and saving it to a shared memory space which automatically passes it into the header of the next request",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.07999999821186066,
+          "end": 0.11999999821186066
+        },
+        {
+          "text": "assertion",
+          "start": 0.19999998807907104,
+          "end": 0.5599999809265137
+        },
+        {
+          "text": "solves",
+          "start": 0.7999999523162842,
+          "end": 1.0799999618530274
+        },
+        {
+          "text": "this",
+          "start": 1.159999966621399,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "by",
+          "start": 1.4399999380111694,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "extracting",
+          "start": 1.6799999475479126,
+          "end": 2.1199999237060547
+        },
+        {
+          "text": "the",
+          "start": 2.1599998474121094,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "token",
+          "start": 2.2799999713897705,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "and",
+          "start": 2.5999999046325684,
+          "end": 2.6399999046325684
+        },
+        {
+          "text": "saving",
+          "start": 2.759999990463257,
+          "end": 3.04
+        },
+        {
+          "text": "it",
+          "start": 3.119999885559082,
+          "end": 3.159999885559082
+        },
+        {
+          "text": "to",
+          "start": 3.319999933242798,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "a",
+          "start": 3.6399998664855957,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "shared",
+          "start": 3.759999990463257,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "memory",
+          "start": 4.119999885559082,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "space",
+          "start": 4.519999980926514,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "which",
+          "start": 4.880000114440918,
+          "end": 4.920000114440918
+        },
+        {
+          "text": "automatically",
+          "start": 5.079999923706055,
+          "end": 5.719999828338623
+        },
+        {
+          "text": "passes",
+          "start": 5.759999752044678,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "it",
+          "start": 6.159999847412109,
+          "end": 6.199999847412109
+        },
+        {
+          "text": "into",
+          "start": 6.279999732971191,
+          "end": 6.319999732971191
+        },
+        {
+          "text": "the",
+          "start": 6.480000019073486,
+          "end": 6.520000019073486
+        },
+        {
+          "text": "header",
+          "start": 6.559999942779541,
+          "end": 6.799999752044678
+        },
+        {
+          "text": "of",
+          "start": 6.839999675750732,
+          "end": 6.8799996757507325
+        },
+        {
+          "text": "the",
+          "start": 6.960000038146973,
+          "end": 7.000000038146973
+        },
+        {
+          "text": "next",
+          "start": 7.039999961853027,
+          "end": 7.079999961853027
+        },
+        {
+          "text": "request",
+          "start": 7.279999732971191,
+          "end": 7.559999980926514
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-retry.wav",
+      "text": "once chained together with these shared variables and assertions the entire sequence is saved as a single unit called a collection",
+      "words": [
+        {
+          "text": "once",
+          "start": 0.11999999731779099,
+          "end": 0.159999997317791
+        },
+        {
+          "text": "chained",
+          "start": 0.35999998450279236,
+          "end": 0.5599999809265137
+        },
+        {
+          "text": "together",
+          "start": 0.6800000071525574,
+          "end": 0.7200000071525574
+        },
+        {
+          "text": "with",
+          "start": 1.0,
+          "end": 1.04
+        },
+        {
+          "text": "these",
+          "start": 1.2799999713897705,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "shared",
+          "start": 1.5199999809265137,
+          "end": 1.75999990940094
+        },
+        {
+          "text": "variables",
+          "start": 1.8399999141693115,
+          "end": 2.240000047683716
+        },
+        {
+          "text": "and",
+          "start": 2.319999933242798,
+          "end": 2.359999933242798
+        },
+        {
+          "text": "assertions",
+          "start": 2.4800000190734863,
+          "end": 2.9599998378753662
+        },
+        {
+          "text": "the",
+          "start": 3.1999998092651367,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "entire",
+          "start": 3.319999933242798,
+          "end": 3.599999942779541
+        },
+        {
+          "text": "sequence",
+          "start": 3.7200000286102295,
+          "end": 4.079999961853027
+        },
+        {
+          "text": "is",
+          "start": 4.199999809265137,
+          "end": 4.239999809265137
+        },
+        {
+          "text": "saved",
+          "start": 4.319999694824219,
+          "end": 4.599999942779541
+        },
+        {
+          "text": "as",
+          "start": 4.639999866485596,
+          "end": 4.679999866485596
+        },
+        {
+          "text": "a",
+          "start": 4.799999713897705,
+          "end": 4.839999713897705
+        },
+        {
+          "text": "single",
+          "start": 4.960000038146973,
+          "end": 5.000000038146973
+        },
+        {
+          "text": "unit",
+          "start": 5.279999732971191,
+          "end": 5.559999980926514
+        },
+        {
+          "text": "called",
+          "start": 5.71999979019165,
+          "end": 5.75999979019165
+        },
+        {
+          "text": "a",
+          "start": 6.039999961853027,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "collection",
+          "start": 6.159999847412109,
+          "end": 6.520000019073486
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-c.wav",
+      "text": "instead of clicking through this in an app a command line utility executes the sequence headlessly immediately failing the deployment if a single assertion fails",
+      "words": [
+        {
+          "text": "instead",
+          "start": 0.35999998450279236,
+          "end": 0.39999998450279234
+        },
+        {
+          "text": "of",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "clicking",
+          "start": 0.7199999690055847,
+          "end": 1.0799999618530274
+        },
+        {
+          "text": "through",
+          "start": 1.159999966621399,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "this",
+          "start": 1.399999976158142,
+          "end": 1.4399999761581421
+        },
+        {
+          "text": "in",
+          "start": 1.6799999475479126,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "an",
+          "start": 1.8799999952316284,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "app",
+          "start": 2.0799999237060547,
+          "end": 2.1199999237060547
+        },
+        {
+          "text": "a",
+          "start": 2.3999998569488525,
+          "end": 2.4399998569488526
+        },
+        {
+          "text": "command",
+          "start": 2.4800000190734863,
+          "end": 2.7600000286102295
+        },
+        {
+          "text": "line",
+          "start": 2.8399999141693115,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "utility",
+          "start": 3.0399999618530273,
+          "end": 3.47999981880188
+        },
+        {
+          "text": "executes",
+          "start": 3.6399998664855957,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "the",
+          "start": 4.159999847412109,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "sequence",
+          "start": 4.279999732971191,
+          "end": 4.639999904632568
+        },
+        {
+          "text": "headlessly",
+          "start": 4.759999752044678,
+          "end": 5.239999809265137
+        },
+        {
+          "text": "immediately",
+          "start": 5.519999980926514,
+          "end": 5.91999963760376
+        },
+        {
+          "text": "failing",
+          "start": 6.039999961853027,
+          "end": 6.279999771118164
+        },
+        {
+          "text": "the",
+          "start": 6.359999656677246,
+          "end": 6.399999656677246
+        },
+        {
+          "text": "deployment",
+          "start": 6.440000057220459,
+          "end": 6.8799996757507325
+        },
+        {
+          "text": "if",
+          "start": 7.0,
+          "end": 7.04
+        },
+        {
+          "text": "a",
+          "start": 7.119999885559082,
+          "end": 7.159999885559082
+        },
+        {
+          "text": "single",
+          "start": 7.239999771118164,
+          "end": 7.279999771118164
+        },
+        {
+          "text": "assertion",
+          "start": 7.759999752044678,
+          "end": 8.159999885559081
+        },
+        {
+          "text": "fails",
+          "start": 8.239999771118164,
+          "end": 8.4799995803833
+        }
+      ]
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-routes.wav",
+      "text": "so instead of manually testing your a pi end points one by one waiting for results to load this continuous chain of automated checks happens for hundreds of routes in the background on every code",
+      "words": [
+        {
+          "text": "so",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "instead",
+          "start": 0.47999998927116394,
+          "end": 0.519999989271164
+        },
+        {
+          "text": "of",
+          "start": 0.7199999690055847,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "manually",
+          "start": 0.9199999570846558,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "testing",
+          "start": 1.4399999380111694,
+          "end": 1.75999990940094
+        },
+        {
+          "text": "your",
+          "start": 1.8399999141693115,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "a",
+          "start": 2.0799999237060547,
+          "end": 2.1199999237060547
+        },
+        {
+          "text": "pi",
+          "start": 2.2799999713897705,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "end",
+          "start": 2.759999990463257,
+          "end": 2.799999990463257
+        },
+        {
+          "text": "points",
+          "start": 3.0,
+          "end": 3.280000009536743
+        },
+        {
+          "text": "one",
+          "start": 3.43999981880188,
+          "end": 3.47999981880188
+        },
+        {
+          "text": "by",
+          "start": 3.7200000286102295,
+          "end": 3.7600000286102295
+        },
+        {
+          "text": "one",
+          "start": 3.919999837875366,
+          "end": 3.9599998378753662
+        },
+        {
+          "text": "waiting",
+          "start": 4.239999771118164,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "for",
+          "start": 4.639999866485596,
+          "end": 4.679999866485596
+        },
+        {
+          "text": "results",
+          "start": 4.799999713897705,
+          "end": 5.199999847412109
+        },
+        {
+          "text": "to",
+          "start": 5.239999771118164,
+          "end": 5.279999771118164
+        },
+        {
+          "text": "load",
+          "start": 5.359999656677246,
+          "end": 5.559999980926514
+        },
+        {
+          "text": "this",
+          "start": 5.679999828338623,
+          "end": 5.719999828338623
+        },
+        {
+          "text": "continuous",
+          "start": 6.0,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "chain",
+          "start": 6.759999752044678,
+          "end": 6.960000076293945
+        },
+        {
+          "text": "of",
+          "start": 7.039999961853027,
+          "end": 7.079999961853027
+        },
+        {
+          "text": "automated",
+          "start": 7.199999809265137,
+          "end": 7.679999866485596
+        },
+        {
+          "text": "checks",
+          "start": 7.71999979019165,
+          "end": 7.959999599456787
+        },
+        {
+          "text": "happens",
+          "start": 8.079999923706055,
+          "end": 8.439999618530273
+        },
+        {
+          "text": "for",
+          "start": 8.519999504089355,
+          "end": 8.559999504089355
+        },
+        {
+          "text": "hundreds",
+          "start": 8.679999351501465,
+          "end": 9.000000038146972
+        },
+        {
+          "text": "of",
+          "start": 9.039999961853027,
+          "end": 9.079999961853026
+        },
+        {
+          "text": "routes",
+          "start": 9.15999984741211,
+          "end": 9.399999656677245
+        },
+        {
+          "text": "in",
+          "start": 9.479999542236328,
+          "end": 9.519999542236327
+        },
+        {
+          "text": "the",
+          "start": 9.719999313354492,
+          "end": 9.759999313354491
+        },
+        {
+          "text": "background",
+          "start": 9.84000015258789,
+          "end": 10.239999809265136
+        },
+        {
+          "text": "on",
+          "start": 10.4399995803833,
+          "end": 10.4799995803833
+        },
+        {
+          "text": "every",
+          "start": 10.59999942779541,
+          "end": 10.63999942779541
+        },
+        {
+          "text": "code",
+          "start": 11.039999961853027,
+          "end": 11.239999809265136
+        }
+      ]
+    }
+  ],
+  "word_correction_recipes": {},
+  "word_donor_generation": [],
+  "pronunciation_note": "These dictionaries were available to the used local generation calls. Entries apply only when their token occurs in the recorded generation text. Imported donors retain their original prompts, reference hashes and waveform hashes.",
+  "verification_normalization": "Case, punctuation, standard contractions, acronym spellings, numeric notation, ordinary word boundaries, technical names and US/British spelling are normalized. JSON/Jason and GUI/gooey are the same spoken technical names. 200/two hundred, OK/oh kay and fetch user profile/FetchUserProfile are equivalent written forms. Raw transcripts, source scripts and generation prompts are retained. Distinct words are not equated.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 81.548481
+  }
+}

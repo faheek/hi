@@ -1,0 +1,12 @@
+How do you actually build API test automation?
+Because manually clicking "send" and eyeballing JSON responses is way too slow for continuous code deployments.
+Take a standard user login request.
+You send credentials, and the server returns a 200 OK status with an authentication token.
+You can attach a script that automatically checks if the status is 200 and the token exists.
+That is a JavaScript assertion.
+But validating one isolated request is easy.
+What if your next fetch user profile request requires the exact token that was just generated?
+The assertion solves this by extracting the token and saving it to a shared memory space, which automatically passes it into the header of the next request.
+Once chained together with these shared variables and assertions, the entire sequence is saved as a single unit called a collection.
+Instead of clicking through this in an app, a command line utility executes the sequence headlessly, immediately failing the deployment if a single assertion fails.
+So instead of manually testing your API endpoints one by one, waiting for results to load, this continuous chain of automated checks happens for hundreds of routes in the background on every code commit.
