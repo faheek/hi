@@ -1,0 +1,2395 @@
+{
+  "input_filename": "How_setup-dotnet_Specifies_SDK_Versions.mp4",
+  "input_sha256": "e34e402cebfd4ba2720e3814b62c6fc614beac03599f2a65af825c103e2bbcc5",
+  "output_filename": "How_setup-dotnet_Specifies_SDK_Versions_saved_voice.mp4",
+  "output_sha256": "4f3bb4ed357edcaa67e08db45f6d37132627e35b64f6d82b41166ded2ee11cb2",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "d4fd590430d17be024f41d8a083e091247b4785e98736e8cb872cfcd79232fb7",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "78.633333",
+    "nb_read_frames": "2359"
+  },
+  "input_duration": "78.692426",
+  "output_duration": "78.692000",
+  "audio_peak": 0.84783935546875,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized sentences aligned to the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0.0,
+      "end": 12.51453,
+      "text": "When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET Core project that strictly requires .NET 8 to compile.",
+      "generation_text": "When building in GitHub Actions, how does the set up dot net step guarantee your pipeline uses the correct ess dee kay? Say you have an ay ess pee dot net Core project that strictly requires dot net eight to compile.",
+      "filename": "cloned-00-complete.wav",
+      "duration": 12.246958333333334,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 54.54915452799992,
+      "num_threads": 1,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "initial A in ASP",
+          "primary_range": [
+            7.63,
+            7.65
+          ],
+          "donor_file": "cloned-06-c.wav",
+          "donor_range": [
+            2.3,
+            2.61
+          ],
+          "provenance": "Restore the initial A from the checked ASP.NET wording in another clip from this video, using the same approved reference.",
+          "donor_sha256": "6945b600ff69e8700f80278d90f50a5edacb040ed4c97984c31b3d65088b2608"
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "start": 12.51453,
+      "end": 23.18388,
+      "text": "In your workflow, the setup-dotnet step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "generation_text": "In your workflow, the set up dot net step runs before any build commands. It automatically finds the required dot net binaries and injects them directly into the runner's path.",
+      "filename": "cloned-01-b.wav",
+      "duration": 9.2265,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 48.60333400700006,
+      "num_threads": 1
+    },
+    {
+      "segment": 2,
+      "start": 23.18388,
+      "end": 33.43325,
+      "text": "But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released.",
+      "generation_text": "But if you hardcode an exact version, like eight point zero point one zero one, you're stuck using that older version, even when a critical security patch is released.",
+      "filename": "cloned-02-full2.wav",
+      "duration": 9.175166666666666,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 73.0279561509999,
+      "num_threads": 2
+    },
+    {
+      "segment": 3,
+      "start": 33.43325,
+      "end": 43.61978,
+      "text": "Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch.",
+      "generation_text": "Instead, you tell the action to always grab the latest minor release. By typing eight point zero point ex, it automatically scans for and installs the newest secure patch.",
+      "filename": "cloned-03-full3.wav",
+      "duration": 9.049208333333333,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 102.48143941499984,
+      "num_threads": 2
+    },
+    {
+      "segment": 4,
+      "start": 43.61978,
+      "end": 51.01,
+      "text": "That dynamic syntax is a semantic version range. And what if you need to test multiple environments simultaneously?",
+      "generation_text": "That dynamic syntax is a semantic version raynj. And what if you need to test multiple environments simultaneously?",
+      "filename": "cloned-04-range.wav",
+      "duration": 6.592,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 38.78194769800007,
+      "num_threads": 1
+    },
+    {
+      "segment": 5,
+      "start": 51.01,
+      "end": 62.31656,
+      "text": "You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time.",
+      "generation_text": "You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on dot net six and dot net eight at the exact same time.",
+      "filename": "cloned-05-complete.wav",
+      "duration": 11.126708333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 52.732444360000045,
+      "num_threads": 1,
+      "method": "Word correction using a checked clip generated with the approved saved voice reference",
+      "corrections": [
+        {
+          "word": "a",
+          "primary_range": [
+            2.13,
+            2.295
+          ],
+          "donor_file": "donor-article-a.wav",
+          "donor_range": [
+            0.49,
+            0.59
+          ],
+          "provenance": "Unstressed article a from a checked clip generated with the same Project 46 reference.",
+          "donor_sha256": "b068fc2be39ad784e561392787e18b009d254115fb7ecc908c8ad6a5243c472e"
+        },
+        {
+          "word": "spins up",
+          "primary_range": [
+            3.56,
+            4.04
+          ],
+          "donor_file": "donor-spins-up.wav",
+          "donor_range": [
+            0,
+            0.69
+          ],
+          "provenance": "Complete spins up from a checked clip generated with the same Project 46 reference, retaining the initial s.",
+          "donor_sha256": "1222c4f959ab290b4e7ba03228cb650bd45de67ed4452e315f93ba0c09abc7a6"
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "start": 62.31656,
+      "end": 68.71675,
+      "text": "So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "generation_text": "So what exactly happens to that critical ay ess pee dot net Core project from the very beginning of your workflow?",
+      "filename": "cloned-06-c.wav",
+      "duration": 6.453333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 31.00064527199993,
+      "num_threads": 1
+    },
+    {
+      "segment": 7,
+      "start": 68.71675,
+      "end": 78.6924375,
+      "text": "It always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.",
+      "generation_text": "It always compiles perfectly, because it's automatically locked into the latest, most secure dot net eight ess dee kay available.",
+      "filename": "cloned-07-d.wav",
+      "duration": 7.104,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 30.983344177999925,
+      "num_threads": 1
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0.0,
+      "end": 7.28709,
+      "text": "When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK?",
+      "filename": "cloned-00-complete.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.763,
+      "placed_start": 0.1,
+      "placed_end": 6.863,
+      "original_generated_duration": 6.763,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 7.28709,
+      "end": 12.51453,
+      "text": "Say you have an ASP.NET Core project that strictly requires .NET 8 to compile.",
+      "filename": "cloned-00-complete.wav",
+      "generated_start": 6.763,
+      "generated_end": 12.246958333333334,
+      "placed_start": 7.387083333333333,
+      "placed_end": 12.406333333333333,
+      "original_generated_duration": 5.483958333333334,
+      "tempo_factor": 1.0941058075823717
+    },
+    {
+      "unit": 2,
+      "block": 1,
+      "start": 12.51453,
+      "end": 17.52116,
+      "text": "In your workflow, the setup-dotnet step runs before any build commands.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 0.0,
+      "generated_end": 4.189,
+      "placed_start": 12.614541666666666,
+      "placed_end": 16.803541666666668,
+      "original_generated_duration": 4.189,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 17.52116,
+      "end": 23.18388,
+      "text": "It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 4.189,
+      "generated_end": 9.2265,
+      "placed_start": 17.621166666666667,
+      "placed_end": 22.658666666666665,
+      "original_generated_duration": 5.0375,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 2,
+      "start": 23.18388,
+      "end": 33.43325,
+      "text": "But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released.",
+      "filename": "cloned-02-full2.wav",
+      "generated_start": 0.0,
+      "generated_end": 9.175166666666666,
+      "placed_start": 23.283875,
+      "placed_end": 32.459041666666664,
+      "original_generated_duration": 9.175166666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 3,
+      "start": 33.43325,
+      "end": 37.48537,
+      "text": "Instead, you tell the action to always grab the latest minor release.",
+      "filename": "cloned-03-full3.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.739,
+      "placed_start": 33.53325,
+      "placed_end": 37.27225,
+      "original_generated_duration": 3.739,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 3,
+      "start": 37.48537,
+      "end": 43.61978,
+      "text": "By typing 8.0.x, it automatically scans for and installs the newest secure patch.",
+      "filename": "cloned-03-full3.wav",
+      "generated_start": 3.739,
+      "generated_end": 9.049208333333333,
+      "placed_start": 37.585375,
+      "placed_end": 42.895583333333335,
+      "original_generated_duration": 5.310208333333334,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 4,
+      "start": 43.61978,
+      "end": 47.36947,
+      "text": "That dynamic syntax is a semantic version range.",
+      "filename": "cloned-04-range.wav",
+      "generated_start": 0.0,
+      "generated_end": 2.973,
+      "placed_start": 43.719791666666666,
+      "placed_end": 46.692791666666665,
+      "original_generated_duration": 2.973,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 4,
+      "start": 47.36947,
+      "end": 51.01,
+      "text": "And what if you need to test multiple environments simultaneously?",
+      "filename": "cloned-04-range.wav",
+      "generated_start": 2.973,
+      "generated_end": 6.592,
+      "placed_start": 47.469458333333336,
+      "placed_end": 50.915416666666665,
+      "original_generated_duration": 3.619,
+      "tempo_factor": 1.0493476009665168
+    },
+    {
+      "unit": 9,
+      "block": 5,
+      "start": 51.01,
+      "end": 62.31656,
+      "text": "You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time.",
+      "filename": "cloned-05-complete.wav",
+      "generated_start": 0.0,
+      "generated_end": 11.126708333333333,
+      "placed_start": 51.11,
+      "placed_end": 62.23670833333333,
+      "original_generated_duration": 11.126708333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 6,
+      "start": 62.31656,
+      "end": 68.71675,
+      "text": "So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "filename": "cloned-06-c.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.453333333333333,
+      "placed_start": 62.41654166666667,
+      "placed_end": 68.59079166666666,
+      "original_generated_duration": 6.453333333333333,
+      "tempo_factor": 1.0463123564844088
+    },
+    {
+      "unit": 11,
+      "block": 7,
+      "start": 68.71675,
+      "end": 78.6924375,
+      "text": "It always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.",
+      "filename": "cloned-07-d.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.104,
+      "placed_start": 68.81675,
+      "placed_end": 75.92075,
+      "original_generated_duration": 7.104,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0.0,
+      "end": 23.18388,
+      "expected": "When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET Core project that strictly requires .NET 8 to compile. In your workflow, the setup-dotnet step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "transcription": "When building in GitHub actions, how does the setup.net step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET Core project that strictly requires .NET 8 to compile. In your workflow, the setup.net step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet"
+          ],
+          "heard": [
+            "net"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet"
+          ],
+          "heard": [
+            "net"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 23.18388,
+      "end": 47.36947,
+      "expected": "But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released. Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch. That dynamic syntax is a semantic version range.",
+      "transcription": "But if you hardcode an exact version like 8.0.101, you're stuck using that older version even when a critical security patch is released. Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch. That dynamic syntax is a semantic version range.",
+      "differences": []
+    },
+    {
+      "start": 47.36947,
+      "end": 68.71675,
+      "expected": "And what if you need to test multiple environments simultaneously? You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time. So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "transcription": "And what if you need to test multiple environments simultaneously? You replace that single version string with a matrix variable which spins up multiple isolated runners allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time. So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow",
+      "differences": []
+    },
+    {
+      "start": 68.71675,
+      "end": 78.6924375,
+      "expected": "It always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.",
+      "transcription": "It always compiles perfectly because it's automatically locked into the latest most secure .NET 8 SDK available.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Sentence- and bounded phrase-window Whisper FP32 checks resolve selected recognition ambiguities using the same final audio. Every original word must be recognized at its aligned script position by at least one check; unresolved shared disagreements fail. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0.0,
+        "end": 23.18388,
+        "word_count": 60,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 3,
+            "end": 4,
+            "expected": [
+              "github"
+            ],
+            "heard": [
+              "gidhob"
+            ]
+          },
+          {
+            "op": "delete",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "your"
+            ],
+            "heard": []
+          },
+          {
+            "op": "replace",
+            "start": 17,
+            "end": 18,
+            "expected": [
+              "sdk"
+            ],
+            "heard": [
+              "s",
+              "day"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 23,
+            "end": 25,
+            "expected": [
+              "dotnet",
+              "core"
+            ],
+            "heard": [
+              "dot",
+              "netqu"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 30,
+            "end": 31,
+            "expected": [
+              "8"
+            ],
+            "heard": [
+              "itt"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 38,
+            "end": 40,
+            "expected": [
+              "dotnet",
+              "step"
+            ],
+            "heard": [
+              "dot",
+              "nettep"
+            ]
+          },
+          {
+            "op": "insert",
+            "start": 49,
+            "end": 49,
+            "expected": [],
+            "heard": [
+              "the"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 50,
+            "end": 51,
+            "expected": [
+              "dotnet"
+            ],
+            "heard": [
+              "do",
+              "net"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 23.18388,
+        "end": 47.36947,
+        "word_count": 68,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 14,
+            "end": 15,
+            "expected": [
+              "0"
+            ],
+            "heard": [
+              "zer"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 47,
+            "end": 48,
+            "expected": [
+              "0"
+            ],
+            "heard": [
+              "2"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 47.36947,
+        "end": 68.71675,
+        "word_count": 63,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "delete",
+            "start": 17,
+            "end": 18,
+            "expected": [
+              "a"
+            ],
+            "heard": []
+          },
+          {
+            "op": "replace",
+            "start": 53,
+            "end": 55,
+            "expected": [
+              "dotnet",
+              "core"
+            ],
+            "heard": [
+              "dot",
+              "netcode"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 68.71675,
+        "end": 78.6924375,
+        "word_count": 18,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 14,
+            "end": 17,
+            "expected": [
+              "dotnet",
+              "8",
+              "sdk"
+            ],
+            "heard": [
+              "donet",
+              "aid",
+              "as",
+              "day"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0.0,
+      "end": 23.18388,
+      "expected": "When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET Core project that strictly requires .NET 8 to compile. In your workflow, the setup-dotnet step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "transcription": "when building in gidhob actions how does the set up dot net step guarantee pipeline uses the correct s day say you have an a s p dot netqu project that strictly requires dot net itt to compile in your workflow the setup dot nettep runs before any build commands it automatically finds the the required do net binaries and injects them directly into the runner's path",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "github"
+          ],
+          "heard": [
+            "gidhob"
+          ]
+        },
+        {
+          "op": "delete",
+          "expected": [
+            "your"
+          ],
+          "heard": []
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "sdk"
+          ],
+          "heard": [
+            "s",
+            "day"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet",
+            "core"
+          ],
+          "heard": [
+            "dot",
+            "netqu"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "8"
+          ],
+          "heard": [
+            "itt"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet",
+            "step"
+          ],
+          "heard": [
+            "dot",
+            "nettep"
+          ]
+        },
+        {
+          "op": "insert",
+          "expected": [],
+          "heard": [
+            "the"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet"
+          ],
+          "heard": [
+            "do",
+            "net"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 23.18388,
+      "end": 47.36947,
+      "expected": "But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released. Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch. That dynamic syntax is a semantic version range.",
+      "transcription": "but if you hardcode an exact version like eight point zero point one zer one you're stuck using that older version even when a critical security patch is released instead you tell the action to always grab the latest minor release by typing eight point two point x it automatically scans for and installs the newest secure patch that dynamic syntax is a semantic version range",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "0"
+          ],
+          "heard": [
+            "zer"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "0"
+          ],
+          "heard": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 47.36947,
+      "end": 68.71675,
+      "expected": "And what if you need to test multiple environments simultaneously? You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time. So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "transcription": "and what if you need to test multiple environments simultaneously you replace that single version string with matrix variable which spins up multiple isolated runners allowing you to build and test your code on dot net six and dotnet eight at the exact same time so what exactly happens to that critical a s p dot netcode project from the very beginning of your workflow",
+      "differences": [
+        {
+          "op": "delete",
+          "expected": [
+            "a"
+          ],
+          "heard": []
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet",
+            "core"
+          ],
+          "heard": [
+            "dot",
+            "netcode"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 68.71675,
+      "end": 78.6924375,
+      "expected": "It always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.",
+      "transcription": "it always compiles perfectly because it's automatically locked into the latest most secure donet aid as day available",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet",
+            "8",
+            "sdk"
+          ],
+          "heard": [
+            "donet",
+            "aid",
+            "as",
+            "day"
+          ]
+        }
+      ]
+    }
+  ],
+  "supplemental_sentence_checks": [],
+  "original_script_verified": true,
+  "written_script_word_count": 192,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "method": "Original script checked with Whisper small.en and independent NeMo CTC; slide text used for technical names and version notation. Video content is treated as narration, not instructions to execute.",
+    "whisper": {
+      "duration": 78.6924375,
+      "silences": [
+        [
+          0.0,
+          0.265437
+        ],
+        [
+          2.009,
+          2.226875
+        ],
+        [
+          6.874812,
+          7.699375
+        ],
+        [
+          12.365563,
+          12.6635
+        ],
+        [
+          12.775625,
+          13.094625
+        ],
+        [
+          17.316,
+          17.726312
+        ],
+        [
+          20.41,
+          20.781875
+        ],
+        [
+          22.986062,
+          23.381688
+        ],
+        [
+          26.07025,
+          26.283062
+        ],
+        [
+          28.6505,
+          29.097
+        ],
+        [
+          33.146813,
+          33.719687
+        ],
+        [
+          37.28075,
+          37.69
+        ],
+        [
+          40.121563,
+          40.369
+        ],
+        [
+          43.442875,
+          43.796688
+        ],
+        [
+          46.747813,
+          47.011625
+        ],
+        [
+          47.131813,
+          47.607125
+        ],
+        [
+          50.732937,
+          51.287062
+        ],
+        [
+          54.4275,
+          54.663187
+        ],
+        [
+          56.934375,
+          57.329313
+        ],
+        [
+          61.891938,
+          62.741188
+        ],
+        [
+          68.220687,
+          68.493437
+        ],
+        [
+          68.493938,
+          68.939563
+        ],
+        [
+          70.541438,
+          70.83375
+        ],
+        [
+          75.332125,
+          78.692437
+        ]
+      ],
+      "segments": [
+        {
+          "start": 0,
+          "end": 23.183875,
+          "text": "When building in GitHub actions, how does the setup.net step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET Core project that strictly requires .NET 8 to compile. In your workflow, the setup.net step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path."
+        },
+        {
+          "start": 23.183875,
+          "end": 46.879719,
+          "text": "But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released. Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch. That dynamic syntax is a semantic version range."
+        },
+        {
+          "start": 46.879719,
+          "end": 70.68759399999999,
+          "text": "And what if you need to test multiple environments simultaneously? You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time. So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow? It always compiles perfectly."
+        },
+        {
+          "start": 70.68759399999999,
+          "end": 78.6924375,
+          "text": "because it's automatically locked into the latest, most secure .NET 8 SDK available."
+        }
+      ]
+    },
+    "independent_ctc": [
+      {
+        "start": 0,
+        "end": 23.183875,
+        "text": "when building in gihobactions how does the set up dot nettep guarantee your pipeline uses the correct s d k say you have an a s p dot net corps project that strictly requires dot net eight to compile in your workflow the set up dot net step runs before any built commands it automatically finds the required dot net binaries and injects them directly into the runner's path"
+      },
+      {
+        "start": 23.183875,
+        "end": 46.879719,
+        "text": "but if you hard code an exact version like eight point zero point one zero one you're stuck using that older version even when a critical security patch is released instead you tell the action to always grab the latest minor release by typing eight point zero point x it automatically scans for and installs the newest secure patch that dynamic syntax is a semantic version range"
+      },
+      {
+        "start": 46.879719,
+        "end": 70.68759399999999,
+        "text": "and what if you need to test multiple environment simultaneously you replace that single version string with a matrix variable which spins at multiple isolated runners allowing you to build and test your code on dotnet six and dotnet eight at the exact same time so what exactly happens to that critical a s p dotnet corp project from the very beginning of your workflow it always compiles perfectly"
+      },
+      {
+        "start": 70.68759399999999,
+        "end": 78.6924375,
+        "text": "because it's automatically locked into the latest most secure dot net eight s dk available"
+      }
+    ],
+    "canonical_script": "When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK?\nSay you have an ASP.NET Core project that strictly requires .NET 8 to compile.\nIn your workflow, the setup-dotnet step runs before any build commands.\nIt automatically finds the required .NET binaries and injects them directly into the runner's path.\nBut if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released.\nInstead, you tell the action to always grab the latest minor release.\nBy typing 8.0.x, it automatically scans for and installs the newest secure patch.\nThat dynamic syntax is a semantic version range.\nAnd what if you need to test multiple environments simultaneously?\nYou replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time.\nSo what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?\nIt always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.\n",
+    "editorial_changes": [
+      "Standardized GitHub Actions, setup-dotnet and ASP.NET Core spellings using slides and CTC speech.",
+      "Joined compiles perfectly, because across an ASR chunk boundary.",
+      "Retained the spoken version wording: eight point zero point one zero one, and eight point zero point x."
+    ]
+  },
+  "pronunciation_overrides": {
+    "pronunciations-range.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a",
+      "eyes \u02c8 a \u026a z",
+      "aypeeeye \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a",
+      "aypeeeyes \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a z",
+      "raynj \u0279 \u02c8 e \u026a n d \u0292"
+    ],
+    "pronunciations.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a",
+      "eyes \u02c8 a \u026a z",
+      "aypeeeye \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a",
+      "aypeeeyes \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a z"
+    ]
+  },
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved reference, used as a qualitative consistency check. It is not a voice match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-complete.wav",
+        "reference_cosine": 0.9241492336609474
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01-b.wav",
+        "reference_cosine": 0.9284762717867269
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02-full2.wav",
+        "reference_cosine": 0.9371768096234824
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03-full3.wav",
+        "reference_cosine": 0.9129705740808711
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04-range.wav",
+        "reference_cosine": 0.9321477834347636
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05-complete.wav",
+        "reference_cosine": 0.9174642644698947
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-c.wav",
+        "reference_cosine": 0.8638307840813917
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07-d.wav",
+        "reference_cosine": 0.9173992456450747
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-complete.wav",
+      "expected": "When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET Core project that strictly requires .NET 8 to compile.",
+      "transcription": "When building in GitHub actions, how does the setup.net step guarantee your pipeline uses the correct SDK? Say you have an ASP.NET core project that strictly requires .NET 8 to compile.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet"
+          ],
+          "heard": [
+            "net"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9241492336609474
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-b.wav",
+      "expected": "In your workflow, the setup-dotnet step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "transcription": "In your workflow, the setup.net step runs before any build commands. It automatically finds the required .NET binaries and injects them directly into the runner's path.",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "dotnet"
+          ],
+          "heard": [
+            "net"
+          ]
+        }
+      ],
+      "reference_cosine": 0.9284762717867269
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-full2.wav",
+      "expected": "But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released.",
+      "transcription": "But if you hardcode an exact version like 8.0.101, you're stuck using that older version even when a critical security patch is released.",
+      "differences": [],
+      "reference_cosine": 0.9371768096234824
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-full3.wav",
+      "expected": "Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch.",
+      "transcription": "Instead, you tell the action to always grab the latest minor release. By typing 8.0.x, it automatically scans for and installs the newest secure patch.",
+      "differences": [],
+      "reference_cosine": 0.9129705740808711
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-range.wav",
+      "expected": "That dynamic syntax is a semantic version range. And what if you need to test multiple environments simultaneously?",
+      "transcription": "that dynamic syntax is a semantic version range and what if you need to test multiple environments simultaneously.",
+      "differences": [],
+      "reference_cosine": 0.9321477834347636
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-complete.wav",
+      "expected": "You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time.",
+      "transcription": "You replace that single version string with a matrix variable which spins up multiple isolated runners allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time.",
+      "differences": [],
+      "reference_cosine": 0.9174642644698947
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-c.wav",
+      "expected": "So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "transcription": "So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "differences": [],
+      "reference_cosine": 0.8638307840813917
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-d.wav",
+      "expected": "It always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.",
+      "transcription": "it always compiles perfectly because it's automatically locked into the latest most secure .NET 8 SDK available.",
+      "differences": [],
+      "reference_cosine": 0.9173992456450747
+    }
+  ],
+  "selected_base_independent_ctc_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-complete.wav",
+      "text": "when building in gidhob actions how does the set up dot net step guarantee pipeline uses the correct s day say you have an a s p dot net quap project that strictly requires dot net itt to compile",
+      "words": [
+        {
+          "text": "when",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "building",
+          "start": 0.35999998450279236,
+          "end": 0.6399999642372132
+        },
+        {
+          "text": "in",
+          "start": 0.7599999904632568,
+          "end": 0.7999999904632569
+        },
+        {
+          "text": "gidhob",
+          "start": 0.9599999785423279,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "actions",
+          "start": 1.4800000190734863,
+          "end": 1.8799999141693116
+        },
+        {
+          "text": "how",
+          "start": 2.0,
+          "end": 2.04
+        },
+        {
+          "text": "does",
+          "start": 2.240000009536743,
+          "end": 2.280000009536743
+        },
+        {
+          "text": "the",
+          "start": 2.3999998569488525,
+          "end": 2.4399998569488526
+        },
+        {
+          "text": "set",
+          "start": 2.5199999809265137,
+          "end": 2.6399999046325684
+        },
+        {
+          "text": "up",
+          "start": 2.7200000286102295,
+          "end": 2.7600000286102295
+        },
+        {
+          "text": "dot",
+          "start": 2.8399999141693115,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "net",
+          "start": 3.119999885559082,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "step",
+          "start": 3.4800000190734863,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "guarantee",
+          "start": 3.799999952316284,
+          "end": 4.159999885559082
+        },
+        {
+          "text": "pipeline",
+          "start": 4.239999771118164,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "uses",
+          "start": 4.759999752044678,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "the",
+          "start": 5.159999847412109,
+          "end": 5.199999847412109
+        },
+        {
+          "text": "correct",
+          "start": 5.279999732971191,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "s",
+          "start": 5.799999713897705,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "day",
+          "start": 6.199999809265137,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "say",
+          "start": 6.87999963760376,
+          "end": 6.91999963760376
+        },
+        {
+          "text": "you",
+          "start": 7.079999923706055,
+          "end": 7.119999923706055
+        },
+        {
+          "text": "have",
+          "start": 7.239999771118164,
+          "end": 7.279999771118164
+        },
+        {
+          "text": "an",
+          "start": 7.399999618530273,
+          "end": 7.4399996185302735
+        },
+        {
+          "text": "a",
+          "start": 7.679999828338623,
+          "end": 7.719999828338623
+        },
+        {
+          "text": "s",
+          "start": 8.079999923706055,
+          "end": 8.119999923706054
+        },
+        {
+          "text": "p",
+          "start": 8.279999732971191,
+          "end": 8.31999973297119
+        },
+        {
+          "text": "dot",
+          "start": 8.4399995803833,
+          "end": 8.559999504089355
+        },
+        {
+          "text": "net",
+          "start": 8.639999389648438,
+          "end": 8.760000267028808
+        },
+        {
+          "text": "quap",
+          "start": 8.84000015258789,
+          "end": 9.000000038146972
+        },
+        {
+          "text": "project",
+          "start": 9.119999885559082,
+          "end": 9.159999885559081
+        },
+        {
+          "text": "that",
+          "start": 9.59999942779541,
+          "end": 9.63999942779541
+        },
+        {
+          "text": "strictly",
+          "start": 9.880000114440918,
+          "end": 10.279999771118163
+        },
+        {
+          "text": "requires",
+          "start": 10.4399995803833,
+          "end": 10.679999389648437
+        },
+        {
+          "text": "dot",
+          "start": 10.760000228881836,
+          "end": 10.920000114440917
+        },
+        {
+          "text": "net",
+          "start": 11.0,
+          "end": 11.119999923706054
+        },
+        {
+          "text": "itt",
+          "start": 11.239999771118164,
+          "end": 11.359999694824218
+        },
+        {
+          "text": "to",
+          "start": 11.559999465942383,
+          "end": 11.599999465942382
+        },
+        {
+          "text": "compile",
+          "start": 11.75999927520752,
+          "end": 12.159999885559081
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-b.wav",
+      "text": "in your workflow the set up dot net step runs before any built commands it automatically finds the the required dot net binaries and injects them directly into the runner's path",
+      "words": [
+        {
+          "text": "in",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "your",
+          "start": 0.3199999928474426,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "workflow",
+          "start": 0.5199999809265137,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "the",
+          "start": 1.1200000047683716,
+          "end": 1.1600000047683716
+        },
+        {
+          "text": "set",
+          "start": 1.2400000095367432,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "up",
+          "start": 1.4800000190734863,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "dot",
+          "start": 1.7599999904632568,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "net",
+          "start": 2.0,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "step",
+          "start": 2.200000047683716,
+          "end": 2.359999933242798
+        },
+        {
+          "text": "runs",
+          "start": 2.440000057220459,
+          "end": 2.719999828338623
+        },
+        {
+          "text": "before",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "any",
+          "start": 3.319999933242798,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "built",
+          "start": 3.559999942779541,
+          "end": 3.7600000286102295
+        },
+        {
+          "text": "commands",
+          "start": 3.799999952316284,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "it",
+          "start": 4.199999809265137,
+          "end": 4.239999809265137
+        },
+        {
+          "text": "automatically",
+          "start": 4.319999694824219,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "finds",
+          "start": 4.960000038146973,
+          "end": 5.199999847412109
+        },
+        {
+          "text": "the",
+          "start": 5.279999732971191,
+          "end": 5.319999732971191
+        },
+        {
+          "text": "the",
+          "start": 5.519999980926514,
+          "end": 5.559999980926514
+        },
+        {
+          "text": "required",
+          "start": 5.839999675750732,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "dot",
+          "start": 6.119999885559082,
+          "end": 6.279999771118164
+        },
+        {
+          "text": "net",
+          "start": 6.359999656677246,
+          "end": 6.480000057220459
+        },
+        {
+          "text": "binaries",
+          "start": 6.599999904632568,
+          "end": 7.000000038146973
+        },
+        {
+          "text": "and",
+          "start": 7.079999923706055,
+          "end": 7.119999923706055
+        },
+        {
+          "text": "injects",
+          "start": 7.279999732971191,
+          "end": 7.679999866485596
+        },
+        {
+          "text": "them",
+          "start": 7.71999979019165,
+          "end": 7.75999979019165
+        },
+        {
+          "text": "directly",
+          "start": 7.919999599456787,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "into",
+          "start": 8.359999656677246,
+          "end": 8.399999656677245
+        },
+        {
+          "text": "the",
+          "start": 8.559999465942383,
+          "end": 8.599999465942382
+        },
+        {
+          "text": "runner's",
+          "start": 8.679999351501465,
+          "end": 9.000000038146972
+        },
+        {
+          "text": "path",
+          "start": 9.0,
+          "end": 9.119999923706054
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-full2.wav",
+      "text": "but if you hardcode an exact version like eight point zero point one zer one you're stuck using that older version even when a critical security patch is released",
+      "words": [
+        {
+          "text": "but",
+          "start": 0.2800000011920929,
+          "end": 0.3200000011920929
+        },
+        {
+          "text": "if",
+          "start": 0.4399999976158142,
+          "end": 0.4799999976158142
+        },
+        {
+          "text": "you",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "hardcode",
+          "start": 0.7199999690055847,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "an",
+          "start": 1.2799999713897705,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "exact",
+          "start": 1.4399999380111694,
+          "end": 1.7999999904632569
+        },
+        {
+          "text": "version",
+          "start": 1.9199999570846558,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "like",
+          "start": 2.440000057220459,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "eight",
+          "start": 2.679999828338623,
+          "end": 2.719999828338623
+        },
+        {
+          "text": "point",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "zero",
+          "start": 3.1999998092651367,
+          "end": 3.3999998950958252
+        },
+        {
+          "text": "point",
+          "start": 3.4800000190734863,
+          "end": 3.5200000190734864
+        },
+        {
+          "text": "one",
+          "start": 3.8399999141693115,
+          "end": 3.8799999141693116
+        },
+        {
+          "text": "zer",
+          "start": 4.039999961853027,
+          "end": 4.159999885559082
+        },
+        {
+          "text": "one",
+          "start": 4.239999771118164,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "you're",
+          "start": 4.519999980926514,
+          "end": 4.679999866485596
+        },
+        {
+          "text": "stuck",
+          "start": 4.799999713897705,
+          "end": 5.000000038146973
+        },
+        {
+          "text": "using",
+          "start": 5.199999809265137,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "that",
+          "start": 5.599999904632568,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "older",
+          "start": 5.87999963760376,
+          "end": 6.199999847412109
+        },
+        {
+          "text": "version",
+          "start": 6.319999694824219,
+          "end": 6.639999904632568
+        },
+        {
+          "text": "even",
+          "start": 6.87999963760376,
+          "end": 6.91999963760376
+        },
+        {
+          "text": "when",
+          "start": 7.159999847412109,
+          "end": 7.199999847412109
+        },
+        {
+          "text": "a",
+          "start": 7.359999656677246,
+          "end": 7.399999656677246
+        },
+        {
+          "text": "critical",
+          "start": 7.480000019073486,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "security",
+          "start": 7.919999599456787,
+          "end": 7.959999599456787
+        },
+        {
+          "text": "patch",
+          "start": 8.4399995803833,
+          "end": 8.63999942779541
+        },
+        {
+          "text": "is",
+          "start": 8.679999351501465,
+          "end": 8.719999351501464
+        },
+        {
+          "text": "released",
+          "start": 8.84000015258789,
+          "end": 9.159999885559081
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-full3.wav",
+      "text": "instead you tell the action to always grab the latest minor release by typing eight point two point x it automatically scans for and installs the newest secure patch",
+      "words": [
+        {
+          "text": "instead",
+          "start": 0.2800000011920929,
+          "end": 0.3200000011920929
+        },
+        {
+          "text": "you",
+          "start": 0.5600000023841858,
+          "end": 0.6000000023841858
+        },
+        {
+          "text": "tell",
+          "start": 0.7199999690055847,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "the",
+          "start": 0.9199999570846558,
+          "end": 0.9599999570846558
+        },
+        {
+          "text": "action",
+          "start": 1.0,
+          "end": 1.2399999284744263
+        },
+        {
+          "text": "to",
+          "start": 1.3199999332427979,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "always",
+          "start": 1.6399999856948853,
+          "end": 1.6799999856948853
+        },
+        {
+          "text": "grab",
+          "start": 1.9199999570846558,
+          "end": 2.1199999237060547
+        },
+        {
+          "text": "the",
+          "start": 2.359999895095825,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "latest",
+          "start": 2.4800000190734863,
+          "end": 2.799999990463257
+        },
+        {
+          "text": "minor",
+          "start": 2.9600000381469727,
+          "end": 3.1999998474121094
+        },
+        {
+          "text": "release",
+          "start": 3.319999933242798,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "by",
+          "start": 3.799999952316284,
+          "end": 3.839999952316284
+        },
+        {
+          "text": "typing",
+          "start": 4.0,
+          "end": 4.279999771118164
+        },
+        {
+          "text": "eight",
+          "start": 4.400000095367432,
+          "end": 4.440000095367432
+        },
+        {
+          "text": "point",
+          "start": 4.679999828338623,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "two",
+          "start": 4.880000114440918,
+          "end": 4.920000114440918
+        },
+        {
+          "text": "point",
+          "start": 5.039999961853027,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "x",
+          "start": 5.400000095367432,
+          "end": 5.440000095367432
+        },
+        {
+          "text": "it",
+          "start": 5.559999942779541,
+          "end": 5.599999942779541
+        },
+        {
+          "text": "automatically",
+          "start": 5.759999752044678,
+          "end": 6.359999694824219
+        },
+        {
+          "text": "scans",
+          "start": 6.480000019073486,
+          "end": 6.75999979019165
+        },
+        {
+          "text": "for",
+          "start": 6.839999675750732,
+          "end": 6.8799996757507325
+        },
+        {
+          "text": "and",
+          "start": 7.119999885559082,
+          "end": 7.159999885559082
+        },
+        {
+          "text": "installs",
+          "start": 7.319999694824219,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "the",
+          "start": 7.919999599456787,
+          "end": 7.959999599456787
+        },
+        {
+          "text": "newest",
+          "start": 8.079999923706055,
+          "end": 8.31999973297119
+        },
+        {
+          "text": "secure",
+          "start": 8.4399995803833,
+          "end": 8.760000267028808
+        },
+        {
+          "text": "patch",
+          "start": 8.800000190734863,
+          "end": 9.000000038146972
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-range.wav",
+      "text": "that dynamic syntax is a samantic version range and what if you need to test multiple environments simultaneously",
+      "words": [
+        {
+          "text": "that",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "dynamic",
+          "start": 0.5199999809265137,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "syntax",
+          "start": 1.0,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "is",
+          "start": 1.4800000190734863,
+          "end": 1.5200000190734864
+        },
+        {
+          "text": "a",
+          "start": 1.6799999475479126,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "samantic",
+          "start": 1.7999999523162842,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "version",
+          "start": 2.2799999713897705,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "range",
+          "start": 2.5999999046325684,
+          "end": 2.799999990463257
+        },
+        {
+          "text": "and",
+          "start": 3.0799999237060547,
+          "end": 3.1199999237060547
+        },
+        {
+          "text": "what",
+          "start": 3.2799999713897705,
+          "end": 3.3199999713897705
+        },
+        {
+          "text": "if",
+          "start": 3.559999942779541,
+          "end": 3.599999942779541
+        },
+        {
+          "text": "you",
+          "start": 3.7200000286102295,
+          "end": 3.7600000286102295
+        },
+        {
+          "text": "need",
+          "start": 3.879999876022339,
+          "end": 3.919999876022339
+        },
+        {
+          "text": "to",
+          "start": 4.079999923706055,
+          "end": 4.119999923706055
+        },
+        {
+          "text": "test",
+          "start": 4.360000133514404,
+          "end": 4.520000019073486
+        },
+        {
+          "text": "multiple",
+          "start": 4.679999828338623,
+          "end": 5.04
+        },
+        {
+          "text": "environments",
+          "start": 5.079999923706055,
+          "end": 5.480000057220459
+        },
+        {
+          "text": "simultaneously",
+          "start": 5.679999828338623,
+          "end": 6.480000057220459
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-complete.wav",
+      "text": "you replace that single version string where matrix variable which spins up multiple isolated runners allowing you to build and test your code on dotnet six and dotnet eight at the exact same time",
+      "words": [
+        {
+          "text": "you",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "replace",
+          "start": 0.2800000011920929,
+          "end": 0.6399999642372132
+        },
+        {
+          "text": "that",
+          "start": 0.8399999737739563,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "single",
+          "start": 1.0399999618530273,
+          "end": 1.0799999618530274
+        },
+        {
+          "text": "version",
+          "start": 1.399999976158142,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "string",
+          "start": 1.7599999904632568,
+          "end": 1.9199999952316285
+        },
+        {
+          "text": "where",
+          "start": 2.0399999618530273,
+          "end": 2.0799999618530274
+        },
+        {
+          "text": "matrix",
+          "start": 2.319999933242798,
+          "end": 2.6799998664855957
+        },
+        {
+          "text": "variable",
+          "start": 2.879999876022339,
+          "end": 3.1999998474121094
+        },
+        {
+          "text": "which",
+          "start": 3.359999895095825,
+          "end": 3.3999998950958252
+        },
+        {
+          "text": "spins",
+          "start": 3.6399998664855957,
+          "end": 3.9599998378753662
+        },
+        {
+          "text": "up",
+          "start": 4.039999961853027,
+          "end": 4.079999961853027
+        },
+        {
+          "text": "multiple",
+          "start": 4.279999732971191,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "isolated",
+          "start": 4.799999713897705,
+          "end": 5.279999771118164
+        },
+        {
+          "text": "runners",
+          "start": 5.400000095367432,
+          "end": 5.679999866485596
+        },
+        {
+          "text": "allowing",
+          "start": 5.87999963760376,
+          "end": 6.119999923706055
+        },
+        {
+          "text": "you",
+          "start": 6.199999809265137,
+          "end": 6.239999809265137
+        },
+        {
+          "text": "to",
+          "start": 6.399999618530273,
+          "end": 6.4399996185302735
+        },
+        {
+          "text": "build",
+          "start": 6.519999980926514,
+          "end": 6.719999828338623
+        },
+        {
+          "text": "and",
+          "start": 6.799999713897705,
+          "end": 6.839999713897705
+        },
+        {
+          "text": "test",
+          "start": 6.920000076293945,
+          "end": 7.079999961853027
+        },
+        {
+          "text": "your",
+          "start": 7.279999732971191,
+          "end": 7.319999732971191
+        },
+        {
+          "text": "code",
+          "start": 7.440000057220459,
+          "end": 7.639999904632568
+        },
+        {
+          "text": "on",
+          "start": 7.799999713897705,
+          "end": 7.839999713897705
+        },
+        {
+          "text": "dotnet",
+          "start": 7.960000038146973,
+          "end": 8.31999973297119
+        },
+        {
+          "text": "six",
+          "start": 8.4399995803833,
+          "end": 8.4799995803833
+        },
+        {
+          "text": "and",
+          "start": 8.720000267028809,
+          "end": 8.760000267028808
+        },
+        {
+          "text": "dotnet",
+          "start": 8.84000015258789,
+          "end": 9.279999771118163
+        },
+        {
+          "text": "eight",
+          "start": 9.399999618530273,
+          "end": 9.439999618530273
+        },
+        {
+          "text": "at",
+          "start": 9.760000228881836,
+          "end": 9.800000228881835
+        },
+        {
+          "text": "the",
+          "start": 9.920000076293945,
+          "end": 9.960000076293944
+        },
+        {
+          "text": "exact",
+          "start": 10.079999923706055,
+          "end": 10.399999656677245
+        },
+        {
+          "text": "same",
+          "start": 10.519999504089355,
+          "end": 10.559999504089355
+        },
+        {
+          "text": "time",
+          "start": 10.880000114440918,
+          "end": 10.920000114440917
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-c.wav",
+      "text": "so what exactly happens to that critical a s p dot netc project from the very beginning of your workflow",
+      "words": [
+        {
+          "text": "so",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "what",
+          "start": 0.3999999761581421,
+          "end": 0.43999997615814207
+        },
+        {
+          "text": "exactly",
+          "start": 0.7199999690055847,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "happens",
+          "start": 1.0399999618530273,
+          "end": 1.3199999713897705
+        },
+        {
+          "text": "to",
+          "start": 1.399999976158142,
+          "end": 1.4399999761581421
+        },
+        {
+          "text": "that",
+          "start": 1.559999942779541,
+          "end": 1.599999942779541
+        },
+        {
+          "text": "critical",
+          "start": 1.7999999523162842,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "a",
+          "start": 2.359999895095825,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "s",
+          "start": 2.679999828338623,
+          "end": 2.719999828338623
+        },
+        {
+          "text": "p",
+          "start": 2.9600000381469727,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "dot",
+          "start": 3.2799999713897705,
+          "end": 3.4399998569488526
+        },
+        {
+          "text": "netc",
+          "start": 3.5999999046325684,
+          "end": 3.8799999141693116
+        },
+        {
+          "text": "project",
+          "start": 4.159999847412109,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "from",
+          "start": 4.639999866485596,
+          "end": 4.679999866485596
+        },
+        {
+          "text": "the",
+          "start": 4.839999675750732,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "very",
+          "start": 5.0,
+          "end": 5.04
+        },
+        {
+          "text": "beginning",
+          "start": 5.239999771118164,
+          "end": 5.599999942779541
+        },
+        {
+          "text": "of",
+          "start": 5.639999866485596,
+          "end": 5.679999866485596
+        },
+        {
+          "text": "your",
+          "start": 5.799999713897705,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "workflow",
+          "start": 5.960000038146973,
+          "end": 6.319999732971191
+        }
+      ]
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-d.wav",
+      "text": "it always compiles perfectly because its automatically locked into the latest most secure dotnet aid as decay available",
+      "words": [
+        {
+          "text": "it",
+          "start": 0.11999999731779099,
+          "end": 0.159999997317791
+        },
+        {
+          "text": "always",
+          "start": 0.3199999928474426,
+          "end": 0.3599999928474426
+        },
+        {
+          "text": "compiles",
+          "start": 0.5600000023841858,
+          "end": 1.04
+        },
+        {
+          "text": "perfectly",
+          "start": 1.1999999284744263,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "because",
+          "start": 2.119999885559082,
+          "end": 2.159999885559082
+        },
+        {
+          "text": "its",
+          "start": 2.3999998569488525,
+          "end": 2.599999942779541
+        },
+        {
+          "text": "automatically",
+          "start": 2.679999828338623,
+          "end": 3.280000009536743
+        },
+        {
+          "text": "locked",
+          "start": 3.359999895095825,
+          "end": 3.6399999046325684
+        },
+        {
+          "text": "into",
+          "start": 3.7200000286102295,
+          "end": 3.7600000286102295
+        },
+        {
+          "text": "the",
+          "start": 3.9599997997283936,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "latest",
+          "start": 4.079999923706055,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "most",
+          "start": 4.679999828338623,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "secure",
+          "start": 4.960000038146973,
+          "end": 5.279999771118164
+        },
+        {
+          "text": "dotnet",
+          "start": 5.359999656677246,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "aid",
+          "start": 5.71999979019165,
+          "end": 5.91999963760376
+        },
+        {
+          "text": "as",
+          "start": 6.039999961853027,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "decay",
+          "start": 6.239999771118164,
+          "end": 6.520000019073486
+        },
+        {
+          "text": "available",
+          "start": 6.679999828338623,
+          "end": 6.719999828338623
+        }
+      ]
+    }
+  ],
+  "word_correction_recipes": {
+    "cloned-05-complete.wav": {
+      "primary_file": "cloned-05-b.wav",
+      "primary_log": "generation-distill-b.json",
+      "output_filename": "cloned-05-complete.wav",
+      "output_log": "generation-composite-5.json",
+      "corrections": [
+        {
+          "word": "a",
+          "primary_range": [
+            2.13,
+            2.295
+          ],
+          "donor_file": "donor-article-a.wav",
+          "donor_range": [
+            0.49,
+            0.59
+          ],
+          "provenance": "Unstressed article a from a checked clip generated with the same Project 46 reference."
+        },
+        {
+          "word": "spins up",
+          "primary_range": [
+            3.56,
+            4.04
+          ],
+          "donor_file": "donor-spins-up.wav",
+          "donor_range": [
+            0,
+            0.69
+          ],
+          "provenance": "Complete spins up from a checked clip generated with the same Project 46 reference, retaining the initial s."
+        }
+      ]
+    },
+    "cloned-00-complete.wav": {
+      "primary_file": "cloned-00-a.wav",
+      "primary_log": "generation-distill-a.json",
+      "output_filename": "cloned-00-complete.wav",
+      "output_log": "generation-composite-0.json",
+      "corrections": [
+        {
+          "word": "initial A in ASP",
+          "primary_range": [
+            7.63,
+            7.65
+          ],
+          "donor_file": "cloned-06-c.wav",
+          "donor_range": [
+            2.3,
+            2.61
+          ],
+          "provenance": "Restore the initial A from the checked ASP.NET wording in another clip from this video, using the same approved reference."
+        }
+      ]
+    }
+  },
+  "word_donor_generation": [
+    {
+      "segment": 6,
+      "start": 62.31656,
+      "end": 68.71675,
+      "text": "So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?",
+      "generation_text": "So what exactly happens to that critical ay ess pee dot net Core project from the very beginning of your workflow?",
+      "filename": "cloned-06-c.wav",
+      "duration": 6.453333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 31.00064527199993,
+      "num_threads": 1
+    },
+    {
+      "segment": 15,
+      "start": 162.84516,
+      "end": 174.91584,
+      "text": "Opening a single auction page now triggers this beautifully orchestrated dance between these platforms. Vercel acts as our public storefront, delivering the React pages to you. But Render?",
+      "generation_text": "Opening a single auction page now triggers this beautifully orchestrated dance between these platforms. vursel acts as our public storefront, delivering the React pages to you. But Render?",
+      "filename": "donor-article-a.wav",
+      "duration": 10.234208333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 93.55261335499995,
+      "num_threads": 1,
+      "imported_unchanged_sha256": "b068fc2be39ad784e561392787e18b009d254115fb7ecc908c8ad6a5243c472e",
+      "imported_from": "/workspace/shared/voice-work-newman/donor-article-a.wav"
+    },
+    {
+      "segment": 206,
+      "start": 0,
+      "end": 3,
+      "text": "Spins up a server.",
+      "generation_text": "Spinnz, up a server.",
+      "filename": "donor-spins-up.wav",
+      "duration": 1.1413333333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 9.651579132999814,
+      "num_threads": 2,
+      "imported_from": "/workspace/shared/voice-work-api-testing/cloned-206-ending.wav",
+      "imported_unchanged_sha256": "1222c4f959ab290b4e7ba03228cb650bd45de67ed4452e315f93ba0c09abc7a6"
+    }
+  ],
+  "pronunciation_note": "These dictionaries were available to the used local generation calls. Entries apply only when their token occurs in the recorded generation text. Imported donors retain their original prompts, reference hashes and waveform hashes.",
+  "verification_normalization": "Case, punctuation, contractions, standard acronym spellings, ordinary word boundaries, numeric notation and technical-name spellings are normalized. .NET/dot net, setup.net/setup-dotnet/set up dot net, ASP.NET/A S P dot net, and SDK/S D K are equivalent spoken forms. The written versions 8.0.101 and 8.0.x are expanded to their verified source wording using point. Distinct words and different version values are not equated. Raw transcripts, source scripts and generation prompts are retained.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 78.692426
+  }
+}

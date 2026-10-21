@@ -1,0 +1,12 @@
+When building in GitHub Actions, how does the setup-dotnet step guarantee your pipeline uses the correct SDK?
+Say you have an ASP.NET Core project that strictly requires .NET 8 to compile.
+In your workflow, the setup-dotnet step runs before any build commands.
+It automatically finds the required .NET binaries and injects them directly into the runner's path.
+But if you hardcode an exact version, like 8.0.101, you're stuck using that older version, even when a critical security patch is released.
+Instead, you tell the action to always grab the latest minor release.
+By typing 8.0.x, it automatically scans for and installs the newest secure patch.
+That dynamic syntax is a semantic version range.
+And what if you need to test multiple environments simultaneously?
+You replace that single version string with a matrix variable, which spins up multiple isolated runners, allowing you to build and test your code on .NET 6 and .NET 8 at the exact same time.
+So what exactly happens to that critical ASP.NET Core project from the very beginning of your workflow?
+It always compiles perfectly, because it's automatically locked into the latest, most secure .NET 8 SDK available.
