@@ -1,0 +1,13 @@
+GitHub environments act as a safety net for software releases.
+But how do they actually stop a deployment?
+Because automated pipelines push code incredibly fast.
+That's brilliant for testing, but highly risky for live servers.
+Take a Friday afternoon code update.
+It just passed its unit tests, and it's automatically heading straight for production.
+The code package successfully clears the automated build and test phases, immediately triggering the final deployment job.
+The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now?
+The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.
+The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.
+Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server.
+And that Friday code update?
+It stays safely locked behind the gate, completely harmless until you explicitly approve it.

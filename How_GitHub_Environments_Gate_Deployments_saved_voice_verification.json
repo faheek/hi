@@ -1,0 +1,1880 @@
+{
+  "input_filename": "How_GitHub_Environments_Gate_Deployments.mp4",
+  "input_sha256": "93ddb3a3a51827bcc8b8502bb800ea267acbe3ddca04f11e4e47bc0ad0ed3fe6",
+  "output_filename": "How_GitHub_Environments_Gate_Deployments_saved_voice.mp4",
+  "output_sha256": "67187396e1eddb671ed2470d6877b6473cf1eaffc5120589502d03bffe8a3ef2",
+  "video_unchanged": true,
+  "video_bitstream_sha256": "64af62ea5c6775d0e5b0990964b262cd0e479d1ac62d02b791e552d0d899aaec",
+  "video_stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "30/1",
+    "duration": "73.900000",
+    "nb_read_frames": "2217"
+  },
+  "input_duration": "73.955556",
+  "output_duration": "73.955000",
+  "audio_peak": 0.84222412109375,
+  "full_decode_passed": true,
+  "voice_profile": "voice-profile/profile.json",
+  "reference_audio": "project46-reference.wav",
+  "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+  "source_voice_sha256": "47b5f77f52bb4770bf423dccbd3d7334a8f8720b61d04bb66bb1bfd98fd51953",
+  "method": "Voice-cloned narration using the approved saved Project 46 voice reference. Synthesized narration uses the saved reference and follows the original narration timing without changing pitch. Video stream copied unchanged.",
+  "exact_voice_cloning_guaranteed": false,
+  "generation": [
+    {
+      "segment": 0,
+      "start": 0.0,
+      "end": 10.42375,
+      "text": "GitHub environments act as a safety net for software releases. But how do they actually stop a deployment? Because automated pipelines push code incredibly fast.",
+      "generation_text": "GitHub environments act as a safety net for software releases. But how do they actually stop a deployment? Because automated pipelines push code incredibly fast.",
+      "filename": "cloned-00-a.wav",
+      "duration": 8.954833333333333,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 57.90441661699879,
+      "num_threads": 1
+    },
+    {
+      "segment": 1,
+      "start": 10.42375,
+      "end": 21.46013,
+      "text": "That's brilliant for testing, but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests, and it's automatically heading straight for production.",
+      "generation_text": "That's brilliant for testing, but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests, and it's automatically heading straight for production.",
+      "filename": "cloned-01-b.wav",
+      "duration": 9.489,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 61.954629312996985,
+      "num_threads": 1
+    },
+    {
+      "segment": 2,
+      "start": 21.46013,
+      "end": 28.513,
+      "text": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job.",
+      "generation_text": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job.",
+      "filename": "cloned-02-c.wav",
+      "duration": 6.496,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.136975228000665,
+      "num_threads": 1
+    },
+    {
+      "segment": 3,
+      "start": 28.513,
+      "end": 36.52891,
+      "text": "The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now?",
+      "generation_text": "The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now?",
+      "filename": "cloned-03-d.wav",
+      "duration": 7.1466666666666665,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 27.871698606999416,
+      "num_threads": 1
+    },
+    {
+      "segment": 4,
+      "start": 36.52891,
+      "end": 45.45931,
+      "text": "The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.",
+      "generation_text": "The deployment job targets ay designated GitHub environment, which invokes a pre configured protection rule, instantly freezing the pipeline in its tracks.",
+      "filename": "cloned-04-article.wav",
+      "duration": 8.746666666666666,
+      "model": "full",
+      "num_steps": 16,
+      "guidance_scale": 3.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 69.30825418799941,
+      "num_threads": 2
+    },
+    {
+      "segment": 5,
+      "start": 45.45931,
+      "end": 53.69656,
+      "text": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.",
+      "generation_text": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.",
+      "filename": "cloned-05-b.wav",
+      "duration": 7.018916666666667,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 26.232800177000172,
+      "num_threads": 1
+    },
+    {
+      "segment": 6,
+      "start": 53.69656,
+      "end": 65.20719,
+      "text": "Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server. And that Friday code update?",
+      "generation_text": "Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server. And that Friday code update?",
+      "filename": "cloned-06-c.wav",
+      "duration": 9.4615,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 47.09504400800506,
+      "num_threads": 1
+    },
+    {
+      "segment": 7,
+      "start": 65.20719,
+      "end": 73.9555625,
+      "text": "It stays safely locked behind the gate, completely harmless until you explicitly approve it.",
+      "generation_text": "It stays safely locked behind the gate, completely harmless until you explicitly approve it.",
+      "filename": "cloned-07-d.wav",
+      "duration": 5.0986666666666665,
+      "model": "distill",
+      "num_steps": 8,
+      "guidance_scale": 1.0,
+      "reference_sha256": "49d956d6d97d468e6cb44af7b90172933350ab550667adb5429b107c672795c7",
+      "seconds": 25.395076635002624,
+      "num_threads": 1
+    }
+  ],
+  "timing": [
+    {
+      "unit": 0,
+      "block": 0,
+      "start": 0.0,
+      "end": 4.07981,
+      "text": "GitHub environments act as a safety net for software releases.",
+      "filename": "cloned-00-a.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.571,
+      "placed_start": 0.1,
+      "placed_end": 3.671,
+      "original_generated_duration": 3.571,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 1,
+      "block": 0,
+      "start": 4.07981,
+      "end": 6.92547,
+      "text": "But how do they actually stop a deployment?",
+      "filename": "cloned-00-a.wav",
+      "generated_start": 3.571,
+      "generated_end": 6.045,
+      "placed_start": 4.179791666666667,
+      "placed_end": 6.653791666666667,
+      "original_generated_duration": 2.474,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 2,
+      "block": 0,
+      "start": 6.92547,
+      "end": 10.42375,
+      "text": "Because automated pipelines push code incredibly fast.",
+      "filename": "cloned-00-a.wav",
+      "generated_start": 6.045,
+      "generated_end": 8.954833333333333,
+      "placed_start": 7.025458333333333,
+      "placed_end": 9.935291666666666,
+      "original_generated_duration": 2.9098333333333333,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 3,
+      "block": 1,
+      "start": 10.42375,
+      "end": 14.64534,
+      "text": "That's brilliant for testing, but highly risky for live servers.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 0.0,
+      "generated_end": 3.289,
+      "placed_start": 10.52375,
+      "placed_end": 13.81275,
+      "original_generated_duration": 3.289,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 4,
+      "block": 1,
+      "start": 14.64534,
+      "end": 16.96419,
+      "text": "Take a Friday afternoon code update.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 3.289,
+      "generated_end": 5.313,
+      "placed_start": 14.745333333333333,
+      "placed_end": 16.769333333333332,
+      "original_generated_duration": 2.024,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 5,
+      "block": 1,
+      "start": 16.96419,
+      "end": 21.46013,
+      "text": "It just passed its unit tests, and it's automatically heading straight for production.",
+      "filename": "cloned-01-b.wav",
+      "generated_start": 5.313,
+      "generated_end": 9.489,
+      "placed_start": 17.064208333333333,
+      "placed_end": 21.24020833333333,
+      "original_generated_duration": 4.176,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 6,
+      "block": 2,
+      "start": 21.46013,
+      "end": 28.513,
+      "text": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job.",
+      "filename": "cloned-02-c.wav",
+      "generated_start": 0.0,
+      "generated_end": 6.496,
+      "placed_start": 21.560125,
+      "placed_end": 28.056125,
+      "original_generated_duration": 6.496,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 7,
+      "block": 3,
+      "start": 28.513,
+      "end": 36.52891,
+      "text": "The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now?",
+      "filename": "cloned-03-d.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.1466666666666665,
+      "placed_start": 28.613,
+      "placed_end": 35.75966666666667,
+      "original_generated_duration": 7.1466666666666665,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 8,
+      "block": 4,
+      "start": 36.52891,
+      "end": 45.45931,
+      "text": "The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.",
+      "filename": "cloned-04-article.wav",
+      "generated_start": 0.0,
+      "generated_end": 8.746666666666666,
+      "placed_start": 36.62891666666667,
+      "placed_end": 45.37558333333333,
+      "original_generated_duration": 8.746666666666666,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 9,
+      "block": 5,
+      "start": 45.45931,
+      "end": 53.69656,
+      "text": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.",
+      "filename": "cloned-05-b.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.018916666666667,
+      "placed_start": 45.55929166666667,
+      "placed_end": 52.578208333333336,
+      "original_generated_duration": 7.018916666666667,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 10,
+      "block": 6,
+      "start": 53.69656,
+      "end": 63.38416,
+      "text": "Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server.",
+      "filename": "cloned-06-c.wav",
+      "generated_start": 0.0,
+      "generated_end": 7.905,
+      "placed_start": 53.79654166666667,
+      "placed_end": 61.701541666666664,
+      "original_generated_duration": 7.905,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 11,
+      "block": 6,
+      "start": 63.38416,
+      "end": 65.20719,
+      "text": "And that Friday code update?",
+      "filename": "cloned-06-c.wav",
+      "generated_start": 7.905,
+      "generated_end": 9.4615,
+      "placed_start": 63.48416666666667,
+      "placed_end": 65.04066666666667,
+      "original_generated_duration": 1.5565,
+      "tempo_factor": 1.0
+    },
+    {
+      "unit": 12,
+      "block": 7,
+      "start": 65.20719,
+      "end": 73.9555625,
+      "text": "It stays safely locked behind the gate, completely harmless until you explicitly approve it.",
+      "filename": "cloned-07-d.wav",
+      "generated_start": 0.0,
+      "generated_end": 5.0986666666666665,
+      "placed_start": 65.30720833333334,
+      "placed_end": 70.405875,
+      "original_generated_duration": 5.0986666666666665,
+      "tempo_factor": 1.0
+    }
+  ],
+  "narration_checks": [
+    {
+      "start": 0.0,
+      "end": 21.46013,
+      "expected": "GitHub environments act as a safety net for software releases. But how do they actually stop a deployment? Because automated pipelines push code incredibly fast. That's brilliant for testing, but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests, and it's automatically heading straight for production.",
+      "transcription": "GitHub environments act as a safety net for software releases but how do they actually stop a deployment? Because automated pipelines push code incredibly fast. That's brilliant for testing but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests and it's automatically heading straight for production.",
+      "differences": []
+    },
+    {
+      "start": 21.46013,
+      "end": 45.45931,
+      "expected": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job. The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now? The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.",
+      "transcription": "The code package successfully clears the automated build and test phases immediately triggering the final deployment job. The pipeline is programmed to deploy instantly. So what physically stops this package from overwriting the live application right now? The deployment job targets a designated GitHub environment which invokes a pre-configured protection rule instantly freezing the pipeline in its tracks.",
+      "differences": []
+    },
+    {
+      "start": 45.45931,
+      "end": 65.20719,
+      "expected": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release. Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server. And that Friday code update?",
+      "transcription": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release. Only when that reviewer explicitly clicks approve does the gate finally unlock allowing that exact validated code to safely enter the live server and that Friday code update.",
+      "differences": []
+    },
+    {
+      "start": 65.20719,
+      "end": 73.9555625,
+      "expected": "It stays safely locked behind the gate, completely harmless until you explicitly approve it.",
+      "transcription": "It stays safely locked behind the gate, completely harmless, until you explicitly approve it.",
+      "differences": []
+    }
+  ],
+  "narration_consensus": {
+    "method": "Two independent speech recognition models checked the final encoded audio against the original script. Sentence and bounded phrase checks with Whisper FP32 and NeMo CTC resolve selected recognition ambiguities using the same final audio. Every original word must be recognized at its aligned script position by at least one check; unresolved shared disagreements fail. Raw transcripts and differences are retained.",
+    "groups": [
+      {
+        "group": 0,
+        "start": 0.0,
+        "end": 21.46013,
+        "word_count": 56,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 0,
+            "end": 1,
+            "expected": [
+              "github"
+            ],
+            "heard": [
+              "gihob"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 34,
+            "end": 36,
+            "expected": [
+              "live",
+              "servers"
+            ],
+            "heard": [
+              "life",
+              "service"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 1,
+        "start": 21.46013,
+        "end": 45.45931,
+        "word_count": 58,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 1,
+            "end": 2,
+            "expected": [
+              "code"
+            ],
+            "heard": [
+              "court"
+            ]
+          },
+          {
+            "op": "insert",
+            "start": 30,
+            "end": 30,
+            "expected": [],
+            "heard": [
+              "package"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 31,
+            "end": 32,
+            "expected": [
+              "overwriting"
+            ],
+            "heard": [
+              "overriting"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 43,
+            "end": 44,
+            "expected": [
+              "github"
+            ],
+            "heard": [
+              "gi",
+              "up"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 2,
+        "start": 45.45931,
+        "end": 65.20719,
+        "word_count": 47,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [
+          {
+            "op": "replace",
+            "start": 12,
+            "end": 13,
+            "expected": [
+              "pinged"
+            ],
+            "heard": [
+              "pined"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 17,
+            "end": 18,
+            "expected": [
+              "pending"
+            ],
+            "heard": [
+              "pendning"
+            ]
+          },
+          {
+            "op": "replace",
+            "start": 40,
+            "end": 41,
+            "expected": [
+              "live"
+            ],
+            "heard": [
+              "life"
+            ]
+          }
+        ],
+        "passed": true
+      },
+      {
+        "group": 3,
+        "start": 65.20719,
+        "end": 73.9555625,
+        "word_count": 14,
+        "every_original_word_supported": true,
+        "unsupported_words": [],
+        "common_errors": [],
+        "supplemental_sentence_checks": [],
+        "whisper_differences": [],
+        "independent_ctc_differences": [],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_ctc_checks": [
+    {
+      "start": 0.0,
+      "end": 21.46013,
+      "expected": "GitHub environments act as a safety net for software releases. But how do they actually stop a deployment? Because automated pipelines push code incredibly fast. That's brilliant for testing, but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests, and it's automatically heading straight for production.",
+      "transcription": "gihob environments act as a safety net for software releases but how do they actually stop a deployment because automated pipelines push code incredibly fast that's brilliant for testing but highly risky for life service take a friday afternoon code update it just passed its unit tests and it's automatically heading straight for production",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "github"
+          ],
+          "heard": [
+            "gihob"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "live",
+            "servers"
+          ],
+          "heard": [
+            "life",
+            "service"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 21.46013,
+      "end": 45.45931,
+      "expected": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job. The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now? The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.",
+      "transcription": "the court package successfully clears the automated build and test phases immediately triggering the final deployment job the pipeline is programmed to deploy instantly so what physically stops this package package from overriting the live application right now the deployment job targets a designated gi-up environment which invokes a preconfigured protection rule instantly freezing the pipeline in its tracks",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "code"
+          ],
+          "heard": [
+            "court"
+          ]
+        },
+        {
+          "op": "insert",
+          "expected": [],
+          "heard": [
+            "package"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "overwriting"
+          ],
+          "heard": [
+            "overriting"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "github"
+          ],
+          "heard": [
+            "gi",
+            "up"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 45.45931,
+      "end": 65.20719,
+      "expected": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release. Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server. And that Friday code update?",
+      "transcription": "the frozen pipeline simply pauses indefinitely while a designated human reviewer is pined to manually inspect the pendning release only when that reviewer explicitly clicks approve does the gate finally unlock allowing that exact validated code to safely enter the life server and that friday code update",
+      "differences": [
+        {
+          "op": "replace",
+          "expected": [
+            "pinged"
+          ],
+          "heard": [
+            "pined"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "pending"
+          ],
+          "heard": [
+            "pendning"
+          ]
+        },
+        {
+          "op": "replace",
+          "expected": [
+            "live"
+          ],
+          "heard": [
+            "life"
+          ]
+        }
+      ]
+    },
+    {
+      "start": 65.20719,
+      "end": 73.9555625,
+      "expected": "It stays safely locked behind the gate, completely harmless until you explicitly approve it.",
+      "transcription": "it stays safely locked behind the gate completely harmless until you explicitly approve it",
+      "differences": []
+    }
+  ],
+  "supplemental_sentence_checks": [],
+  "original_script_verified": true,
+  "written_script_word_count": 173,
+  "voice_profile_commit": "53e79aef733ede2852f854dd2b27645a9ed34e9f",
+  "source_transcription_validation": {
+    "method": "Original script checked with Whisper small.en and independent NeMo CTC, with visible caption text for technical names. Narration describes deployment controls and is not an instruction to execute.",
+    "whisper": {
+      "duration": 73.9555625,
+      "silences": [
+        [
+          0.0,
+          0.222938
+        ],
+        [
+          3.826812,
+          4.332813
+        ],
+        [
+          6.708063,
+          7.142875
+        ],
+        [
+          10.2125,
+          10.635
+        ],
+        [
+          11.862438,
+          12.216875
+        ],
+        [
+          14.278625,
+          15.012063
+        ],
+        [
+          16.741625,
+          17.18675
+        ],
+        [
+          21.154063,
+          21.766188
+        ],
+        [
+          25.611313,
+          25.916563
+        ],
+        [
+          28.14175,
+          28.88425
+        ],
+        [
+          31.128,
+          31.507938
+        ],
+        [
+          31.81775,
+          32.018937
+        ],
+        [
+          36.175063,
+          36.88275
+        ],
+        [
+          40.177687,
+          40.521687
+        ],
+        [
+          42.576687,
+          43.000875
+        ],
+        [
+          45.10975,
+          45.808875
+        ],
+        [
+          53.32425,
+          54.068875
+        ],
+        [
+          57.605812,
+          57.836312
+        ],
+        [
+          58.723438,
+          59.15
+        ],
+        [
+          61.102625,
+          61.3565
+        ],
+        [
+          63.070687,
+          63.697625
+        ],
+        [
+          64.962563,
+          65.451813
+        ],
+        [
+          67.380813,
+          67.630625
+        ],
+        [
+          70.604375,
+          73.955562
+        ]
+      ],
+      "segments": [
+        {
+          "start": 0,
+          "end": 21.4601255,
+          "text": "GitHub environments act as a safety net for software releases. But how do they actually stop a deployment? Because automated pipelines push code incredibly fast. That's brilliant for testing, but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests, and it's automatically heading straight for production."
+        },
+        {
+          "start": 21.4601255,
+          "end": 45.459312499999996,
+          "text": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job. The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now? The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks."
+        },
+        {
+          "start": 45.459312499999996,
+          "end": 67.505719,
+          "text": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release. Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server. And that Friday code update? It stays safely locked behind the gate."
+        },
+        {
+          "start": 67.505719,
+          "end": 73.9555625,
+          "text": "completely harmless until you explicitly approve it."
+        }
+      ]
+    },
+    "independent_ctc": [
+      {
+        "start": 0,
+        "end": 21.4601255,
+        "text": "get hub environments act as a safety net for software releases but how do they actually stop a deployment because automated pipelines push code incredibly fast that's brilliant for testing but highly risky for live servers take a friday afternoon code update it just passed its unit tests and it's automatically heading straight for production"
+      },
+      {
+        "start": 21.4601255,
+        "end": 45.459312499999996,
+        "text": "the code package successfully clears the automated bulld and test phases immediately triggering the final deployment job the pipeline is programed to deploy instantly so what physically stops this package from overwriting the live application right now the deployment job targets a designated githb environment which invokes a pre conffigured protection rule instantly freezing the pipeline in its tracks"
+      },
+      {
+        "start": 45.459312499999996,
+        "end": 67.505719,
+        "text": "the frozen pipeline simply pauses indefinitely while a designated human reviewer is pinned to manually inspect the pending release only when that reviewer explicitly clicks approve does the gate finally unlock allowing that exact validated code to safely enter the live server and that friday code update it stays safely locked behind the gate"
+      },
+      {
+        "start": 67.505719,
+        "end": 73.9555625,
+        "text": "completely harmless until you explicitly approve it"
+      }
+    ],
+    "canonical_script": "GitHub environments act as a safety net for software releases.\nBut how do they actually stop a deployment?\nBecause automated pipelines push code incredibly fast.\nThat's brilliant for testing, but highly risky for live servers.\nTake a Friday afternoon code update.\nIt just passed its unit tests, and it's automatically heading straight for production.\nThe code package successfully clears the automated build and test phases, immediately triggering the final deployment job.\nThe pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now?\nThe deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.\nThe frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.\nOnly when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server.\nAnd that Friday code update?\nIt stays safely locked behind the gate, completely harmless until you explicitly approve it.\n",
+    "editorial_changes": [
+      "Standard GitHub spelling retained.",
+      "Joined the final clause across the ASR chunk boundary, without changing words.",
+      "All three uses of live describe online services and take the adjective pronunciation."
+    ]
+  },
+  "pronunciation_overrides": {
+    "pronunciations.txt": [
+      "a \u0259",
+      "ay \u02c8 e \u026a",
+      "pee p \u02c8 i \u02d0",
+      "eye \u02c8 a \u026a",
+      "see s \u02c8 i \u02d0",
+      "ess \u02c8 \u025b s",
+      "dee d \u02c8 i \u02d0",
+      "ee \u02c8 i \u02d0",
+      "yoo j \u02c8 u \u02d0",
+      "arr \u02c8 \u0251 \u02d0",
+      "ell \u02c8 \u025b l",
+      "aitch \u02c8 e \u026a t \u0283",
+      "tee t \u02c8 i \u02d0",
+      "em \u02c8 \u025b m",
+      "en \u02c8 \u025b n",
+      "cue k j \u02c8 u \u02d0",
+      "bee b \u02c8 i \u02d0",
+      "vee v \u02c8 i \u02d0",
+      "jaysun d \u0292 \u02c8 e \u026a s \u0259 n",
+      "errur \u02c8 \u025b \u0279 \u0259",
+      "oh \u02c8 o \u028a",
+      "kay k \u02c8 e \u026a",
+      "eyes \u02c8 a \u026a z",
+      "aypeeeye \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a",
+      "aypeeeyes \u02c8 e \u026a p \u02c8 i \u02d0 \u02c8 a \u026a z",
+      "live l \u02c8 a \u026a v"
+    ]
+  },
+  "speaker_comparison": {
+    "method": "Speaker embedding cosine comparison against the approved reference, used as a qualitative consistency check. It is not a voice match percentage or identity guarantee.",
+    "segments": [
+      {
+        "segment": 0,
+        "filename": "cloned-00-a.wav",
+        "reference_cosine": 0.9091028362625567
+      },
+      {
+        "segment": 1,
+        "filename": "cloned-01-b.wav",
+        "reference_cosine": 0.9241228109335129
+      },
+      {
+        "segment": 2,
+        "filename": "cloned-02-c.wav",
+        "reference_cosine": 0.9127985421555612
+      },
+      {
+        "segment": 3,
+        "filename": "cloned-03-d.wav",
+        "reference_cosine": 0.9058858805343226
+      },
+      {
+        "segment": 4,
+        "filename": "cloned-04-article.wav",
+        "reference_cosine": 0.8933462718809824
+      },
+      {
+        "segment": 5,
+        "filename": "cloned-05-b.wav",
+        "reference_cosine": 0.9118396550479448
+      },
+      {
+        "segment": 6,
+        "filename": "cloned-06-c.wav",
+        "reference_cosine": 0.8810393223688179
+      },
+      {
+        "segment": 7,
+        "filename": "cloned-07-d.wav",
+        "reference_cosine": 0.9110570949857294
+      }
+    ]
+  },
+  "selected_base_clip_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-a.wav",
+      "expected": "GitHub environments act as a safety net for software releases. But how do they actually stop a deployment? Because automated pipelines push code incredibly fast.",
+      "transcription": "GitHub environments act as a safety net for software releases but how do they actually stop a deployment? Because automated pipelines push code incredibly fast.",
+      "differences": [],
+      "reference_cosine": 0.9091028362625567
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-b.wav",
+      "expected": "That's brilliant for testing, but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests, and it's automatically heading straight for production.",
+      "transcription": "That's brilliant for testing but highly risky for live servers. Take a Friday afternoon code update. It just passed its unit tests and it's automatically heading straight for production.",
+      "differences": [],
+      "reference_cosine": 0.9241228109335129
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-c.wav",
+      "expected": "The code package successfully clears the automated build and test phases, immediately triggering the final deployment job.",
+      "transcription": "The code package successfully clears the automated build and test phases immediately triggering the final deployment job.",
+      "differences": [],
+      "reference_cosine": 0.9127985421555612
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-d.wav",
+      "expected": "The pipeline is programmed to deploy instantly, so what physically stops this package from overwriting the live application right now?",
+      "transcription": "The pipeline is programmed to deploy instantly. So what physically stops this package from overwriting the live application right now.",
+      "differences": [],
+      "reference_cosine": 0.9058858805343226
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-article.wav",
+      "expected": "The deployment job targets a designated GitHub environment, which invokes a pre-configured protection rule, instantly freezing the pipeline in its tracks.",
+      "transcription": "The deployment job targets a designated GitHub environment which invokes a pre-configured protection rule instantly freezing the pipeline in its tracks.",
+      "differences": [],
+      "reference_cosine": 0.8933462718809824
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-b.wav",
+      "expected": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.",
+      "transcription": "The frozen pipeline simply pauses indefinitely while a designated human reviewer is pinged to manually inspect the pending release.",
+      "differences": [],
+      "reference_cosine": 0.9118396550479448
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-c.wav",
+      "expected": "Only when that reviewer explicitly clicks 'approve' does the gate finally unlock, allowing that exact, validated code to safely enter the live server. And that Friday code update?",
+      "transcription": "Only when that reviewer explicitly clicks approve does the gate finally unlock allowing that exact validated code to safely enter the live server and that Friday code update.",
+      "differences": [],
+      "reference_cosine": 0.8810393223688179
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-d.wav",
+      "expected": "It stays safely locked behind the gate, completely harmless until you explicitly approve it.",
+      "transcription": "it stays safely locked behind the gate, completely harmless, until you explicitly approve it.",
+      "differences": [],
+      "reference_cosine": 0.9110570949857294
+    }
+  ],
+  "selected_base_independent_ctc_checks": [
+    {
+      "segment": 0,
+      "filename": "cloned-00-a.wav",
+      "text": "githb environments act as a safety net for software releases but how do they actually stop a deployment because automated pipelines push code incredibly fast",
+      "words": [
+        {
+          "text": "githb",
+          "start": 0.1599999964237213,
+          "end": 0.43999997615814207
+        },
+        {
+          "text": "environments",
+          "start": 0.5199999809265137,
+          "end": 0.9599999570846558
+        },
+        {
+          "text": "act",
+          "start": 1.159999966621399,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "as",
+          "start": 1.4399999380111694,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "a",
+          "start": 1.6399999856948853,
+          "end": 1.6799999856948853
+        },
+        {
+          "text": "safety",
+          "start": 1.8399999141693115,
+          "end": 2.1199999237060547
+        },
+        {
+          "text": "net",
+          "start": 2.240000009536743,
+          "end": 2.359999933242798
+        },
+        {
+          "text": "for",
+          "start": 2.4800000190734863,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "software",
+          "start": 2.6399998664855957,
+          "end": 3.0000000381469727
+        },
+        {
+          "text": "releases",
+          "start": 3.0799999237060547,
+          "end": 3.4399998569488526
+        },
+        {
+          "text": "but",
+          "start": 3.6399998664855957,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "how",
+          "start": 3.919999837875366,
+          "end": 3.9599998378753662
+        },
+        {
+          "text": "do",
+          "start": 4.159999847412109,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "they",
+          "start": 4.319999694824219,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "actually",
+          "start": 4.519999980926514,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "stop",
+          "start": 5.039999961853027,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "a",
+          "start": 5.359999656677246,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "deployment",
+          "start": 5.480000019073486,
+          "end": 5.91999963760376
+        },
+        {
+          "text": "because",
+          "start": 6.199999809265137,
+          "end": 6.239999809265137
+        },
+        {
+          "text": "automated",
+          "start": 6.440000057220459,
+          "end": 6.960000076293945
+        },
+        {
+          "text": "pipelines",
+          "start": 7.079999923706055,
+          "end": 7.559999980926514
+        },
+        {
+          "text": "push",
+          "start": 7.639999866485596,
+          "end": 7.799999752044678
+        },
+        {
+          "text": "code",
+          "start": 7.919999599456787,
+          "end": 8.079999961853026
+        },
+        {
+          "text": "incredibly",
+          "start": 8.15999984741211,
+          "end": 8.63999942779541
+        },
+        {
+          "text": "fast",
+          "start": 8.720000267028809,
+          "end": 8.88000015258789
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "filename": "cloned-01-b.wav",
+      "text": "thats brilliant for testing but highly risky for life serves take on friday afternoon code update it just passed its unit tests and its automatically heading straight for production",
+      "words": [
+        {
+          "text": "thats",
+          "start": 0.11999999731779099,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "brilliant",
+          "start": 0.35999998450279236,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "for",
+          "start": 0.9199999570846558,
+          "end": 0.9599999570846558
+        },
+        {
+          "text": "testing",
+          "start": 1.0799999237060547,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "but",
+          "start": 1.5999999046325684,
+          "end": 1.6399999046325684
+        },
+        {
+          "text": "highly",
+          "start": 1.7999999523162842,
+          "end": 2.04
+        },
+        {
+          "text": "risky",
+          "start": 2.1599998474121094,
+          "end": 2.4399998569488526
+        },
+        {
+          "text": "for",
+          "start": 2.4800000190734863,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "life",
+          "start": 2.6399998664855957,
+          "end": 2.6799998664855957
+        },
+        {
+          "text": "serves",
+          "start": 2.879999876022339,
+          "end": 3.1999998474121094
+        },
+        {
+          "text": "take",
+          "start": 3.319999933242798,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "on",
+          "start": 3.5199999809265137,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "friday",
+          "start": 3.679999828338623,
+          "end": 3.919999876022339
+        },
+        {
+          "text": "afternoon",
+          "start": 4.039999961853027,
+          "end": 4.400000133514404
+        },
+        {
+          "text": "code",
+          "start": 4.519999980926514,
+          "end": 4.719999828338623
+        },
+        {
+          "text": "update",
+          "start": 4.839999675750732,
+          "end": 5.199999847412109
+        },
+        {
+          "text": "it",
+          "start": 5.359999656677246,
+          "end": 5.399999656677246
+        },
+        {
+          "text": "just",
+          "start": 5.519999980926514,
+          "end": 5.559999980926514
+        },
+        {
+          "text": "passed",
+          "start": 5.759999752044678,
+          "end": 6.079999961853027
+        },
+        {
+          "text": "its",
+          "start": 6.119999885559082,
+          "end": 6.279999771118164
+        },
+        {
+          "text": "unit",
+          "start": 6.319999694824219,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "tests",
+          "start": 6.679999828338623,
+          "end": 6.960000076293945
+        },
+        {
+          "text": "and",
+          "start": 7.039999961853027,
+          "end": 7.079999961853027
+        },
+        {
+          "text": "its",
+          "start": 7.199999809265137,
+          "end": 7.359999694824219
+        },
+        {
+          "text": "automatically",
+          "start": 7.440000057220459,
+          "end": 8.000000038146972
+        },
+        {
+          "text": "heading",
+          "start": 8.079999923706055,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "straight",
+          "start": 8.399999618530273,
+          "end": 8.599999465942382
+        },
+        {
+          "text": "for",
+          "start": 8.720000267028809,
+          "end": 8.760000267028808
+        },
+        {
+          "text": "production",
+          "start": 9.0,
+          "end": 9.439999618530273
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "filename": "cloned-02-c.wav",
+      "text": "the court package successfully clears the automated biild and test phases immediately triggering the final deployment job",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.23999999463558197,
+          "end": 0.27999999463558195
+        },
+        {
+          "text": "court",
+          "start": 0.35999998450279236,
+          "end": 0.39999998450279234
+        },
+        {
+          "text": "package",
+          "start": 0.6399999856948853,
+          "end": 0.9199999952316285
+        },
+        {
+          "text": "successfully",
+          "start": 1.0,
+          "end": 1.5599999809265137
+        },
+        {
+          "text": "clears",
+          "start": 1.6799999475479126,
+          "end": 1.9599999570846558
+        },
+        {
+          "text": "the",
+          "start": 2.0,
+          "end": 2.04
+        },
+        {
+          "text": "automated",
+          "start": 2.119999885559082,
+          "end": 2.5599999809265137
+        },
+        {
+          "text": "biild",
+          "start": 2.6399998664855957,
+          "end": 2.8799999141693116
+        },
+        {
+          "text": "and",
+          "start": 3.0,
+          "end": 3.04
+        },
+        {
+          "text": "test",
+          "start": 3.1999998092651367,
+          "end": 3.359999933242798
+        },
+        {
+          "text": "phases",
+          "start": 3.559999942779541,
+          "end": 3.9599998378753662
+        },
+        {
+          "text": "immediately",
+          "start": 4.199999809265137,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "triggering",
+          "start": 4.639999866485596,
+          "end": 5.000000038146973
+        },
+        {
+          "text": "the",
+          "start": 5.239999771118164,
+          "end": 5.279999771118164
+        },
+        {
+          "text": "final",
+          "start": 5.440000057220459,
+          "end": 5.75999979019165
+        },
+        {
+          "text": "deployment",
+          "start": 5.839999675750732,
+          "end": 6.239999809265137
+        },
+        {
+          "text": "job",
+          "start": 6.279999732971191,
+          "end": 6.319999732971191
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "filename": "cloned-03-d.wav",
+      "text": "the pipeline is programmed to deploy instantly so what physically stops this package package from overridting the live application right now",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "pipeline",
+          "start": 0.23999999463558197,
+          "end": 0.519999989271164
+        },
+        {
+          "text": "is",
+          "start": 0.6800000071525574,
+          "end": 0.7200000071525574
+        },
+        {
+          "text": "programmed",
+          "start": 0.7999999523162842,
+          "end": 1.199999966621399
+        },
+        {
+          "text": "to",
+          "start": 1.2400000095367432,
+          "end": 1.2800000095367432
+        },
+        {
+          "text": "deploy",
+          "start": 1.399999976158142,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "instantly",
+          "start": 1.8399999141693115,
+          "end": 2.280000009536743
+        },
+        {
+          "text": "so",
+          "start": 2.359999895095825,
+          "end": 2.3999998950958252
+        },
+        {
+          "text": "what",
+          "start": 2.7200000286102295,
+          "end": 2.7600000286102295
+        },
+        {
+          "text": "physically",
+          "start": 3.0799999237060547,
+          "end": 3.47999981880188
+        },
+        {
+          "text": "stops",
+          "start": 3.5999999046325684,
+          "end": 3.8799999141693116
+        },
+        {
+          "text": "this",
+          "start": 3.9599997997283936,
+          "end": 3.9999997997283936
+        },
+        {
+          "text": "package",
+          "start": 4.159999847412109,
+          "end": 4.480000057220459
+        },
+        {
+          "text": "package",
+          "start": 4.599999904632568,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "from",
+          "start": 5.0,
+          "end": 5.04
+        },
+        {
+          "text": "overridting",
+          "start": 5.159999847412109,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "the",
+          "start": 5.71999979019165,
+          "end": 5.75999979019165
+        },
+        {
+          "text": "live",
+          "start": 5.839999675750732,
+          "end": 5.8799996757507325
+        },
+        {
+          "text": "application",
+          "start": 6.119999885559082,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "right",
+          "start": 6.679999828338623,
+          "end": 6.719999828338623
+        },
+        {
+          "text": "now",
+          "start": 6.920000076293945,
+          "end": 6.960000076293945
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "filename": "cloned-04-article.wav",
+      "text": "the deployment job targets a designated giu environment which invokes a pre configured protection rule instantly freezing the pipeline in its tracks",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "deployment",
+          "start": 0.3199999928474426,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "job",
+          "start": 0.8399999737739563,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "targets",
+          "start": 1.0799999237060547,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "a",
+          "start": 1.559999942779541,
+          "end": 1.599999942779541
+        },
+        {
+          "text": "designated",
+          "start": 1.8799999952316284,
+          "end": 2.4399998569488526
+        },
+        {
+          "text": "giu",
+          "start": 2.559999942779541,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "environment",
+          "start": 3.0,
+          "end": 3.4399998569488526
+        },
+        {
+          "text": "which",
+          "start": 3.5199999809265137,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "invokes",
+          "start": 3.7200000286102295,
+          "end": 4.079999961853027
+        },
+        {
+          "text": "a",
+          "start": 4.159999847412109,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "pre",
+          "start": 4.319999694824219,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "configured",
+          "start": 4.639999866485596,
+          "end": 5.119999923706055
+        },
+        {
+          "text": "protection",
+          "start": 5.159999847412109,
+          "end": 5.559999980926514
+        },
+        {
+          "text": "rule",
+          "start": 5.639999866485596,
+          "end": 5.839999713897705
+        },
+        {
+          "text": "instantly",
+          "start": 6.119999885559082,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "freezing",
+          "start": 6.71999979019165,
+          "end": 7.119999923706055
+        },
+        {
+          "text": "the",
+          "start": 7.199999809265137,
+          "end": 7.239999809265137
+        },
+        {
+          "text": "pipeline",
+          "start": 7.319999694824219,
+          "end": 7.639999904632568
+        },
+        {
+          "text": "in",
+          "start": 7.960000038146973,
+          "end": 8.000000038146972
+        },
+        {
+          "text": "its",
+          "start": 8.119999885559082,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "tracks",
+          "start": 8.319999694824219,
+          "end": 8.63999942779541
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "filename": "cloned-05-b.wav",
+      "text": "the frozen pipeline simply pauses indefinitely while a designated human reviewer is pin to manually inspect the pending release",
+      "words": [
+        {
+          "text": "the",
+          "start": 0.11999999731779099,
+          "end": 0.159999997317791
+        },
+        {
+          "text": "frozen",
+          "start": 0.23999999463558197,
+          "end": 0.519999989271164
+        },
+        {
+          "text": "pipeline",
+          "start": 0.5999999642372131,
+          "end": 0.8799999737739563
+        },
+        {
+          "text": "simply",
+          "start": 1.159999966621399,
+          "end": 1.4000000143051148
+        },
+        {
+          "text": "pauses",
+          "start": 1.4800000190734863,
+          "end": 1.7999999904632569
+        },
+        {
+          "text": "indefinitely",
+          "start": 1.8799999952316284,
+          "end": 2.5200000190734864
+        },
+        {
+          "text": "while",
+          "start": 2.5999999046325684,
+          "end": 2.6399999046325684
+        },
+        {
+          "text": "a",
+          "start": 2.879999876022339,
+          "end": 2.919999876022339
+        },
+        {
+          "text": "designated",
+          "start": 3.0399999618530273,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "human",
+          "start": 3.6399998664855957,
+          "end": 3.6799998664855957
+        },
+        {
+          "text": "reviewer",
+          "start": 4.0,
+          "end": 4.359999694824219
+        },
+        {
+          "text": "is",
+          "start": 4.559999942779541,
+          "end": 4.599999942779541
+        },
+        {
+          "text": "pin",
+          "start": 4.759999752044678,
+          "end": 4.920000114440918
+        },
+        {
+          "text": "to",
+          "start": 5.039999961853027,
+          "end": 5.079999961853027
+        },
+        {
+          "text": "manually",
+          "start": 5.279999732971191,
+          "end": 5.639999904632568
+        },
+        {
+          "text": "inspect",
+          "start": 5.71999979019165,
+          "end": 6.000000038146973
+        },
+        {
+          "text": "the",
+          "start": 6.119999885559082,
+          "end": 6.159999885559082
+        },
+        {
+          "text": "pending",
+          "start": 6.279999732971191,
+          "end": 6.559999980926514
+        },
+        {
+          "text": "release",
+          "start": 6.639999866485596,
+          "end": 6.960000076293945
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "filename": "cloned-06-c.wav",
+      "text": "only when that reviewer explicitly clicks approve does the gate finally unlock allowing that exact validated code to safely enter the life server and that friday code update",
+      "words": [
+        {
+          "text": "only",
+          "start": 0.19999998807907104,
+          "end": 0.23999998807907105
+        },
+        {
+          "text": "when",
+          "start": 0.47999998927116394,
+          "end": 0.519999989271164
+        },
+        {
+          "text": "that",
+          "start": 0.7199999690055847,
+          "end": 0.7599999690055848
+        },
+        {
+          "text": "reviewer",
+          "start": 1.1200000047683716,
+          "end": 1.5599999809265137
+        },
+        {
+          "text": "explicitly",
+          "start": 1.71999990940094,
+          "end": 2.1999998474121094
+        },
+        {
+          "text": "clicks",
+          "start": 2.240000009536743,
+          "end": 2.480000057220459
+        },
+        {
+          "text": "approve",
+          "start": 2.5199999809265137,
+          "end": 2.839999952316284
+        },
+        {
+          "text": "does",
+          "start": 3.0399999618530273,
+          "end": 3.0799999618530274
+        },
+        {
+          "text": "the",
+          "start": 3.1999998092651367,
+          "end": 3.2399998092651368
+        },
+        {
+          "text": "gate",
+          "start": 3.2799999713897705,
+          "end": 3.4399998569488526
+        },
+        {
+          "text": "finally",
+          "start": 3.559999942779541,
+          "end": 3.839999952316284
+        },
+        {
+          "text": "unlock",
+          "start": 3.879999876022339,
+          "end": 4.199999847412109
+        },
+        {
+          "text": "allowing",
+          "start": 4.360000133514404,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "that",
+          "start": 4.599999904632568,
+          "end": 4.639999904632568
+        },
+        {
+          "text": "exact",
+          "start": 4.759999752044678,
+          "end": 5.119999923706055
+        },
+        {
+          "text": "validated",
+          "start": 5.239999771118164,
+          "end": 5.719999828338623
+        },
+        {
+          "text": "code",
+          "start": 5.799999713897705,
+          "end": 6.000000038146973
+        },
+        {
+          "text": "to",
+          "start": 6.079999923706055,
+          "end": 6.119999923706055
+        },
+        {
+          "text": "safely",
+          "start": 6.239999771118164,
+          "end": 6.599999942779541
+        },
+        {
+          "text": "enter",
+          "start": 6.71999979019165,
+          "end": 7.000000038146973
+        },
+        {
+          "text": "the",
+          "start": 7.079999923706055,
+          "end": 7.119999923706055
+        },
+        {
+          "text": "life",
+          "start": 7.239999771118164,
+          "end": 7.279999771118164
+        },
+        {
+          "text": "server",
+          "start": 7.519999980926514,
+          "end": 7.799999752044678
+        },
+        {
+          "text": "and",
+          "start": 8.0,
+          "end": 8.04
+        },
+        {
+          "text": "that",
+          "start": 8.239999771118164,
+          "end": 8.279999771118163
+        },
+        {
+          "text": "friday",
+          "start": 8.559999465942383,
+          "end": 8.800000228881835
+        },
+        {
+          "text": "code",
+          "start": 8.920000076293945,
+          "end": 9.079999961853026
+        },
+        {
+          "text": "update",
+          "start": 9.119999885559082,
+          "end": 9.399999656677245
+        }
+      ]
+    },
+    {
+      "segment": 7,
+      "filename": "cloned-07-d.wav",
+      "text": "it stays safely locked behind the gate completely harmless until you explicitly approve it",
+      "words": [
+        {
+          "text": "it",
+          "start": 0.1599999964237213,
+          "end": 0.19999999642372132
+        },
+        {
+          "text": "stays",
+          "start": 0.35999998450279236,
+          "end": 0.5599999809265137
+        },
+        {
+          "text": "safely",
+          "start": 0.7199999690055847,
+          "end": 1.04
+        },
+        {
+          "text": "locked",
+          "start": 1.1200000047683716,
+          "end": 1.3599999332427979
+        },
+        {
+          "text": "behind",
+          "start": 1.4399999380111694,
+          "end": 1.4799999380111695
+        },
+        {
+          "text": "the",
+          "start": 1.6799999475479126,
+          "end": 1.7199999475479126
+        },
+        {
+          "text": "gate",
+          "start": 1.7999999523162842,
+          "end": 1.9599999570846558
+        },
+        {
+          "text": "completely",
+          "start": 2.1599998474121094,
+          "end": 2.6799998664855957
+        },
+        {
+          "text": "harmless",
+          "start": 2.799999952316284,
+          "end": 3.1199999237060547
+        },
+        {
+          "text": "until",
+          "start": 3.5199999809265137,
+          "end": 3.5599999809265137
+        },
+        {
+          "text": "you",
+          "start": 3.759999990463257,
+          "end": 3.799999990463257
+        },
+        {
+          "text": "explicitly",
+          "start": 3.9599997997283936,
+          "end": 4.559999980926514
+        },
+        {
+          "text": "approve",
+          "start": 4.599999904632568,
+          "end": 4.8799996757507325
+        },
+        {
+          "text": "it",
+          "start": 4.920000076293945,
+          "end": 4.960000076293945
+        }
+      ]
+    }
+  ],
+  "word_correction_recipes": {},
+  "word_donor_generation": [],
+  "pronunciation_note": "These dictionaries were available to the used local generation calls. Entries apply only when their token occurs in the recorded generation text. Imported donors retain their original prompts, reference hashes and waveform hashes.",
+  "verification_normalization": "Case, punctuation, standard contractions, acronym spellings, ordinary word boundaries, numeric notation and technical-name spellings are normalized. GitHub/git hub and pre-configured/preconfigured are ordinary spelling and word-boundary variants. Distinct words such as live/life and can/cannot are not equated. Raw transcripts, source scripts and generation prompts are retained.",
+  "audio_processing": {
+    "loudness": "I=-16 LUFS, true peak=-1.5 dBTP, LRA=11",
+    "encoded_audio": "AAC 192 kbps, 48 kHz mono",
+    "duration_trim_seconds": 73.955556
+  }
+}
